@@ -36,7 +36,8 @@ class ServiceModel {
     /// Domain part of the URL for learning resources
     private static let productionAssestsHostName = "https://soundscape.services"
     // Do not change `productionVoicesHostName`!
-    private static let productionVoicesHostName = "https://yourstaticblobstore"
+    // private static let productionVoicesHostName = "https://yourstaticblobstore"
+    private static let productionVoicesHostName = "http://localhost:8080"
     
     static var learningResourcesWebpage: URL {
         return URL(string: productionAssestsHostName + "/learning_resources.html")!
