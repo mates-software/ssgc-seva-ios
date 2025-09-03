@@ -50,10 +50,17 @@ struct AuthoredActivityMetadata: Codable, CustomStringConvertible {
     var components = URLComponents()
         
         switch linkVersion {
-        case .v2, .v3:
+        /*
+         case .v2, .v3:
             components.scheme = "https"
             components.host = "share.soundscape.services"
             components.path = "/activities/\(id)/activity.gpx"
+        */
+        case .v2, .v3:
+            components.scheme = "http"
+            components.host = "localhost"
+            components.port = 8001
+            components.path = "/activities/\(id.addingPercentEncoding(withAllowedCharacters: .urlPathAllowed) ?? id)/activity.gpx"
         default:
             // no other versions currently supported
             break
