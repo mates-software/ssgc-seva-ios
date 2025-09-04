@@ -90,6 +90,7 @@ class AuthoredActivityLoader {
               "linkVersion": "v3",
               "etag": "etag1",
               "contentEtags": {},
+
               "previouslySelected": false
             },
             {
