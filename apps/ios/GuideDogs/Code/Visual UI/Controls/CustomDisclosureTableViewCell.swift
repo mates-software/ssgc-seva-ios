@@ -14,14 +14,14 @@ class CustomDisclosureTableViewCell: UITableViewCell {
     
     private var disclosureImage: TintedImageView {
         let chevronImageView = TintedImageView(image: CustomDisclosureTableViewCell.disclosureImage)
-        chevronImageView.normalTintColor = Colors.Foreground.primary
-        chevronImageView.highlightedTintColor = Colors.Background.primary
+        chevronImageView.normalTintColor = Colors.fontColor
+        chevronImageView.highlightedTintColor = Colors.fontColor
         return chevronImageView
     }
     
     private var activityIndicator: UIActivityIndicatorView {
         let spinner = UIActivityIndicatorView(style: .medium)
-        spinner.color = Colors.Foreground.primary
+        spinner.color = Colors.fontColor
         spinner.startAnimating()
         return spinner
     }

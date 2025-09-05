@@ -12,22 +12,23 @@ import SwiftUI
 // MARK: UIKit Color Support
 
 struct Colors {
+    static let fontColor: UIColor? = UIColor(named: "font-primary")
+    
     struct Foreground {
-        static let primary: UIColor? = UIColor(named: "Foreground 1")
-        static let primaryLight: UIColor? = UIColor(named: "Foreground 1-Light")
-        static let font: UIColor? = UIColor(named: "Font")
+        static let primary: UIColor? = UIColor(named: "foreground-primary")
+        static let primaryLight: UIColor? = UIColor(named: "foreground-light")
     }
     
     struct Background {
-        static let primary: UIColor? = UIColor(named: "Background 1")
-        static let error: UIColor? = UIColor(named: "Background Error")
-        static let menuAlternate: UIColor? = UIColor(named: "Menu Alternate")
+        static let primary: UIColor? = UIColor(named: "background-primary")
+        static let error: UIColor? = UIColor(named: "background-error")
+        static let menuAlternate: UIColor? = UIColor(named: "menu-alternate")
     }
     
     struct Highlight {
-        static let purple: UIColor? = UIColor(named: "Highlight Purple")
-        static let yellow: UIColor? = UIColor(named: "Highlight Yellow")
-        static let green: UIColor? = UIColor(named: "Highlight Green")
+        static let purple: UIColor? = UIColor(named: "highlight-purple")
+        static let yellow: UIColor? = UIColor(named: "highlight-yellow")
+        static let green: UIColor? = UIColor(named: "highlight-green")
     }
 }
 
@@ -46,7 +47,7 @@ struct LogColors {
 extension Color {
     static let primaryForeground = Color(Colors.Foreground.primary!)
     static let primaryLightForeground = Color(Colors.Foreground.primaryLight!)
-    static let primaryFont = Color(Colors.Foreground.font!)
+    static let primaryFont = Color(Colors.fontColor!)
     static let primaryBackground = Color(Colors.Background.primary!)
     static let errorBackground = Color(Colors.Background.error!)
     static let menuAltBackground = Color(Colors.Background.menuAlternate!)

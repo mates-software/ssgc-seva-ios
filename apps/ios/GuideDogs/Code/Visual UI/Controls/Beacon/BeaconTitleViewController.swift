@@ -178,7 +178,7 @@ class BeaconTitleViewController: UIViewController {
             
             self.titleLabel.text = titleLabel.text
             self.titleLabel.font = UIFont.preferredFont(forTextStyle: .footnote)
-            self.titleLabel.textColor = UIColor(named: "Foreground 2")
+            self.titleLabel.textColor = Colors.fontColor
             
             // Configure subtitle label
             let timeLabel = beacon.labels.time
@@ -187,10 +187,10 @@ class BeaconTitleViewController: UIViewController {
                 subtitleContainerView.isHidden = false
                 subtitleImageView.image = UIImage(systemName: "timer")
                 subtitleImageView.preferredSymbolConfiguration = UIImage.SymbolConfiguration(font: UIFont.preferredFont(forTextStyle: .footnote), scale: .small)
-                subtitleImageView.tintColor = UIColor(named: "Highlight Yellow")
+                subtitleImageView.tintColor = Colors.Highlight.yellow
                 subtitleLabel.text = timeLabel.text
                 subtitleLabel.font = UIFont.preferredFont(forTextStyle: .footnote)
-                subtitleLabel.textColor = UIColor(named: "Highlight Yellow")
+                subtitleLabel.textColor = Colors.Highlight.yellow
             } else {
                 subtitleContainerView.isHidden = true
             }
@@ -205,12 +205,12 @@ class BeaconTitleViewController: UIViewController {
             
             let nAttributes: [NSAttributedString.Key: Any] = [
                 .font: UIFont.preferredFont(forTextStyle: .body),
-                .foregroundColor: UIColor(named: "Foreground 1")!
+                .foregroundColor: Colors.fontColor!
             ]
             
             let dAttributes: [NSAttributedString.Key: Any] = [
                 .font: UIFont.preferredFont(forTextStyle: .footnote),
-                .foregroundColor: UIColor(named: "Highlight Yellow")!
+                .foregroundColor: Colors.Highlight.yellow!
             ]
             
             attributedString.addAttributes(nAttributes, range: NSRange(location: 0, length: nLabel.text.count))

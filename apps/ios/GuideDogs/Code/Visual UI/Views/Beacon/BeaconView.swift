@@ -53,7 +53,7 @@ struct BeaconView: View {
             }
             .frame(minWidth: 0, maxWidth: .infinity)
             .padding(10.0)
-            .background(Color.primaryBackground)
+            .background(Color.primaryForeground)
             .foregroundColor(Color.primaryForeground)
             .font(.body)
             .cornerRadius(5.0)
