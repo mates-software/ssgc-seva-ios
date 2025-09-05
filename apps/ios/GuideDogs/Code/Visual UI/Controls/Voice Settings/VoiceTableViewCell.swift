@@ -34,6 +34,8 @@ class VoiceTableViewCell: UITableViewCell {
         self.delegate = delegate
         self.voice = voice
         
+        self.backgroundColor = Colors.Foreground.primary
+        
         let isSelected = (voice.identifier == SettingsContext.shared.voiceId)
 
         // If cell is already selected, disable selection

@@ -360,6 +360,7 @@ class HelpViewController: BaseTableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "defaultCell", for: indexPath)
         
+        
         switch indexPath.section {
         case Section.moreHelp:
             cell.textLabel?.text = GDLocalizedString("help.support")
@@ -396,6 +397,7 @@ class HelpViewController: BaseTableViewController {
             cell.textLabel?.text = helpPages[page].title
         }
         
+   
         return cell
     }
     
