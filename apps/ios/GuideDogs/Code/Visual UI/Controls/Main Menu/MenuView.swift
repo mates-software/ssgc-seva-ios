@@ -22,7 +22,7 @@ class MenuView: DynamicView {
         guard !UIAccessibility.isReduceTransparencyEnabled else {
             let background = UIView()
             background.translatesAutoresizingMaskIntoConstraints = false
-            background.backgroundColor = Colors.Background.tertiary
+            background.backgroundColor = Colors.Background.primary
             
             return background
         }
@@ -59,7 +59,7 @@ class MenuView: DynamicView {
     lazy var crosscheckButton: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.backgroundColor = Colors.Background.primary
+        button.backgroundColor = Colors.Foreground.primary
         button.layer.cornerRadius = 5.0
         button.showsTouchWhenHighlighted = true
         button.accessibilityLabel = GDLocalizedString("troubleshooting.check_audio")
@@ -68,7 +68,7 @@ class MenuView: DynamicView {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = GDLocalizedString("troubleshooting.check_audio")
-        label.textColor = Colors.Foreground.primary
+        label.textColor = .white
         label.textAlignment = .center
         label.font = UIFont.preferredFont(forTextStyle: .headline)
         label.adjustsFontForContentSizeCategory = true

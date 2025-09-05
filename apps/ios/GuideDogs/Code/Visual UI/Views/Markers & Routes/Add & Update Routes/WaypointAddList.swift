@@ -22,7 +22,7 @@ struct WaypointAddList: View {
         viewModel = WaypointAddListViewModel(waypoints: waypoints)
         
         // Fill empty space in the list view
-        UITableView.appearance().backgroundColor = Colors.Background.tertiary!
+        UITableView.appearance().backgroundColor = Colors.Background.primary!
         
         // Disable vertical bounce when scrolling is not needed
         UIScrollView.appearance().alwaysBounceVertical = false
@@ -33,7 +33,7 @@ struct WaypointAddList: View {
     var body: some View {
         ZStack {
             // Background color that extends past the safe area
-            Color.tertiaryBackground
+            Color.primaryBackground
                 .ignoresSafeArea()
             
             VStack(spacing: 0.0) {
@@ -43,7 +43,7 @@ struct WaypointAddList: View {
                     .font(.callout)
                     .padding(.horizontal, 18.0)
                     .padding(.vertical, 12.0)
-                    .background(Color.secondaryBackground)
+                    .background(Color.primaryBackground)
                     .accessibleTextFormat()
                     .accessibilityAddTraits(.isHeader)
                 
@@ -69,12 +69,12 @@ struct WaypointAddList: View {
                         // There are no existing markers
                         EmptyMarkerOrRoutesView(.markers)
                             .frame(minHeight: 0.0, maxHeight: .infinity, alignment: .center)
-                            .plainListRowBackground(Color.tertiaryBackground)
+                            .plainListRowBackground(Color.primaryBackground)
                     } else {
                         // Markers are being fetched
                         LoadingMarkersOrRoutesView()
                             .frame(minHeight: 0.0, maxHeight: .infinity, alignment: .center)
-                            .plainListRowBackground(Color.tertiaryBackground)
+                            .plainListRowBackground(Color.primaryBackground)
                     }
                 }
                 .listStyle(PlainListStyle())

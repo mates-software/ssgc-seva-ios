@@ -72,7 +72,7 @@ struct WaypointDetailView: View {
         }
         .frame(maxHeight: .infinity)
         .padding(24.0)
-        .background(Color.tertiaryBackground.ignoresSafeArea())
+        .background(Color.primaryBackground.ignoresSafeArea())
         .navigationBarTitle(GDLocalizedString("location_detail.title.waypoint"))
         .onAppear {
             GDATelemetry.trackScreenView("waypoint_detail.tour", with: ["isActivityActive": waypoint.routeDetail.isGuidanceActive.description, "image_count": "\(waypoint.locationDetail?.images?.count ?? 0)", "audio_count": "\(waypoint.locationDetail?.audio?.count ?? 0)"])

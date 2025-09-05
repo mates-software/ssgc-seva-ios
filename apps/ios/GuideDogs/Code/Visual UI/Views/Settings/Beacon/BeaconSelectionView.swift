@@ -30,7 +30,7 @@ struct BeaconSelectionView: View {
     
     var body: some View {
         ZStack {
-            Color.quaternaryBackground.edgesIgnoringSafeArea(.all)
+            Color.primaryBackground.edgesIgnoringSafeArea(.all)
             
             ScrollView {
                 VStack(spacing: 0) {

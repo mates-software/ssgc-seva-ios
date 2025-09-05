@@ -34,7 +34,7 @@ struct BeaconOptionButtonStyle: ButtonStyle {
             }
             
             Rectangle()
-                .fill(Color.secondaryBackground)
+                .fill(Color.primaryBackground)
                 .frame(width: .infinity, height: 1)
                 .padding(.leading)
         }

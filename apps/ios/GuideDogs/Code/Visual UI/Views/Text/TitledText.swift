@@ -37,6 +37,6 @@ struct TitledText_Previews: PreviewProvider {
         TitledText(title: "A Heading", text: "Some content")
             .padding(12.0)
             .foregroundColor(Color.white)
-            .background(Color.secondaryBackground)
+            .background(Color.primaryBackground)
     }
 }

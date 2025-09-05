@@ -26,7 +26,7 @@ class UnitsOfMeasureTableViewCell: UITableViewCell, NibLoadableView {
         unitsSegmentedControl.backgroundColor = Colors.Background.primary
         unitsSegmentedControl.selectedSegmentTintColor = Colors.Foreground.primary
         
-        if let color = Colors.Background.tertiary {
+        if let color = Colors.Background.primary {
             unitsSegmentedControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: color], for: .selected)
         }
         

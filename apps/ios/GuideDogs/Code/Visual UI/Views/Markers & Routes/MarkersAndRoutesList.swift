@@ -45,7 +45,7 @@ struct MarkerRouteTabButton: View {
             Spacer()
         }
         .padding()
-        .background(Color.secondaryBackground)
+        .background(Color.primaryBackground)
     }
     
     var body: some View {
@@ -58,8 +58,8 @@ struct MarkerRouteTabButton: View {
                 .accessibility(label: GDLocalizedTextView("general.tabs", name, String(index), String(count)))
         } else {
             button
-                .foregroundColor(.quaternaryForeground)
-                .accentColor(.quaternaryForeground)
+                .foregroundColor(.primaryForeground)
+                .accentColor(.primaryForeground)
                 .accessibilityElement(children: .ignore)
                 .accessibility(label: GDLocalizedTextView("general.tabs", name, String(index), String(count)))
                 .onTapGesture {
@@ -87,8 +87,8 @@ struct MarkersAndRoutesList: View {
         
         let appearance = UISegmentedControl.appearance()
         appearance.selectedSegmentTintColor = Colors.Foreground.primary
-        appearance.backgroundColor = Colors.Background.tertiary
-        appearance.setTitleTextAttributes([.foregroundColor: Colors.Background.secondary!],
+        appearance.backgroundColor = Colors.Background.primary
+        appearance.setTitleTextAttributes([.foregroundColor: Colors.Background.primary!],
                                           for: .selected)
         appearance.setTitleTextAttributes([.foregroundColor: Colors.Foreground.primary!],
                                           for: .normal)
@@ -103,7 +103,7 @@ struct MarkersAndRoutesList: View {
     var body: some View {
         ZStack {
             // Background color that extends past the safe area
-            Color.quaternaryBackground
+            Color.primaryBackground
                 .ignoresSafeArea()
             
             VStack(spacing: 0) {
@@ -130,7 +130,7 @@ struct MarkersAndRoutesList: View {
                                          value: .routes,
                                          selected: $selectedList)
                 }
-                .background(Color.secondaryBackground
+                .background(Color.primaryBackground
                                 .ignoresSafeArea(.all, edges: [.bottom])
                                 .shadow(color: .black, radius: 5.0, x: 0.0, y: -1.0))
                 

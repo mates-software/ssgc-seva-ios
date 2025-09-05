@@ -70,19 +70,19 @@ struct ActiveBadge_Previews: PreviewProvider {
     static var previews: some View {
         ActiveBadge()
             .padding([.all], 8.0)
-            .background(Color.secondaryBackground)
+            .background(Color.primaryBackground)
             .previewLayout(.sizeThatFits)
         
         ActiveBadge()
             .environment(\.sizeCategory, .accessibilityMedium)
             .padding([.all], 8.0)
-            .background(Color.secondaryBackground)
+            .background(Color.primaryBackground)
             .previewLayout(.sizeThatFits)
         
         ActiveBadge()
             .environment(\.sizeCategory, .accessibilityExtraExtraExtraLarge)
             .padding([.all], 8.0)
-            .background(Color.secondaryBackground)
+            .background(Color.primaryBackground)
             .previewLayout(.sizeThatFits)
     }
 }

@@ -48,6 +48,6 @@ struct LoadingMarkersOrRoutesView: View {
 struct LoadingMarkersOrRoutesView_Previews: PreviewProvider {
     static var previews: some View {
         LoadingMarkersOrRoutesView()
-            .background(Color.quaternaryBackground)
+            .background(Color.primaryBackground)
     }
 }

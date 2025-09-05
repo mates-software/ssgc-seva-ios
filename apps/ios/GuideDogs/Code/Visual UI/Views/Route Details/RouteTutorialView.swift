@@ -81,7 +81,7 @@ struct RouteTutorialView: View {
 
                     Spacer()
                 }
-                .foregroundColor(.secondaryForeground)
+                .foregroundColor(.primaryForeground)
                 .padding([.leading, .trailing], 24)
                 .padding([.top, .bottom])
             }

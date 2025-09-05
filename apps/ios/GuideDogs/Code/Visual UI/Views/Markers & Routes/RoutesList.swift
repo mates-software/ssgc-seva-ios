@@ -75,7 +75,7 @@ struct RoutesList: View {
             LoadingMarkersOrRoutesView()
         } else if loader.routeIDs.isEmpty {
             EmptyMarkerOrRoutesView(.routes)
-                .background(Color.quaternaryBackground)
+                .background(Color.primaryBackground)
                 .onAppear {
                     GDATelemetry.trackScreenView("routes_list.empty")
                 }
@@ -134,7 +134,7 @@ struct RoutesList: View {
                         }
                 }
             }
-            .background(Color.quaternaryBackground)
+            .background(Color.primaryBackground)
             .alert(isPresented: $showAlert, content: { alert ?? errorAlert() })
             
             NavigationLink(destination: selectedDetailView, isActive: $goToNavDestination) {

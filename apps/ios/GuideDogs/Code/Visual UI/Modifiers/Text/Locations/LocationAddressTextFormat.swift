@@ -13,7 +13,7 @@ struct LocationAddressTextFormat: ViewModifier {
     
     func body(content: Content) -> some View {
         content
-            .foregroundColor(Color.tertiaryForeground)
+            .foregroundColor(Color.primaryForeground)
             .font(.footnote)
             .accessibleTextFormat()
     }

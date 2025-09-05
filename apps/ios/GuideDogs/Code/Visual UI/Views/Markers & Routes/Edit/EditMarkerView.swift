@@ -131,7 +131,7 @@ struct EditMarkerView: View {
     
     var body: some View {
         ZStack {
-            Color.quaternaryBackground.ignoresSafeArea()
+            Color.primaryBackground.ignoresSafeArea()
             
             if isFetchingNameAndAddress {
                 VStack(alignment: .center) {
@@ -156,23 +156,23 @@ struct EditMarkerView: View {
                                 Spacer()
                             }
                             .font(.callout)
-                            .background(Color.secondaryBackground)
+                            .background(Color.primaryBackground)
                         }
                         
                         VStack(alignment: .leading) {
                             GDLocalizedTextView("markers.sort_button.sort_by_name")
-                                .foregroundColor(Color.tertiaryForeground)
+                                .foregroundColor(Color.primaryForeground)
                                 .font(.callout)
                                 .accessibilityHidden(true)
                             
                             TextField(GDLocalizedString("markers.sort_button.sort_by_name"), text: $displayName)
                                 .textFieldStyle(RoundedBorderTextFieldStyle())
-                                .foregroundColor(.quaternaryBackground)
+                                .foregroundColor(.primaryBackground)
                                 .accessibility(label: GDLocalizedTextView("markers.sort_button.sort_by_name"))
                                 .padding([.bottom])
                             
                             GDLocalizedTextView("markers.annotation")
-                                .foregroundColor(Color.tertiaryForeground)
+                                .foregroundColor(Color.primaryForeground)
                                 .font(.callout)
                                 .accessibilityHidden(true)
                             
@@ -180,7 +180,7 @@ struct EditMarkerView: View {
                                 .cornerRadius(5.0)
                                 .layoutPriority(1)
                                 .frame(minHeight: 100)
-                                .foregroundColor(.quaternaryBackground)
+                                .foregroundColor(.primaryBackground)
                                 .accessibility(label: GDLocalizedTextView("markers.annotation"))
                         }
                         .padding()

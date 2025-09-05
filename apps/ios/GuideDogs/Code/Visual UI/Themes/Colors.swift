@@ -14,16 +14,12 @@ import SwiftUI
 struct Colors {
     struct Foreground {
         static let primary: UIColor? = UIColor(named: "Foreground 1")
-        static let secondary: UIColor? = UIColor(named: "Foreground 2")
-        static let tertiary: UIColor? = UIColor(named: "Foreground 3")
-        static let quaternary: UIColor? = UIColor(named: "Foreground 4")
+        static let primaryLight: UIColor? = UIColor(named: "Foreground 1-Light")
+        static let font: UIColor? = UIColor(named: "Font")
     }
     
     struct Background {
         static let primary: UIColor? = UIColor(named: "Background 1")
-        static let secondary: UIColor? = UIColor(named: "Background 2")
-        static let tertiary: UIColor? = UIColor(named: "Background 3")
-        static let quaternary: UIColor? = UIColor(named: "Background Base")
         static let error: UIColor? = UIColor(named: "Background Error")
         static let menuAlternate: UIColor? = UIColor(named: "Menu Alternate")
     }
@@ -49,14 +45,9 @@ struct LogColors {
 
 extension Color {
     static let primaryForeground = Color(Colors.Foreground.primary!)
-    static let secondaryForeground = Color(Colors.Foreground.secondary!)
-    static let tertiaryForeground = Color(Colors.Foreground.tertiary!)
-    static let quaternaryForeground = Color(Colors.Foreground.quaternary!)
-    
+    static let primaryLightForeground = Color(Colors.Foreground.primaryLight!)
+    static let primaryFont = Color(Colors.Foreground.font!)
     static let primaryBackground = Color(Colors.Background.primary!)
-    static let secondaryBackground = Color(Colors.Background.secondary!)
-    static let tertiaryBackground = Color(Colors.Background.tertiary!)
-    static let quaternaryBackground = Color(Colors.Background.quaternary!)
     static let errorBackground = Color(Colors.Background.error!)
     static let menuAltBackground = Color(Colors.Background.menuAlternate!)
     

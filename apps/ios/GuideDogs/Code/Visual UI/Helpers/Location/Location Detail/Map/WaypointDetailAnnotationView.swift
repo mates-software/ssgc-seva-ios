@@ -23,7 +23,7 @@ class WaypointDetailAnnotationView: MKMarkerAnnotationView {
             clusteringIdentifier = "SoundscapeWaypointCluster"
             
             // Format color and text
-            markerTintColor = Colors.Background.quaternary
+            markerTintColor = Colors.Background.primary
             glyphText = newValue.detail.displayIndex
         }
     }

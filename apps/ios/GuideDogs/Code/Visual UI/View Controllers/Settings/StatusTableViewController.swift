@@ -136,7 +136,7 @@ class StatusTableViewController: BaseTableViewController {
         case Section.audio:
             let cell: ButtonTableViewCell = tableView.dequeueReusableCell(forIndexPath: indexPath)
             
-            cell.backgroundColor = Colors.Background.quaternary
+            cell.backgroundColor = Colors.Background.primary
             cell.button.removeTarget(nil, action: nil, for: .touchUpInside)
             cell.button.addTarget(self, action: #selector(crosscheckTouchUpInside), for: .touchUpInside)
             cell.button.accessibilityLabel = GDLocalizedString("troubleshooting.check_audio")
@@ -149,7 +149,7 @@ class StatusTableViewController: BaseTableViewController {
         case Section.url:
             let cell: ButtonTableViewCell = tableView.dequeueReusableCell(forIndexPath: indexPath)
             
-            cell.backgroundColor = Colors.Background.quaternary
+            cell.backgroundColor = Colors.Background.primary
             cell.button.removeTarget(nil, action: nil, for: .touchUpInside)
             cell.button.addTarget(self, action: #selector(urlTouchUpInside), for: .touchUpInside)
             cell.button.accessibilityLabel = GDLocalizedString("troubleshooting.tile_server_url")
@@ -163,7 +163,7 @@ class StatusTableViewController: BaseTableViewController {
         case Section.cache:
             let cell: ButtonTableViewCell = tableView.dequeueReusableCell(forIndexPath: indexPath)
             
-            cell.backgroundColor = Colors.Background.quaternary
+            cell.backgroundColor = Colors.Background.primary
             cell.button.removeTarget(nil, action: nil, for: .touchUpInside)
             cell.button.addTarget(self, action: #selector(clearCacheTouchUpInside), for: .touchUpInside)
             cell.button.accessibilityLabel = GDLocalizedString("settings.clear_data")
@@ -175,7 +175,7 @@ class StatusTableViewController: BaseTableViewController {
             
         case Section.userData:
             let cell: ButtonTableViewCell = tableView.dequeueReusableCell(forIndexPath: indexPath)
-            cell.backgroundColor = Colors.Background.quaternary
+            cell.backgroundColor = Colors.Background.primary
             cell.button.removeTarget(nil, action: nil, for: .touchUpInside)
             cell.button.addTarget(self, action: #selector(deleteUserDataTouchUpInside), for: .touchUpInside)
             cell.button.accessibilityLabel = GDLocalizedString("troubleshooting.user_data.button")

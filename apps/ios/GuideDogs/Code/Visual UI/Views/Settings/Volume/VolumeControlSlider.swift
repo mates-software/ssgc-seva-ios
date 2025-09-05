@@ -34,7 +34,7 @@ struct VolumeControlSlider: View {
                 onUpdate(volume / 100.0)
             }
         }
-        .accentColor(.secondaryForeground)
+        .accentColor(.primaryForeground)
         .padding()
         .accessibilityLabel(GDLocalizedTextView("general.volume"))
         .accessibilityValue(Text(String(Int(volume))))

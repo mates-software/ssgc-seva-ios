@@ -30,6 +30,6 @@ struct RouteEditTutorialView: View {
 struct RouteEditTutorialView_Previews: PreviewProvider {
     static var previews: some View {
         RouteEditTutorialView()
-            .background(Color.tertiaryBackground)
+            .background(Color.primaryBackground)
     }
 }

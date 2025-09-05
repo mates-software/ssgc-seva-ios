@@ -86,12 +86,11 @@ class AuthoredActivityLoader {
         {
           "events": [
             {
-              "id": "86472aaa-8be7-4b73-9084-990947fe406a",
+              "id": "0f3e4d06-ec9a-4845-be5d-e47685500ff4",
               "linkVersion": "v3",
               "etag": "etag1",
-              "contentEtags": {
-                "be46c868-5414-4313-8e3e-_Q615eF9.m4a": "etag1"
-              },
+              "contentEtags": {},
+
               "previouslySelected": false
             },
             {
