@@ -85,7 +85,7 @@ struct GuidedTourDetailsView: View {
             .foregroundColor(.white)
             .assignPreference(for: MaxValue<WaypointCell.IndexWidth, CGFloat>.self, to: $indexWidth)
         }
-        .background(Color.tertiaryBackground)
+        .background(Color.primaryBackground)
         .ignoresSafeArea(edges: .bottom)
         .navigationTitle(GDLocalizedTextView("behavior.experiences.event_nav_title"))
         .alert(isPresented: $showingAlert, content: {

@@ -109,7 +109,7 @@ struct WaypointImageCarousel_Previews: PreviewProvider {
                 .padding(24.0)
         }
         .frame(maxHeight: .infinity)
-        .background(Color.quaternaryBackground.ignoresSafeArea())
+        .background(Color.primaryBackground.ignoresSafeArea())
     }
     
 }

@@ -35,7 +35,7 @@ struct InteractiveBeaconView: View {
                     .frame(width: 80.0, height: 80.0)
                 
                 AudioSourceAnimation()
-                    .foregroundColor(viewModel.isBeaconInBounds ? Color.greenHighlight : Color.secondaryForeground)
+                    .foregroundColor(viewModel.isBeaconInBounds ? Color.greenHighlight : Color.primaryForeground)
                     .frame(width: 48.0, height: 48.0)
                     .offset(y: -diameter / 2.0 + 48.0)
                     .animation(.easeIn)

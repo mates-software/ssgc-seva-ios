@@ -66,27 +66,27 @@ struct CompletionBadge_Previews: PreviewProvider {
     static var previews: some View {
         CompletionBadge(true)
             .padding([.all], 8.0)
-            .background(Color.secondaryBackground)
+            .background(Color.primaryBackground)
             .previewLayout(.sizeThatFits)
             .previewDisplayName("Completed State")
         
         CompletionBadge(false)
             .padding([.all], 8.0)
-            .background(Color.secondaryBackground)
+            .background(Color.primaryBackground)
             .previewLayout(.sizeThatFits)
             .previewDisplayName("Not Completed State")
         
         CompletionBadge(true)
             .environment(\.sizeCategory, .accessibilityExtraExtraExtraLarge)
             .padding([.all], 8.0)
-            .background(Color.secondaryBackground)
+            .background(Color.primaryBackground)
             .previewLayout(.sizeThatFits)
             .previewDisplayName("Completed State")
         
         CompletionBadge(false)
             .environment(\.sizeCategory, .accessibilityExtraExtraExtraLarge)
             .padding([.all], 8.0)
-            .background(Color.secondaryBackground)
+            .background(Color.primaryBackground)
             .previewLayout(.sizeThatFits)
             .previewDisplayName("Not Completed State")
     }

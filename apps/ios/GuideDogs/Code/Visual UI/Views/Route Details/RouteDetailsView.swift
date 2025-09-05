@@ -210,7 +210,7 @@ struct RouteDetailsView: View {
             .foregroundColor(.white)
             .assignPreference(for: MaxValue<WaypointCell.IndexWidth, CGFloat>.self, to: $indexWidth)
         }
-        .background(Color.tertiaryBackground)
+        .background(Color.primaryBackground)
         .ignoresSafeArea(edges: .bottom)
         .navigationTitle(isTrailActivity ? GDLocalizedTextView("behavior.experiences.event_nav_title") : GDLocalizedTextView("behavior.experiences.route_nav_title"))
         .toolbar {

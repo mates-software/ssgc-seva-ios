@@ -28,7 +28,7 @@ struct WaypointEditList: View {
             .frame(minWidth: 0.0, maxWidth: .infinity, alignment: .leading)
             .foregroundColor(Color.primaryForeground)
             .font(.callout)
-            .plainListRowBackground(Color.secondaryBackground)
+            .plainListRowBackground(Color.primaryBackground)
             .padding(.horizontal, 18.0)
             .padding(.vertical, 8.0)
             .accessibleTextFormat()

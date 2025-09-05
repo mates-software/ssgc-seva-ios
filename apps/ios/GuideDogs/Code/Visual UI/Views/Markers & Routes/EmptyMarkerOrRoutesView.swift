@@ -100,9 +100,9 @@ struct EmptyMarkerOrRoutesList_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             EmptyMarkerOrRoutesView(.markers)
-                .background(Color.quaternaryBackground)
+                .background(Color.primaryBackground)
             EmptyMarkerOrRoutesView(.routes)
-                .background(Color.quaternaryBackground)
+                .background(Color.primaryBackground)
         }
     }
 }

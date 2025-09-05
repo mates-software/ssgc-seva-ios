@@ -39,7 +39,7 @@ struct AddWaypointExistingItemStyleConfiguration: LocationItemStyleConfiguration
     }
     
     let customAccessorySize: CGFloat? = nil
-    let backgroundColor: Color = .tertiaryBackground
+    let backgroundColor: Color = .primaryBackground
     let accessibilityHint: String? = GDLocalizedString("location_detail.add_waypoint.existing.hint")
     let customAccessibilitySortPriority: LocationItemViewAccessibilitySortPriority? = nil
     let customAccessibilityTraits: AccessibilityTraits? = AccessibilityTraits(arrayLiteral: .isButton, .isSelected)

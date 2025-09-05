@@ -18,7 +18,7 @@ class DynamicMenuItemView: DynamicView {
         view.translatesAutoresizingMaskIntoConstraints = false
         view.font = UIFont.preferredFont(forTextStyle: .title3)
         view.adjustsFontForContentSizeCategory = true
-        view.textColor = Colors.Foreground.primary
+        view.textColor = .white
         view.numberOfLines = 0
         view.textAlignment = .left
         view.isAccessibilityElement = false

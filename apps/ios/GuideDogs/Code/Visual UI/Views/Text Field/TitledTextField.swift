@@ -82,7 +82,7 @@ struct RouteEditForm_Previews: PreviewProvider {
             
             TitledTextField(title: "Name", defaultValue: "My Route", value: .constant("This is a Route"))
         }
-        .background(Color.tertiaryBackground)
+        .background(Color.primaryBackground)
         .colorPalette(Palette.Theme.teal)
     }
     

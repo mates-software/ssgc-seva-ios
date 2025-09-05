@@ -158,7 +158,7 @@ struct WaypointCell: View {
                 if showAddress {
                     Text(detail.displayAddress)
                         .font(.subheadline)
-                        .foregroundColor(Color.tertiaryForeground)
+                        .foregroundColor(Color.primaryForeground)
                         .accessibilitySortPriority(2)
                 }
             }

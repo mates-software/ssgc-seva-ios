@@ -76,7 +76,7 @@ struct LocationActionButton_Previews: PreviewProvider {
                 // no-op
             }
         }
-        .background(Color.tertiaryBackground)
+        .background(Color.primaryBackground)
         .foregroundColor(Color.primaryForeground)
     }
 }

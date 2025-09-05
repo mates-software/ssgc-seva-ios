@@ -548,7 +548,7 @@ class DevicesViewController: UIViewController {
         secondaryBtn.accessibilityHint = state.secondaryBtnHint(for: currentDevice)
         secondaryBtnLabel.isHidden = state.secondaryBtnIsHidden
         secondaryBtnLabel.text = state.secondaryBtnText
-        secondaryBtnLabel.textColor = Colors.Background.secondary
+        secondaryBtnLabel.textColor = Colors.Background.primary
         
         if state.secondaryBtnIsHidden {
             NSLayoutConstraint.deactivate(secondaryBtnConstraints)
@@ -559,8 +559,8 @@ class DevicesViewController: UIViewController {
         }
         
         primaryBtnLabel.text = state.primaryBtnText(for: currentDevice)
-        primaryBtnLabel.textColor = state.primaryBtnState == .light ? Colors.Background.secondary : Colors.Foreground.primary
-        primaryBtn.backgroundColor = state.primaryBtnState == .light ? Colors.Foreground.primary : Colors.Background.tertiary
+        primaryBtnLabel.textColor = state.primaryBtnState == .light ? Colors.Background.primary : Colors.Foreground.primary
+        primaryBtn.backgroundColor = state.primaryBtnState == .light ? Colors.Foreground.primary : Colors.Background.primary
         primaryBtn.accessibilityLabel = primaryBtnLabel.text
         
         title = state.title

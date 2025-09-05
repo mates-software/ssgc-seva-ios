@@ -27,7 +27,7 @@ class CalloutWaypointDetailAnnotationView: MKMarkerAnnotationView {
             rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
             
             // Format color and text
-            markerTintColor = Colors.Background.quaternary
+            markerTintColor = Colors.Background.primary
             glyphText = newValue.detail.displayIndex
         }
     }

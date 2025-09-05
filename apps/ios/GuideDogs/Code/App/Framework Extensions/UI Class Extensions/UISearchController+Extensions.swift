@@ -35,8 +35,7 @@ extension UISearchController {
         // Configure `UISearchBar`
         self.searchBar.delegate = searchResultsController.searchResultsUpdater
         self.searchBar.placeholder = GDLocalizedString("search.choose_destination")
-        self.searchBar.searchTextField.textColor = Colors.Background.secondary
-        self.searchBar.searchTextField.tintColor = Colors.Background.secondary
+        self.searchBar.searchTextField.textColor = Colors.Background.primary
         self.searchBar.searchTextField.backgroundColor = UIColor.white
         // Immediately show the results controller when the search controller is active
         self.showsSearchResultsController = true

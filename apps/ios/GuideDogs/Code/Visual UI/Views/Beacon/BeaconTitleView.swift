@@ -25,7 +25,7 @@ struct BeaconTitleView: View {
             // Title text
             beacon.labels.title.accessibleTextView
                 .font(.footnote)
-                .foregroundColor(Color.secondaryForeground)
+                .foregroundColor(Color.primaryForeground)
                 .lineLimit(nil)
                 .fixedSize(horizontal: false, vertical: true)
                 .if(beacon.routeDetail == nil) { view in

@@ -98,7 +98,7 @@ struct RouteEditView: View {
         }
         
         // Fill empty space in the list view
-        UITableView.appearance().backgroundColor = Colors.Background.tertiary!
+        UITableView.appearance().backgroundColor = Colors.Background.primary!
         
         // Disable vertical bounce when scrolling is not needed
         UIScrollView.appearance().alwaysBounceVertical = false
@@ -215,7 +215,7 @@ struct RouteEditView: View {
     var body: some View {
         ZStack {
             // Background color that extends past the safe area
-            Color.tertiaryBackground
+            Color.primaryBackground
                 .ignoresSafeArea()
             
             VStack(alignment: .center, spacing: 0.0) {
@@ -230,14 +230,14 @@ struct RouteEditView: View {
                             .autocapitalization(.sentences)
                     }
                     .padding(24.0)
-                    .plainListRowBackground(Color.tertiaryBackground)
+                    .plainListRowBackground(Color.primaryBackground)
                     
                     Section(header: header) {
                         if identifiableWaypoints.count > 0 {
                             WaypointEditList(identifiableWaypoints: $identifiableWaypoints)
                         } else {
                             RouteEditTutorialView()
-                                .plainListRowBackground(Color.tertiaryBackground)
+                                .plainListRowBackground(Color.primaryBackground)
                                 .padding(.horizontal, 24.0)
                                 .padding(.vertical, 12.0)
                         }

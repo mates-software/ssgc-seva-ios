@@ -27,7 +27,7 @@ struct WaypointIndexBackground: View {
     }
     
     private var fill: some View {
-        Circle().fill(Color.secondaryBackground)
+        Circle().fill(Color.primaryBackground)
     }
     
     var body: some View {

@@ -22,7 +22,7 @@ struct TableHeaderCell: View {
             
             Spacer()
         }
-        .background(Color.quaternaryBackground)
+        .background(Color.primaryBackground)
     }
 }
 

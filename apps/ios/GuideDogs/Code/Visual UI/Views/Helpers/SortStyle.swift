@@ -72,7 +72,7 @@ struct SortStyleCell: View {
                         sort = sort.toggled()
                         SettingsContext.shared.defaultMarkerSortStyle = sort
                     }
-                    .foregroundColor(.secondaryForeground)
+                    .foregroundColor(.primaryForeground)
                     
                     Spacer()
                 }
@@ -88,7 +88,7 @@ struct SortStyleCell: View {
                     sort = sort.toggled()
                     SettingsContext.shared.defaultMarkerSortStyle = sort
                 }
-                .foregroundColor(.secondaryForeground)
+                .foregroundColor(.primaryForeground)
             }
         }
     }
@@ -98,7 +98,7 @@ struct SortStyleCell: View {
             .foregroundColor(.primaryForeground)
             .padding([.leading, .trailing], 20)
             .padding([.top, .bottom], 8)
-            .background(Color.tertiaryBackground)
+            .background(Color.primaryBackground)
             .accessibilityElement(children: .ignore)
             .accessibility(label: Text("\(listName).") + voLabel)
             .accessibility(hint: voHint)

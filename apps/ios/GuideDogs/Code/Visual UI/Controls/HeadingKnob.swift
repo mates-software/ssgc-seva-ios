@@ -62,7 +62,7 @@ class HeadingKnob: UIControl {
     private func commonInit() {
         renderer.updateBounds(bounds)
         renderer.trackColor = .white
-        renderer.sliderColor = Colors.Background.quaternary ?? .black
+        renderer.sliderColor = Colors.Background.primary ?? .black
         renderer.tint = tintColor
         renderer.lineWidth = 4
         renderer.setPointerAngle(renderer.startAngle, animated: false)
@@ -95,13 +95,13 @@ private class HeadingKnobRenderer {
         }
     }
     
-    var sliderColor: UIColor = Colors.Background.quaternary ?? .black {
+    var sliderColor: UIColor = Colors.Background.primary ?? .black {
         didSet {
             sliderLayer.strokeColor = sliderColor.cgColor
         }
     }
     
-    var tint: UIColor = Colors.Foreground.secondary ?? .white {
+    var tint: UIColor = Colors.Foreground.primary ?? .white {
         didSet {
             sliderLayer.fillColor = tint.cgColor
         }

@@ -20,7 +20,7 @@ class WaypointDetailClusterAnnotationView: MKMarkerAnnotationView {
             }
             
             // Format color
-            markerTintColor = Colors.Background.quaternary
+            markerTintColor = Colors.Background.primary
             
             let waypointDetailAnnotations = newValue.memberAnnotations.compactMap({ return $0 as? WaypointDetailAnnotation })
             let sortedAnnotations = waypointDetailAnnotations.sorted(by: { return $0.detail.index < $1.detail.index })

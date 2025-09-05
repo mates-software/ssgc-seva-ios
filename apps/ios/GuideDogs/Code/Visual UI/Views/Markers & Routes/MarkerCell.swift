@@ -106,7 +106,7 @@ struct MarkerCell: View {
                 Image(systemName: "circle.fill")
                     .resizable()
                     .frame(width: badgeSize, height: badgeSize)
-                    .foregroundColor(.tertiaryForeground)
+                    .foregroundColor(.primaryForeground)
                     .padding([.top, .leading, .bottom], 20.0)
                     .accessibilityHidden(true)
             }
@@ -133,7 +133,7 @@ struct MarkerCell: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: badgeSize, height: badgeSize)
-                .foregroundColor(.tertiaryForeground)
+                .foregroundColor(.primaryForeground)
                 .padding([.trailing])
                 .accessibilityHidden(true)
         }
