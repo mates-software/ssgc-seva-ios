@@ -25,7 +25,7 @@ extension UINavigationBar {
     }
     
     private func configureDefaultAppearance() {
-        let color = Colors.Foreground.primary ?? UIColor.white
+        let color = Colors.fontColor ?? UIColor.white
         let buttonAppearance = UIBarButtonItemAppearance()
         buttonAppearance.normal.titleTextAttributes = [.foregroundColor: color]
         
@@ -42,7 +42,7 @@ extension UINavigationBar {
     }
     
     private func configureTransparentAppearance() {
-        let color = Colors.Foreground.primary ?? UIColor.white
+        let color = Colors.fontColor ?? UIColor.white
         let buttonAppearance = UIBarButtonItemAppearance()
         buttonAppearance.normal.titleTextAttributes = [.foregroundColor: color]
         
