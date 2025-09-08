@@ -80,37 +80,68 @@ class AuthoredActivityLoader {
     
     private convenience init() {
         self.init([])
-        
-        
-        let jsonString = """
-        {
-          "events": [
-            {
-              "id": "0f3e4d06-ec9a-4845-be5d-e47685500ff4",
-              "linkVersion": "v3",
-              "etag": "etag1",
-              "contentEtags": {},
-
-              "previouslySelected": false
-            },
-            {
-              "id": "49d7255c-413d-4dd0-bbd1-ec3df78ab956",
-              "linkVersion": "v3",
-              "etag": "etag2",
-              "contentEtags": {},
-              "previouslySelected": false
-            }
-          ]
-        }
-        """
-        
-        guard let data = jsonString.data(using: .utf8),
-              let activities = try? JSONDecoder().decode(KnownActivities.self, from: data) else {
+        fetchActivities()
+    }
+    
+    
+    func fetchActivities() {
+        guard let url = URL(string: "http://localhost:8001/activities/") else {
+            print("URL inválida")
             return
         }
         
-        knownActivities = activities
+        // 2. Creamos la request
+        var request = URLRequest(url: url)
+        request.httpMethod = "GET"
         
+        // 3. Hacemos la llamada
+        let task = URLSession.shared.dataTask(with: request) { data, response, error in
+            // Errores de red
+            if let error = error {
+                print("Error en la petición:", error)
+                return
+            }
+            
+            // Validamos respuesta HTTP
+            if let httpResponse = response as? HTTPURLResponse {
+                print("Status code:", httpResponse.statusCode)
+            }
+            
+            
+            if let data = data {
+                let htmlData = String(data: data, encoding: .utf8) ?? ""
+                
+                print("Respuesta HTML:", htmlData)
+                
+                let result = self.extractIDs(from: htmlData)
+                
+                let events = result.map({
+                    AuthoredActivityMetadata(
+                        id: $0,
+                        linkVersion: UniversalLinkVersion.v2
+                    )
+                })
+                
+                self.knownActivities = KnownActivities(events: events)
+            }
+        }
+        
+        task.resume()
+    }
+    
+    func extractIDs(from html: String) -> [String] {
+        var ids: [String] = []
+        
+        let pattern = #"<a href="([0-9a-fA-F\-]+)/">"#
+        let regex = try? NSRegularExpression(pattern: pattern)
+        let range = NSRange(html.startIndex..<html.endIndex, in: html)
+        
+        regex?.matches(in: html, range: range).forEach { match in
+            if let range = Range(match.range(at: 1), in: html) {
+                ids.append(String(html[range]))
+            }
+        }
+        return ids
     }
     
     func activityExists(_ activityID: String) -> Bool {
@@ -432,7 +463,7 @@ class AuthoredActivityLoader {
                 GDLogInfo(.routeGuidance, "Checking for audio clips to download...")
                 await self.downloadAudioClips(content)
             }
-        
+            
             group.addTask {
                 GDLogInfo(.routeGuidance, "Checking for images to download...")
                 await self.downloadImages(content)

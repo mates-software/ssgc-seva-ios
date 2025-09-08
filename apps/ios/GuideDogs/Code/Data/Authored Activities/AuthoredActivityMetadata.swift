@@ -47,7 +47,7 @@ struct AuthoredActivityMetadata: Codable, CustomStringConvertible {
     /// Builds the remote server path that the content can be downloaded from
     /// E.G. https://share.soundscape.services/experiences/<id>/activity.gpx
     var downloadPath: URL? {
-    var components = URLComponents()
+        var components = URLComponents()
         
         switch linkVersion {
         /*
