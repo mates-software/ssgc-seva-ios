@@ -62,7 +62,8 @@ struct OnboardingAuthorizationView: View {
                     AuthorizationItemView(service: motion.service, status: motion.authorizationStatus)
                 }
                 .padding(18.0)
-                .foregroundColor(.primaryForeground)
+                // Use primaryFont (white) for text inside the options block
+                .foregroundColor(.primaryFont)
                 .background(Color.black.opacity(0.2))
                 .cornerRadius(5.0)
                 .accessibilityElement(children: .combine)

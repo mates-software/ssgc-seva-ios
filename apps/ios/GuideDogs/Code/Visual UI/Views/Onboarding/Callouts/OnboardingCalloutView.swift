@@ -31,7 +31,7 @@ struct OnboardingCalloutView: View {
             
             OnboardingCalloutButton(audioDidComplete: $didComplete)
                 .padding(.horizontal, 8.0)
-                .foregroundColor(.primaryForeground)
+                .foregroundColor(.primaryFont)
             
             OnboardingNavigationLink(destination: destination)
                 .if(!didComplete, transform: { $0.hidden() })

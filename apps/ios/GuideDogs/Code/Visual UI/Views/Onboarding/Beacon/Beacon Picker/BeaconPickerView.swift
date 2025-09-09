@@ -28,7 +28,7 @@ struct BeaconPickerView: View {
     
     var body: some View {
         ZStack {
-            Color.primaryForeground
+            Color.primaryFont
             
             ScrollView {
                 VStack(spacing: 0.0) {

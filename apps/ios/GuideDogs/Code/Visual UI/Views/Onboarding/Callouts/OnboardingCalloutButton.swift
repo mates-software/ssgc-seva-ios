@@ -126,7 +126,7 @@ struct OnboardingCalloutButton_Previews: PreviewProvider {
     static var previews: some View {
         OnboardingContainer {
             OnboardingCalloutButton(audioDidComplete: .constant(false))
-                .foregroundColor(.primaryForeground)
+                .foregroundColor(.primaryFont)
         }
         
         OnboardingContainer {
