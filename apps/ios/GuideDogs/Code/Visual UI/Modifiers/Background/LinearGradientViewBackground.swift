@@ -13,10 +13,12 @@ struct LinearGradientBackground: ViewModifier {
     
     let gradient: Gradient
     let ignoresSafeArea: Bool
+    let startPoint: UnitPoint
+    let endPoint: UnitPoint
     
     @ViewBuilder
     private var linearGradientView: some View {
-        LinearGradient(gradient: gradient, startPoint: .topLeading, endPoint: .bottomTrailing)
+        LinearGradient(gradient: gradient, startPoint: startPoint, endPoint: endPoint)
     }
     
     func body(content: Content) -> some View {
@@ -40,7 +42,11 @@ struct LinearGradientBackground: ViewModifier {
 extension View {
     
     func linearGradientBackground(_ gradient: Gradient, ignoresSafeArea: Bool = false) -> some View {
-        modifier(LinearGradientBackground(gradient: gradient, ignoresSafeArea: ignoresSafeArea))
+        modifier(LinearGradientBackground(gradient: gradient, ignoresSafeArea: ignoresSafeArea, startPoint: .topLeading, endPoint: .bottomTrailing))
+    }
+    
+    func linearGradientBackground(_ gradient: Gradient, start: UnitPoint, end: UnitPoint, ignoresSafeArea: Bool = false) -> some View {
+        modifier(LinearGradientBackground(gradient: gradient, ignoresSafeArea: ignoresSafeArea, startPoint: start, endPoint: end))
     }
     
 }
