@@ -200,7 +200,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SaE-C6-t2a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="616" y="238"/>
+            <point key="canvasLocation" x="558" y="250"/>
         </scene>
         <!--Select a Location-->
         <scene sceneID="gAw-lM-WTm">
@@ -211,8 +211,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" name="Background Base"/>
                         <color key="tintColor" name="Foreground 1"/>
-                        <color key="separatorColor" name="Background 3"/>
+                        <color key="separatorColor" name="background-primary"/>
                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <color key="sectionIndexBackgroundColor" name="foreground-primary"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="cJT-Kd-fqY">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="0.0"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -244,7 +245,8 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" name="Foreground 1"/>
+                                <color key="backgroundColor" name="foreground-primary"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="accHintLocalization" value="search.button.current_location.accessibility_hint"/>
                                 </userDefinedRuntimeAttributes>
@@ -343,9 +345,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" name="Background 1"/>
-                        <color key="separatorColor" name="Background 1"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="separatorColor" name="background-primary"/>
                         <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
-                        <color key="sectionIndexBackgroundColor" name="Background 1"/>
+                        <color key="sectionIndexBackgroundColor" name="background-primary"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="bPn-fJ-JT6">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="0.0"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -722,7 +725,8 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="5tD-Gl-loP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" name="Background 3"/>
+                        <color key="backgroundColor" name="background-primary"/>
+                        <color key="sectionIndexBackgroundColor" name="foreground-light"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="bs6-CG-OzK">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="1"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -913,6 +917,9 @@
         </namedColor>
         <namedColor name="font-primary">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="foreground-light">
+            <color red="0.14100000262260437" green="0.49799999594688416" blue="0.83899998664855957" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="foreground-primary">
             <color red="0.082000002264976501" green="0.34099999070167542" blue="0.77999997138977051" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>

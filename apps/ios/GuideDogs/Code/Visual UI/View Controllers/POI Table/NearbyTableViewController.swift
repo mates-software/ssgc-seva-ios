@@ -406,10 +406,10 @@ extension NearbyTableViewController: DZNEmptyDataSetSource {
             title = GDLocalizedString("poi_screen.loading_title.no_places_matching", currentFilter.localizedString)
         }
         
-        let color = Colors.Foreground.primary ?? .white
+        let color = Colors.fontColor ?? .white
         let attributes = [
             NSAttributedString.Key.font: UIFont.preferredFont(forTextStyle: UIFont.TextStyle.title1),
-            NSAttributedString.Key.foregroundColor: color
+            NSAttributedString.Key.foregroundColor: Colors.fontColor ?? color
         ]
         
         return NSAttributedString(string: title, attributes: attributes)
