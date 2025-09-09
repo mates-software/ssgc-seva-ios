@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "Frame 1000004881.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "Frame 1000004882.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "background-placeholder.png",
+      "filename" : "Frame 1000004883.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
