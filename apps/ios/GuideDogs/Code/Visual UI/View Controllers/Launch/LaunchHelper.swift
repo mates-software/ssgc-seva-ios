@@ -34,6 +34,15 @@ class LaunchHelper {
         
         let rootVC: UIViewController
         
+        let viewModel = OnboardingViewModel {
+            LaunchHelper.configureAppView(with: .main)
+        }
+        
+        // TODO (Descomentar): Quitar esto, sólo para pruebas de onboarding
+        let rootView = OnboardingWelcomeView(context: .firstUse).environmentObject(viewModel)
+        rootVC = UIHostingController(rootView: rootView)
+        
+        /*
         if launchStoryboard == .firstLaunch { // SwiftUI
             // Initialize view model and set dismiss handler
             let viewModel = OnboardingViewModel {
@@ -54,6 +63,8 @@ class LaunchHelper {
             
             NotificationCenter.default.post(name: NSNotification.Name.appDidInitialize, object: nil)
         }
+         
+        */
         
         window.replaceRootViewControllerWith(rootVC, animated: true, completion: nil)
     }

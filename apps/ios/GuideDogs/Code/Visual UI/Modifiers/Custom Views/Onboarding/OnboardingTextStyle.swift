@@ -16,7 +16,7 @@ struct OnboardingTextStyle: ViewModifier {
     func body(content: Content) -> some View {
         content
             .font(font)
-            .foregroundColor(Color.primaryForeground)
+            .foregroundColor(Color.primaryFont)
             .frame(maxWidth: .infinity)
             .multilineTextAlignment(.center)
             .padding(.horizontal, 12.0)

@@ -30,6 +30,7 @@ struct OnboardingWelcomeView: View {
     
     var body: some View {
         NavigationView {
+            
             OnboardingContainer(coverImage: Image("permissions-intro"), accessibilityLabel: GDLocalizationUnnecessary("Soundscape")) {
                 Spacer()
                 
