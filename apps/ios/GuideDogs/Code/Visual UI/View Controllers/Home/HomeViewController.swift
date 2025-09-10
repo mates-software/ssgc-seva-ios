@@ -96,6 +96,9 @@ class HomeViewController: UIViewController {
     // Callout Button Panel
     
     private weak var calloutButtonViewController: CalloutButtonPanelViewController?
+
+    // SwiftUI gradient background host
+    private var backgroundHost: UIHostingController<AnyView>?
     
     // MARK: View Life Cycle
     
@@ -190,6 +193,25 @@ class HomeViewController: UIViewController {
         NotificationCenter.default.post(name: Notification.Name.homeViewControllerDidLoad, object: self)
         
         AuthoredActivityLoader.shared.fetchActivities()
+
+        // Apply SwiftUI gradient background behind all content
+        let backgroundView = AnyView(EmptyView()
+            .linearGradientBackground(.onboarding, start: .top, end: .bottom, ignoresSafeArea: true))
+        let host = UIHostingController(rootView: backgroundView)
+        host.view.translatesAutoresizingMaskIntoConstraints = false
+        host.view.backgroundColor = .clear
+        host.view.isUserInteractionEnabled = false
+        addChild(host)
+        view.insertSubview(host.view, at: 0)
+        NSLayoutConstraint.activate([
+            host.view.topAnchor.constraint(equalTo: view.topAnchor),
+            host.view.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            host.view.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            host.view.trailingAnchor.constraint(equalTo: view.trailingAnchor)
+        ])
+        host.didMove(toParent: self)
+        backgroundHost = host
+        view.backgroundColor = .clear
     }
     
     override func viewWillAppear(_ animated: Bool) {

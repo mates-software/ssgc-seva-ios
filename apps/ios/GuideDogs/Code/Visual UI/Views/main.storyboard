@@ -268,14 +268,14 @@
                             </scrollView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YbB-zd-Eab">
                                 <rect key="frame" x="0.0" y="687" width="414" height="209"/>
-                                <color key="backgroundColor" name="Background 1"/>
+                                <color key="backgroundColor" name="foreground-primary"/>
                             </view>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D5h-y4-OwH" userLabel="Callout Button Container">
-                                <rect key="frame" x="0.0" y="687" width="414" height="141"/>
-                                <color key="backgroundColor" name="Background 1"/>
+                                <rect key="frame" x="0.0" y="687" width="414" height="209"/>
+                                <color key="backgroundColor" name="foreground-primary"/>
                                 <constraints>
                                     <constraint firstAttribute="height" priority="750" constant="141" id="dXh-1x-ssW"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="141" id="lTM-xc-YLd"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="209" id="lTM-xc-YLd"/>
                                 </constraints>
                                 <connections>
                                     <segue destination="gdB-jw-QN3" kind="embed" id="dKg-EA-onT"/>
@@ -288,7 +288,7 @@
                                 </constraints>
                             </containerView>
                         </subviews>
-                        <color key="backgroundColor" name="Background Base"/>
+                        <color key="backgroundColor" name="background-primary"/>
                         <accessibility key="accessibilityConfiguration" label="Home Screen">
                             <bool key="isElement" value="NO"/>
                         </accessibility>
@@ -299,10 +299,10 @@
                             <constraint firstAttribute="bottom" secondItem="YbB-zd-Eab" secondAttribute="bottom" id="R5W-zx-fUK"/>
                             <constraint firstAttribute="trailing" secondItem="yij-mN-9N3" secondAttribute="trailing" id="TWr-2F-hPr"/>
                             <constraint firstAttribute="trailing" secondItem="p0V-M4-DrS" secondAttribute="trailing" id="XG6-Nk-qVe"/>
+                            <constraint firstAttribute="bottom" secondItem="D5h-y4-OwH" secondAttribute="bottom" id="XnH-19-Tym"/>
                             <constraint firstItem="D5h-y4-OwH" firstAttribute="leading" secondItem="Gff-lx-Dy6" secondAttribute="leading" id="Zd1-rR-tbV"/>
                             <constraint firstItem="p0V-M4-DrS" firstAttribute="leading" secondItem="Gff-lx-Dy6" secondAttribute="leading" id="mcZ-C3-q40"/>
                             <constraint firstItem="yRX-3D-ku0" firstAttribute="top" relation="greaterThanOrEqual" secondItem="yij-mN-9N3" secondAttribute="bottom" id="mfZ-e5-CB8"/>
-                            <constraint firstItem="yRX-3D-ku0" firstAttribute="top" secondItem="D5h-y4-OwH" secondAttribute="bottom" id="pia-ku-oJQ"/>
                             <constraint firstItem="p0V-M4-DrS" firstAttribute="top" secondItem="yij-mN-9N3" secondAttribute="bottom" id="rag-bj-mva"/>
                             <constraint firstAttribute="trailing" secondItem="D5h-y4-OwH" secondAttribute="trailing" id="we5-M5-A3U"/>
                             <constraint firstAttribute="trailing" secondItem="YbB-zd-Eab" secondAttribute="trailing" id="xEt-EK-FIk"/>
@@ -364,7 +364,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tmm-CW-fzs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-500" y="-412.44377811094455"/>
+            <point key="canvasLocation" x="-500.00000000000006" y="-412.5"/>
         </scene>
         <!--Callout Button Panel View Controller-->
         <scene sceneID="JJV-st-uvX">
@@ -375,11 +375,11 @@
                         <viewControllerLayoutGuide type="bottom" id="hQv-3m-1zO"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Wd4-2v-LGs">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="141"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="209"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HEAR YOUR SURROUNDINGS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bv2-gk-7I4">
-                                <rect key="frame" x="20" y="108" width="374" height="14.5"/>
+                                <rect key="frame" x="20" y="108" width="374" height="11"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" staticText="YES" header="YES"/>
                                 </accessibility>
@@ -387,17 +387,17 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8ZC-jq-auw">
-                                <rect key="frame" x="0.0" y="60" width="414" height="11"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8ZC-jq-auw">
+                                <rect key="frame" x="0.0" y="119" width="414" height="56"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RdK-M8-lhi">
-                                        <rect key="frame" x="0.0" y="0.0" width="103.5" height="11"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RdK-M8-lhi">
+                                        <rect key="frame" x="0.0" y="0.0" width="103.5" height="56"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NK6-TR-1BY">
-                                                <rect key="frame" x="8" y="4" width="87.5" height="39"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NK6-TR-1BY">
+                                                <rect key="frame" x="8" y="4" width="87.5" height="48"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gjV-vm-fas" customClass="NVActivityIndicatorView" customModule="NVActivityIndicatorView">
-                                                        <rect key="frame" x="30" y="2" width="28" height="28"/>
+                                                        <rect key="frame" x="30" y="-9" width="28" height="28"/>
                                                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <accessibility key="accessibilityConfiguration">
                                                             <accessibilityTraits key="traits" notEnabled="YES"/>
@@ -414,10 +414,10 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="750" verticalCompressionResistancePriority="250" image="my_location_32px" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p25-O6-Ar8">
-                                                        <rect key="frame" x="28" y="0.0" width="32" height="32"/>
+                                                        <rect key="frame" x="28" y="0.0" width="32" height="10"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="1000" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Avc-F7-TC9">
-                                                        <rect key="frame" x="0.0" y="36" width="87.5" height="34"/>
+                                                        <rect key="frame" x="0.0" y="14" width="87.5" height="34"/>
                                                         <accessibility key="accessibilityConfiguration">
                                                             <bool key="isElement" value="NO"/>
                                                         </accessibility>
@@ -444,7 +444,7 @@ Location</string>
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cPB-bG-Vj7">
-                                                <rect key="frame" x="8" y="8" width="87.5" height="27"/>
+                                                <rect key="frame" x="8" y="8" width="87.5" height="40"/>
                                                 <accessibility key="accessibilityConfiguration" hint="Double tap to hear about your current location" label="My Location"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                                 <inset key="titleEdgeInsets" minX="0.0" minY="30" maxX="20" maxY="0.0"/>
@@ -475,14 +475,14 @@ Location</string>
                                             <userDefinedRuntimeAttribute type="string" keyPath="accLabelLocalization" value="directions.my_location"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UKd-Ki-dcf">
-                                        <rect key="frame" x="103.5" y="0.0" width="103.5" height="11"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UKd-Ki-dcf">
+                                        <rect key="frame" x="103.5" y="0.0" width="103.5" height="56"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ovj-Lu-zOc">
-                                                <rect key="frame" x="8" y="4" width="87.5" height="39"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ovj-Lu-zOc">
+                                                <rect key="frame" x="8" y="4" width="87.5" height="48"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6YQ-kO-BLz" customClass="NVActivityIndicatorView" customModule="NVActivityIndicatorView">
-                                                        <rect key="frame" x="30" y="2" width="28" height="28"/>
+                                                        <rect key="frame" x="30" y="-9" width="28" height="28"/>
                                                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <accessibility key="accessibilityConfiguration">
                                                             <accessibilityTraits key="traits" notEnabled="YES"/>
@@ -499,10 +499,10 @@ Location</string>
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="750" verticalCompressionResistancePriority="250" image="ic_open_with_white_new" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uiw-WT-Go0">
-                                                        <rect key="frame" x="28" y="0.0" width="32" height="32"/>
+                                                        <rect key="frame" x="28" y="0.0" width="32" height="10"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="1000" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1N3-RH-hv1">
-                                                        <rect key="frame" x="0.0" y="36" width="87.5" height="34"/>
+                                                        <rect key="frame" x="0.0" y="14" width="87.5" height="34"/>
                                                         <accessibility key="accessibilityConfiguration">
                                                             <bool key="isElement" value="NO"/>
                                                         </accessibility>
@@ -529,7 +529,7 @@ Me</string>
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIk-4T-xgf">
-                                                <rect key="frame" x="8" y="8" width="87.5" height="27"/>
+                                                <rect key="frame" x="8" y="8" width="87.5" height="40"/>
                                                 <accessibility key="accessibilityConfiguration" hint="Double tap to hear about places in the four quadrants around you." label="Around Me"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                                 <inset key="titleEdgeInsets" minX="0.0" minY="30" maxX="20" maxY="0.0"/>
@@ -557,14 +557,14 @@ Me</string>
                                             <constraint firstItem="ovj-Lu-zOc" firstAttribute="trailing" secondItem="UKd-Ki-dcf" secondAttribute="trailingMargin" id="uf3-5v-O1u"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4fB-Dj-Wtg">
-                                        <rect key="frame" x="207" y="0.0" width="103.5" height="11"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4fB-Dj-Wtg">
+                                        <rect key="frame" x="207" y="0.0" width="103.5" height="56"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sbB-h2-dNE">
-                                                <rect key="frame" x="8" y="4" width="87.5" height="39"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sbB-h2-dNE">
+                                                <rect key="frame" x="8" y="4" width="87.5" height="48"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dQ2-UL-xMh" customClass="NVActivityIndicatorView" customModule="NVActivityIndicatorView">
-                                                        <rect key="frame" x="30" y="2" width="28" height="28"/>
+                                                        <rect key="frame" x="30" y="-9" width="28" height="28"/>
                                                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <accessibility key="accessibilityConfiguration">
                                                             <accessibilityTraits key="traits" notEnabled="YES"/>
@@ -581,10 +581,10 @@ Me</string>
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="750" verticalCompressionResistancePriority="250" image="ic_track_changes_white_new" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WUf-wB-XPV">
-                                                        <rect key="frame" x="28" y="0.0" width="32" height="32"/>
+                                                        <rect key="frame" x="28" y="0.0" width="32" height="10"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="1000" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSa-zt-Zut">
-                                                        <rect key="frame" x="0.0" y="36" width="87.5" height="34"/>
+                                                        <rect key="frame" x="0.0" y="14" width="87.5" height="34"/>
                                                         <accessibility key="accessibilityConfiguration">
                                                             <bool key="isElement" value="NO"/>
                                                         </accessibility>
@@ -611,7 +611,7 @@ of Me</string>
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iot-Tk-VNv">
-                                                <rect key="frame" x="8" y="8" width="87.5" height="27"/>
+                                                <rect key="frame" x="8" y="8" width="87.5" height="40"/>
                                                 <accessibility key="accessibilityConfiguration" hint="Double tap to hear about places in front of you." label="Ahead of Me"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                                 <inset key="titleEdgeInsets" minX="0.0" minY="30" maxX="20" maxY="0.0"/>
@@ -639,14 +639,14 @@ of Me</string>
                                             <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="sbB-h2-dNE" secondAttribute="bottom" constant="4" id="yqu-XT-BVi"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gaq-jA-En0">
-                                        <rect key="frame" x="310.5" y="0.0" width="103.5" height="11"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gaq-jA-En0">
+                                        <rect key="frame" x="310.5" y="0.0" width="103.5" height="56"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gpl-Q1-A4f">
-                                                <rect key="frame" x="8" y="4" width="87.5" height="39"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gpl-Q1-A4f">
+                                                <rect key="frame" x="8" y="4" width="87.5" height="48"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sLx-Ze-jHo" customClass="NVActivityIndicatorView" customModule="NVActivityIndicatorView">
-                                                        <rect key="frame" x="30" y="2" width="28" height="28"/>
+                                                        <rect key="frame" x="30" y="-9" width="28" height="28"/>
                                                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <accessibility key="accessibilityConfiguration">
                                                             <accessibilityTraits key="traits" notEnabled="YES"/>
@@ -663,10 +663,10 @@ of Me</string>
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="750" verticalCompressionResistancePriority="250" image="ic_markers_32px" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fpf-he-sxQ">
-                                                        <rect key="frame" x="28" y="0.0" width="32" height="32"/>
+                                                        <rect key="frame" x="28" y="0.0" width="32" height="10"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="1000" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ZV-33-75O">
-                                                        <rect key="frame" x="0.0" y="36" width="87.5" height="34"/>
+                                                        <rect key="frame" x="0.0" y="14" width="87.5" height="34"/>
                                                         <accessibility key="accessibilityConfiguration">
                                                             <bool key="isElement" value="NO"/>
                                                         </accessibility>
@@ -693,7 +693,7 @@ Markers</string>
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZx-Ls-lTi">
-                                                <rect key="frame" x="8" y="8" width="87.5" height="27"/>
+                                                <rect key="frame" x="8" y="8" width="87.5" height="40"/>
                                                 <accessibility key="accessibilityConfiguration" hint="Double tap to hear about nearby places that you have marked" label="Nearby Markers"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                                 <inset key="titleEdgeInsets" minX="0.0" minY="30" maxX="20" maxY="0.0"/>
@@ -1056,11 +1056,11 @@ Markers</string>
         <image name="my_location_32px" width="32" height="32"/>
         <image name="sleep_icon" width="28" height="28"/>
         <image name="sleeping_Illustration" width="96" height="168"/>
-        <namedColor name="Background 1">
-            <color red="0.082352941176470587" green="0.3411764705882353" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        <namedColor name="background-primary">
+            <color red="0.0040000001899898052" green="0.10999999940395355" blue="0.34099999070167542" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
-        <namedColor name="Background Base">
-            <color red="0.0039215686274509803" green="0.11372549019607843" blue="0.33725490196078434" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        <namedColor name="foreground-primary">
+            <color red="0.0" green="0.0" blue="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
     </resources>
 </document>
