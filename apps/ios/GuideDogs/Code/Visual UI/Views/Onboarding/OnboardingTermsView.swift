@@ -38,7 +38,7 @@ struct OnboardingTermsView: View {
                 })
                 .accessibilityHidden(true)
         }
-        .linearGradientBackground(.darkBlue, ignoresSafeArea: true)
+        .linearGradientBackground(.onboarding, ignoresSafeArea: true)
         .navigationBarHidden(true)
         .accessibilityIgnoresInvertColors(true)
         .onAppear {

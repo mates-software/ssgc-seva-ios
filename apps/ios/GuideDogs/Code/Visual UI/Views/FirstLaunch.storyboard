@@ -37,7 +37,8 @@
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" indicatorStyle="white" editable="NO" text="Your use of Seva is subject to the terms of the Company Services Agreement. Please check the box below to agree and continue." adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wpe-rU-LYI" userLabel="Terms of Use" customClass="RoundedTextView" customModule="Soundscape" customModuleProvider="target">
                                         <rect key="frame" x="32" y="77.666666666666629" width="329" height="426"/>
-                                        <color key="backgroundColor" name="background-primary"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" name="foreground-light"/>
                                         <color key="textColor" name="font-primary"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -120,6 +121,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                 </subviews>
+                                <color key="tintColor" name="foreground-light"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="wpe-rU-LYI" secondAttribute="trailing" constant="32" id="2bF-HG-yNh"/>
                                     <constraint firstAttribute="trailing" secondItem="twL-2e-ZWU" secondAttribute="trailing" constant="32" id="42R-p4-ejN"/>
@@ -512,6 +514,9 @@
         </namedColor>
         <namedColor name="font-primary">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="foreground-light">
+            <color red="0.14100000262260437" green="0.49799999594688416" blue="0.83899998664855957" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
     </resources>
 </document>
