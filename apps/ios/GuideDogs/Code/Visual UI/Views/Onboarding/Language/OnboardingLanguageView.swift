@@ -1,6 +1,6 @@
 //
 //  OnboardingLanguageView.swift
-//  Soundscape
+//  Seva
 //
 //  Copyright (c) Microsoft Corporation.
 //  Licensed under the MIT License.
@@ -24,7 +24,7 @@ struct OnboardingLanguageView: View {
     var body: some View {
         OnboardingContainer {
             VStack(spacing: 12.0) {
-                GDLocalizedTextView("first_launch.soundscape_language")
+                GDLocalizedTextView("first_launch.seva_language")
                     .onboardingHeaderTextStyle()
                 
                 GDLocalizedTextView("first_launch.beacon.message.3")

@@ -155,7 +155,7 @@
 
 
 /*  */
-"general.alert.offline_default.message" = "Soundscape on offline-tilassa. Soundscape jatkaa kuitenkin toimintaansa, mutta jotkin toiminnot voivat olla rajoitettuja.";
+"general.alert.offline_default.message" = "Seva on offline-tilassa. Seva jatkaa kuitenkin toimintaansa, mutta jotkin toiminnot voivat olla rajoitettuja.";
 
 
 /*  */
@@ -163,7 +163,7 @@
 
 
 /*  */
-"general.alert.offline_search.message" = "Kun Soundscape toimii offline-tilassa, haku on pois käytöstä. Hylkää palataksesi edelliselle näytölle";
+"general.alert.offline_search.message" = "Kun Seva toimii offline-tilassa, haku on pois käytöstä. Hylkää palataksesi edelliselle näytölle";
 
 
 /*  */
@@ -231,11 +231,11 @@
 
 
 /*  */
-"general.error.location_services" = "Ota sijaintipalvelut käyttöön käyttääksesi Soundscapea";
+"general.error.location_services" = "Ota sijaintipalvelut käyttöön käyttääksesi Sevaa";
 
 
 /*  */
-"general.error.precise_location" = "Ota Tarkka sijainti käyttöön käyttääksesi Soundscapea";
+"general.error.precise_location" = "Ota Tarkka sijainti käyttöön käyttääksesi Sevaa";
 
 
 /*  */
@@ -243,7 +243,7 @@
 
 
 /*  */
-"general.error.location_services.authorize.description" = "Soundscape käyttää sijaintiasi löytääkseen paikkoja ja asioita ympäriltäsi ja kertoakseen niistä sinulle. Tämä sovellus tarvitsee luvan sijaintipalveluiden käyttöön.";
+"general.error.location_services.authorize.description" = "Seva käyttää sijaintiasi löytääkseen paikkoja ja asioita ympäriltäsi ja kertoakseen niistä sinulle. Tämä sovellus tarvitsee luvan sijaintipalveluiden käyttöön.";
 
 
 /*  */
@@ -255,7 +255,7 @@
 
 
 /*  */
-"general.error.location_services_resume" = "Avaa Soundscape jatkaaksesi sijaintipalveluiden käyttöä";
+"general.error.location_services_resume" = "Avaa Seva jatkaaksesi sijaintipalveluiden käyttöä";
 
 
 /*  */
@@ -263,7 +263,7 @@
 
 
 /*  */
-"general.error.location_services_enable_description" = "Sijaintipalvelut on poistettu käytöstä. Soundscape ei voi toimia, kun sijaintipalvelut ovat pois käytöstä.";
+"general.error.location_services_enable_description" = "Sijaintipalvelut on poistettu käytöstä. Seva ei voi toimia, kun sijaintipalvelut ovat pois käytöstä.";
 
 
 /*  */
@@ -279,7 +279,7 @@
 
 
 /*  */
-"general.error.heading" = "Soundscape ei ole varma, mihin suuntaan olet kääntyneenä. Pitele puhelintasi vaakatasossa tai ala kävellä ja yritä uudelleen.";
+"general.error.heading" = "Seva ei ole varma, mihin suuntaan olet kääntyneenä. Pitele puhelintasi vaakatasossa tai ala kävellä ja yritä uudelleen.";
 
 
 /*  */
@@ -299,7 +299,7 @@
 
 
 /*  */
-"general.error.network_connection_required.deleting_data" = "Soundscapen karttatietojen poistaminen ja uudelleenlataaminen tarvitsee verkkoyhteyden. Tarkista, että puhelimesi ei ole lentokonetilassa.";
+"general.error.network_connection_required.deleting_data" = "Sevan karttatietojen poistaminen ja uudelleenlataaminen tarvitsee verkkoyhteyden. Tarkista, että puhelimesi ei ole lentokonetilassa.";
 
 
 /*  */
@@ -331,11 +331,11 @@
 
 
 /*  */
-"device_motion.enable.description" = "Liikkeen ja kuntoilun seuranta on poistettu käytöstä. Soundscape ei voi toimia, kun Liikkeen ja kuntoilun seuranta on poistettu käytöstä.";
+"device_motion.enable.description" = "Liikkeen ja kuntoilun seuranta on poistettu käytöstä. Seva ei voi toimia, kun Liikkeen ja kuntoilun seuranta on poistettu käytöstä.";
 
 
 /*  */
-"device_motion.enable.instructions" = "Ota Kuntoseuranta käyttöön Asetukset-sovelluksessa jatkaaksesi.\n\n1. Paina Avaa Asetukset\n2. Paina Takaisin-painiketta (nimeltä Asetukset)\n3. Valitse Tietosuoja\n4. Valitse Liike ja Kuntoilu\n5. Ota Kuntoseuranta käyttöön\n6. Käynnistä Soundscape uudelleen";
+"device_motion.enable.instructions" = "Ota Kuntoseuranta käyttöön Asetukset-sovelluksessa jatkaaksesi.\n\n1. Paina Avaa Asetukset\n2. Paina Takaisin-painiketta (nimeltä Asetukset)\n3. Valitse Tietosuoja\n4. Valitse Liike ja Kuntoilu\n5. Ota Kuntoseuranta käyttöön\n6. Käynnistä Seva uudelleen";
 
 
 /*  */
@@ -343,7 +343,7 @@
 
 
 /*  */
-"device_motion.authorize.description" = "Tämä sallii Soundscapen parantaa kokemustasi sen perusteella, käveletkö, oletko ajoneuvossa, vai seisotko paikallasi. Sovellus tarvitsee lupasi Liike ja Kuntoilu -asetuksen käyttämiseen. Saattaa olla tarpeen ottaa käyttöön Kuntoseuranta kohdassa Asetukset → Tietosuoja → Liike ja Kuntoilu ennen kuin annat Soundscapelle tämän käyttöoikeuden.";
+"device_motion.authorize.description" = "Tämä sallii Sevan parantaa kokemustasi sen perusteella, käveletkö, oletko ajoneuvossa, vai seisotko paikallasi. Sovellus tarvitsee lupasi Liike ja Kuntoilu -asetuksen käyttämiseen. Saattaa olla tarpeen ottaa käyttöön Kuntoseuranta kohdassa Asetukset → Tietosuoja → Liike ja Kuntoilu ennen kuin annat Sevalle tämän käyttöoikeuden.";
 
 
 /*  */
@@ -359,7 +359,7 @@
 
 
 /*  */
-"settings.clear_cache.alert_message" = "Soundscape tallentaa tietokartan vähentääkseen datan ja akun kulutusta. Tallennettujen tietojen poisto vaatii, että Soundscape lataa tiedot uudelleen.";
+"settings.clear_cache.alert_message" = "Seva tallentaa tietokartan vähentääkseen datan ja akun kulutusta. Tallennettujen tietojen poisto vaatii, että Seva lataa tiedot uudelleen.";
 
 
 /*  */
@@ -375,7 +375,7 @@
 
 
 /*  */
-"settings.clear_cache.no_service.message" = "Soundscape ei saa yhteyttä Internetiin. Internet-yhteys vaaditaan tallennettujen karttatietojen tyhjentämiseen, jotta karttatiedot voidaan päivittää.";
+"settings.clear_cache.no_service.message" = "Seva ei saa yhteyttä Internetiin. Internet-yhteys vaaditaan tallennettujen karttatietojen tyhjentämiseen, jotta karttatiedot voidaan päivittää.";
 
 
 /*  */
@@ -399,7 +399,7 @@
 
 
 /*  */
-"settings.feedback.subject" = "Soundscape -palautetta";
+"settings.feedback.subject" = "Seva -palautetta";
 
 
 /*  */
@@ -427,7 +427,7 @@
 
 
 /*  */
-"settings.about_app" = "Tietoja Soundscapesta";
+"settings.about_app" = "Tietoja Sevasta";
 
 
 /*  */
@@ -455,7 +455,7 @@
 
 
 /*  */
-"settings.section.telemetry.footer" = "Auta Soundscapea parantamaan toimintaansa lähettämällä automaattisesti virheraportteja sekä diagnostiikka- ja käyttötietoja. Henkilökohtaisia tietoja ei kerätä.";
+"settings.section.telemetry.footer" = "Auta Sevaa parantamaan toimintaansa lähettämällä automaattisesti virheraportteja sekä diagnostiikka- ja käyttötietoja. Henkilökohtaisia tietoja ei kerätä.";
 
 
 /*  */
@@ -487,11 +487,11 @@
 
 
 /*  */
-"settings.audio.mix_with_others.description" = "Käytä tätä ottaaksesi käyttöön Soundscapen ohjaamisen kuulokkeidesi painikkeilla ja lukitusnäytön mediantoistopainikkeilla. Huomaa, että kun asetus on käytössä, Soundscapea ei voi käyttää, kun muuta mediaa, kuten podcasteja tai musiikkia, toistetaan.";
+"settings.audio.mix_with_others.description" = "Käytä tätä ottaaksesi käyttöön Sevan ohjaamisen kuulokkeidesi painikkeilla ja lukitusnäytön mediantoistopainikkeilla. Huomaa, että kun asetus on käytössä, Sevaa ei voi käyttää, kun muuta mediaa, kuten podcasteja tai musiikkia, toistetaan.";
 
 
 /*  */
-"setting.audio.mix_with_others.confirmation" = "Tämän asetuksen ottaminen käyttöön pysäyttää Soundscapen ilmoitukset ja muut äänet aina, kun aloitat toisen mediasovelluksen käytön. Voit palata Soundscapeen ottaaksesi ilmoitukset uudelleen käyttöön.";
+"setting.audio.mix_with_others.confirmation" = "Tämän asetuksen ottaminen käyttöön pysäyttää Sevan ilmoitukset ja muut äänet aina, kun aloitat toisen mediasovelluksen käytön. Voit palata Sevaen ottaaksesi ilmoitukset uudelleen käyttöön.";
 
 
 /*  */
@@ -571,7 +571,7 @@
 
 
 /*  */
-"voice.apple.no_siri" = "Huomaa, että Siri-puheen äänet eivät ole Soundscapen käytettävissä eivätkä ne ole alla olevassa luettelossa.";
+"voice.apple.no_siri" = "Huomaa, että Siri-puheen äänet eivät ole Sevan käytettävissä eivätkä ne ole alla olevassa luettelossa.";
 
 
 /*  */
@@ -587,7 +587,7 @@
 
 
 /*  */
-"beacon.settings.style.haptic.explanation" = "Nämä majakkatyylit sisältävät värinäpalautteen, jonka voit tuntea tavanomaisten majakkaäänten lisäksi. Värinäpalaute on käytössä vain, kun puhelin ei ole lukittu ja Soundscape on avattu.";
+"beacon.settings.style.haptic.explanation" = "Nämä majakkatyylit sisältävät värinäpalautteen, jonka voit tuntea tavanomaisten majakkaäänten lisäksi. Värinäpalaute on käytössä vain, kun puhelin ei ole lukittu ja Seva on avattu.";
 
 
 /*  */
@@ -611,11 +611,11 @@
 
 
 /*  */
-"troubleshooting.gps_status.explanation.meters" = "Tämä arvo on arvio siitä, kuinka tarkasti Soundscape tietää, missä sijaitset. Alle ±10 metriä on hyvä. Alle ±20 metriä on hyväksyttävä. Mikä tahansa muu on huono. Sijainnin tiedot ovat tarkimpia ulkotiloissa muualla kuin rakennelmien alla.";
+"troubleshooting.gps_status.explanation.meters" = "Tämä arvo on arvio siitä, kuinka tarkasti Seva tietää, missä sijaitset. Alle ±10 metriä on hyvä. Alle ±20 metriä on hyväksyttävä. Mikä tahansa muu on huono. Sijainnin tiedot ovat tarkimpia ulkotiloissa muualla kuin rakennelmien alla.";
 
 
 /*  */
-"troubleshooting.gps_status.explanation.feet" = "Tämä arvo on arvio siitä, kuinka tarkasti Soundscape tietää, missä sijaitset. Alle ±30 jalkaa on hyvä. Alle ±60 jalkaa on hyväksyttävä. Mikä tahansa muu on huono. Sijainnin tiedot ovat tarkimpia ulkotiloissa muualla kuin rakennelmien alla.";
+"troubleshooting.gps_status.explanation.feet" = "Tämä arvo on arvio siitä, kuinka tarkasti Seva tietää, missä sijaitset. Alle ±30 jalkaa on hyvä. Alle ±60 jalkaa on hyväksyttävä. Mikä tahansa muu on huono. Sijainnin tiedot ovat tarkimpia ulkotiloissa muualla kuin rakennelmien alla.";
 
 
 /*  */
@@ -631,11 +631,11 @@
 
 
 /*  */
-"troubleshooting.check_audio.hint" = "Kaksoisnapauta tarkistaaksesi Soundscapen kanssa käyttämiesi kuulokkeiden tilan.";
+"troubleshooting.check_audio.hint" = "Kaksoisnapauta tarkistaaksesi Sevan kanssa käyttämiesi kuulokkeiden tilan.";
 
 
 /*  */
-"troubleshooting.check_audio.explanation" = "Napauta tätä painiketta kuullaksesi Soundscapen kanssa käyttämiesi kuulokkeiden tilan.";
+"troubleshooting.check_audio.explanation" = "Napauta tätä painiketta kuullaksesi Sevan kanssa käyttämiesi kuulokkeiden tilan.";
 
 
 /*  */
@@ -647,7 +647,7 @@
 
 
 /*  */
-"troubleshooting.cache.explanation" = "Soundscape lataa karttatietoja kävellessäsi, jotta se voi kertoa sinulle lähiympäristösi kohteista ja paikoista. Jos sinulla on ongelmia Soundscapen kanssa tai se käyttää liikaa muistia, voit tyhjentää tallennetut karttatiedot, ja Soundcape lataa ainoastaan nykyisen lähiympäristösi karttatiedot.";
+"troubleshooting.cache.explanation" = "Seva lataa karttatietoja kävellessäsi, jotta se voi kertoa sinulle lähiympäristösi kohteista ja paikoista. Jos sinulla on ongelmia Sevan kanssa tai se käyttää liikaa muistia, voit tyhjentää tallennetut karttatiedot, ja Soundcape lataa ainoastaan nykyisen lähiympäristösi karttatiedot.";
 
 
 /*  */
@@ -655,7 +655,7 @@
 
 
 /*  */
-"settings.about.title.privacy" = "Soundscape Community tietosuojalauseke";
+"settings.about.title.privacy" = "Seva Community tietosuojalauseke";
 
 
 /*  */
@@ -815,7 +815,7 @@
 
 
 /*  */
-"preview.title" = "Soundscape Streetin esikatselu";
+"preview.title" = "Seva Streetin esikatselu";
 
 
 /*  */
@@ -871,7 +871,7 @@
 
 
 /*  */
-"preview.alert.restart.message" = "Haluatko käynnistää Soundscape Street Preview -toiminnon uudelleen tässä sijainnissa?";
+"preview.alert.restart.message" = "Haluatko käynnistää Seva Street Preview -toiminnon uudelleen tässä sijainnissa?";
 
 
 /*  */
@@ -883,7 +883,7 @@
 
 
 /*  */
-"preview.callout.end" = "Soundscape Street Preview -toiminnon päättäminen";
+"preview.callout.end" = "Seva Street Preview -toiminnon päättäminen";
 
 
 /*  */
@@ -955,7 +955,7 @@
 
 
 /*  */
-"preview.include_unnamed_roads.subtitle" = "Sisällytä nimettömät tiet Soundscape Street Preview -toimintoon";
+"preview.include_unnamed_roads.subtitle" = "Sisällytä nimettömät tiet Seva Street Preview -toimintoon";
 
 
 /*  */
@@ -967,11 +967,11 @@
 
 
 /*  */
-"preview.include_unnamed_roads.hint.off" = "Kaksoisnapauta sisällyttääksesi nimettömät tiet Soundscape Street -esikatselun aikana.";
+"preview.include_unnamed_roads.hint.off" = "Kaksoisnapauta sisällyttääksesi nimettömät tiet Seva Street -esikatselun aikana.";
 
 
 /*  */
-"preview.include_unnamed_roads.hint.on" = "Kaksoisnapauta jättääksesi pois nimettömät tiet Soundscape Street -esikatselun aikana.";
+"preview.include_unnamed_roads.hint.on" = "Kaksoisnapauta jättääksesi pois nimettömät tiet Seva Street -esikatselun aikana.";
 
 
 /*  */
@@ -979,7 +979,7 @@
 
 
 /*  */
-"preview.tutorial.title.1" = "Tervetuloa Soundscape Street Preview -toimintoon!";
+"preview.tutorial.title.1" = "Tervetuloa Seva Street Preview -toimintoon!";
 
 
 /*  */
@@ -999,7 +999,7 @@
 
 
 /*  */
-"preview.tutorial.content.3" = "Voit käyttää puhelinta uudelleen kussakin risteyksessä valitaksesi, mitä tietä jatkaa, tai voit tarkastella lähiympäristöäsi näytön alareunan tuttujen Soundscape-painikkeiden avulla. Voit napauttaa \"Haku\" käynnistääksesi äänimajakan missä tahansa kiinnostavassa kohteessa, muuttaa sijaintiasi tai vain tarkastella aluetta yksityiskohtaisemmin.";
+"preview.tutorial.content.3" = "Voit käyttää puhelinta uudelleen kussakin risteyksessä valitaksesi, mitä tietä jatkaa, tai voit tarkastella lähiympäristöäsi näytön alareunan tuttujen Seva-painikkeiden avulla. Voit napauttaa \"Haku\" käynnistääksesi äänimajakan missä tahansa kiinnostavassa kohteessa, muuttaa sijaintiasi tai vain tarkastella aluetta yksityiskohtaisemmin.";
 
 
 /*  */
@@ -1455,11 +1455,11 @@
 
 
 /*  */
-"first_use_experience.share.alert.title" = "Jakaminen Soundscapessa";
+"first_use_experience.share.alert.title" = "Jakaminen Sevassa";
 
 
 /*  */
-"first_use_experience.share.alert.message" = "Kun jaat Soundscape-merkinnän tai reitin, jaat sijainnit, jotka on liitetty kyseiseen merkintään tai reittiin. Sinun tulisi jakaa näitä vain henkilöille, joihin luotat.";
+"first_use_experience.share.alert.message" = "Kun jaat Seva-merkinnän tai reitin, jaat sijainnit, jotka on liitetty kyseiseen merkintään tai reittiin. Sinun tulisi jakaa näitä vain henkilöille, joihin luotat.";
 
 
 /*  */
@@ -1499,7 +1499,7 @@
 
 
 /*  */
-"universal_links.marker.share.message" = "Jaoin Soundscape-merkinnän kanssasi! \"%@\"";
+"universal_links.marker.share.message" = "Jaoin Seva-merkinnän kanssasi! \"%@\"";
 
 
 /*  */
@@ -1511,7 +1511,7 @@
 
 
 /*  */
-"siri_shortcuts.description" = "Kun olet lisännyt Siri-pikakuvakkeet, voit käyttää niitä puheen äänelläsi, vaikka Soundscape ei ole käynnissä.";
+"siri_shortcuts.description" = "Kun olet lisännyt Siri-pikakuvakkeet, voit käyttää niitä puheen äänelläsi, vaikka Seva ei ole käynnissä.";
 
 
 /*  */
@@ -1531,7 +1531,7 @@
 
 
 /*  */
-"user_activity.search.title" = "Etsi Soundscapessa";
+"user_activity.search.title" = "Etsi Sevassa";
 
 
 /*  */
@@ -1543,7 +1543,7 @@
 
 
 /*  */
-"url_resource.alert.route.share.message" = "Jaoin Soundscape-reitin kanssasi! \"%@\"";
+"url_resource.alert.route.share.message" = "Jaoin Seva-reitin kanssasi! \"%@\"";
 
 
 /*  */
@@ -1551,7 +1551,7 @@
 
 
 /*  */
-"url_resource.alert.route.import.message" = "Käytä reittejä vain henkilöiltä, joihin luotat. Soundscape Community ei luo, jaa tai tarkista reittejä, ja niissä voi olla virheitä.";
+"url_resource.alert.route.import.message" = "Käytä reittejä vain henkilöiltä, joihin luotat. Seva Community ei luo, jaa tai tarkista reittejä, ja niissä voi olla virheitä.";
 
 
 /*  */
@@ -1591,7 +1591,7 @@
 
 
 /*  */
-"routes.no_routes.hint.2" = "Kun olet ulkona reitilläsi Soundscapen kanssa, sinulle ilmoitetaan kuhunkin reittipisteeseen saapumisesta, ja äänimajakka siirtyy automaattisesti seuraavaan reittipisteeseen.";
+"routes.no_routes.hint.2" = "Kun olet ulkona reitilläsi Sevan kanssa, sinulle ilmoitetaan kuhunkin reittipisteeseen saapumisesta, ja äänimajakka siirtyy automaattisesti seuraavaan reittipisteeseen.";
 
 
 /*  */
@@ -1607,7 +1607,7 @@
 
 
 /*  */
-"routes.tutorial.details" = "Palaat nyt Soundscapen kotinäytölle ja äänimajakka sijoitetaan ensimmäiseen reittipisteeseesi. Kun saavut reittipisteeseen, majalla siirtyy reittisi seuraavaan reittipisteeseen.";
+"routes.tutorial.details" = "Palaat nyt Sevan kotinäytölle ja äänimajakka sijoitetaan ensimmäiseen reittipisteeseesi. Kun saavut reittipisteeseen, majalla siirtyy reittisi seuraavaan reittipisteeseen.";
 
 
 /*  */
@@ -1979,15 +1979,15 @@
 
 
 /*  */
-"sleep.snoozing.message" = "Soundscape on odotustilassa. Kun lähdet nykyisestä sijainnistasi, Soundscape herää automaattisesti. Tämä käyttää sijaintipalveluita akunsäästötilassa säästääkseen puhelimesi akkua. Napauta alla olevaa painiketta herättääksesi nyt.";
+"sleep.snoozing.message" = "Seva on odotustilassa. Kun lähdet nykyisestä sijainnistasi, Seva herää automaattisesti. Tämä käyttää sijaintipalveluita akunsäästötilassa säästääkseen puhelimesi akkua. Napauta alla olevaa painiketta herättääksesi nyt.";
 
 
 /*  */
-"sleep.sleeping.message" = "Soundscape on lepotilassa. Tämä estää Soundscapea käyttämästä sijaintipalveluita tai lataamasta tietoja. Tämä säästää akkua, kun et käytä Soundscapea. Napauta alla olevaa painiketta herättääksesi Soundscapen.";
+"sleep.sleeping.message" = "Seva on lepotilassa. Tämä estää Sevaa käyttämästä sijaintipalveluita tai lataamasta tietoja. Tämä säästää akkua, kun et käytä Sevaa. Napauta alla olevaa painiketta herättääksesi Sevan.";
 
 
 /*  */
-"sleep.sleep.acc_hint" = "Kaksoisnapauta asettaaksesi Soundscapen lepotilaan";
+"sleep.sleep.acc_hint" = "Kaksoisnapauta asettaaksesi Sevan lepotilaan";
 
 
 /*  */
@@ -2619,7 +2619,7 @@
 
 
 /*  */
-"menu.learning_resources" = "Soundscapen blogi";
+"menu.learning_resources" = "Sevan blogi";
 
 
 /*  */
@@ -2707,19 +2707,19 @@
 
 
 /*  */
-"devices.explain_ar.disconnected" = "Päätä seuraavat kuulokkeet ovat Bluetooth-kuulokkeita, joissa on tunnistimet, jotka kertovat Soundscapelle, mihin suuntaan olet kääntyneenä. Tämä auttaa Soundscapea parantamaan äänikokemustasi tehden siitä luonnollisemman, kun liikut maailmassa ympäriinsä.\n\nNapauta alla olevaa painiketta yhdistääksesi laitteen.";
+"devices.explain_ar.disconnected" = "Päätä seuraavat kuulokkeet ovat Bluetooth-kuulokkeita, joissa on tunnistimet, jotka kertovat Sevalle, mihin suuntaan olet kääntyneenä. Tämä auttaa Sevaa parantamaan äänikokemustasi tehden siitä luonnollisemman, kun liikut maailmassa ympäriinsä.\n\nNapauta alla olevaa painiketta yhdistääksesi laitteen.";
 
 
 /*  */
-"devices.explain_ar.connected.airpods" = "AirPods-kuulokkeesi ovat valmiit käyttöön, joten voit laittaa puhelimen taskuusi ja lähteä! Soundscape seuraa pääsi suuntaa, joten sinun ei tarvitse pidellä puhelinta kädessäsi.";
+"devices.explain_ar.connected.airpods" = "AirPods-kuulokkeesi ovat valmiit käyttöön, joten voit laittaa puhelimen taskuusi ja lähteä! Seva seuraa pääsi suuntaa, joten sinun ei tarvitse pidellä puhelinta kädessäsi.";
 
 
 /*  */
-"devices.explain_ar.paired" = "Soundscapea ei ole yhdistetty %@ -kuulokkeisiisi. Varmista, että kuulokkeesi ovat päällä ja lähellä puhelintasi.";
+"devices.explain_ar.paired" = "Sevaa ei ole yhdistetty %@ -kuulokkeisiisi. Varmista, että kuulokkeesi ovat päällä ja lähellä puhelintasi.";
 
 
 /*  */
-"devices.explain_ar.connecting" = "Soundscape muodostaa yhteyttä %@ -kuulokkeisiisi. Pieni hetki...";
+"devices.explain_ar.connecting" = "Seva muodostaa yhteyttä %@ -kuulokkeisiisi. Pieni hetki...";
 
 
 /*  */
@@ -2731,7 +2731,7 @@
 
 
 /*  */
-"devices.connect_headset.calibrate.explanation" = "Kuulokkeesi yhdistyivät Soundscapeen onnistuneesti, mutta ne on kalibroitava ennen käyttöä. Soundscape ilmoittaa, kun kuulokkeiden kalibrointi on tarpeen, esimerkiksi joka kerta, kun käynnistät sen.";
+"devices.connect_headset.calibrate.explanation" = "Kuulokkeesi yhdistyivät Sevaen onnistuneesti, mutta ne on kalibroitava ennen käyttöä. Seva ilmoittaa, kun kuulokkeiden kalibrointi on tarpeen, esimerkiksi joka kerta, kun käynnistät sen.";
 
 
 /*  */
@@ -2739,11 +2739,11 @@
 
 
 /*  */
-"devices.connect_headset.unsupported_firmware" = "AR Headphones -kuulokkeesi on päivitettävä, ennen kuin ne voidaan yhdistää Soundscapeen. Siirry Cortana-sovellukseen päivittääksesi kuulokkeesi.";
+"devices.connect_headset.unsupported_firmware" = "AR Headphones -kuulokkeesi on päivitettävä, ennen kuin ne voidaan yhdistää Sevaen. Siirry Cortana-sovellukseen päivittääksesi kuulokkeesi.";
 
 
 /*  */
-"devices.connect_headset.failed" = "Soundscape ei voinut yhdistää kuulokkeisiisi. Yritä myöhemmin uudelleen.";
+"devices.connect_headset.failed" = "Seva ei voinut yhdistää kuulokkeisiisi. Yritä myöhemmin uudelleen.";
 
 
 /*  */
@@ -2755,7 +2755,7 @@
 
 
 /*  */
-"devices.connect_headset.audio" = "Ennen kuin yhdistät kuulokkeesi Soundscapeen varmista, että ne on yhdistetty puhelimeesi. Jos niitä ei ole vielä yhdistetty, siirry iOS Asetukset -sovelluksen Bluetooth-osaan yhdistääksesi laitteesi ja palaa sitten Soundscapeen.";
+"devices.connect_headset.audio" = "Ennen kuin yhdistät kuulokkeesi Sevaen varmista, että ne on yhdistetty puhelimeesi. Jos niitä ei ole vielä yhdistetty, siirry iOS Asetukset -sovelluksen Bluetooth-osaan yhdistääksesi laitteesi ja palaa sitten Sevaen.";
 
 
 /*  */
@@ -2767,7 +2767,7 @@
 
 
 /*  */
-"devices.connect_headset.completed.airpods" = "Onneksi olkoon! AirPods-kuulokkeesi ovat käyttövalmiit, joten voit laittaa puhelimen taskuusi ja jatkaa matkaa! Soundscape seuraa nyt pääsi suuntaa, joten sinun ei tarvitse pidellä puhelinta kädessäsi. Yksi kuulokkeiden painikkeen napsautus hiljentää majakan tai poistaa sen hiljennyksen, kaksoisnapsautus kertoo sijaintisi ilmoituksen ja kolmoisnapsautus toistaa viimeisimmän ilmoituksen.";
+"devices.connect_headset.completed.airpods" = "Onneksi olkoon! AirPods-kuulokkeesi ovat käyttövalmiit, joten voit laittaa puhelimen taskuusi ja jatkaa matkaa! Seva seuraa nyt pääsi suuntaa, joten sinun ei tarvitse pidellä puhelinta kädessäsi. Yksi kuulokkeiden painikkeen napsautus hiljentää majakan tai poistaa sen hiljennyksen, kaksoisnapsautus kertoo sijaintisi ilmoituksen ja kolmoisnapsautus toistaa viimeisimmän ilmoituksen.";
 
 
 /*  */
@@ -2783,11 +2783,11 @@
 
 
 /*  */
-"devices.test_headset.explanation" = "Olemme sijoittaneet äänimajakan oikealle puolellesi. Kuuntele, missä se on ja käännä pääsi sitä kohti. Huomaa, kuinka voit tehdä tämän jopa silloin, kun puhelin on taskussasi. Kun olet valmis, napauta alla olevaa painiketta palataksesi Soundscapeen ja nauttiaksesi seuraavasta kävelystäsi uusien päätä seuraavien kuulokkeidesi kanssa.";
+"devices.test_headset.explanation" = "Olemme sijoittaneet äänimajakan oikealle puolellesi. Kuuntele, missä se on ja käännä pääsi sitä kohti. Huomaa, kuinka voit tehdä tämän jopa silloin, kun puhelin on taskussasi. Kun olet valmis, napauta alla olevaa painiketta palataksesi Sevaen ja nauttiaksesi seuraavasta kävelystäsi uusien päätä seuraavien kuulokkeidesi kanssa.";
 
 
 /*  */
-"devices.test_headset.continue" = "Palaa Soundscapeen";
+"devices.test_headset.continue" = "Palaa Sevaen";
 
 
 /*  */
@@ -2799,7 +2799,7 @@
 
 
 /*  */
-"devices.forget_headset.prompt.explanation" = "Tämä katkaisee yhteyden kuulokkeidesi ja Soundscapen välillä. Voit yhdistää Soundscapeen uudelleen täältä tulevaisuudessa.";
+"devices.forget_headset.prompt.explanation" = "Tämä katkaisee yhteyden kuulokkeidesi ja Sevan välillä. Voit yhdistää Sevaen uudelleen täältä tulevaisuudessa.";
 
 
 /*  */
@@ -2831,7 +2831,7 @@
 
 
 /*  */
-"devices.callouts.check_audio.airpods.disconnected" = "Soundscape etsii AirPods-kuulokkeitasi. Varmista, että ne on yhdistetty puhelimeesi.";
+"devices.callouts.check_audio.airpods.disconnected" = "Seva etsii AirPods-kuulokkeitasi. Varmista, että ne on yhdistetty puhelimeesi.";
 
 
 /*  */
@@ -2847,7 +2847,7 @@
 
 
 /*  */
-"devices.reachability.alert.description" = "%@ -kuulokkeesi voivat kertoa Soundscapelle, mihin suuntaan olet kääntyneenä, mikä auttaa Soundscapea parantamaan äänikokemustasi. Voit ottaa pään seurannan käyttöön Päätä seuraavat kuulokkeet -asetuksissa.";
+"devices.reachability.alert.description" = "%@ -kuulokkeesi voivat kertoa Sevalle, mihin suuntaan olet kääntyneenä, mikä auttaa Sevaa parantamaan äänikokemustasi. Voit ottaa pään seurannan käyttöön Päätä seuraavat kuulokkeet -asetuksissa.";
 
 
 /*  */
@@ -2915,15 +2915,15 @@
 
 
 /*  */
-"behavior.experiences.no_events.title" = "Soundscape-vapaa-ajankokemukset (Beta)";
+"behavior.experiences.no_events.title" = "Seva-vapaa-ajankokemukset (Beta)";
 
 
 /*  */
-"behavior.experiences.no_events.caption.1" = "Voittoa tavoittelemattomat organisaatiot, yritykset ja paikallishallinnot voivat luoda omia Soundscape-kokemuksiaan. Näitä voivat olla esimerkiksi sopeutuvat urheiluohjelmat ja tapahtumat, aarteenetsintäaktiviteetit, valikoidut reitit, valikoidut kaupunkiopastukset ja monet muut.";
+"behavior.experiences.no_events.caption.1" = "Voittoa tavoittelemattomat organisaatiot, yritykset ja paikallishallinnot voivat luoda omia Seva-kokemuksiaan. Näitä voivat olla esimerkiksi sopeutuvat urheiluohjelmat ja tapahtumat, aarteenetsintäaktiviteetit, valikoidut reitit, valikoidut kaupunkiopastukset ja monet muut.";
 
 
 /*  */
-"behavior.experiences.no_events.caption.2" = "Lähetä meille sähköpostia osoitteeseen email@address.com, jos haluat lisätietoja tai jos organisaatiosi on kiinnostunut luomaan mukautettuja Soundscape-kokemuksia";
+"behavior.experiences.no_events.caption.2" = "Lähetä meille sähköpostia osoitteeseen email@address.com, jos haluat lisätietoja tai jos organisaatiosi on kiinnostunut luomaan mukautettuja Seva-kokemuksia";
 
 
 /*  */
@@ -2943,7 +2943,7 @@
 
 
 /*  */
-"behavior.scavenger_hunt.callout.pausing_hunt" = "Palataan tavalliseen Soundscape-kokemukseen.";
+"behavior.scavenger_hunt.callout.pausing_hunt" = "Palataan tavalliseen Seva-kokemukseen.";
 
 
 /*  */
@@ -3031,7 +3031,7 @@
 
 
 /*  */
-"icloud.kv_store.quota_violation_alert.title" = "Soundscapen iCloud-tallennustila on täynnä";
+"icloud.kv_store.quota_violation_alert.title" = "Sevan iCloud-tallennustila on täynnä";
 
 
 /*  */
@@ -3111,11 +3111,11 @@
 
 
 /*  */
-"tutorial.markers.text.Intro" = "Soundscapella voit merkitä ympäriltäsi kaiken, mistä välität. Voit esimerkiksi merkitä kotisi, bussipysäkin tai jopa vain paikan, jossa olet.\nKokeillaan; paina alla olevaa Lisää merkitsin -painiketta ja valitse esimerkiksi lähiympäristön paikka tai osoite, jonka haluat merkitä.";
+"tutorial.markers.text.Intro" = "Sevalla voit merkitä ympäriltäsi kaiken, mistä välität. Voit esimerkiksi merkitä kotisi, bussipysäkin tai jopa vain paikan, jossa olet.\nKokeillaan; paina alla olevaa Lisää merkitsin -painiketta ja valitse esimerkiksi lähiympäristön paikka tai osoite, jonka haluat merkitä.";
 
 
 /*  */
-"tutorial.markers.text.EditMarker" = "Hienoa! Olet valinnut merkinnän nimeltä @!marker_name!!. Kuulet Soundscapen ilmoittavan sen, kun olet lähistöllä.\nVoit vaihtaa sen nimeä seuraavalla näytöllä, jos haluat.";
+"tutorial.markers.text.EditMarker" = "Hienoa! Olet valinnut merkinnän nimeltä @!marker_name!!. Kuulet Sevan ilmoittavan sen, kun olet lähistöllä.\nVoit vaihtaa sen nimeä seuraavalla näytöllä, jos haluat.";
 
 
 /*  */
@@ -3139,7 +3139,7 @@
 
 
 /*  */
-"tutorial.beacon.getting_started.text" = "Kun määrität majakan paikkaan, Soundscape toistaa äänen, joka tulee kyseisen sijainnin suunnasta. Tämä opetusohjelma käy läpi majakan määrittämisen ja sen käytön.\n\nPaina alla olevaa \"Käynnistä äänimajakka\" -painiketta avataksesi luettelon lähiympäristön paikoista. Valitse sijainti luettelosta ja opetusohjelma alkaa.";
+"tutorial.beacon.getting_started.text" = "Kun määrität majakan paikkaan, Seva toistaa äänen, joka tulee kyseisen sijainnin suunnasta. Tämä opetusohjelma käy läpi majakan määrittämisen ja sen käytön.\n\nPaina alla olevaa \"Käynnistä äänimajakka\" -painiketta avataksesi luettelon lähiympäristön paikoista. Valitse sijainti luettelosta ja opetusohjelma alkaa.";
 
 
 /*  */
@@ -3171,7 +3171,7 @@
 
 
 /*  */
-"tutorial.beacons.text.IntroPart1" = "Kun määrität majakan paikkaan, Soundscape toistaa äänen, joka tulee kyseisen sijainnin suunnasta. Tämä opetusohjelma käy läpi majakan määrittämisen ja sen käytön.";
+"tutorial.beacons.text.IntroPart1" = "Kun määrität majakan paikkaan, Seva toistaa äänen, joka tulee kyseisen sijainnin suunnasta. Tämä opetusohjelma käy läpi majakan määrittämisen ja sen käytön.";
 
 
 /*  */
@@ -3187,7 +3187,7 @@
 
 
 /*  */
-"tutorial.beacons.text.OrientationAirPods" = "AirPods-kuulokkeesi on yhdistetty Soundscapeen. Kun AirPods-kuulokkeet on yhdistetty Soundscapeen, ei ole väliä, kuinka pitelet puhelintasi. Se voi olla taskussa tai laukussa.";
+"tutorial.beacons.text.OrientationAirPods" = "AirPods-kuulokkeesi on yhdistetty Sevaen. Kun AirPods-kuulokkeet on yhdistetty Sevaen, ei ole väliä, kuinka pitelet puhelintasi. Se voi olla taskussa tai laukussa.";
 
 
 /*  */
@@ -3203,7 +3203,7 @@
 
 
 /*  */
-"tutorial.beacons.text.BeaconInitial" = "Nyt kun olet määrittänyt majakan kohteeseen @!destination!!, Soundscape alkaa toistaa ääntä, joka kuuluu kyseisen sijainnin suunnasta. Tässä on äänimajakka.";
+"tutorial.beacons.text.BeaconInitial" = "Nyt kun olet määrittänyt majakan kohteeseen @!destination!!, Seva alkaa toistaa ääntä, joka kuuluu kyseisen sijainnin suunnasta. Tässä on äänimajakka.";
 
 
 /*  */
@@ -3247,11 +3247,11 @@
 
 
 /*  */
-"tutorial.beacons.text.AutomaticCallout" = "Kun etenet matkallasi, Soundscape kertoo aika-ajoin etäisyytesi majakan osoittamaan sijaintiin tällaisella ilmoituksella.";
+"tutorial.beacons.text.AutomaticCallout" = "Kun etenet matkallasi, Seva kertoo aika-ajoin etäisyytesi majakan osoittamaan sijaintiin tällaisella ilmoituksella.";
 
 
 /*  */
-"tutorial.beacons.text.HomeScreen" = "Etäisyystiedot näytetään myös kotinäytöllä majakan sijainnin katuosoitteen kanssa, jos meillä on se. Soundscape ilmoittaa, kun lähestyt majakan sijaintia, jolloin äänimajakka hiljenee.";
+"tutorial.beacons.text.HomeScreen" = "Etäisyystiedot näytetään myös kotinäytöllä majakan sijainnin katuosoitteen kanssa, jos meillä on se. Seva ilmoittaa, kun lähestyt majakan sijaintia, jolloin äänimajakka hiljenee.";
 
 
 /*  */
@@ -3271,7 +3271,7 @@
 
 
 /*  */
-"help.configuration.section.title" = "Soundscapen konfigurointi";
+"help.configuration.section.title" = "Sevan konfigurointi";
 
 
 /*  */
@@ -3283,7 +3283,7 @@
 
 
 /*  */
-"help.offline.section_title" = "Soundscapen käyttö offline-tilassa";
+"help.offline.section_title" = "Sevan käyttö offline-tilassa";
 
 
 /*  */
@@ -3291,15 +3291,15 @@
 
 
 /*  */
-"help.config.voices.content" = "Soundscape voi käyttää mitä tahansa iOS-asetukset-sovelluksesta lataamiasi puheen ääniä paitsi Siri-puheen ääniä, jotka eivät ole Soundscapen käytettävissä. Suosittelemme valitsemaan jonkin \"Parannellusta\" puheen äänistä, koska niiden äänenlaatu on paljon parempi, mutta jotta voit tehdä niin, sinun on ensin ladattava parannettu ääni. Voit ladata ääniä iOS-asetukset-sovelluksessa siirtymällä kohtaan Esteettömyys > Puhuttu sisältö > Puheen äänet ja napauttamalla puheen ääntä. Soundscape-sovelluksessa voit valita käytettävän puheen äänen napauttamalla päävalikosta \"Asetukset\" ja valitsemalla sitten \"Yleiset asetukset\" -kohdasta \"Puheen ääni\".";
+"help.config.voices.content" = "Seva voi käyttää mitä tahansa iOS-asetukset-sovelluksesta lataamiasi puheen ääniä paitsi Siri-puheen ääniä, jotka eivät ole Sevan käytettävissä. Suosittelemme valitsemaan jonkin \"Parannellusta\" puheen äänistä, koska niiden äänenlaatu on paljon parempi, mutta jotta voit tehdä niin, sinun on ensin ladattava parannettu ääni. Voit ladata ääniä iOS-asetukset-sovelluksessa siirtymällä kohtaan Esteettömyys > Puhuttu sisältö > Puheen äänet ja napauttamalla puheen ääntä. Seva-sovelluksessa voit valita käytettävän puheen äänen napauttamalla päävalikosta \"Asetukset\" ja valitsemalla sitten \"Yleiset asetukset\" -kohdasta \"Puheen ääni\".";
 
 
 /*  */
-"help.offline.page_title" = "Miksi Soundscape toimii offline-tilassa?";
+"help.offline.page_title" = "Miksi Seva toimii offline-tilassa?";
 
 
 /*  */
-"help.offline.description" = "Kun Internet-yhteyttä ei ole, tai Soundscape-palveluissa on häiriö, Soundscape siirtyy offline-tilaan. Soundscape toimii siitä huolimatta, mutta jotkin toiminnot voivat olla rajoitettuja.";
+"help.offline.description" = "Kun Internet-yhteyttä ei ole, tai Seva-palveluissa on häiriö, Seva siirtyy offline-tilaan. Seva toimii siitä huolimatta, mutta jotkin toiminnot voivat olla rajoitettuja.";
 
 
 /*  */
@@ -3315,7 +3315,7 @@
 
 
 /*  */
-"help.offline.troubleshooting_description" = "Soundscape yrittää palata normaaliin toimintaan, kun puhelimesi on yhdistetty langattomaan verkkoon tai mobiilidata on käytössä, ja olet alueella, jolla on hyvä yhteys. Jos puhelimellasi on hyvä Internet-yhteys, mutta Soundscape ei palaudu normaaliin toimintaan, Soundscape-palveluissa voi olla katkos.";
+"help.offline.troubleshooting_description" = "Seva yrittää palata normaaliin toimintaan, kun puhelimesi on yhdistetty langattomaan verkkoon tai mobiilidata on käytössä, ja olet alueella, jolla on hyvä yhteys. Jos puhelimellasi on hyvä Internet-yhteys, mutta Seva ei palaudu normaaliin toimintaan, Seva-palveluissa voi olla katkos.";
 
 
 /*  */
@@ -3359,7 +3359,7 @@
 
 
 /*  */
-"help.support" = "Soundscape Community-tuki";
+"help.support" = "Seva Community-tuki";
 
 
 /*  */
@@ -3367,7 +3367,7 @@
 
 
 /*  */
-"terms_of_use.message" = "Soundscapen käyttöön sovelletaan %@ ehtoja sekä alla esitettyjä ehtoja (yhteisesti \"Käyttöehdot\").";
+"terms_of_use.message" = "Sevan käyttöön sovelletaan %@ ehtoja sekä alla esitettyjä ehtoja (yhteisesti \"Käyttöehdot\").";
 
 
 /*  */
@@ -3375,7 +3375,7 @@
 
 
 /*  */
-"terms_of_use.service_agreement" = "Soundscape Community palvelusopimus";
+"terms_of_use.service_agreement" = "Seva Community palvelusopimus";
 
 
 /*  */
@@ -3399,7 +3399,7 @@
 
 
 /*  */
-"terms_of_use.medical_safety_disclaimer" = "Ymmärrät, että Soundscapea (1) ei ole suunniteltu, tarkoitettu tai tehty saatavaksi lääkinnällisenä laitteena ja (2) sitä ei ole suunniteltu korvaamaan eikä sen ole tarkoitus korvata terveydenhuollon ammattilaisen neuvoja, diagnoosia, hoitoa eikä arviota, eikä sen tulisi korvata terveydenhuollon ammattilaisen neuvoa, diagnoosia, hoitoa eikä arviota.\n\nTurvailmoitus\nSoundscape on suunnistusapuväline, eikä sen tulisi toimia liikkumiskyvyn, ympäristön tiedostamisen sekä hyvän arviointikyvyn korvikkeena. Suunnista ympäristössäsi varovaisesti, sillä Soundscape -ohjelmaan sisällytetyt karttatiedot on kaapattu kolmannen osapuolen ohjelmalla, jonka vuoksi esitettyjen tietojen tarkkuudessa voi olla rajoituksia.";
+"terms_of_use.medical_safety_disclaimer" = "Ymmärrät, että Sevaa (1) ei ole suunniteltu, tarkoitettu tai tehty saatavaksi lääkinnällisenä laitteena ja (2) sitä ei ole suunniteltu korvaamaan eikä sen ole tarkoitus korvata terveydenhuollon ammattilaisen neuvoja, diagnoosia, hoitoa eikä arviota, eikä sen tulisi korvata terveydenhuollon ammattilaisen neuvoa, diagnoosia, hoitoa eikä arviota.\n\nTurvailmoitus\nSeva on suunnistusapuväline, eikä sen tulisi toimia liikkumiskyvyn, ympäristön tiedostamisen sekä hyvän arviointikyvyn korvikkeena. Suunnista ympäristössäsi varovaisesti, sillä Seva -ohjelmaan sisällytetyt karttatiedot on kaapattu kolmannen osapuolen ohjelmalla, jonka vuoksi esitettyjen tietojen tarkkuudessa voi olla rajoituksia.";
 
 
 /*  */
@@ -3419,7 +3419,7 @@
 
 
 /*  */
-"first_launch.welcome_audio_text" = "Tervetuloa! Soundscape auttaa sinua pysymään ajan tasalla siitä, missä olet, ja mihin olet menossa käyttämällä ainutlaatuisia ääniopasteita ja ilmoittamalla tiet, risteykset ja paikat, kun lähestyt niitä. Paina Seuraava-painiketta aloittaaksesi.";
+"first_launch.welcome_audio_text" = "Tervetuloa! Seva auttaa sinua pysymään ajan tasalla siitä, missä olet, ja mihin olet menossa käyttämällä ainutlaatuisia ääniopasteita ja ilmoittamalla tiet, risteykset ja paikat, kun lähestyt niitä. Paina Seuraava-painiketta aloittaaksesi.";
 
 
 /*  */
@@ -3427,15 +3427,15 @@
 
 
 /*  */
-"first_launch.soundscape_language" = "Soundscapen kieli";
+"first_launch.seva_language" = "Sevan kieli";
 
 
 /*  */
-"first_launch.soundscape_language.text" = "Valitse kieli, jota haluat Soundscapen käyttävän. Voit aina muuttaa valintaasi sovelluksen asetuksista.";
+"first_launch.seva_language.text" = "Valitse kieli, jota haluat Sevan käyttävän. Voit aina muuttaa valintaasi sovelluksen asetuksista.";
 
 
 /*  */
-"first_launch.location.text" = "Soundscape on sijaintiin perustuva sovellus. Käytämme sijaintiasi löytääksemme asioita ympäristöstäsi ja ilmoittaaksemme niistä.";
+"first_launch.location.text" = "Seva on sijaintiin perustuva sovellus. Käytämme sijaintiasi löytääksemme asioita ympäristöstäsi ja ilmoittaaksemme niistä.";
 
 
 /*  */
@@ -3447,7 +3447,7 @@
 
 
 /*  */
-"first_launch.device_motion.text" = "Tämä sallii Soundscapen parantaa kokemustasi sen perusteella, käveletkö, oletko ajoneuvossa, vai seisotko paikallasi.";
+"first_launch.device_motion.text" = "Tämä sallii Sevan parantaa kokemustasi sen perusteella, käveletkö, oletko ajoneuvossa, vai seisotko paikallasi.";
 
 
 /*  */
@@ -3455,7 +3455,7 @@
 
 
 /*  */
-"first_launch.lighting_way_with_sound.text_alt" = "Soundscape käyttää 3D-ääntä ilmoittaakseen, mitä ympärilläsi on. Jos esimerkiksi määränpääsi on oikealla puolellasi, kuulet äänen, joka tulee siitä suunnasta, tai jos kahvila on vasemmalla puolellasi, kuulet ilmoituksen siitä suunnasta.";
+"first_launch.lighting_way_with_sound.text_alt" = "Seva käyttää 3D-ääntä ilmoittaakseen, mitä ympärilläsi on. Jos esimerkiksi määränpääsi on oikealla puolellasi, kuulet äänen, joka tulee siitä suunnasta, tai jos kahvila on vasemmalla puolellasi, kuulet ilmoituksen siitä suunnasta.";
 
 
 /*  */
@@ -3463,7 +3463,7 @@
 
 
 /*  */
-"first_launch.heading_somewhere.text" = "Sijoita äänimajakka määränpäähäsi ja Soundscape kertoo sinulle sen sijainnin ja tietoja ympäristöstäsi matkalla sinne. Käytä Soundscapea yhdessä suunnistustaitojesi ja mahdollisesti jopa navigointisovelluksen kanssa löytääksesi tien määränpäähäsi.";
+"first_launch.heading_somewhere.text" = "Sijoita äänimajakka määränpäähäsi ja Seva kertoo sinulle sen sijainnin ja tietoja ympäristöstäsi matkalla sinne. Käytä Sevaa yhdessä suunnistustaitojesi ja mahdollisesti jopa navigointisovelluksen kanssa löytääksesi tien määränpäähäsi.";
 
 
 /*  */
@@ -3471,7 +3471,7 @@
 
 
 /*  */
-"first_launch.setting_off_way.text" = "Laita puhelin pois ja kävele. Soundscape auttaa sinua pysymään tietoisena sijainnistasi ilmoittamalla tiet, risteykset ja maamerkinnät, kun lähestyt niitä. Ilmoitukset ovat muokattavissa asetuksissa.";
+"first_launch.setting_off_way.text" = "Laita puhelin pois ja kävele. Seva auttaa sinua pysymään tietoisena sijainnistasi ilmoittamalla tiet, risteykset ja maamerkinnät, kun lähestyt niitä. Ilmoitukset ovat muokattavissa asetuksissa.";
 
 
 /*  */
@@ -3487,11 +3487,11 @@
 
 
 /*  */
-"first_launch.welcome.title.accessibility_label" = "Tervetuloa Soundscapeen!";
+"first_launch.welcome.title.accessibility_label" = "Tervetuloa Sevaen!";
 
 
 /*  */
-"first_launch.welcome.description" = "Turvallinen suunnistaminen Soundscapen tilaäänen avulla";
+"first_launch.welcome.description" = "Turvallinen suunnistaminen Sevan tilaäänen avulla";
 
 
 /*  */
@@ -3499,15 +3499,15 @@
 
 
 /*  */
-"first_launch.headphones.title" = "Soundscapen kuunteleminen";
+"first_launch.headphones.title" = "Sevan kuunteleminen";
 
 
 /*  */
-"first_launch.headphones.message.1" = "Soundscape toimii hyvin kaikkien kuulokkeiden kanssa. Jos haluat käyttää kuulokkeita, ota ne nyt käyttöön.";
+"first_launch.headphones.message.1" = "Seva toimii hyvin kaikkien kuulokkeiden kanssa. Jos haluat käyttää kuulokkeita, ota ne nyt käyttöön.";
 
 
 /*  */
-"first_launch.headphones.message.2" = "Kuulokkeiden käyttö ei ole pakollista. Soundscape toimii myös puhelimesi kaiuttimien kautta.";
+"first_launch.headphones.message.2" = "Kuulokkeiden käyttö ei ole pakollista. Seva toimii myös puhelimesi kaiuttimien kautta.";
 
 
 /*  */
@@ -3515,11 +3515,11 @@
 
 
 /*  */
-"first_launch.callouts.message" = "Soundscape auttaa sinua pysymään tietoisena siitä, missä olet ja mihin olet menossa. Se mainitsee tiet, risteykset ja kiinnostavat kohteet kun lähestyt niitä.";
+"first_launch.callouts.message" = "Seva auttaa sinua pysymään tietoisena siitä, missä olet ja mihin olet menossa. Se mainitsee tiet, risteykset ja kiinnostavat kohteet kun lähestyt niitä.";
 
 
 /*  */
-"first_launch.callouts.listen" = "Kuuntele esimerkkiä siitä, mitä Soundscape voi ilmoittaa sinulle seuraavan kävelysi aikana";
+"first_launch.callouts.listen" = "Kuuntele esimerkkiä siitä, mitä Seva voi ilmoittaa sinulle seuraavan kävelysi aikana";
 
 
 /*  */
@@ -3527,7 +3527,7 @@
 
 
 /*  */
-"first_launch.callouts.listen.accessibility_hint" = "Napauta kaksi kertaa kuullaksesi esimerkin siitä, mitä Soundscape voi ilmoittaa sinulle seuraavan kävelysi aikana";
+"first_launch.callouts.listen.accessibility_hint" = "Napauta kaksi kertaa kuullaksesi esimerkin siitä, mitä Seva voi ilmoittaa sinulle seuraavan kävelysi aikana";
 
 
 /*  */
@@ -3543,11 +3543,11 @@
 
 
 /*  */
-"first_launch.permissions.title" = "Soundscapen avulla suunnistaminen";
+"first_launch.permissions.title" = "Sevan avulla suunnistaminen";
 
 
 /*  */
-"first_launch.permissions.message" = "Kun suunnistat Soundscapen avulla, sinua opastaa äänimajakka. Sinun on annettava seuraavat luvat Soundscapelle voidaksesi tätä varten:";
+"first_launch.permissions.message" = "Kun suunnistat Sevan avulla, sinua opastaa äänimajakka. Sinun on annettava seuraavat luvat Sevalle voidaksesi tätä varten:";
 
 
 /*  */
@@ -3567,7 +3567,7 @@
 
 
 /*  */
-"first_launch.beacon.message.1" = "Kun suunnistat Soundscapen avulla, kuulet äänimajakan siitä suunnasta, jossa määränpääsi on. Seuraamalla sen ääntä tiedät, mihin päin kulkea.";
+"first_launch.beacon.message.1" = "Kun suunnistat Sevan avulla, kuulet äänimajakan siitä suunnasta, jossa määränpääsi on. Seuraamalla sen ääntä tiedät, mihin päin kulkea.";
 
 
 /*  */
@@ -3619,7 +3619,7 @@
 
 
 /*  */
-"first_launch.prompt.message" = "Olet valmis ensimmäiselle kävelylle Soundscapen kanssa. Voit kokeilla sitä nyt valitsemalla lähiympäristön määränpään, käynnistämällä äänimajakan, niin kuulet sen määränpääsi suunnassa.";
+"first_launch.prompt.message" = "Olet valmis ensimmäiselle kävelylle Sevan kanssa. Voit kokeilla sitä nyt valitsemalla lähiympäristön määränpään, käynnistämällä äänimajakan, niin kuulet sen määränpääsi suunnassa.";
 
 
 /*  */
@@ -3631,7 +3631,7 @@
 
 
 /*  */
-"help.text.destination_beacons.what" = "Majakan asettaminen lähiympäristön sijaintiin mahdollistaa sen, että Soundscape voi pitää sinut ajan tasalla toistamalla äänimajakan ääntä, joka tulee kyseisen kohteen suunnasta. Tämä majakka voidaan mykistää tai sen mykistäminen poistaa kotinäytöllä. Lisäksi Soundscape näyttää tietoja sijainnista kotinäytöllä, mukaan lukien etäisyyden siihen ja sen katuosoitteen, jos se on tiedossa.";
+"help.text.destination_beacons.what" = "Majakan asettaminen lähiympäristön sijaintiin mahdollistaa sen, että Seva voi pitää sinut ajan tasalla toistamalla äänimajakan ääntä, joka tulee kyseisen kohteen suunnasta. Tämä majakka voidaan mykistää tai sen mykistäminen poistaa kotinäytöllä. Lisäksi Seva näyttää tietoja sijainnista kotinäytöllä, mukaan lukien etäisyyden siihen ja sen katuosoitteen, jos se on tiedossa.";
 
 
 /*  */
@@ -3651,7 +3651,7 @@
 
 
 /*  */
-"help.text.automatic_callouts.what" = "Soundscape voi ilmoittaa lähiympäristösi kohteita, kun lähestyt niitä ilmoittamalla niiden nimen siitä suunnasta, jossa ne sijaitsevat. Sovellus tekee tämän automaattisesti kaikenlaisille kohteille, kuten linja-autoille, linja-autopysäkeille ja jopa risteyksille. Voit määrittää, mitä sovellus ilmoittaa automaattisesti \"Hallitse ilmoituksia\" -osassa \"Asetukset\"-näytöllä, ja voit ottaa kaikki ilmoitukset pois käytöstä, kun haluat sovelluksen olevan hiljaa.";
+"help.text.automatic_callouts.what" = "Seva voi ilmoittaa lähiympäristösi kohteita, kun lähestyt niitä ilmoittamalla niiden nimen siitä suunnasta, jossa ne sijaitsevat. Sovellus tekee tämän automaattisesti kaikenlaisille kohteille, kuten linja-autoille, linja-autopysäkeille ja jopa risteyksille. Voit määrittää, mitä sovellus ilmoittaa automaattisesti \"Hallitse ilmoituksia\" -osassa \"Asetukset\"-näytöllä, ja voit ottaa kaikki ilmoitukset pois käytöstä, kun haluat sovelluksen olevan hiljaa.";
 
 
 /*  */
@@ -3667,11 +3667,11 @@
 
 
 /*  */
-"help.text.automatic_callouts.how.1" = "<b>Huomiotekstien ottaminen käyttöön tai poistaminen käytöstä</b>:<br/> Huomiotekstien poistaminen käytöstä mykistää sovelluksen. Huomiotekstit voidaan ottaa käyttöön tai poistaa käytöstä \"Asetukset\"-näytön \"Hallitse huomiotekstejä\" -osiossa, jossa voit ottaa ne käyttöön tai poistaa ne käytöstä napauttamalla \"Salli huomiotekstit\" -kytkintä. Voit myös ottaa huomiotekstit käyttöön tai poistaa ne käytöstä käyttämällä \"Skip forward\" -komentoa (kaksoisnapauta ja pidä painettuna), jos kuulokkeissasi on mediaohjauspainikkeet. Vaihtoehtoisesti voit käyttää kotinäytön oikeassa yläkulmassa olevaa Lepopainiketta estääksesi Soundscapea tekemästä huomiotekstejä, kunnes herätät sen.";
+"help.text.automatic_callouts.how.1" = "<b>Huomiotekstien ottaminen käyttöön tai poistaminen käytöstä</b>:<br/> Huomiotekstien poistaminen käytöstä mykistää sovelluksen. Huomiotekstit voidaan ottaa käyttöön tai poistaa käytöstä \"Asetukset\"-näytön \"Hallitse huomiotekstejä\" -osiossa, jossa voit ottaa ne käyttöön tai poistaa ne käytöstä napauttamalla \"Salli huomiotekstit\" -kytkintä. Voit myös ottaa huomiotekstit käyttöön tai poistaa ne käytöstä käyttämällä \"Skip forward\" -komentoa (kaksoisnapauta ja pidä painettuna), jos kuulokkeissasi on mediaohjauspainikkeet. Vaihtoehtoisesti voit käyttää kotinäytön oikeassa yläkulmassa olevaa Lepopainiketta estääksesi Sevaa tekemästä huomiotekstejä, kunnes herätät sen.";
 
 
 /*  */
-"help.text.automatic_callouts.how.2" = "<b>Kuulamiesi huomiotekstien hallinta</b>:<br/> Voit valita, minkä tyyppisiä asioita Soundscape soittaa automaattisesti, siirtymällä päävalikon Asetukset-näyttöön. \"Asetukset-näyttö\":n \"Hallitse huomiotekstejä\" -osio sisältää luettelon asioista, joita sovellus voi kutsua esiin. Jokaisessa kohteessa on vaihtopainike, jonka voit ottaa käyttöön tai poistaa käytöstä. Jos haluat poistaa kaikki huomiotekstit käytöstä, napauta \"Salli huomiotekstit\" -kytkintä luettelon yläosassa.";
+"help.text.automatic_callouts.how.2" = "<b>Kuulamiesi huomiotekstien hallinta</b>:<br/> Voit valita, minkä tyyppisiä asioita Seva soittaa automaattisesti, siirtymällä päävalikon Asetukset-näyttöön. \"Asetukset-näyttö\":n \"Hallitse huomiotekstejä\" -osio sisältää luettelon asioista, joita sovellus voi kutsua esiin. Jokaisessa kohteessa on vaihtopainike, jonka voit ottaa käyttöön tai poistaa käytöstä. Jos haluat poistaa kaikki huomiotekstit käytöstä, napauta \"Salli huomiotekstit\" -kytkintä luettelon yläosassa.";
 
 
 /*  */
@@ -3723,19 +3723,19 @@
 
 
 /*  */
-"help.text.remote_control.what" = "Voit käyttää joitakin Soundscapen toimintoja kuulokkeidesi mediaohjauspainikkeiden avulla. Tämä toimii millä tahansa langallisilla tai Bluetooth-kuulokkeilla, joissa on mediaohjauspainikkeet, kuten Toista, Pysäytä, Seuraava, Edellinen ja niin edelleen. <br>Ota myös huomioon, että tämä toimii ainoastaan kuulokkeilla, jotka tukevat Applen mediasäätimiä (kuten toisto ja pysäytys).";
+"help.text.remote_control.what" = "Voit käyttää joitakin Sevan toimintoja kuulokkeidesi mediaohjauspainikkeiden avulla. Tämä toimii millä tahansa langallisilla tai Bluetooth-kuulokkeilla, joissa on mediaohjauspainikkeet, kuten Toista, Pysäytä, Seuraava, Edellinen ja niin edelleen. <br>Ota myös huomioon, että tämä toimii ainoastaan kuulokkeilla, jotka tukevat Applen mediasäätimiä (kuten toisto ja pysäytys).";
 
 
 /*  */
-"help.text.remote_control.when" = "Kuulokkeiden mediasäätimiä voidaan käyttää, kun Soundscape on päällä. Tämä toimii sekä silloin, kun olet Soundscapessa, että silloin, kun se on taustalla, vaikka laitteesi olisi lukittu. Huomaa kuitenkin, että kuulokkeiden mediasäätimet eivät toimi Soundscapen kanssa, jos toistat ääntä, kuten musiikkia, podcasteja tai videoita toisella sovelluksella.";
+"help.text.remote_control.when" = "Kuulokkeiden mediasäätimiä voidaan käyttää, kun Seva on päällä. Tämä toimii sekä silloin, kun olet Sevassa, että silloin, kun se on taustalla, vaikka laitteesi olisi lukittu. Huomaa kuitenkin, että kuulokkeiden mediasäätimet eivät toimi Sevan kanssa, jos toistat ääntä, kuten musiikkia, podcasteja tai videoita toisella sovelluksella.";
 
 
 /*  */
-"help.text.remote_control.how" = "<p>Voit käyttää seuraavia Soundscapen toimintoja kuulokkeidesi mediaohjauspainikkeilla:<p><br>&#x23EF Toista/Pysäytä: Hiljennä nykyiset ilmoitukset ja jos äänimajakka on määritetty, vaihda majakan ääniasetus päälle ja pois päältä. </p><p>&#x23ED Seuraava: Ilmoitus <em>\"Oma sijaintini\"</em>.</p><p>&#x23EE Edellinen: Toista viimeinen ilmoitus.</p><p>&#x23E9 Hyppää eteenpäin: Vaihda ilmoituksia päälle ja pois.</p><p>&#x23EA Hyppää taaksepäin: Ilmoitus <em>\"Lähiympäristö\"</em>.</p>";
+"help.text.remote_control.how" = "<p>Voit käyttää seuraavia Sevan toimintoja kuulokkeidesi mediaohjauspainikkeilla:<p><br>&#x23EF Toista/Pysäytä: Hiljennä nykyiset ilmoitukset ja jos äänimajakka on määritetty, vaihda majakan ääniasetus päälle ja pois päältä. </p><p>&#x23ED Seuraava: Ilmoitus <em>\"Oma sijaintini\"</em>.</p><p>&#x23EE Edellinen: Toista viimeinen ilmoitus.</p><p>&#x23E9 Hyppää eteenpäin: Vaihda ilmoituksia päälle ja pois.</p><p>&#x23EA Hyppää taaksepäin: Ilmoitus <em>\"Lähiympäristö\"</em>.</p>";
 
 
 /*  */
-"help.text.markers.content.1" = "Soundscapen avulla voit merkitä maailmasi ja mitä tahansa sinulle tärkeää.";
+"help.text.markers.content.1" = "Sevan avulla voit merkitä maailmasi ja mitä tahansa sinulle tärkeää.";
 
 
 /*  */
@@ -3743,11 +3743,11 @@
 
 
 /*  */
-"help.text.markers.content.3" = "Jos haluat kokea merkityt paikat, Soundscape kutsuu automaattisesti merkityt paikat, kun kävelet ohi tai lähestyt niitä, tai voit myös käyttää Soundscapen kotinäytön alareunassa olevaa Lähiympäristön merkitsimet -painiketta kuullaksesi tilakuvauksen merkityistä paikoista ympärilläsi. Lisäksi sinulla on mahdollisuus asettaa äänimajakan mihin tahansa merkittyyn paikkaan. Kun teet tämän, sinulle tuttu Soundscape-äänimajakka kuuluu ja voit käyttää sitä tavalliseen tapaan.";
+"help.text.markers.content.3" = "Jos haluat kokea merkityt paikat, Seva kutsuu automaattisesti merkityt paikat, kun kävelet ohi tai lähestyt niitä, tai voit myös käyttää Sevan kotinäytön alareunassa olevaa Lähiympäristön merkitsimet -painiketta kuullaksesi tilakuvauksen merkityistä paikoista ympärilläsi. Lisäksi sinulla on mahdollisuus asettaa äänimajakan mihin tahansa merkittyyn paikkaan. Kun teet tämän, sinulle tuttu Seva-äänimajakka kuuluu ja voit käyttää sitä tavalliseen tapaan.";
 
 
 /*  */
-"help.text.creating_markers.content.1" = "Voit luoda merkitsimiä kolmella tavalla: etsimällä paikkaa, jonka haluat tallentaa hakupalkin avulla, löytää paikan käyttämällä \"Lähiympäristön paikat\" -painiketta tai käyttämällä \"Nykyinen sijainti\" -painiketta, jotka kaikki löytyvät Soundscapen kotinäytöstä. Kun olet löytänyt haluamasi paikan, sen valitseminen vie sinut \"Sijainnin yksityiskohdat\" -sivulle. Valitse tällä sivulla painike \"Tallenna merkitsimenä\".";
+"help.text.creating_markers.content.1" = "Voit luoda merkitsimiä kolmella tavalla: etsimällä paikkaa, jonka haluat tallentaa hakupalkin avulla, löytää paikan käyttämällä \"Lähiympäristön paikat\" -painiketta tai käyttämällä \"Nykyinen sijainti\" -painiketta, jotka kaikki löytyvät Sevan kotinäytöstä. Kun olet löytänyt haluamasi paikan, sen valitseminen vie sinut \"Sijainnin yksityiskohdat\" -sivulle. Valitse tällä sivulla painike \"Tallenna merkitsimenä\".";
 
 
 /*  */
@@ -3783,19 +3783,19 @@
 
 
 /*  */
-"help.using_headsets.airpods.what" = "Soundscape tukee tilaääntä dynaamisella pään seurannalla, kun käytössä on yhteensopivat AirPods-kuulokkeet. Kun ne on yhdistetty Soundscapeen, AirPods-kuulokkeiden tunnistimet kertovat Soundscapelle, mihin suuntaan pääsi on kääntyneenä. Tämä auttaa Soundscapea parantamaan äänikokemustasi tekemällä siitä luonnollisemman, kun liikut paikasta toiseen maailmassa. Kun käytät Soundscapea yhdistettynä AirPods-kuulokkeisiin, sinun ei tarvitse pidellä puhelintasi, jotta Soundscape toimisi oikein.";
+"help.using_headsets.airpods.what" = "Seva tukee tilaääntä dynaamisella pään seurannalla, kun käytössä on yhteensopivat AirPods-kuulokkeet. Kun ne on yhdistetty Sevaen, AirPods-kuulokkeiden tunnistimet kertovat Sevalle, mihin suuntaan pääsi on kääntyneenä. Tämä auttaa Sevaa parantamaan äänikokemustasi tekemällä siitä luonnollisemman, kun liikut paikasta toiseen maailmassa. Kun käytät Sevaa yhdistettynä AirPods-kuulokkeisiin, sinun ei tarvitse pidellä puhelintasi, jotta Seva toimisi oikein.";
 
 
 /*  */
-"help.using_headsets.airpods.when" = "Voit käyttää AirPods-kuulokkeita Soundscapen kanssa aina, kun tavallisesti käyttäisit Soundscapea. AirPods-kuulokkeiden käyttö tarjoaa korkealaatuisen äänen ja sallii kädet vapauttavamman Soundscape-käyttökokemuksen.";
+"help.using_headsets.airpods.when" = "Voit käyttää AirPods-kuulokkeita Sevan kanssa aina, kun tavallisesti käyttäisit Sevaa. AirPods-kuulokkeiden käyttö tarjoaa korkealaatuisen äänen ja sallii kädet vapauttavamman Seva-käyttökokemuksen.";
 
 
 /*  */
-"help.using_headsets.airpods.how.1" = "<b>Laitteen yhdistäminen</b>:<br/> Siirry kohtaan \"Päätä seuraavat kuulokkeet\" Soundscape-valikossa yhdistääksesi AirPods-kuulokkeesi ja seuraa näytön ohjeita. Huomaa, että sinun on yhdistettävä AirPods-kuulokkeesi puhelimeesi Bluetooth-asetuksissa ennen niiden yhdistämistä Soundscapeen.";
+"help.using_headsets.airpods.how.1" = "<b>Laitteen yhdistäminen</b>:<br/> Siirry kohtaan \"Päätä seuraavat kuulokkeet\" Seva-valikossa yhdistääksesi AirPods-kuulokkeesi ja seuraa näytön ohjeita. Huomaa, että sinun on yhdistettävä AirPods-kuulokkeesi puhelimeesi Bluetooth-asetuksissa ennen niiden yhdistämistä Sevaen.";
 
 
 /*  */
-"help.using_headsets.airpods.how.2" = "<b>Kuulokkeidesi mediasäädinten käyttö</b>:<br/> Kun mediasäätimet on otettu käyttöön Soundscape-asetuksissa, voit käyttää AirPods-kuulokkeidesi mediasäätimiä majakan ja sijaintisi ilmoituksen hiljentämiseen tai hiljentämisen poistoon tai viimeisimmän ilmoituksen toistamiseen. LIsätietoja on ohjeen osassa \"Mediaohjaimien käyttö\".";
+"help.using_headsets.airpods.how.2" = "<b>Kuulokkeidesi mediasäädinten käyttö</b>:<br/> Kun mediasäätimet on otettu käyttöön Seva-asetuksissa, voit käyttää AirPods-kuulokkeidesi mediasäätimiä majakan ja sijaintisi ilmoituksen hiljentämiseen tai hiljentämisen poistoon tai viimeisimmän ilmoituksen toistamiseen. LIsätietoja on ohjeen osassa \"Mediaohjaimien käyttö\".";
 
 
 /*  */
@@ -4059,19 +4059,19 @@
 
 
 /*  */
-"banner.offline_default.message" = "Soundscape toimii offline-tilassa. Lisätietoja";
+"banner.offline_default.message" = "Seva toimii offline-tilassa. Lisätietoja";
 
 
 /*  */
-"banner.offline_help.message" = "Soundscape toimii offline-tilassa.";
+"banner.offline_help.message" = "Seva toimii offline-tilassa.";
 
 
 /*  */
-"banner.offline_search.message" = "Soundscape toimii offline-tilassa. Sijainnit on rajoitettu paikkoihin, joiden ohi olet jo aiemmin kävellyt tai jotka on jo merkitty. Lisätietoja";
+"banner.offline_search.message" = "Seva toimii offline-tilassa. Sijainnit on rajoitettu paikkoihin, joiden ohi olet jo aiemmin kävellyt tai jotka on jo merkitty. Lisätietoja";
 
 
 /*  */
-"banner.online.message" = "Soundscape on jälleen online-tilassa";
+"banner.online.message" = "Seva on jälleen online-tilassa";
 
 
 /*  */
@@ -4079,19 +4079,19 @@
 
 
 /*  */
-"share.prompt.title" = "Pidätkö Soundscapesta?";
+"share.prompt.title" = "Pidätkö Sevasta?";
 
 
 /*  */
-"share.prompt.message" = "Kerro ystävillesi ja perheellesi Soundscapesta";
+"share.prompt.message" = "Kerro ystävillesi ja perheellesi Sevasta";
 
 
 /*  */
-"share.action.message" = "Kokeile Soundscapea, sovellusta, jota käytän navigoidakseni 3D-äänen avulla:";
+"share.action.message" = "Kokeile Sevaa, sovellusta, jota käytän navigoidakseni 3D-äänen avulla:";
 
 
 /*  */
-"push.local.home.title" = "Soundscapen kokeilu kotona";
+"push.local.home.title" = "Sevan kokeilu kotona";
 
 
 /*  */
@@ -4099,7 +4099,7 @@
 
 
 /*  */
-"push.local.walk.title" = "Kokeile Soundscapea seuraavalla kävelylläsi";
+"push.local.walk.title" = "Kokeile Sevaa seuraavalla kävelylläsi";
 
 
 /*  */
@@ -4123,15 +4123,15 @@
 
 
 /*  */
-"faq.section.what_is_soundscape" = "Mikä on Soundscape ja kuinka minun tulisi käyttää sitä?";
+"faq.section.what_is_Seva" = "Mikä on Seva ja kuinka minun tulisi käyttää sitä?";
 
 
 /*  */
-"faq.when_to_use_soundscape.question" = "Milloin minun kannattaa käyttää Soundscapea?";
+"faq.when_to_use_Seva.question" = "Milloin minun kannattaa käyttää Sevaa?";
 
 
 /*  */
-"faq.when_to_use_soundscape.answer" = "Soundscapella on ominaisuuksia ja hyötyjä monissa erilaisissa skenaarioissa ja aikajaksoilla. Kokemasi Soundscapen hyödyllisyys voi myös kehittyä ajan myötä, joten saatat käyttää sitä tänään eri tavalla kuin kolmen kuukauden päästä. Sovelluksista ajatellaan usein: \"Minkä ongelman tämä sovellus ratkaisee hyvin?\" Soundscapea voidaan käyttää tapauskohtaisesti erityisten tietotarpeiden täyttämiseen, kuten päämäärän seurantaan matkalla sinne, suunnistamisen helpottamiseen metroasemalta poistuttaessa, sijainnin ymmärtämiseen autosta poistuttaessa tai seuraavan risteyksen kadunnimien tai etäisyyden selvittämiseen. Soundscapen filosofia on kuitenkin \"valaisee maailmasi äänellä\", ja se on suunniteltu käytettäväksi joka kerta, kun olet ulkona tarjoamaan tietoisuutta ympäristöstä, kuten pysymään ajan tasalla kaduista, joilla liikut, kulkusuunnastasi ja niiden yritysten nimistä, joiden ohi kävelet. Käyttäjämme ovat kutsuneet Soundscapea tässä käyttötilassa \"kivaksi seuralaissovellukseksi\", joka tukee \"intuitiivista näkemystä\" \"mielikuvakartan aukkojen täyttämisestä\" ja tarjoaa parempaa \"itseluottamusta kävellessä\". Tässä on lisää esimerkintöjä siitä, kuinka käyttäjämme sisällyttävät Soundscapen elämäänsä:\n\n\"Soundscape auttoi minut takaisin oikealle reitille, kun poistuin linja-autosta ja lähdin väärään suuntaan.\"\n\n\Jopa kaupungissa, jossa olen asunut kolme vuotta, olen rakentanut paremman kuvan siitä, mitä ympärilläni on [Soundscapen avulla].\"\n\n\"3D-ääni parantaa kävelykokemustani, koska tunnen olevani paremmassa yhteydessä ympäristööni…kokeilen todennäköisemmin uutta reittiä, kun sovellus on käytössäni.\"\n\n\"Kaipaan intuitiivista kokemusta ympäriinsä kävelystä ja asioiden huomaamisesta. Soundscapen käyttö on mukavaa, sillä ympäristöni asioista kuuleminen on vaivatonta. Tiedot suhteista ovat hyödyllisiä ja se on mahtava sovellus ympäristötietoisuuden kehittämiseksi ja kauppakäytävien tutkimiseen.\"\n\n\"[Käytin Soundscapea] löytääkseni pubin keskellä Yorkia. [Käytin] useita sovelluksen toimintoja selvittääkseni ensin sen sijainnin ja sitten löytääkseni sen. Sovellus toi minut kolmen metrin päähän ovesta, upeaa!\"";
+"faq.when_to_use_Seva.answer" = "Sevalla on ominaisuuksia ja hyötyjä monissa erilaisissa skenaarioissa ja aikajaksoilla. Kokemasi Sevan hyödyllisyys voi myös kehittyä ajan myötä, joten saatat käyttää sitä tänään eri tavalla kuin kolmen kuukauden päästä. Sovelluksista ajatellaan usein: \"Minkä ongelman tämä sovellus ratkaisee hyvin?\" Sevaa voidaan käyttää tapauskohtaisesti erityisten tietotarpeiden täyttämiseen, kuten päämäärän seurantaan matkalla sinne, suunnistamisen helpottamiseen metroasemalta poistuttaessa, sijainnin ymmärtämiseen autosta poistuttaessa tai seuraavan risteyksen kadunnimien tai etäisyyden selvittämiseen. Sevan filosofia on kuitenkin \"valaisee maailmasi äänellä\", ja se on suunniteltu käytettäväksi joka kerta, kun olet ulkona tarjoamaan tietoisuutta ympäristöstä, kuten pysymään ajan tasalla kaduista, joilla liikut, kulkusuunnastasi ja niiden yritysten nimistä, joiden ohi kävelet. Käyttäjämme ovat kutsuneet Sevaa tässä käyttötilassa \"kivaksi seuralaissovellukseksi\", joka tukee \"intuitiivista näkemystä\" \"mielikuvakartan aukkojen täyttämisestä\" ja tarjoaa parempaa \"itseluottamusta kävellessä\". Tässä on lisää esimerkintöjä siitä, kuinka käyttäjämme sisällyttävät Sevan elämäänsä:\n\n\"Seva auttoi minut takaisin oikealle reitille, kun poistuin linja-autosta ja lähdin väärään suuntaan.\"\n\n\Jopa kaupungissa, jossa olen asunut kolme vuotta, olen rakentanut paremman kuvan siitä, mitä ympärilläni on [Sevan avulla].\"\n\n\"3D-ääni parantaa kävelykokemustani, koska tunnen olevani paremmassa yhteydessä ympäristööni…kokeilen todennäköisemmin uutta reittiä, kun sovellus on käytössäni.\"\n\n\"Kaipaan intuitiivista kokemusta ympäriinsä kävelystä ja asioiden huomaamisesta. Sevan käyttö on mukavaa, sillä ympäristöni asioista kuuleminen on vaivatonta. Tiedot suhteista ovat hyödyllisiä ja se on mahtava sovellus ympäristötietoisuuden kehittämiseksi ja kauppakäytävien tutkimiseen.\"\n\n\"[Käytin Sevaa] löytääkseni pubin keskellä Yorkia. [Käytin] useita sovelluksen toimintoja selvittääkseni ensin sen sijainnin ja sitten löytääkseni sen. Sovellus toi minut kolmen metrin päähän ovesta, upeaa!\"";
 
 
 /*  */
@@ -4139,11 +4139,11 @@
 
 
 /*  */
-"faq.markers_function.answer" = "Merkitsimet ovat paikkoja, jotka olet tallentanut. Ne voivat olla paikkoja, jotka ovat löydettävissä sovelluksesta, tai ne voivat olla täysin uusia paikkoja, jotka olet lisännyt itse. Voit tallentaa nykyisen sijaintisi merkitsimeksi valitsemalla kotinäytöllä \"Nykyinen sijainti\" -painikkeen ja valitsemalla sitten \"Tallenna merkitsimeksi\". Voit tallentaa muita sijainteja merkitsimiksi etsimällä paikkaa, jonka haluat tallentaa hakupalkin avulla tai etsimällä paikan \"Lähiympäristön paikat\" -painikkeella, jotka molemmat löytyvät Soundscapen kotinäytöstä. Kun olet löytänyt haluamasi paikan, sen valitseminen vie sinut \"Sijainnin yksityiskohdat\" -sivulle. Valitse tällä sivulla painike \"Tallenna merkitsimenä\".";
+"faq.markers_function.answer" = "Merkitsimet ovat paikkoja, jotka olet tallentanut. Ne voivat olla paikkoja, jotka ovat löydettävissä sovelluksesta, tai ne voivat olla täysin uusia paikkoja, jotka olet lisännyt itse. Voit tallentaa nykyisen sijaintisi merkitsimeksi valitsemalla kotinäytöllä \"Nykyinen sijainti\" -painikkeen ja valitsemalla sitten \"Tallenna merkitsimeksi\". Voit tallentaa muita sijainteja merkitsimiksi etsimällä paikkaa, jonka haluat tallentaa hakupalkin avulla tai etsimällä paikan \"Lähiympäristön paikat\" -painikkeella, jotka molemmat löytyvät Sevan kotinäytöstä. Kun olet löytänyt haluamasi paikan, sen valitseminen vie sinut \"Sijainnin yksityiskohdat\" -sivulle. Valitse tällä sivulla painike \"Tallenna merkitsimenä\".";
 
 
 /*  */
-"faq.section.getting_the_best_experience" = "Kuinka saan Soundscapen parhaat ominaisuudet käyttööni?";
+"faq.section.getting_the_best_experience" = "Kuinka saan Sevan parhaat ominaisuudet käyttööni?";
 
 
 /*  */
@@ -4159,7 +4159,7 @@
 
 
 /*  */
-"faq.how_to_use_beacon.answer" = "Voit ajatella äänimajakkaa \"majakkana korville\", joka ilmoittaa sinulle, missä määränpääsi on suhteessa sijaintiisi linnuntietä. Kuten majakka, se ei kerro sinulle, kuinka määränpää saavutetaan, vaan sinun on ehkä tehtävä monia suunnistusvalintoja matkalla, kuten purjelaivan on tehtävä useita strategisia \"kurssin muutoksia\" majakan lähestymiseksi. Jatkuva äänimajakan rytmikäs ääni kuuluu tilaäänenä määränpään suunnasta ja se auttaa sinua pysymään tietoisena määränpään sijainnista suhteessa sinuun, kun kävelet. Kun kävelet suoraan määränpäätä kohti, tai kun osoitat sitä puhelimella, korkeampitaajuuksinen \"soittokellon\" ääni kuuluu. Tämä ominaisuus sallii sinun tunnistaa määränpään suunnan, koska rytmikkään äänen lähde on joskus vaikea havaita meluisissa ympäristöissä. Kun etsit korkeampitaajuista\"soittokelloa\", pitele puhelinta vaakatasossa ja kuljeta puhelinta edestakaisin hitaasti. Pään kääntäminen samaan suuntaan puhelimen kanssa varmistaa, että saat parhaan mahdollisen tilaäänikokemuksen. \n\nMajakkakielikuvalla on sen suunnittelussa joitakin luonnollisia seurauksia:\n\n1. Majakkaa käytettäessä ei ole \"oikeaa\" kulkusuuntaan. Sen sijaan Soundscapea käytettäessä sinä valitset, kuinka pääset sinne.\n2. Korkeampitaajuuksinen \"soittokello\" auttaa sinua ainoastaan tunnistamaan määränpään suunnan, eikä se osoita, kuinka sinun tulisi siirtyä sinne.\n3. Jos tiedät suurin piirtein, kuinka päästä määränpäähäsi, saatat haluta vaimentaa majakan suurimmaksi osaksi matkaasi ja ottaa sen käyttöön vasta sitten, kun lähestyt määränpäätäsi.";
+"faq.how_to_use_beacon.answer" = "Voit ajatella äänimajakkaa \"majakkana korville\", joka ilmoittaa sinulle, missä määränpääsi on suhteessa sijaintiisi linnuntietä. Kuten majakka, se ei kerro sinulle, kuinka määränpää saavutetaan, vaan sinun on ehkä tehtävä monia suunnistusvalintoja matkalla, kuten purjelaivan on tehtävä useita strategisia \"kurssin muutoksia\" majakan lähestymiseksi. Jatkuva äänimajakan rytmikäs ääni kuuluu tilaäänenä määränpään suunnasta ja se auttaa sinua pysymään tietoisena määränpään sijainnista suhteessa sinuun, kun kävelet. Kun kävelet suoraan määränpäätä kohti, tai kun osoitat sitä puhelimella, korkeampitaajuuksinen \"soittokellon\" ääni kuuluu. Tämä ominaisuus sallii sinun tunnistaa määränpään suunnan, koska rytmikkään äänen lähde on joskus vaikea havaita meluisissa ympäristöissä. Kun etsit korkeampitaajuista\"soittokelloa\", pitele puhelinta vaakatasossa ja kuljeta puhelinta edestakaisin hitaasti. Pään kääntäminen samaan suuntaan puhelimen kanssa varmistaa, että saat parhaan mahdollisen tilaäänikokemuksen. \n\nMajakkakielikuvalla on sen suunnittelussa joitakin luonnollisia seurauksia:\n\n1. Majakkaa käytettäessä ei ole \"oikeaa\" kulkusuuntaan. Sen sijaan Sevaa käytettäessä sinä valitset, kuinka pääset sinne.\n2. Korkeampitaajuuksinen \"soittokello\" auttaa sinua ainoastaan tunnistamaan määränpään suunnan, eikä se osoita, kuinka sinun tulisi siirtyä sinne.\n3. Jos tiedät suurin piirtein, kuinka päästä määränpäähäsi, saatat haluta vaimentaa majakan suurimmaksi osaksi matkaasi ja ottaa sen käyttöön vasta sitten, kun lähestyt määränpäätäsi.";
 
 
 /*  */
@@ -4167,7 +4167,7 @@
 
 
 /*  */
-"faq.why_does_beacon_disappear.answer" = "Soundscapen äänimajakka on pohjimmiltaan suuntavihje, joka kertoo, missä suunnassa määränpääsi on suhteessa suuntaan, johon olet kääntyneenä. Kun Soundscape ei ole varma siitä, mihin suuntaan olet kääntyneenä, se vaimentaa majakan ääntä. Useimmiten tämä tapahtuu, kun olet kävellyt puhelin taskussa tai laukussa ja lakkaat liikkumasta esimerkiksi kadun ylitystä varten. Majakan ääni voimistuu, kun alat jälleen liikkumaan tai pitelet puhelinta vaakatasossa ja osoitat sillä suuntaan, johon olet kääntyneenä.";
+"faq.why_does_beacon_disappear.answer" = "Sevan äänimajakka on pohjimmiltaan suuntavihje, joka kertoo, missä suunnassa määränpääsi on suhteessa suuntaan, johon olet kääntyneenä. Kun Seva ei ole varma siitä, mihin suuntaan olet kääntyneenä, se vaimentaa majakan ääntä. Useimmiten tämä tapahtuu, kun olet kävellyt puhelin taskussa tai laukussa ja lakkaat liikkumasta esimerkiksi kadun ylitystä varten. Majakan ääni voimistuu, kun alat jälleen liikkumaan tai pitelet puhelinta vaakatasossa ja osoitat sillä suuntaan, johon olet kääntyneenä.";
 
 
 /*  */
@@ -4183,15 +4183,15 @@
 
 
 /*  */
-"faq.beacon_on_home.answer" = "Soundscape tukee majakoiden asettamista osoitteisiin. Aseta majakka kotiisi tai mihin tahansa muuhun osoitteeseen päänäytöstä napauttamalla hakupalkkia ja kirjoittamalla sitten osoite. Napauta \"Sijainnin yksityiskohdat\" -näytöllä \"Käynnistä äänimajakka\" -painiketta.";
+"faq.beacon_on_home.answer" = "Seva tukee majakoiden asettamista osoitteisiin. Aseta majakka kotiisi tai mihin tahansa muuhun osoitteeseen päänäytöstä napauttamalla hakupalkkia ja kirjoittamalla sitten osoite. Napauta \"Sijainnin yksityiskohdat\" -näytöllä \"Käynnistä äänimajakka\" -painiketta.";
 
 
 /*  */
-"faq.how_close_to_destination.question" = "Kun määritän majakan määränpäähän, kuinka lähelle määränpäätä Soundscape vie minut? ";
+"faq.how_close_to_destination.question" = "Kun määritän majakan määränpäähän, kuinka lähelle määränpäätä Seva vie minut? ";
 
 
 /*  */
-"faq.how_close_to_destination.answer" = "Soundscape voi määrittää määränpääsi sijainnin useiden metrien tarkkuudella, mutta ei vähemmän. Kun Soundscape määrittää, että olet lähellä määränpäätäsi, kuulet viimeisen huomautuksen, että määränpääsi on lähellä, ja majakka sammuu. Voit säätää, milloin majakka vaimenee siirtymällä kohtaan \"Äänimajakka\" \"Asetukset\"-näytöstä ja siirtämällä sitten \"Äänen mykistyksen etäisyys\" -liukusäädintä ylös tai alas.";
+"faq.how_close_to_destination.answer" = "Seva voi määrittää määränpääsi sijainnin useiden metrien tarkkuudella, mutta ei vähemmän. Kun Seva määrittää, että olet lähellä määränpäätäsi, kuulet viimeisen huomautuksen, että määränpääsi on lähellä, ja majakka sammuu. Voit säätää, milloin majakka vaimenee siirtymällä kohtaan \"Äänimajakka\" \"Asetukset\"-näytöstä ja siirtämällä sitten \"Äänen mykistyksen etäisyys\" -liukusäädintä ylös tai alas.";
 
 
 /*  */
@@ -4199,23 +4199,23 @@
 
 
 /*  */
-"faq.turn_beacon_back_on.answer" = "Kyllä, voit laittaa majakan uudelleen päälle, kun Soundscape on laittanut sen pois päältä valitsemalla \"poista majakan hiljennys -painikkeen\". Koska sijaintipalvelut ovat kuitenkin tarkkoja vain noin 10 metrin etäisyydellä, emme voi taata majakan toimintaa, kun olet muutaman metrin päässä määränpäästäsi.";
+"faq.turn_beacon_back_on.answer" = "Kyllä, voit laittaa majakan uudelleen päälle, kun Seva on laittanut sen pois päältä valitsemalla \"poista majakan hiljennys -painikkeen\". Koska sijaintipalvelut ovat kuitenkin tarkkoja vain noin 10 metrin etäisyydellä, emme voi taata majakan toimintaa, kun olet muutaman metrin päässä määränpäästäsi.";
 
 
 /*  */
-"faq.road_names.question" = "Miksi Soundscape ilmoittaa teiden nimet kahdesti, kun lähestyn risteystä?";
+"faq.road_names.question" = "Miksi Seva ilmoittaa teiden nimet kahdesti, kun lähestyn risteystä?";
 
 
 /*  */
-"faq.road_names.answer" = "Soundscape kuvailee risteyksiä tiesegmentteinä, jotka lähtevät yhteisestä pisteestä mahdollistaakseen useita erilaisia risteysten muotoja. Soundscape käyttää tilaääntä osoittamaan vasemmalle lähtevän tien nimen, sen tien nimen, joka jatkuu suoraan eteenpäin ja sen tien nimen, joka lähtee oikealle, tässä järjestyksessä. Jos risteyksen kuvaus alkaa tiellä, jolla olet, eikä vasemmanpuoleisella tiellä, kyseessä on T-risteys, jossa tie, jolla olet, kulkee eteenpäin ja toinen tie risteää oikealta. Samoin jos kuvaus sisältää vain vasemmalle ja oikealle lähtevät tiet, tiedät, että tie, jolla olet, päättyy edessä olevassa T-risteyksessä. Tämä risteysten kuvailumenetelmä tukee myös tilannetta, jossa tien nimi muuttuu risteyksessä.";
+"faq.road_names.answer" = "Seva kuvailee risteyksiä tiesegmentteinä, jotka lähtevät yhteisestä pisteestä mahdollistaakseen useita erilaisia risteysten muotoja. Seva käyttää tilaääntä osoittamaan vasemmalle lähtevän tien nimen, sen tien nimen, joka jatkuu suoraan eteenpäin ja sen tien nimen, joka lähtee oikealle, tässä järjestyksessä. Jos risteyksen kuvaus alkaa tiellä, jolla olet, eikä vasemmanpuoleisella tiellä, kyseessä on T-risteys, jossa tie, jolla olet, kulkee eteenpäin ja toinen tie risteää oikealta. Samoin jos kuvaus sisältää vain vasemmalle ja oikealle lähtevät tiet, tiedät, että tie, jolla olet, päättyy edessä olevassa T-risteyksessä. Tämä risteysten kuvailumenetelmä tukee myös tilannetta, jossa tien nimi muuttuu risteyksessä.";
 
 
 /*  */
-"faq.why_not_every_business.question" = "Miksi Soundscape ei ilmoita kaikista yrityksistä, jotka ohitan?";
+"faq.why_not_every_business.question" = "Miksi Seva ei ilmoita kaikista yrityksistä, jotka ohitan?";
 
 
 /*  */
-"faq.why_not_every_business.answer" = "Soundscape on suunniteltu olemaan liian puhelias. Lisäksi se käyttää Open Street Mapia taustatietolähteenä. Avoin katukartta (Open Street Map (OSM)) (ttps://www.openstreetmap.org/) on yhteisön kehittämä ja muokattu maailmankartta, joka luottaa siihen, että henkilöt syöttävät ja kuratoivat tietoja. Jos Soundscape ei julkista yritystä tai kiinnostavaa kohdetta, todennäköisin syy on se, että OSM-yhteisön jäsen ei ole vielä lisännyt tai joissain tapauksissa päivittänyt yritystä.";
+"faq.why_not_every_business.answer" = "Seva on suunniteltu olemaan liian puhelias. Lisäksi se käyttää Open Street Mapia taustatietolähteenä. Avoin katukartta (Open Street Map (OSM)) (ttps://www.openstreetmap.org/) on yhteisön kehittämä ja muokattu maailmankartta, joka luottaa siihen, että henkilöt syöttävät ja kuratoivat tietoja. Jos Seva ei julkista yritystä tai kiinnostavaa kohdetta, todennäköisin syy on se, että OSM-yhteisön jäsen ei ole vielä lisännyt tai joissain tapauksissa päivittänyt yritystä.";
 
 
 /*  */
@@ -4231,51 +4231,51 @@
 
 
 /*  */
-"faq.miss_a_callout.answer" = "Soundscapessa on luettelo viimeisimmistä huomioteksteistäsi, jotta voit tarkastella uudelleen huomiotekstejä, jotka olet ehkä unohtanut. Löytääksesi tämän, napauta Soundscapen kotinäytön hakupalkkia. Tämän sivun alareunassa on \"Viimeaikaiset huomiotekstit\" -osio, jossa huomaamatta jääneet huomiotekstit näkyvät. Vaihtoehtoisesti voit toistaa viimeisen huomiotekstin ravistamalla puhelintasi. Ota \"Toista huomiotekstit\" käyttöön, \"Asetukset\"-näytön \"Hallitse huomiotekstejä\" -osiosta.";
+"faq.miss_a_callout.answer" = "Sevassa on luettelo viimeisimmistä huomioteksteistäsi, jotta voit tarkastella uudelleen huomiotekstejä, jotka olet ehkä unohtanut. Löytääksesi tämän, napauta Sevan kotinäytön hakupalkkia. Tämän sivun alareunassa on \"Viimeaikaiset huomiotekstit\" -osio, jossa huomaamatta jääneet huomiotekstit näkyvät. Vaihtoehtoisesti voit toistaa viimeisen huomiotekstin ravistamalla puhelintasi. Ota \"Toista huomiotekstit\" käyttöön, \"Asetukset\"-näytön \"Hallitse huomiotekstejä\" -osiosta.";
 
 
 /*  */
-"faq.section.how_soundscape_works" = "Kuinka Soundscape toimii?";
+"faq.section.how_seva_works" = "Kuinka Seva toimii?";
 
 
 /*  */
-"faq.supported_phones.question" = "Missä puhelimessa Soundscape toimii?";
+"faq.supported_phones.question" = "Missä puhelimessa Seva toimii?";
 
 
 /*  */
-"faq.supported_phones.answer" = "Soundscape on saatavilla Apple iOS -käyttöjärjestelmälle laitteilla iPhone SE, iPhone 6S ja uudemmat.";
+"faq.supported_phones.answer" = "Seva on saatavilla Apple iOS -käyttöjärjestelmälle laitteilla iPhone SE, iPhone 6S ja uudemmat.";
 
 
 /*  */
-"faq.supported_headsets.question" = "Mitä kuulokkeita Soundscapen kanssa tulisi käyttää?";
+"faq.supported_headsets.question" = "Mitä kuulokkeita Sevan kanssa tulisi käyttää?";
 
 
 /*  */
-"faq.supported_headsets.answer" = "Se, mitä kuulokkeita käytät Soundscapen kanssa, riippuu henkilökohtaisista mieltymyksistä, ja kullakin vaihtoehdolla on etuja ja kääntöpuolia. Ainoa erityinen suositus on käyttää stereokuulokkeita, jotta voit hyödyntää Soundscapen 3D- tilaääni-ilmoituksia.";
+"faq.supported_headsets.answer" = "Se, mitä kuulokkeita käytät Sevan kanssa, riippuu henkilökohtaisista mieltymyksistä, ja kullakin vaihtoehdolla on etuja ja kääntöpuolia. Ainoa erityinen suositus on käyttää stereokuulokkeita, jotta voit hyödyntää Sevan 3D- tilaääni-ilmoituksia.";
 
 
 /*  */
-"faq.battery_impact.question" = "Kuinka Soundscape vaikuttaa iPhonen akkuun?";
+"faq.battery_impact.question" = "Kuinka Seva vaikuttaa iPhonen akkuun?";
 
 
 /*  */
-"faq.battery_impact.answer" = "Akun kesto vaihtelee merkittävästi riippuen siitä, mikä iPhone sinulla on ja kuinka vanha se on. Näytön päällä pitäminen kuluttaa akkua eniten, joten puhelimesi akun keston maksimoimiseksi näyttö olisi pidettävä lukittuna aina kun mahdollista. Soundscapessa on nyt lepotila ja odotustila iPhonesi akun säästämiseksi. Voit vähentää akun kulutusta entisestään pakottamalla Soundscapen sulkeutumaan iPhonen Sovelluksen vaihtajasta, kun et käytä sitä. ";
+"faq.battery_impact.answer" = "Akun kesto vaihtelee merkittävästi riippuen siitä, mikä iPhone sinulla on ja kuinka vanha se on. Näytön päällä pitäminen kuluttaa akkua eniten, joten puhelimesi akun keston maksimoimiseksi näyttö olisi pidettävä lukittuna aina kun mahdollista. Sevassa on nyt lepotila ja odotustila iPhonesi akun säästämiseksi. Voit vähentää akun kulutusta entisestään pakottamalla Sevan sulkeutumaan iPhonen Sovelluksen vaihtajasta, kun et käytä sitä. ";
 
 
 /*  */
-"faq.sleep_mode_battery.question" = "Kuinka käytän lepotilaa, jotta Soundscape vaikuttaisi mahdollisimman vähän akun kestoon?";
+"faq.sleep_mode_battery.question" = "Kuinka käytän lepotilaa, jotta Seva vaikuttaisi mahdollisimman vähän akun kestoon?";
 
 
 /*  */
-"faq.sleep_mode_battery.answer" = "Voit asettaa Soundscapen lepotilaan valitsemalla \"Siirry lepotilaan\"-painikkeen näytön oikeasta yläkulmasta. Kun valitset tämän, Soundscape lakkaa käyttämästä sijaintipalveluita ja mobiilidataa, kunnes päätät taas herättää sen.";
+"faq.sleep_mode_battery.answer" = "Voit asettaa Sevan lepotilaan valitsemalla \"Siirry lepotilaan\"-painikkeen näytön oikeasta yläkulmasta. Kun valitset tämän, Seva lakkaa käyttämästä sijaintipalveluita ja mobiilidataa, kunnes päätät taas herättää sen.";
 
 
 /*  */
-"faq.snooze_mode_battery.question" = "Kuinka käytän odotustilaa, jotta Soundscape vaikuttaisi mahdollisimman vähän akun kestoon?";
+"faq.snooze_mode_battery.question" = "Kuinka käytän odotustilaa, jotta Seva vaikuttaisi mahdollisimman vähän akun kestoon?";
 
 
 /*  */
-"faq.snooze_mode_battery.answer" = "Voit asettaa Soundscapen odotustilaan valitsemalla \"Siirry lepotilaan\"-painikkeen näytön oikeasta yläkulmasta. Kun Soundscape on lepotilassa, valitse \"Herää, kun lähden\" -painike, ja Soundscape siirtyy alhaisen virrankäytön tilaan, kunnes poistut nykyisestä sijainnistasi.";
+"faq.snooze_mode_battery.answer" = "Voit asettaa Sevan odotustilaan valitsemalla \"Siirry lepotilaan\"-painikkeen näytön oikeasta yläkulmasta. Kun Seva on lepotilassa, valitse \"Herää, kun lähden\" -painike, ja Seva siirtyy alhaisen virrankäytön tilaan, kunnes poistut nykyisestä sijainnistasi.";
 
 
 /*  */
@@ -4287,43 +4287,43 @@
 
 
 /*  */
-"faq.background_battery_impact.question" = "Kuinka Soundscapen suorittaminen taustalla vaikuttaa puhelimen akun kestoon?";
+"faq.background_battery_impact.question" = "Kuinka Sevan suorittaminen taustalla vaikuttaa puhelimen akun kestoon?";
 
 
 /*  */
-"faq.background_battery_impact.answer" = "Soundscape on sijaintiin perustuva sovellus, ja se käyttää sijaintipalveluita määrittääkseen sijaintisi. Testeissämme Soundscape ei ole käyttänyt enempää akkua kuin keskimääräinen karttasovellus, mutta jos olet huolissasi akun kulutuksesta, kun käytät puhelintasi, seuraavat vinkit auttavat vähentämään kulutusta:\n\n1. Ota näyttö pois käytöstä niin usein kuin mahdollista, kun et käytä sovellusta.\n2. Kun et käytä sovellusta, sulje se. Soundscape käyttää jatkuvasti sijaintipalveluita, kun se on päällä, joten se tietää aina sijaintisi, jopa silloin, kun et liiku. Älä unohda käynnistää sovellusta uudestaan, kun jatkat matkaasi.\n3. Pidä puhelimesi lämpimänä kylmällä säällä, sillä akkujen suorituskyky on alhaisempi kylmissä lämpötiloissa.";
+"faq.background_battery_impact.answer" = "Seva on sijaintiin perustuva sovellus, ja se käyttää sijaintipalveluita määrittääkseen sijaintisi. Testeissämme Seva ei ole käyttänyt enempää akkua kuin keskimääräinen karttasovellus, mutta jos olet huolissasi akun kulutuksesta, kun käytät puhelintasi, seuraavat vinkit auttavat vähentämään kulutusta:\n\n1. Ota näyttö pois käytöstä niin usein kuin mahdollista, kun et käytä sovellusta.\n2. Kun et käytä sovellusta, sulje se. Seva käyttää jatkuvasti sijaintipalveluita, kun se on päällä, joten se tietää aina sijaintisi, jopa silloin, kun et liiku. Älä unohda käynnistää sovellusta uudestaan, kun jatkat matkaasi.\n3. Pidä puhelimesi lämpimänä kylmällä säällä, sillä akkujen suorituskyky on alhaisempi kylmissä lämpötiloissa.";
 
 
 /*  */
-"faq.mobile_data_use.question" = "Kuinka paljon mobiilidataa Soundscape käyttää?";
+"faq.mobile_data_use.question" = "Kuinka paljon mobiilidataa Seva käyttää?";
 
 
 /*  */
-"faq.mobile_data_use.answer" = "Käytetyn mobiilidatan määrä riippuu siitä, kuinka käytät Soundscapea. Olemme suunnitelleet Soundscapen käyttämään vain vähän dataa, kun kuljet ulkona, esimerkiksi tallentamalla pisteitä, kun liikut, jotta niitä ei tarvitse ladata uudelleen joka kerta, kun palaat jonnekin, jossa olet jo vieraillut. Voit vähentää käytettävän mobiilidatan määrä varmistamalla, että yhdistät WLAN:iin aina kun mahdollista, erityisesti ladatessasi sovelluksen. Kun et käytä Soundscapea, on syytä käyttää \"Siirry lepotilaan\"-painiketta Soundscapen asettamiseksi lepotilaan tai pakottaa sovellus sulkeutumaan.";
+"faq.mobile_data_use.answer" = "Käytetyn mobiilidatan määrä riippuu siitä, kuinka käytät Sevaa. Olemme suunnitelleet Sevan käyttämään vain vähän dataa, kun kuljet ulkona, esimerkiksi tallentamalla pisteitä, kun liikut, jotta niitä ei tarvitse ladata uudelleen joka kerta, kun palaat jonnekin, jossa olet jo vieraillut. Voit vähentää käytettävän mobiilidatan määrä varmistamalla, että yhdistät WLAN:iin aina kun mahdollista, erityisesti ladatessasi sovelluksen. Kun et käytä Sevaa, on syytä käyttää \"Siirry lepotilaan\"-painiketta Sevan asettamiseksi lepotilaan tai pakottaa sovellus sulkeutumaan.";
 
 
 /*  */
-"faq.difference_from_map_apps.question" = "Kuinka Soundscape eroaa muista karttasovelluksista?";
+"faq.difference_from_map_apps.question" = "Kuinka Seva eroaa muista karttasovelluksista?";
 
 
 /*  */
-"faq.difference_from_map_apps.answer" = "Soundscape tarjoaa ympäristön kuvauksen auttaakseen sen tutkimista ja reitin löytämistä. Soundscape käyttää tilaääntä ilmoittaakseen kiinnostavia kohteita, puistoja, teitä ja risteyksiä siitä suunnasta, jossa ne fyysisesti sijaitsevat lähiympäristössäsi samalla, kun kävelet. Jos esimerkiksi ohitat oikealla puolellasi olevan kaupan, kuulet kaupan nimen oikealta puoleltasi. Kun lähestyt risteystä, kuulet kunkin tien nimen siitä suunnasta, johon se lähtee, ensin vasemmalta puoleltasi, sitten edestä ja seuraavaksi oikealta.\n\nToisin kuin muut kääntymisohjeita antavat karttasovellukset, Soundscape toistaa majakkaääntä määränpääsi suunnasta antaen sinulle mahdollisuuden löytää reitti sinne omaehtoisesti käyttämällä lisääntynyttä tietoisuutta ympäristöstäsi ja määränpääsi sijainnista. Soundscape on suunniteltu toimimaan taustalla, mikä mahdollistaa kääntymisohjeita antavan sovelluksen käytön samalla, kun se tarjoaa tietoisuutta ympäristöstä, kun kuljet kohti määränpäätäsi.";
+"faq.difference_from_map_apps.answer" = "Seva tarjoaa ympäristön kuvauksen auttaakseen sen tutkimista ja reitin löytämistä. Seva käyttää tilaääntä ilmoittaakseen kiinnostavia kohteita, puistoja, teitä ja risteyksiä siitä suunnasta, jossa ne fyysisesti sijaitsevat lähiympäristössäsi samalla, kun kävelet. Jos esimerkiksi ohitat oikealla puolellasi olevan kaupan, kuulet kaupan nimen oikealta puoleltasi. Kun lähestyt risteystä, kuulet kunkin tien nimen siitä suunnasta, johon se lähtee, ensin vasemmalta puoleltasi, sitten edestä ja seuraavaksi oikealta.\n\nToisin kuin muut kääntymisohjeita antavat karttasovellukset, Seva toistaa majakkaääntä määränpääsi suunnasta antaen sinulle mahdollisuuden löytää reitti sinne omaehtoisesti käyttämällä lisääntynyttä tietoisuutta ympäristöstäsi ja määränpääsi sijainnista. Seva on suunniteltu toimimaan taustalla, mikä mahdollistaa kääntymisohjeita antavan sovelluksen käytön samalla, kun se tarjoaa tietoisuutta ympäristöstä, kun kuljet kohti määränpäätäsi.";
 
 
 /*  */
-"faq.use_with_wayfinding_apps.question" = "Kuinka Soundscapea käytetään opastussovelluksen kanssa?";
+"faq.use_with_wayfinding_apps.question" = "Kuinka Sevaa käytetään opastussovelluksen kanssa?";
 
 
 /*  */
-"faq.use_with_wayfinding_apps.answer" = "Soundscape on suunniteltu parantamaan tietoisuutta ympäristöstäsi ja antamaan lisätietoja sen yksityiskohdista, joita et ehkä muuten huomaisi. Sitä ei ole suunniteltu kääntymisohjeita antavaksi navigointisovellukseksi, mutta sitä voidaan käyttää sellaisten rinnalla antamaan täydentäviä tietoja. Jos haluat käyttää Soundscapea näiden sovellusten rinnalla, käynnistä ensin navigointisovellus. Siirry sitten Soundscapeen ja määritä äänimajakka samaan määränpäähän kuin navigointisovelluksessa. Tässä vaiheessa molemmat sovellukset ovat käynnissä ja kuulet kävelyohjeita navigointisovelluksestasi samalla, kun saat päivityksiä mielenkiintoisista kohteista, risteyksistä ja etäisyydestäsi määränpäähän Soundscapesta.";
+"faq.use_with_wayfinding_apps.answer" = "Seva on suunniteltu parantamaan tietoisuutta ympäristöstäsi ja antamaan lisätietoja sen yksityiskohdista, joita et ehkä muuten huomaisi. Sitä ei ole suunniteltu kääntymisohjeita antavaksi navigointisovellukseksi, mutta sitä voidaan käyttää sellaisten rinnalla antamaan täydentäviä tietoja. Jos haluat käyttää Sevaa näiden sovellusten rinnalla, käynnistä ensin navigointisovellus. Siirry sitten Sevaen ja määritä äänimajakka samaan määränpäähän kuin navigointisovelluksessa. Tässä vaiheessa molemmat sovellukset ovat käynnissä ja kuulet kävelyohjeita navigointisovelluksestasi samalla, kun saat päivityksiä mielenkiintoisista kohteista, risteyksistä ja etäisyydestäsi määränpäähän Sevasta.";
 
 
 /*  */
-"faq.controlling_what_you_hear.question" = "Kuinka hallitsen sitä, mitä kuulen, ja milloin kuulen sen Soundscapessa?";
+"faq.controlling_what_you_hear.question" = "Kuinka hallitsen sitä, mitä kuulen, ja milloin kuulen sen Sevassa?";
 
 
 /*  */
-"faq.controlling_what_you_hear.answer" = "Soundscape tarjoaa useita tapoja hallita, mitä kuulet ja milloin:\n\n1. Lopeta kaikki ääni välittömästi: Kaksoisnapauta näyttöä kahdella sormella sammuttaaksesi välittömästi kaikki äänet, mukaan lukien kaikki parhaillaan toistettavat huomiotekstit ja majakka, jos se on päällä. Huomiotekstit jatkuvat automaattisesti, kun lähestyt seuraavaa risteystä tai kiinnostavaa kohdetta, mutta merkkivalo ei pala. Jatka majakan kuulemista valitsemalla kotinäytössä \"kumoa majakan mykistys\" -painike.\n2. Lopeta automaattiset huomiotekstit: Kun et ole matkustamassa tai olet saapunut määränpäähän, et todennäköisesti tarvitse Soundscapea ilmoittamaan sinulle ympärilläsi olevista asioista. Sovelluksesta poistumisen sijaan voit laittaa Soundscapen Torkku-tilaan, jolloin se herää uudelleen, kun lähdet, tai voit laittaa Soundscapen lepotilaan, jolloin se pysyy pois päältä, kunnes herätät sen. Vaihtoehtoisesti voit valita valikosta \"Asetukset\" ja poistaa kaikki huomiotekstit käytöstä \"Hallitse huomiotekstejä\" -osiossa.\n3. Pysäytä majakka: On olemassa useita tilanteita, joissa voit asettaa määränpään, mutta et tarvitse merkkivaloa. Saatat esimerkiksi tietää tarkalleen, kuinka pääset määränpäähäsi, mutta haluat saada automaattisia päivityksiä siitä, kuinka kaukana olet määränpäästäsi. Tai saatat tietää suunnilleen kuinka päästä määränpäähäsi, ja tarvitset vain äänimajakan, kun olet lähellä määränpäätä. Joka tapauksessa voit valita, milloin majakka kuullaan vaihtamalla \"mykistä majakka\"/\"kumoa majakan mykistys\" -painiketta kotinäytöllä.";
+"faq.controlling_what_you_hear.answer" = "Seva tarjoaa useita tapoja hallita, mitä kuulet ja milloin:\n\n1. Lopeta kaikki ääni välittömästi: Kaksoisnapauta näyttöä kahdella sormella sammuttaaksesi välittömästi kaikki äänet, mukaan lukien kaikki parhaillaan toistettavat huomiotekstit ja majakka, jos se on päällä. Huomiotekstit jatkuvat automaattisesti, kun lähestyt seuraavaa risteystä tai kiinnostavaa kohdetta, mutta merkkivalo ei pala. Jatka majakan kuulemista valitsemalla kotinäytössä \"kumoa majakan mykistys\" -painike.\n2. Lopeta automaattiset huomiotekstit: Kun et ole matkustamassa tai olet saapunut määränpäähän, et todennäköisesti tarvitse Sevaa ilmoittamaan sinulle ympärilläsi olevista asioista. Sovelluksesta poistumisen sijaan voit laittaa Sevan Torkku-tilaan, jolloin se herää uudelleen, kun lähdet, tai voit laittaa Sevan lepotilaan, jolloin se pysyy pois päältä, kunnes herätät sen. Vaihtoehtoisesti voit valita valikosta \"Asetukset\" ja poistaa kaikki huomiotekstit käytöstä \"Hallitse huomiotekstejä\" -osiossa.\n3. Pysäytä majakka: On olemassa useita tilanteita, joissa voit asettaa määränpään, mutta et tarvitse merkkivaloa. Saatat esimerkiksi tietää tarkalleen, kuinka pääset määränpäähäsi, mutta haluat saada automaattisia päivityksiä siitä, kuinka kaukana olet määränpäästäsi. Tai saatat tietää suunnilleen kuinka päästä määränpäähäsi, ja tarvitset vain äänimajakan, kun olet lähellä määränpäätä. Joka tapauksessa voit valita, milloin majakka kuullaan vaihtamalla \"mykistä majakka\"/\"kumoa majakan mykistys\" -painiketta kotinäytöllä.";
 
 
 /*  */
@@ -4331,27 +4331,27 @@
 
 
 /*  */
-"faq.holding_phone_flat.answer" = "Ei! Voit laittaa puhelimen laukkuun tai taskuun tai mihin tahansa helppoon paikkaan. Soudscape käyttää kävelysuuntaasi päätelläkseen, mitä se ilmoittaa vasemmalla ja oikealla puolellasi. Kun lakkaat liikkumasta, Soundscape ei tiedä, mihin suuntaan olet kääntyneenä. Jos äänimajakka on päällä, huomaat, että se hiljenee, kunnes liikut taas. Voit ottaa koska tahansa puhelimen esiin painaaksesi sijainti- ja tutustumispainikkeita näytön alaosassa, mutta varmista, että pitelet puhelinta siten, että sen yläosa osoittaa taivaalle. Tässä \"vaakatasoisessa\" asennossa Soundscape käyttää puhelimen kompassia päätelläkseen, mihin suuntaan olet kääntyneenä ja antaa tarkkoja tilailmoituksia. Jos majakka on päällä huomaat, että sen äänenvoimakkuus myös kasvaa täydeksi.";
+"faq.holding_phone_flat.answer" = "Ei! Voit laittaa puhelimen laukkuun tai taskuun tai mihin tahansa helppoon paikkaan. Soudscape käyttää kävelysuuntaasi päätelläkseen, mitä se ilmoittaa vasemmalla ja oikealla puolellasi. Kun lakkaat liikkumasta, Seva ei tiedä, mihin suuntaan olet kääntyneenä. Jos äänimajakka on päällä, huomaat, että se hiljenee, kunnes liikut taas. Voit ottaa koska tahansa puhelimen esiin painaaksesi sijainti- ja tutustumispainikkeita näytön alaosassa, mutta varmista, että pitelet puhelinta siten, että sen yläosa osoittaa taivaalle. Tässä \"vaakatasoisessa\" asennossa Seva käyttää puhelimen kompassia päätelläkseen, mihin suuntaan olet kääntyneenä ja antaa tarkkoja tilailmoituksia. Jos majakka on päällä huomaat, että sen äänenvoimakkuus myös kasvaa täydeksi.";
 
 
 /*  */
-"faq.personalize_experience.question" = "Miten voin mukauttaa Soundscape-kokemustani?";
+"faq.personalize_experience.question" = "Miten voin mukauttaa Seva-kokemustani?";
 
 
 /*  */
-"faq.personalize_experience.answer" = "Soundscapen avulla voit mukauttaa kävellessäsi kuulemiesi huomiotekstien kolmea avainkohtaa:\n\n1. Puheen ääni: Voit valita, mitä iOS:ssä käytettävissä olevista puheen äänistä haluat Soundscapen käyttävän, sekä nopeuden, jolla huomiotekstit puhutaan. Valitse valikosta \"Asetukset\" ja sitten \"Yleiset asetukset\" -kohdasta Puheen ääni säätääksesi puhenopeus- ja puheen ääni -asetuksia. Lisää puheen ääniä ja parempia puheen ääniä voi ladata iOS-asetukset-sovelluksesta kohdasta Asetukset > Esteettömyys > Puhuttu sisältö > Puheen äänet.\n2. Etäisyysmetriikka: Soundscapen avulla voit kuulla kaikki etäisyydet joko jalkoina tai metreinä. Valitse valikosta \"Asetukset\" ja sitten \"Yleiset asetukset\" -kohdasta \"Kieli ja alue\". Mittayksiköt-osiossa voit vaihtaa kahden vaihtoehdon välillä: Imperial (jalka) ja Metric (metri).\n3. Merkitsin: Voit merkitä maailmaasi kaikella, mistä välität. Voit merkitä asioita, jotka ovat henkilökohtaisia ja sinulle tärkeitä, kuten kotisi, toimistosi ja haluamasi ruokakauppa. Sitten Soundscape kutsuu automaattisesti merkityt paikat, kun kävelet ohi tai lähestyt niitä, tai voit myös käyttää Soundscapen kotinäytön alareunassa olevaa Lähiympäristön merkitsimet -painiketta kuullaksesi tilaviitteen merkityistä paikoista ympärilläsi. Nämä merkit pysyvät sinulle henkilökohtaisina, eivätkä ne ole kenenkään muun saatavilla.\n\nYllä olevien lisäksi seuraavat Puheen aänen ohitus -asetukset voivat vaikuttaa Soundscapen toimintaan:\n\n1. Puheen aänen ohitus -vinkit: Kun Puheen aänen ohitus -vinkit on otettu käyttöön, kuulet lisätietoja kaikista ensisijaisen Soundscape-näytön painikkeista. Voit ottaa Puheen aänen ohitus -vinkit käyttöön siirtymällä iOS-asetukset-sovellukseen ja valitsemalla Esteettömyys > Puheen aänen ohitus > Monisanaisuus ja ottamalla Puhumisen vihjeet -asetuksen päälle.\n2. Äänen vaimennus: Soundscape on suunniteltu toimimaan, kun 'Äänen vaimennus' on kytketty pois päältä. Kun 'Äänen vaimennus' on käytössä, automaattisia huomiotekstejä voi olla vaikea kuulla, jos Puheen aänen ohitusta käytetään samanaikaisesti. Suosittelemme, että poistat Äänen vaimennus 'toiminnon käytöstä, jotta kuulet helpommin kaikki automaattiset huomiotekstit, joita esiintyy ollessasi vuorovaikutuksessa puhelimen kanssa. Äänen vaimennus voidaan kytkeä pois päältä Puheen äänen ohitus -asetuksista tai Puheen aänen ohitus -roottorin kautta.\n3. Lukituksen avaaminen Kosketus- tai Kasvot-tunnuksella: Puhelimen lukituksen avaaminen Kosketus- tai Kasvot-tunnuksella tekee puhelimen lukituksen avaamisesta nopeaa ja helppoa, ja puolestaan voit käyttää 'Oma sijaintini'-, 'Ympärilläni'- ja 'Edessäni'-painikkeita mahdollisimman nopeasti liikkeellä ollessasi. Ota Kosketus- tai Kasvot-tunnus-lukituksen avaus käyttöön iOS-asetukset-sovelluksessa.";
+"faq.personalize_experience.answer" = "Sevan avulla voit mukauttaa kävellessäsi kuulemiesi huomiotekstien kolmea avainkohtaa:\n\n1. Puheen ääni: Voit valita, mitä iOS:ssä käytettävissä olevista puheen äänistä haluat Sevan käyttävän, sekä nopeuden, jolla huomiotekstit puhutaan. Valitse valikosta \"Asetukset\" ja sitten \"Yleiset asetukset\" -kohdasta Puheen ääni säätääksesi puhenopeus- ja puheen ääni -asetuksia. Lisää puheen ääniä ja parempia puheen ääniä voi ladata iOS-asetukset-sovelluksesta kohdasta Asetukset > Esteettömyys > Puhuttu sisältö > Puheen äänet.\n2. Etäisyysmetriikka: Sevan avulla voit kuulla kaikki etäisyydet joko jalkoina tai metreinä. Valitse valikosta \"Asetukset\" ja sitten \"Yleiset asetukset\" -kohdasta \"Kieli ja alue\". Mittayksiköt-osiossa voit vaihtaa kahden vaihtoehdon välillä: Imperial (jalka) ja Metric (metri).\n3. Merkitsin: Voit merkitä maailmaasi kaikella, mistä välität. Voit merkitä asioita, jotka ovat henkilökohtaisia ja sinulle tärkeitä, kuten kotisi, toimistosi ja haluamasi ruokakauppa. Sitten Seva kutsuu automaattisesti merkityt paikat, kun kävelet ohi tai lähestyt niitä, tai voit myös käyttää Sevan kotinäytön alareunassa olevaa Lähiympäristön merkitsimet -painiketta kuullaksesi tilaviitteen merkityistä paikoista ympärilläsi. Nämä merkit pysyvät sinulle henkilökohtaisina, eivätkä ne ole kenenkään muun saatavilla.\n\nYllä olevien lisäksi seuraavat Puheen aänen ohitus -asetukset voivat vaikuttaa Sevan toimintaan:\n\n1. Puheen aänen ohitus -vinkit: Kun Puheen aänen ohitus -vinkit on otettu käyttöön, kuulet lisätietoja kaikista ensisijaisen Seva-näytön painikkeista. Voit ottaa Puheen aänen ohitus -vinkit käyttöön siirtymällä iOS-asetukset-sovellukseen ja valitsemalla Esteettömyys > Puheen aänen ohitus > Monisanaisuus ja ottamalla Puhumisen vihjeet -asetuksen päälle.\n2. Äänen vaimennus: Seva on suunniteltu toimimaan, kun 'Äänen vaimennus' on kytketty pois päältä. Kun 'Äänen vaimennus' on käytössä, automaattisia huomiotekstejä voi olla vaikea kuulla, jos Puheen aänen ohitusta käytetään samanaikaisesti. Suosittelemme, että poistat Äänen vaimennus 'toiminnon käytöstä, jotta kuulet helpommin kaikki automaattiset huomiotekstit, joita esiintyy ollessasi vuorovaikutuksessa puhelimen kanssa. Äänen vaimennus voidaan kytkeä pois päältä Puheen äänen ohitus -asetuksista tai Puheen aänen ohitus -roottorin kautta.\n3. Lukituksen avaaminen Kosketus- tai Kasvot-tunnuksella: Puhelimen lukituksen avaaminen Kosketus- tai Kasvot-tunnuksella tekee puhelimen lukituksen avaamisesta nopeaa ja helppoa, ja puolestaan voit käyttää 'Oma sijaintini'-, 'Ympärilläni'- ja 'Edessäni'-painikkeita mahdollisimman nopeasti liikkeellä ollessasi. Ota Kosketus- tai Kasvot-tunnus-lukituksen avaus käyttöön iOS-asetukset-sovelluksessa.";
 
 
 /*  */
-"faq.what_is_osm.question" = "Mikä on Avoin katukartta (Open Street Map (OSM)) ja miksi käytämme sitä Soundscapessa?";
+"faq.what_is_osm.question" = "Mikä on Avoin katukartta (Open Street Map (OSM)) ja miksi käytämme sitä Sevassa?";
 
 
 /*  */
-"faq.what_is_osm.answer" = "Soundscape käyttää maantieteellisiä karttatietoja antaakseen tietoja sovelluksen ilmoituksissa. Tärkein käyttämämme lähde on avoin katukartta (Open Street Map (OSM)) (www.openstreetmap.org), joka on rikas yhteisön luoma kartta-alusta, joka antaa organisaatioille ja yksilöille mahdollisuuden parantaa annettujen tietojen laatua ja tarkkuutta sekä tilojen saavutettavuutta Open Street Map -karttojen luontityökalujen avulla.";
+"faq.what_is_osm.answer" = "Seva käyttää maantieteellisiä karttatietoja antaakseen tietoja sovelluksen ilmoituksissa. Tärkein käyttämämme lähde on avoin katukartta (Open Street Map (OSM)) (www.openstreetmap.org), joka on rikas yhteisön luoma kartta-alusta, joka antaa organisaatioille ja yksilöille mahdollisuuden parantaa annettujen tietojen laatua ja tarkkuutta sekä tilojen saavutettavuutta Open Street Map -karttojen luontityökalujen avulla.";
 
 
 /*  */
-"faq.tip.beacon_quiet" = "Jos laitat puhelimen taskuusi ja lakkaat liikkumasta, majakan ääni hiljenee, koska Soundscape ei tiedä, mihin suuntaan olet kääntyneenä. Ratkaise tämä lähtemällä liikkeelle tai ottamalla puhelin taskustasi ja pitelemällä sitä vaakatasossa.";
+"faq.tip.beacon_quiet" = "Jos laitat puhelimen taskuusi ja lakkaat liikkumasta, majakan ääni hiljenee, koska Seva ei tiedä, mihin suuntaan olet kääntyneenä. Ratkaise tämä lähtemällä liikkeelle tai ottamalla puhelin taskustasi ja pitelemällä sitä vaakatasossa.";
 
 
 /*  */
@@ -4367,11 +4367,11 @@
 
 
 /*  */
-"faq.tip.turning_off_auto_callouts" = "Jos haluat silti olla vuorovaikutuksessa Soundscapen kanssa, mutta et halua kuulla automaattisia huomiotekstejä, voit poistaa ne käytöstä siirtymällä valikosta \"Asetukset\"-näytön \"Hallinnoi huomiotekstejä\" -osioon ja poistamalla sitten \"Salli huomiotekstit\" käytöstä. Tai jos et aio käyttää Soundscapea, voit laittaa sen joko lepotilaan tai torkkutilaan käyttämällä \"Lepo\"-painiketta kotinäytöllä.";
+"faq.tip.turning_off_auto_callouts" = "Jos haluat silti olla vuorovaikutuksessa Sevan kanssa, mutta et halua kuulla automaattisia huomiotekstejä, voit poistaa ne käytöstä siirtymällä valikosta \"Asetukset\"-näytön \"Hallinnoi huomiotekstejä\" -osioon ja poistamalla sitten \"Salli huomiotekstit\" käytöstä. Tai jos et aio käyttää Sevaa, voit laittaa sen joko lepotilaan tai torkkutilaan käyttämällä \"Lepo\"-painiketta kotinäytöllä.";
 
 
 /*  */
-"faq.tip.hold_phone_flat" = "Soundscape toimii parhaiten, kun pitelet puhelinta vaakatasossa siten, että sen näyttö osoittaa taivaalle ja puhelimen yläosa osoittaa sinusta poispäin.";
+"faq.tip.hold_phone_flat" = "Seva toimii parhaiten, kun pitelet puhelinta vaakatasossa siten, että sen näyttö osoittaa taivaalle ja puhelimen yläosa osoittaa sinusta poispäin.";
 
 
 /*  */

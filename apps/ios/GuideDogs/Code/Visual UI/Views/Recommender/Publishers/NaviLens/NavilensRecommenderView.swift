@@ -1,8 +1,7 @@
 //
 //  NavilensRecommenderView.swift
-//  Soundscape
+//  Seva
 //
-//  Copyright (c) Soundscape Community.
 //  Licensed under the MIT License.
 //
 

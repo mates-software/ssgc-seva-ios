@@ -3,7 +3,6 @@
 //  UnitTests
 //
 //  Created by Kai on 10/17/23.
-//  Copyright © 2023 Soundscape community. All rights reserved.
 //
 
 import XCTest

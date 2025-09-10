@@ -1,6 +1,6 @@
 //
 //  AppContext.swift
-//  Soundscape
+//  Seva
 //
 //  Copyright (c) Microsoft Corporation.
 //  Licensed under the MIT License.
@@ -39,7 +39,7 @@ class AppContext {
     
     static let shared = AppContext()
     
-    static let appDisplayName = "Soundscape"
+    static let appDisplayName = "Seva"
     static let appVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String
     static let appBuild = Bundle.main.object(forInfoDictionaryKey: kCFBundleVersionKey as String) as! String
     static let appStoreId = "6449701760"

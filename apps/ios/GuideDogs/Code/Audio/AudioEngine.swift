@@ -1,6 +1,6 @@
 //
 //  AudioEngine.swift
-//  Soundscape
+//  Seva
 //
 //  Copyright (c) Microsoft Corporation.
 //  Licensed under the MIT License.
@@ -18,7 +18,7 @@ extension Notification.Name {
 }
 
 /// This class builds and runs a graph of audio player nodes for playing all types of audio in
-/// Soundscape. This includes 3D and 2D audio. All 3D audio is localized using the HRTF algorithm
+/// . This includes 3D and 2D audio. All 3D audio is localized using the HRTF algorithm
 /// built into Apple's `AVAudioEnvironmentNode`.
 ///
 /// The node graph built by this object is completely dynamic. 2D audio players have their nodes

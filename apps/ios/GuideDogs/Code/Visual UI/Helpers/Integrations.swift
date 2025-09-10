@@ -3,11 +3,10 @@
 //  GuideDogs
 //
 //  Created by Daniel W. Steinbrook on 2/25/25.
-//  Copyright © 2025 Soundscape community. All rights reserved.
 //
 
 func launchNaviLens(detail: LocationDetail) {
-    // Silence Soundscape before launching NaviLens
+    // Silence the app before launching NaviLens
     // Find the home screen in the view stack and trigger the sleep button
     let rootVc = AppContext.rootViewController as? UINavigationController;
     let homeVc = rootVc?.viewControllers.first as? HomeViewController;

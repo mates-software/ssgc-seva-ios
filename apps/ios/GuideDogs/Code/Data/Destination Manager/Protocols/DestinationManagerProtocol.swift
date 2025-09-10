@@ -1,6 +1,6 @@
 //
 //  DestinationManagerProtocol.swift
-//  Soundscape
+//  Seva
 //
 //  Copyright (c) Microsoft Corporation.
 //  Licensed under the MIT License.

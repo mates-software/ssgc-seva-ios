@@ -1,28 +1,28 @@
 /*  */
-"NSBluetoothPeripheralUsageDescription" = "Soundscape använder Bluetooth LE för att ansluta till tillbehör.";
+"NSBluetoothPeripheralUsageDescription" = "Seva använder Bluetooth LE för att ansluta till tillbehör.";
 
 
 /*  */
-"NSBluetoothAlwaysUsageDescription" = "Soundscape använder Bluetooth LE för att ansluta till tillbehör.";
+"NSBluetoothAlwaysUsageDescription" = "Seva använder Bluetooth LE för att ansluta till tillbehör.";
 
 
 /*  */
-"NSLocationAlwaysUsageDescription" = "Soundscape använder din plats för att förse dig med relevant information om omgivningen.";
+"NSLocationAlwaysUsageDescription" = "Seva använder din plats för att förse dig med relevant information om omgivningen.";
 
 
 /*  */
-"NSLocationAlwaysAndWhenInUseUsageDescription" = "Soundscape använder din plats för att förse dig med relevant information om omgivningen.";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Seva använder din plats för att förse dig med relevant information om omgivningen.";
 
 
 /*  */
-"NSLocationWhenInUseUsageDescription" = "Soundscape använder din plats för att förse dig med relevant information om omgivningen.";
+"NSLocationWhenInUseUsageDescription" = "Seva använder din plats för att förse dig med relevant information om omgivningen.";
 
 
 /*  */
-"NSMotionUsageDescription" = "Soundscape använder rörelsedetektion för att personanpassa automatiska informationsljud.";
+"NSMotionUsageDescription" = "Seva använder rörelsedetektion för att personanpassa automatiska informationsljud.";
 
 
 /*  */
-"NSPhotoLibraryUsageDescription" = "Soundscape använder fotobiblioteket för att bifoga foton i feedback.";
+"NSPhotoLibraryUsageDescription" = "Seva använder fotobiblioteket för att bifoga foton i feedback.";
 
 

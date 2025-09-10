@@ -1,6 +1,6 @@
 //
-//  SoundscapeBehavior.swift
-//  Soundscape
+//  SevaBehavior.swift
+//  Seva
 //
 //  Copyright (c) Microsoft Corporation.
 //  Licensed under the MIT License.

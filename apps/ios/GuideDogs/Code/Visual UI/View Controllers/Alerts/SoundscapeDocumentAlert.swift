@@ -1,6 +1,6 @@
 //
-//  SoundscapeDocumentAlert.swift
-//  Soundscape
+//  SevaDocumentAlert.swift
+//  Seva
 //
 //  Copyright (c) Microsoft Corporation.
 //  Licensed under the MIT License.

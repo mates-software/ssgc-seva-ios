@@ -1,28 +1,28 @@
 /*  */
-"NSBluetoothPeripheralUsageDescription" = "Soundscape verwendet Bluetooth LE zum Herstellen einer Verbindung mit anderen Geräten.";
+"NSBluetoothPeripheralUsageDescription" = "Seva verwendet Bluetooth LE zum Herstellen einer Verbindung mit anderen Geräten.";
 
 
 /*  */
-"NSBluetoothAlwaysUsageDescription" = "Soundscape verwendet Bluetooth LE zum Herstellen einer Verbindung mit anderen Geräten.";
+"NSBluetoothAlwaysUsageDescription" = "Seva verwendet Bluetooth LE zum Herstellen einer Verbindung mit anderen Geräten.";
 
 
 /*  */
-"NSLocationAlwaysUsageDescription" = "Soundscape verwendet Ihren Standort, um Ihnen relevante Informationen zu Ihrer Umgebung bereitzustellen.";
+"NSLocationAlwaysUsageDescription" = "Seva verwendet Ihren Standort, um Ihnen relevante Informationen zu Ihrer Umgebung bereitzustellen.";
 
 
 /*  */
-"NSLocationAlwaysAndWhenInUseUsageDescription" = "Soundscape verwendet Ihren Standort, um Ihnen relevante Informationen zu Ihrer Umgebung bereitzustellen.";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Seva verwendet Ihren Standort, um Ihnen relevante Informationen zu Ihrer Umgebung bereitzustellen.";
 
 
 /*  */
-"NSLocationWhenInUseUsageDescription" = "Soundscape verwendet Ihren Standort, um Ihnen relevante Informationen zu Ihrer Umgebung bereitzustellen.";
+"NSLocationWhenInUseUsageDescription" = "Seva verwendet Ihren Standort, um Ihnen relevante Informationen zu Ihrer Umgebung bereitzustellen.";
 
 
 /*  */
-"NSMotionUsageDescription" = "Soundscape verwendet Bewegungserkennung, um automatische Hinweise zu personalisieren.";
+"NSMotionUsageDescription" = "Seva verwendet Bewegungserkennung, um automatische Hinweise zu personalisieren.";
 
 
 /*  */
-"NSPhotoLibraryUsageDescription" = "Soundscape verwendet die Fotobibliothek zum Anfügen von Fotos an Rückmeldungen.";
+"NSPhotoLibraryUsageDescription" = "Seva verwendet die Fotobibliothek zum Anfügen von Fotos an Rückmeldungen.";
 
 

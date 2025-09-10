@@ -1,6 +1,6 @@
 //
 //  SettingStepper.swift
-//  Soundscape
+//  Seva
 //
 //  Created by Daniel W. Steinbrook on 8/11/24.
 //  Copyright © 2024 Soundscape community. All rights reserved.

@@ -1,6 +1,6 @@
 //
-//  Soundscape-Bridging-Header.h
-//  Soundscape
+//  Seva-Bridging-Header.h
+//  Seva
 //
 //  Copyright (c) Microsoft Corporation.
 //  Licensed under the MIT License.

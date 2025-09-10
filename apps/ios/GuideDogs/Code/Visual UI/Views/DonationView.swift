@@ -1,6 +1,6 @@
 //
 //  DonationView.swift
-//  Soundscape
+//  Seva
 //
 //  Created by Robert Murray on 29/01/2025.
 //  Copyright © 2025 Soundscape community. Licensed under the MIT license

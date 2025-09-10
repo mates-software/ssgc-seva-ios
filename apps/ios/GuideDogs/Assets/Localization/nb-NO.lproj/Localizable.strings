@@ -155,7 +155,7 @@
 
 
 /*  */
-"general.alert.offline_default.message" = "Soundscape kjører i frakoblet modus. Soundscape fungerer fremdeles, men noen funksjoner kan være begrenset.";
+"general.alert.offline_default.message" = "Seva kjører i frakoblet modus. Seva fungerer fremdeles, men noen funksjoner kan være begrenset.";
 
 
 /*  */
@@ -163,7 +163,7 @@
 
 
 /*  */
-"general.alert.offline_search.message" = "Når Soundscape kjører i frakoblet modus, er søk deaktivert. Lukk for å gå tilbake til forrige skjerm";
+"general.alert.offline_search.message" = "Når Seva kjører i frakoblet modus, er søk deaktivert. Lukk for å gå tilbake til forrige skjerm";
 
 
 /*  */
@@ -231,11 +231,11 @@
 
 
 /*  */
-"general.error.location_services" = "Slå på stedstjenester for å bruke Soundscape";
+"general.error.location_services" = "Slå på stedstjenester for å bruke Seva";
 
 
 /*  */
-"general.error.precise_location" = "Slå på nøyaktig posisjon for å bruke Soundscape";
+"general.error.precise_location" = "Slå på nøyaktig posisjon for å bruke Seva";
 
 
 /*  */
@@ -243,7 +243,7 @@
 
 
 /*  */
-"general.error.location_services.authorize.description" = "Soundscape bruker posisjonen din til å finne og fortelle deg om stedene og tingene rundt deg. Appen trenger din tillatelse for å bruke stedstjenester.";
+"general.error.location_services.authorize.description" = "Seva bruker posisjonen din til å finne og fortelle deg om stedene og tingene rundt deg. Appen trenger din tillatelse for å bruke stedstjenester.";
 
 
 /*  */
@@ -255,7 +255,7 @@
 
 
 /*  */
-"general.error.location_services_resume" = "Åpne Soundscape for å gjenoppta stedstjenester";
+"general.error.location_services_resume" = "Åpne Seva for å gjenoppta stedstjenester";
 
 
 /*  */
@@ -263,7 +263,7 @@
 
 
 /*  */
-"general.error.location_services_enable_description" = "Stedstjenester er for øyeblikket deaktivert. Soundscape fungerer ikke når stedstjenester er slått av.";
+"general.error.location_services_enable_description" = "Stedstjenester er for øyeblikket deaktivert. Seva fungerer ikke når stedstjenester er slått av.";
 
 
 /*  */
@@ -279,7 +279,7 @@
 
 
 /*  */
-"general.error.heading" = "Soundscape er ikke sikker på hvilken retning du er vendt mot. Hold telefonen flatt eller begynn å gå igjen, og prøv på nytt";
+"general.error.heading" = "Seva er ikke sikker på hvilken retning du er vendt mot. Hold telefonen flatt eller begynn å gå igjen, og prøv på nytt";
 
 
 /*  */
@@ -299,7 +299,7 @@
 
 
 /*  */
-"general.error.network_connection_required.deleting_data" = "Det kreves en nettverkstilkobling ved sletting eller ny innlasting av Soundscapes kartdata. Sjekk at telefonen ikke er i flymodus.";
+"general.error.network_connection_required.deleting_data" = "Det kreves en nettverkstilkobling ved sletting eller ny innlasting av Sevas kartdata. Sjekk at telefonen ikke er i flymodus.";
 
 
 /*  */
@@ -331,11 +331,11 @@
 
 
 /*  */
-"device_motion.enable.description" = "Bevegelse og kondisjonssporing er for øyeblikket deaktivert. Soundscape fungerer ikke når Bevegelse og kondisjonssporing er slått av.";
+"device_motion.enable.description" = "Bevegelse og kondisjonssporing er for øyeblikket deaktivert. Seva fungerer ikke når Bevegelse og kondisjonssporing er slått av.";
 
 
 /*  */
-"device_motion.enable.instructions" = "Slå på Kondisjonssporing i Innstillinger-appen for å fortsette.\n\n1. Trykk på Åpne innstillinger\n2. Trykk på tilbakeknappen (kalt Innstillinger)\n3. Velg Personvern\n4. Velg Bevegelse og mosjon\n5. Slå på Kondisjonssporing\n6. Start Soundscape på nytt";
+"device_motion.enable.instructions" = "Slå på Kondisjonssporing i Innstillinger-appen for å fortsette.\n\n1. Trykk på Åpne innstillinger\n2. Trykk på tilbakeknappen (kalt Innstillinger)\n3. Velg Personvern\n4. Velg Bevegelse og mosjon\n5. Slå på Kondisjonssporing\n6. Start Seva på nytt";
 
 
 /*  */
@@ -343,7 +343,7 @@
 
 
 /*  */
-"device_motion.authorize.description" = "Dette gjør at Soundscape kan forbedre opplevelsen basert på om du går, sitter i en bil eller står i ro. Appen trenger din tillatelse til å bruke Bevegelse og mosjon. Før du gir Soundscape denne tillatelsen, må du kanskje aktivere Kondisjonssporing under Innstillinger → Personvern → Bevegelse og mosjon.";
+"device_motion.authorize.description" = "Dette gjør at Seva kan forbedre opplevelsen basert på om du går, sitter i en bil eller står i ro. Appen trenger din tillatelse til å bruke Bevegelse og mosjon. Før du gir Seva denne tillatelsen, må du kanskje aktivere Kondisjonssporing under Innstillinger → Personvern → Bevegelse og mosjon.";
 
 
 /*  */
@@ -359,7 +359,7 @@
 
 
 /*  */
-"settings.clear_cache.alert_message" = "Soundscape lagrer kartdata for å redusere data- og batteriforbruket. Hvis du sletter lagrede data, må Soundscape laste ned dataene på nytt.";
+"settings.clear_cache.alert_message" = "Seva lagrer kartdata for å redusere data- og batteriforbruket. Hvis du sletter lagrede data, må Seva laste ned dataene på nytt.";
 
 
 /*  */
@@ -375,7 +375,7 @@
 
 
 /*  */
-"settings.clear_cache.no_service.message" = "Soundscape kan for øyeblikket ikke koble til Internett. En Internett-tilkobling er nødvendig når du fjerner lagrede kartdata slik at kartdataene kan oppdateres på nytt.";
+"settings.clear_cache.no_service.message" = "Seva kan for øyeblikket ikke koble til Internett. En Internett-tilkobling er nødvendig når du fjerner lagrede kartdata slik at kartdataene kan oppdateres på nytt.";
 
 
 /*  */
@@ -399,7 +399,7 @@
 
 
 /*  */
-"settings.feedback.subject" = "Tilbakemelding om Soundscape";
+"settings.feedback.subject" = "Tilbakemelding om Seva";
 
 
 /*  */
@@ -427,7 +427,7 @@
 
 
 /*  */
-"settings.about_app" = "Om Soundscape";
+"settings.about_app" = "Om Seva";
 
 
 /*  */
@@ -455,7 +455,7 @@
 
 
 /*  */
-"settings.section.telemetry.footer" = "Hjelp Soundscape med å bli bedre ved å sende diagnostikk, feilrapporter og bruksdata automatisk. Det samles ikke inn personopplysninger.";
+"settings.section.telemetry.footer" = "Hjelp Seva med å bli bedre ved å sende diagnostikk, feilrapporter og bruksdata automatisk. Det samles ikke inn personopplysninger.";
 
 
 /*  */
@@ -487,11 +487,11 @@
 
 
 /*  */
-"settings.audio.mix_with_others.description" = "Bruk denne til å aktivere kontroll over Soundscape med knappene på hodetelefonene og medieavspillingsknappene på låseskjermen. Vær oppmerksom på at når det er slått på, kan ikke Soundscape brukes med andre medier som podkaster eller musikk som spilles av.";
+"settings.audio.mix_with_others.description" = "Bruk denne til å aktivere kontroll over Seva med knappene på hodetelefonene og medieavspillingsknappene på låseskjermen. Vær oppmerksom på at når det er slått på, kan ikke Seva brukes med andre medier som podkaster eller musikk som spilles av.";
 
 
 /*  */
-"setting.audio.mix_with_others.confirmation" = "Hvis du slår på denne innstillingen blir Soundscapes meldinger og annen lyd midlertidig stanset når du begynner å bruke en annen medieapp. Du kan gå tilbake til Soundscape for å gjenoppta meldinger.";
+"setting.audio.mix_with_others.confirmation" = "Hvis du slår på denne innstillingen blir Sevas meldinger og annen lyd midlertidig stanset når du begynner å bruke en annen medieapp. Du kan gå tilbake til Seva for å gjenoppta meldinger.";
 
 
 /*  */
@@ -571,7 +571,7 @@
 
 
 /*  */
-"voice.apple.no_siri" = "Vær oppmerksom på at Siri-stemmer ikke er tilgjengelige i Soundscape og er ikke oppført på listen nedenfor.";
+"voice.apple.no_siri" = "Vær oppmerksom på at Siri-stemmer ikke er tilgjengelige i Seva og er ikke oppført på listen nedenfor.";
 
 
 /*  */
@@ -587,7 +587,7 @@
 
 
 /*  */
-"beacon.settings.style.haptic.explanation" = "Disse lydsignalstilene omfatter haptisk tilbakemelding slik at du kan føle i tillegg til vanlig lydsignal. Haptisk tilbakemelding er bare tilgjengelig når telefonen er opplåst og Soundscape er åpen.";
+"beacon.settings.style.haptic.explanation" = "Disse lydsignalstilene omfatter haptisk tilbakemelding slik at du kan føle i tillegg til vanlig lydsignal. Haptisk tilbakemelding er bare tilgjengelig når telefonen er opplåst og Seva er åpen.";
 
 
 /*  */
@@ -611,11 +611,11 @@
 
 
 /*  */
-"troubleshooting.gps_status.explanation.meters" = "Denne verdien er et estimat av hvor nøyaktig Soundscape vet hvor du er. Mindre enn ±10 meter er bra. Mindre enn ±20 meter er ok. Alt annet er dårlig. Posisjonsdata er mest nøyaktige når du er utendørs og ikke under noen andre strukturer.";
+"troubleshooting.gps_status.explanation.meters" = "Denne verdien er et estimat av hvor nøyaktig Seva vet hvor du er. Mindre enn ±10 meter er bra. Mindre enn ±20 meter er ok. Alt annet er dårlig. Posisjonsdata er mest nøyaktige når du er utendørs og ikke under noen andre strukturer.";
 
 
 /*  */
-"troubleshooting.gps_status.explanation.feet" = "Denne verdien er et estimat av hvor nøyaktig Soundscape vet hvor du er. Mindre enn ±30 fot er bra. Mindre enn ±60 fot er ok. Alt annet er dårlig. Posisjonsdata er mest nøyaktige når du er utendørs og ikke under noen andre strukturer.";
+"troubleshooting.gps_status.explanation.feet" = "Denne verdien er et estimat av hvor nøyaktig Seva vet hvor du er. Mindre enn ±30 fot er bra. Mindre enn ±60 fot er ok. Alt annet er dårlig. Posisjonsdata er mest nøyaktige når du er utendørs og ikke under noen andre strukturer.";
 
 
 /*  */
@@ -631,11 +631,11 @@
 
 
 /*  */
-"troubleshooting.check_audio.hint" = "Dobbelttrykk for å sjekke statusen til hodetelefonene du bruker med Soundscape.";
+"troubleshooting.check_audio.hint" = "Dobbelttrykk for å sjekke statusen til hodetelefonene du bruker med Seva.";
 
 
 /*  */
-"troubleshooting.check_audio.explanation" = "Trykk på denne knappen for å høre statusen til hodetelefonene du bruker med Soundscape.";
+"troubleshooting.check_audio.explanation" = "Trykk på denne knappen for å høre statusen til hodetelefonene du bruker med Seva.";
 
 
 /*  */
@@ -647,7 +647,7 @@
 
 
 /*  */
-"troubleshooting.cache.explanation" = "Soundscape laster ned kartdata mens du går slik at den kan fortelle deg om tingene og stedene rundt deg. Hvis du har problemer med Soundscape, eller hvis den bruker for mye minne, kan du fjerne lagrede kartdata, så laster Soundscape bare ned kartdata i nærheten av nåværende posisjon.";
+"troubleshooting.cache.explanation" = "Seva laster ned kartdata mens du går slik at den kan fortelle deg om tingene og stedene rundt deg. Hvis du har problemer med Seva, eller hvis den bruker for mye minne, kan du fjerne lagrede kartdata, så laster Seva bare ned kartdata i nærheten av nåværende posisjon.";
 
 
 /*  */
@@ -655,7 +655,7 @@
 
 
 /*  */
-"settings.about.title.privacy" = "Soundscape Community personvernerklæring";
+"settings.about.title.privacy" = "Seva Community personvernerklæring";
 
 
 /*  */
@@ -815,7 +815,7 @@
 
 
 /*  */
-"preview.title" = "Soundscape Street Preview";
+"preview.title" = "Seva Street Preview";
 
 
 /*  */
@@ -871,7 +871,7 @@
 
 
 /*  */
-"preview.alert.restart.message" = "Vil du starte Soundscape Street Preview på nytt ved denne posisjonen?";
+"preview.alert.restart.message" = "Vil du starte Seva Street Preview på nytt ved denne posisjonen?";
 
 
 /*  */
@@ -883,7 +883,7 @@
 
 
 /*  */
-"preview.callout.end" = "Avslutter Soundscape Street Preview";
+"preview.callout.end" = "Avslutter Seva Street Preview";
 
 
 /*  */
@@ -955,7 +955,7 @@
 
 
 /*  */
-"preview.include_unnamed_roads.subtitle" = "Ta med veier uten navn i Soundscape Street Preview";
+"preview.include_unnamed_roads.subtitle" = "Ta med veier uten navn i Seva Street Preview";
 
 
 /*  */
@@ -967,11 +967,11 @@
 
 
 /*  */
-"preview.include_unnamed_roads.hint.off" = "Dobbelttrykk for å ta med veier uten navn i Soundscape Street Preview";
+"preview.include_unnamed_roads.hint.off" = "Dobbelttrykk for å ta med veier uten navn i Seva Street Preview";
 
 
 /*  */
-"preview.include_unnamed_roads.hint.on" = "Dobbelttrykk for å utelate veier uten navn i Soundscape Street Preview";
+"preview.include_unnamed_roads.hint.on" = "Dobbelttrykk for å utelate veier uten navn i Seva Street Preview";
 
 
 /*  */
@@ -979,7 +979,7 @@
 
 
 /*  */
-"preview.tutorial.title.1" = "Velkommen til Soundscape Street Preview.";
+"preview.tutorial.title.1" = "Velkommen til Seva Street Preview.";
 
 
 /*  */
@@ -999,7 +999,7 @@
 
 
 /*  */
-"preview.tutorial.content.3" = "Ved hvert veikryss kan du bruke telefonen igjen til å velge hvilken vei du vil gå, eller du kan utforske omgivelsene i nærheten ved å bruke de kjente Soundscape-knappene nederst på skjermen. Du kan trykke på Søk for å starte lydsignalet ved et interessepunkt, endre posisjonen eller bare for å utforske området nærmere.";
+"preview.tutorial.content.3" = "Ved hvert veikryss kan du bruke telefonen igjen til å velge hvilken vei du vil gå, eller du kan utforske omgivelsene i nærheten ved å bruke de kjente Seva-knappene nederst på skjermen. Du kan trykke på Søk for å starte lydsignalet ved et interessepunkt, endre posisjonen eller bare for å utforske området nærmere.";
 
 
 /*  */
@@ -1455,11 +1455,11 @@
 
 
 /*  */
-"first_use_experience.share.alert.title" = "Deling i Soundscape";
+"first_use_experience.share.alert.title" = "Deling i Seva";
 
 
 /*  */
-"first_use_experience.share.alert.message" = "Når du deler en Soundscape-markør eller -rute, deler du posisjonene som er tilknyttet markøren eller ruten. Du må bare dele med personer du stoler på.";
+"first_use_experience.share.alert.message" = "Når du deler en Seva-markør eller -rute, deler du posisjonene som er tilknyttet markøren eller ruten. Du må bare dele med personer du stoler på.";
 
 
 /*  */
@@ -1499,7 +1499,7 @@
 
 
 /*  */
-"universal_links.marker.share.message" = "Jeg har delt en Soundscape-markør med deg. %@";
+"universal_links.marker.share.message" = "Jeg har delt en Seva-markør med deg. %@";
 
 
 /*  */
@@ -1511,7 +1511,7 @@
 
 
 /*  */
-"siri_shortcuts.description" = "Når du har lagt til Siri-snarveier, kan du bruke stemmen til å starte dem selv om Soundscape ikke kjører.";
+"siri_shortcuts.description" = "Når du har lagt til Siri-snarveier, kan du bruke stemmen til å starte dem selv om Seva ikke kjører.";
 
 
 /*  */
@@ -1531,7 +1531,7 @@
 
 
 /*  */
-"user_activity.search.title" = "Søk i Soundscape";
+"user_activity.search.title" = "Søk i Seva";
 
 
 /*  */
@@ -1543,7 +1543,7 @@
 
 
 /*  */
-"url_resource.alert.route.share.message" = "Jeg har delt en Soundscape-rute med deg. %@";
+"url_resource.alert.route.share.message" = "Jeg har delt en Seva-rute med deg. %@";
 
 
 /*  */
@@ -1551,7 +1551,7 @@
 
 
 /*  */
-"url_resource.alert.route.import.message" = "Du må bare bruke ruter fra noen du stoler på. Ruter blir ikke opprettet, delt med eller gjennomgått av Soundscape Community og kan inneholde feil.";
+"url_resource.alert.route.import.message" = "Du må bare bruke ruter fra noen du stoler på. Ruter blir ikke opprettet, delt med eller gjennomgått av Seva Community og kan inneholde feil.";
 
 
 /*  */
@@ -1591,7 +1591,7 @@
 
 
 /*  */
-"routes.no_routes.hint.2" = "Når du er på ruten med Soundscape, får du beskjed når du kommer til hvert veipunkt, og lydsignalet går automatisk videre til neste veipunkt.";
+"routes.no_routes.hint.2" = "Når du er på ruten med Seva, får du beskjed når du kommer til hvert veipunkt, og lydsignalet går automatisk videre til neste veipunkt.";
 
 
 /*  */
@@ -1607,7 +1607,7 @@
 
 
 /*  */
-"routes.tutorial.details" = "Du kommer nå tilbake til Soundscape-startsiden og et lydsignal plasseres på det første veipunktet. Når du kommer til veipunktet, går lydsignalet videre til neste veipunkt på ruten.";
+"routes.tutorial.details" = "Du kommer nå tilbake til Seva-startsiden og et lydsignal plasseres på det første veipunktet. Når du kommer til veipunktet, går lydsignalet videre til neste veipunkt på ruten.";
 
 
 /*  */
@@ -1979,15 +1979,15 @@
 
 
 /*  */
-"sleep.snoozing.message" = "Soundscape er for øyeblikket i pausemodus. Når du forlater nåværende posisjon, vekkes Soundscape automatisk. Dette bruker stedstjenester i strømsparingsmodus for å spare telefonens batteri. Trykk på knappen nedenfor for å aktivere den nå.";
+"sleep.snoozing.message" = "Seva er for øyeblikket i pausemodus. Når du forlater nåværende posisjon, vekkes Seva automatisk. Dette bruker stedstjenester i strømsparingsmodus for å spare telefonens batteri. Trykk på knappen nedenfor for å aktivere den nå.";
 
 
 /*  */
-"sleep.sleeping.message" = "Soundscape er for øyeblikket i dvalemodus. Det hindrer Soundscape i å bruke stedstjenester eller å laste ned data. Dette sparer batteri når du ikke bruker Soundscape. Trykk på knappen nedenfor for å vekke Soundscape.";
+"sleep.sleeping.message" = "Seva er for øyeblikket i dvalemodus. Det hindrer Seva i å bruke stedstjenester eller å laste ned data. Dette sparer batteri når du ikke bruker Seva. Trykk på knappen nedenfor for å vekke Seva.";
 
 
 /*  */
-"sleep.sleep.acc_hint" = "Dobbelttrykk for å sette Soundscape i dvalemodus";
+"sleep.sleep.acc_hint" = "Dobbelttrykk for å sette Seva i dvalemodus";
 
 
 /*  */
@@ -2619,7 +2619,7 @@
 
 
 /*  */
-"menu.learning_resources" = "Soundscape-blogg";
+"menu.learning_resources" = "Seva-blogg";
 
 
 /*  */
@@ -2707,19 +2707,19 @@
 
 
 /*  */
-"devices.explain_ar.disconnected" = "Hodetelefoner med hodesporing er Bluetooth-hodetelefoner med sensorer som forteller Soundscape hvilken retning du er vendt mot. Dette hjelper Soundscape med å forbedre lydopplevelsen din, noe som gjør den mer naturlig når du beveger deg rundt i verden.\n\nTrykk på knappen nedenfor for å koble til en enhet.";
+"devices.explain_ar.disconnected" = "Hodetelefoner med hodesporing er Bluetooth-hodetelefoner med sensorer som forteller Seva hvilken retning du er vendt mot. Dette hjelper Seva med å forbedre lydopplevelsen din, noe som gjør den mer naturlig når du beveger deg rundt i verden.\n\nTrykk på knappen nedenfor for å koble til en enhet.";
 
 
 /*  */
-"devices.explain_ar.connected.airpods" = "AirPods er klare til bruk, og du kan legge telefonen i lomma og gå. Soundscape sporer nå retningen på hodet ditt slik at du ikke trenger å holde telefonen i hånden.";
+"devices.explain_ar.connected.airpods" = "AirPods er klare til bruk, og du kan legge telefonen i lomma og gå. Seva sporer nå retningen på hodet ditt slik at du ikke trenger å holde telefonen i hånden.";
 
 
 /*  */
-"devices.explain_ar.paired" = "Soundscape er for øyeblikket ikke koblet til %@. Pass på at hodetelefonene er slått på og i nærheten av telefonen.";
+"devices.explain_ar.paired" = "Seva er for øyeblikket ikke koblet til %@. Pass på at hodetelefonene er slått på og i nærheten av telefonen.";
 
 
 /*  */
-"devices.explain_ar.connecting" = "Soundscape kobler seg til %@. Vent litt ...";
+"devices.explain_ar.connecting" = "Seva kobler seg til %@. Vent litt ...";
 
 
 /*  */
@@ -2731,7 +2731,7 @@
 
 
 /*  */
-"devices.connect_headset.calibrate.explanation" = "Hodetelefonene er koblet til Soundscape, men de må kalibreres før bruk. Soundscape varsler deg når det er nødvendig å kalibrere hodetelefonene, for eksempel hver gang du slår dem på.";
+"devices.connect_headset.calibrate.explanation" = "Hodetelefonene er koblet til Seva, men de må kalibreres før bruk. Seva varsler deg når det er nødvendig å kalibrere hodetelefonene, for eksempel hver gang du slår dem på.";
 
 
 /*  */
@@ -2739,11 +2739,11 @@
 
 
 /*  */
-"devices.connect_headset.unsupported_firmware" = "AR Headphones må oppdateres før de kan kobles til Soundscape. Gå til Cortana-appen for å oppdatere hodetelefonene.";
+"devices.connect_headset.unsupported_firmware" = "AR Headphones må oppdateres før de kan kobles til Seva. Gå til Cortana-appen for å oppdatere hodetelefonene.";
 
 
 /*  */
-"devices.connect_headset.failed" = "Soundscape kan ikke koble seg til hodetelefonene. Prøv på nytt senere.";
+"devices.connect_headset.failed" = "Seva kan ikke koble seg til hodetelefonene. Prøv på nytt senere.";
 
 
 /*  */
@@ -2755,7 +2755,7 @@
 
 
 /*  */
-"devices.connect_headset.audio" = "Før du kobler hodetelefonene til Soundscape, må du passe på at de er parkoblet med telefonen. Hvis de ikke er parkoblet ennå, går du til Bluetooth-delen i iOS-appen Innstillinger for å parkoble dem med enheten og går deretter tilbake til Soundscape.";
+"devices.connect_headset.audio" = "Før du kobler hodetelefonene til Seva, må du passe på at de er parkoblet med telefonen. Hvis de ikke er parkoblet ennå, går du til Bluetooth-delen i iOS-appen Innstillinger for å parkoble dem med enheten og går deretter tilbake til Seva.";
 
 
 /*  */
@@ -2767,7 +2767,7 @@
 
 
 /*  */
-"devices.connect_headset.completed.airpods" = "Gratulerer! AirPods er klare til bruk, og du kan legge telefonen i lomma og gå. Soundscape sporer nå retningen på hodet ditt slik at du ikke trenger å holde telefonen i hånden. Ett klikk på hodetelefonknappen slår lydsignalet av eller på, dobbeltklikk melder om posisjonen din og trippelklikk gjentar siste melding.";
+"devices.connect_headset.completed.airpods" = "Gratulerer! AirPods er klare til bruk, og du kan legge telefonen i lomma og gå. Seva sporer nå retningen på hodet ditt slik at du ikke trenger å holde telefonen i hånden. Ett klikk på hodetelefonknappen slår lydsignalet av eller på, dobbeltklikk melder om posisjonen din og trippelklikk gjentar siste melding.";
 
 
 /*  */
@@ -2783,11 +2783,11 @@
 
 
 /*  */
-"devices.test_headset.explanation" = "Vi har plassert et lydsignal til høyre for deg. Lytt til hvor det er, og snu hodet mot det. Legg merke til at du kan gjøre dette selv om telefonen ligger i lomma. Når du er ferdig, trykker du på knappen nedenfor for å gå tilbake til Soundscape og nyte neste spasertur med de nye hodetelefonene med hodesporing.";
+"devices.test_headset.explanation" = "Vi har plassert et lydsignal til høyre for deg. Lytt til hvor det er, og snu hodet mot det. Legg merke til at du kan gjøre dette selv om telefonen ligger i lomma. Når du er ferdig, trykker du på knappen nedenfor for å gå tilbake til Seva og nyte neste spasertur med de nye hodetelefonene med hodesporing.";
 
 
 /*  */
-"devices.test_headset.continue" = "Gå tilbake til Soundscape";
+"devices.test_headset.continue" = "Gå tilbake til Seva";
 
 
 /*  */
@@ -2799,7 +2799,7 @@
 
 
 /*  */
-"devices.forget_headset.prompt.explanation" = "Dette kobler hodetelefonene fra Soundscape. Du kan koble deg til Soundscape på nytt herfra.";
+"devices.forget_headset.prompt.explanation" = "Dette kobler hodetelefonene fra Seva. Du kan koble deg til Seva på nytt herfra.";
 
 
 /*  */
@@ -2831,7 +2831,7 @@
 
 
 /*  */
-"devices.callouts.check_audio.airpods.disconnected" = "Soundscape søker etter AirPods. Pass på at de er koblet til telefonen.";
+"devices.callouts.check_audio.airpods.disconnected" = "Seva søker etter AirPods. Pass på at de er koblet til telefonen.";
 
 
 /*  */
@@ -2847,7 +2847,7 @@
 
 
 /*  */
-"devices.reachability.alert.description" = "%@ kan fortelle Soundscape hvilken retning du er vendt mot, og dette hjelper Soundscape med å forbedre lydopplevelsen din. Du kan aktivere hodesporing i innstillingene for hodetelefoner med hodesporing.";
+"devices.reachability.alert.description" = "%@ kan fortelle Seva hvilken retning du er vendt mot, og dette hjelper Seva med å forbedre lydopplevelsen din. Du kan aktivere hodesporing i innstillingene for hodetelefoner med hodesporing.";
 
 
 /*  */
@@ -2915,15 +2915,15 @@
 
 
 /*  */
-"behavior.experiences.no_events.title" = "Fritidsaktiviteter i Soundscape (beta)";
+"behavior.experiences.no_events.title" = "Fritidsaktiviteter i Seva (beta)";
 
 
 /*  */
-"behavior.experiences.no_events.caption.1" = "Veldedige organisasjoner, virksomheter og lokale myndigheter kan opprette sine egne Soundscape-baserte opplevelser. Eksempler på dette omfatter adaptive sportsprogrammer og -arrangementer, skattejaktaktiviteter, organiserte stier, organiserte byomvisninger med mer.";
+"behavior.experiences.no_events.caption.1" = "Veldedige organisasjoner, virksomheter og lokale myndigheter kan opprette sine egne Seva-baserte opplevelser. Eksempler på dette omfatter adaptive sportsprogrammer og -arrangementer, skattejaktaktiviteter, organiserte stier, organiserte byomvisninger med mer.";
 
 
 /*  */
-"behavior.experiences.no_events.caption.2" = "Hvis du vil finne ut mer eller si ifra om organisasjonens interesse i å opprette tilpassede Soundscape-opplevelser, kan du skrive til oss på email@address.com";
+"behavior.experiences.no_events.caption.2" = "Hvis du vil finne ut mer eller si ifra om organisasjonens interesse i å opprette tilpassede Seva-opplevelser, kan du skrive til oss på email@address.com";
 
 
 /*  */
@@ -2943,7 +2943,7 @@
 
 
 /*  */
-"behavior.scavenger_hunt.callout.pausing_hunt" = "Går tilbake til den vanlige Soundscape-opplevelsen.";
+"behavior.scavenger_hunt.callout.pausing_hunt" = "Går tilbake til den vanlige Seva-opplevelsen.";
 
 
 /*  */
@@ -3031,7 +3031,7 @@
 
 
 /*  */
-"icloud.kv_store.quota_violation_alert.title" = "Soundscape iCloud-lagringen er full";
+"icloud.kv_store.quota_violation_alert.title" = "Seva iCloud-lagringen er full";
 
 
 /*  */
@@ -3111,11 +3111,11 @@
 
 
 /*  */
-"tutorial.markers.text.Intro" = "Med Soundscape kan du markere alt rundt deg som du bryr deg om. Du kan for eksempel markere hjem, busstopp eller stedet du befinner deg.\nPrøv det. Trykk på knappen Legg til markør nedenfor, og velg et sted eller en adresse i nærheten som du vil markere og bruke som et eksempel.";
+"tutorial.markers.text.Intro" = "Med Seva kan du markere alt rundt deg som du bryr deg om. Du kan for eksempel markere hjem, busstopp eller stedet du befinner deg.\nPrøv det. Trykk på knappen Legg til markør nedenfor, og velg et sted eller en adresse i nærheten som du vil markere og bruke som et eksempel.";
 
 
 /*  */
-"tutorial.markers.text.EditMarker" = "Flott! Du valgte @!marker_name!! som en markør. Du hører at Soundscape leser det opp når du er i nærheten.\nPå neste skjerm kan du endre navnet på det hvis du vil.";
+"tutorial.markers.text.EditMarker" = "Flott! Du valgte @!marker_name!! som en markør. Du hører at Seva leser det opp når du er i nærheten.\nPå neste skjerm kan du endre navnet på det hvis du vil.";
 
 
 /*  */
@@ -3139,7 +3139,7 @@
 
 
 /*  */
-"tutorial.beacon.getting_started.text" = "Når du angir et lydsignal på en posisjon, spiller Soundscape av en lyd som kommer fra retningen til posisjonen. Denne veiledningen viser hvordan du angir et lydsignal og hvordan du bruker det.\n\nTrykk på knappen Start lydsignal nedenfor for å åpne en liste over steder i nærheten. Velg en posisjon fra listen så starter veiledningen.";
+"tutorial.beacon.getting_started.text" = "Når du angir et lydsignal på en posisjon, spiller Seva av en lyd som kommer fra retningen til posisjonen. Denne veiledningen viser hvordan du angir et lydsignal og hvordan du bruker det.\n\nTrykk på knappen Start lydsignal nedenfor for å åpne en liste over steder i nærheten. Velg en posisjon fra listen så starter veiledningen.";
 
 
 /*  */
@@ -3171,7 +3171,7 @@
 
 
 /*  */
-"tutorial.beacons.text.IntroPart1" = "Når du angir et lydsignalet på en posisjon, spiller Soundscape av en lyd som kommer fra retningen til posisjonen. Denne veiledningen viser deg hvordan du angir et lydsignal og hvordan du bruker det.";
+"tutorial.beacons.text.IntroPart1" = "Når du angir et lydsignalet på en posisjon, spiller Seva av en lyd som kommer fra retningen til posisjonen. Denne veiledningen viser deg hvordan du angir et lydsignal og hvordan du bruker det.";
 
 
 /*  */
@@ -3187,7 +3187,7 @@
 
 
 /*  */
-"tutorial.beacons.text.OrientationAirPods" = "AirPods er koblet til Soundscape. Når AirPods er koblet til Soundscape, spiller det ingen rolle hvordan du holder telefonen. Du kan til og med legge den i lomma eller i veska.";
+"tutorial.beacons.text.OrientationAirPods" = "AirPods er koblet til Seva. Når AirPods er koblet til Seva, spiller det ingen rolle hvordan du holder telefonen. Du kan til og med legge den i lomma eller i veska.";
 
 
 /*  */
@@ -3203,7 +3203,7 @@
 
 
 /*  */
-"tutorial.beacons.text.BeaconInitial" = "Nå som du har angitt et lydsignal på @!destination!!, starter Soundscape å spille av en lyd som kommer fra retningen til posisjonen. Her kommer lydsignalet.";
+"tutorial.beacons.text.BeaconInitial" = "Nå som du har angitt et lydsignal på @!destination!!, starter Seva å spille av en lyd som kommer fra retningen til posisjonen. Her kommer lydsignalet.";
 
 
 /*  */
@@ -3247,11 +3247,11 @@
 
 
 /*  */
-"tutorial.beacons.text.AutomaticCallout" = "Mens du går, vil Soundscape av og til oppdatere deg på avstanden til posisjonen markert av lydsignalet med en melding som dette.";
+"tutorial.beacons.text.AutomaticCallout" = "Mens du går, vil Seva av og til oppdatere deg på avstanden til posisjonen markert av lydsignalet med en melding som dette.";
 
 
 /*  */
-"tutorial.beacons.text.HomeScreen" = "Avstandsinformasjon vises også på startskjermen sammen med gateadressen til lydsignalets posisjon hvis vi har den. Soundscape varsler deg når du nærmer deg lydsignalets posisjon, og lydsignalet slås av.";
+"tutorial.beacons.text.HomeScreen" = "Avstandsinformasjon vises også på startskjermen sammen med gateadressen til lydsignalets posisjon hvis vi har den. Seva varsler deg når du nærmer deg lydsignalets posisjon, og lydsignalet slås av.";
 
 
 /*  */
@@ -3271,7 +3271,7 @@
 
 
 /*  */
-"help.configuration.section.title" = "Konfigurer Soundscape";
+"help.configuration.section.title" = "Konfigurer Seva";
 
 
 /*  */
@@ -3283,7 +3283,7 @@
 
 
 /*  */
-"help.offline.section_title" = "Bruk Soundscape i frakoblet modus";
+"help.offline.section_title" = "Bruk Seva i frakoblet modus";
 
 
 /*  */
@@ -3291,15 +3291,15 @@
 
 
 /*  */
-"help.config.voices.content" = "Soundscape kan bare bruke stemmer som du har lastet ned i iOS Innstillinger-appen, med unntak av Siri-stemmer som ikke er tilgjengelige i Soundscape. Vi anbefaler at du velger en av stemmene i høyere kvalitet siden de har mye bedre stemmekvalitet, men for å gjøre det må du først laste ned en stemme i høyere kvalitet. Du kan laste ned stemmer i iOS Innstillinger-appen ved å gå til Tilgjengelighet > Opplest innhold > Stemmer og trykke på en stemme. I Soundscape-appen kan du velge stemmen du vil bruke, ved å gå til Innstillinger fra hovedmenyen og deretter velge Stemme.";
+"help.config.voices.content" = "Seva kan bare bruke stemmer som du har lastet ned i iOS Innstillinger-appen, med unntak av Siri-stemmer som ikke er tilgjengelige i Seva. Vi anbefaler at du velger en av stemmene i høyere kvalitet siden de har mye bedre stemmekvalitet, men for å gjøre det må du først laste ned en stemme i høyere kvalitet. Du kan laste ned stemmer i iOS Innstillinger-appen ved å gå til Tilgjengelighet > Opplest innhold > Stemmer og trykke på en stemme. I Seva-appen kan du velge stemmen du vil bruke, ved å gå til Innstillinger fra hovedmenyen og deretter velge Stemme.";
 
 
 /*  */
-"help.offline.page_title" = "Hvorfor kjører Soundscape i frakoblet modus?";
+"help.offline.page_title" = "Hvorfor kjører Seva i frakoblet modus?";
 
 
 /*  */
-"help.offline.description" = "Når det ikke er noen Internett-tilkobling eller det er et avbrudd i Soundscape-tjenestene, går Soundscape over til frakoblet modus. Soundscape fungerer fremdeles, men enkelte funksjoner kan være begrenset.";
+"help.offline.description" = "Når det ikke er noen Internett-tilkobling eller det er et avbrudd i Seva-tjenestene, går Seva over til frakoblet modus. Seva fungerer fremdeles, men enkelte funksjoner kan være begrenset.";
 
 
 /*  */
@@ -3315,7 +3315,7 @@
 
 
 /*  */
-"help.offline.troubleshooting_description" = "Soundscape prøver å gjenoppta normal drift når telefonen kobler seg til Wi-Fi, eller når mobildata aktiveres og du er i et område med bra signal. Hvis telefonen har god Internett-tilkobling, men Soundscape ikke gjenopptar normal drift, kan det være et avbrudd i Soundscape-tjenestene.";
+"help.offline.troubleshooting_description" = "Seva prøver å gjenoppta normal drift når telefonen kobler seg til Wi-Fi, eller når mobildata aktiveres og du er i et område med bra signal. Hvis telefonen har god Internett-tilkobling, men Seva ikke gjenopptar normal drift, kan det være et avbrudd i Seva-tjenestene.";
 
 
 /*  */
@@ -3359,7 +3359,7 @@
 
 
 /*  */
-"help.support" = "Soundscape Community kundestøtte";
+"help.support" = "Seva Community kundestøtte";
 
 
 /*  */
@@ -3367,7 +3367,7 @@
 
 
 /*  */
-"terms_of_use.message" = "Din bruk av Soundscape er underlagt vilkårene i %@ og vilkårene oppgitt nedenfor (samlet \vilkårene for bruk\).";
+"terms_of_use.message" = "Din bruk av Seva er underlagt vilkårene i %@ og vilkårene oppgitt nedenfor (samlet \vilkårene for bruk\).";
 
 
 /*  */
@@ -3375,7 +3375,7 @@
 
 
 /*  */
-"terms_of_use.service_agreement" = "Soundscape Community tjenesteavtale";
+"terms_of_use.service_agreement" = "Seva Community tjenesteavtale";
 
 
 /*  */
@@ -3399,7 +3399,7 @@
 
 
 /*  */
-"terms_of_use.medical_safety_disclaimer" = "Du bekrefter at Soundscape (1) ikke er utformet for, beregnet på eller gjort tilgjengelig som medisinsk utstyr, og (2) at den ikke er utformet for eller beregnet som en erstatning for helseråd, diagnose, behandling eller vurdering og skal ikke brukes til å erstatte eller som en erstatning for helseråd, diagnose, behandling eller vurdering.\n\nSikkerhetsmerknad\nSoundscape er et navigasjonshjelpemiddel og skal ikke brukes i stedet for mobilitetsferdigheter, bevissthet over omgivelsene eller god dømmekraft. Bruk den forsiktig når du navigerer i omgivelsene siden kartleggingsdataene som brukes i Soundscape-programmet er hentet fra et tredjepartsprogram, og det derfor kan være begrensninger med nøyaktigheten på informasjonen som gis.";
+"terms_of_use.medical_safety_disclaimer" = "Du bekrefter at Seva (1) ikke er utformet for, beregnet på eller gjort tilgjengelig som medisinsk utstyr, og (2) at den ikke er utformet for eller beregnet som en erstatning for helseråd, diagnose, behandling eller vurdering og skal ikke brukes til å erstatte eller som en erstatning for helseråd, diagnose, behandling eller vurdering.\n\nSikkerhetsmerknad\nSeva er et navigasjonshjelpemiddel og skal ikke brukes i stedet for mobilitetsferdigheter, bevissthet over omgivelsene eller god dømmekraft. Bruk den forsiktig når du navigerer i omgivelsene siden kartleggingsdataene som brukes i Seva-programmet er hentet fra et tredjepartsprogram, og det derfor kan være begrensninger med nøyaktigheten på informasjonen som gis.";
 
 
 /*  */
@@ -3419,7 +3419,7 @@
 
 
 /*  */
-"first_launch.welcome_audio_text" = "Velkommen! Soundscape hjelper deg med å være bevisst på hvor du er og hvor du er på vei, ved å bruke unik lydveiledning og ved å lese opp veier, veikryss og steder når du nærmer deg dem. Trykk på knappen Neste for å begynne.";
+"first_launch.welcome_audio_text" = "Velkommen! Seva hjelper deg med å være bevisst på hvor du er og hvor du er på vei, ved å bruke unik lydveiledning og ved å lese opp veier, veikryss og steder når du nærmer deg dem. Trykk på knappen Neste for å begynne.";
 
 
 /*  */
@@ -3427,15 +3427,15 @@
 
 
 /*  */
-"first_launch.soundscape_language" = "Soundscape-språk";
+"first_launch.seva_language" = "Seva-språk";
 
 
 /*  */
-"first_launch.soundscape_language.text" = "Velg språket du vil at Soundscape skal bruke. Du kan alltids endre valget i appinnstillingene.";
+"first_launch.seva_language.text" = "Velg språket du vil at Seva skal bruke. Du kan alltids endre valget i appinnstillingene.";
 
 
 /*  */
-"first_launch.location.text" = "Soundscape er en posisjonsbasert app. Vi bruker posisjonen din til å finne og lese opp ting rundt deg.";
+"first_launch.location.text" = "Seva er en posisjonsbasert app. Vi bruker posisjonen din til å finne og lese opp ting rundt deg.";
 
 
 /*  */
@@ -3447,7 +3447,7 @@
 
 
 /*  */
-"first_launch.device_motion.text" = "Dette gjør at Soundscape kan forbedre opplevelsen din basert på om du går, sitter i en bil eller står i ro.";
+"first_launch.device_motion.text" = "Dette gjør at Seva kan forbedre opplevelsen din basert på om du går, sitter i en bil eller står i ro.";
 
 
 /*  */
@@ -3455,7 +3455,7 @@
 
 
 /*  */
-"first_launch.lighting_way_with_sound.text_alt" = "Soundscape bruker 3D-lyd til å gi deg beskjed om hva som er rundt deg. Hvis destinasjonen for eksempel ligger til høyre for deg, hører du lyd fra den retningen, eller hvis det ligger en kafé til venstre for deg, hører du en melding fra den retningen.";
+"first_launch.lighting_way_with_sound.text_alt" = "Seva bruker 3D-lyd til å gi deg beskjed om hva som er rundt deg. Hvis destinasjonen for eksempel ligger til høyre for deg, hører du lyd fra den retningen, eller hvis det ligger en kafé til venstre for deg, hører du en melding fra den retningen.";
 
 
 /*  */
@@ -3463,7 +3463,7 @@
 
 
 /*  */
-"first_launch.heading_somewhere.text" = "Plasser et lydsignal på destinasjonen så holder Soundscape deg oppdatert på posisjonen og omgivelsene rundt deg på veien. Bruk Soundscape sammen med navigasjonsferdighetene dine eller en navigasjonsapp du liker, for å finne veien til destinasjonen.";
+"first_launch.heading_somewhere.text" = "Plasser et lydsignal på destinasjonen så holder Seva deg oppdatert på posisjonen og omgivelsene rundt deg på veien. Bruk Seva sammen med navigasjonsferdighetene dine eller en navigasjonsapp du liker, for å finne veien til destinasjonen.";
 
 
 /*  */
@@ -3471,7 +3471,7 @@
 
 
 /*  */
-"first_launch.setting_off_way.text" = "Legg vekk telefonen og gå. Soundscape hjelper deg med å være bevisst på hvor du er, ved å lese opp veier, veikryss og landemerker når du nærmer deg dem. Du kan justere meldinger i innstillingene.";
+"first_launch.setting_off_way.text" = "Legg vekk telefonen og gå. Seva hjelper deg med å være bevisst på hvor du er, ved å lese opp veier, veikryss og landemerker når du nærmer deg dem. Du kan justere meldinger i innstillingene.";
 
 
 /*  */
@@ -3487,11 +3487,11 @@
 
 
 /*  */
-"first_launch.welcome.title.accessibility_label" = "Velkommen til Soundscape!";
+"first_launch.welcome.title.accessibility_label" = "Velkommen til Seva!";
 
 
 /*  */
-"first_launch.welcome.description" = "Naviger med selvtillit ved å bruke romlig lyd i Soundscape";
+"first_launch.welcome.description" = "Naviger med selvtillit ved å bruke romlig lyd i Seva";
 
 
 /*  */
@@ -3499,15 +3499,15 @@
 
 
 /*  */
-"first_launch.headphones.title" = "Lytt til Soundscape";
+"first_launch.headphones.title" = "Lytt til Seva";
 
 
 /*  */
-"first_launch.headphones.message.1" = "Soundscape fungerer bra med et hvilket som helst par med hodetelefoner. Hvis du vil bruke hodetelefoner, kan du finne dem nå.";
+"first_launch.headphones.message.1" = "Seva fungerer bra med et hvilket som helst par med hodetelefoner. Hvis du vil bruke hodetelefoner, kan du finne dem nå.";
 
 
 /*  */
-"first_launch.headphones.message.2" = "Hvis du ikke har hodetelefoner eller foretrekker ikke å bruke dem, er det greit. Soundscape fungerer med høyttalerne på telefonen.";
+"first_launch.headphones.message.2" = "Hvis du ikke har hodetelefoner eller foretrekker ikke å bruke dem, er det greit. Seva fungerer med høyttalerne på telefonen.";
 
 
 /*  */
@@ -3515,11 +3515,11 @@
 
 
 /*  */
-"first_launch.callouts.message" = "Soundscape hjelper deg med å være bevisst på hvor du er og hvor du er på vei ved å lese opp veier, veikryss og interessepunkter når du nærmer deg dem.";
+"first_launch.callouts.message" = "Seva hjelper deg med å være bevisst på hvor du er og hvor du er på vei ved å lese opp veier, veikryss og interessepunkter når du nærmer deg dem.";
 
 
 /*  */
-"first_launch.callouts.listen" = "Lytt til et eksempel på hva Soundscape kan lese opp på neste tur";
+"first_launch.callouts.listen" = "Lytt til et eksempel på hva Seva kan lese opp på neste tur";
 
 
 /*  */
@@ -3527,7 +3527,7 @@
 
 
 /*  */
-"first_launch.callouts.listen.accessibility_hint" = "Dobbelttrykk for å lytte til et eksempel på hva Soundscape kan lese opp på neste tur";
+"first_launch.callouts.listen.accessibility_hint" = "Dobbelttrykk for å lytte til et eksempel på hva Seva kan lese opp på neste tur";
 
 
 /*  */
@@ -3543,11 +3543,11 @@
 
 
 /*  */
-"first_launch.permissions.title" = "Naviger med Soundscape";
+"first_launch.permissions.title" = "Naviger med Seva";
 
 
 /*  */
-"first_launch.permissions.message" = "Når du navigerer med Soundscape, blir du veiledet av et lydsignal. For å gjøre dette må du gi Soundscape følgende tillatelser:";
+"first_launch.permissions.message" = "Når du navigerer med Seva, blir du veiledet av et lydsignal. For å gjøre dette må du gi Seva følgende tillatelser:";
 
 
 /*  */
@@ -3567,7 +3567,7 @@
 
 
 /*  */
-"first_launch.beacon.message.1" = "Når du navigerer med Soundscape, hører du lydsignalet i retningen til destinasjonen din. Ved å følge lyden vet du alltid hvilken vei du skal gå.";
+"first_launch.beacon.message.1" = "Når du navigerer med Seva, hører du lydsignalet i retningen til destinasjonen din. Ved å følge lyden vet du alltid hvilken vei du skal gå.";
 
 
 /*  */
@@ -3619,7 +3619,7 @@
 
 
 /*  */
-"first_launch.prompt.message" = "Du er klar for din første tur med Soundscape. Hvis du vil prøve det nå, velger du en destinasjon i nærheten og starter lydsignalet. Du hører da signalet i retningen til destinasjonen din.";
+"first_launch.prompt.message" = "Du er klar for din første tur med Seva. Hvis du vil prøve det nå, velger du en destinasjon i nærheten og starter lydsignalet. Du hører da signalet i retningen til destinasjonen din.";
 
 
 /*  */
@@ -3631,7 +3631,7 @@
 
 
 /*  */
-"help.text.destination_beacons.what" = "Ved å angi et lydsignal på en posisjon i nærheten kan Soundscape holde deg oppdatert ved å spille av et lydsignal som kommer fra retningen til posisjonen. Lydsignalet kan slås av eller på på startskjermen. Soundscape viser i tillegg informasjon om posisjonen på startskjermen deriblant avstanden til den og gateadressen hvis den er kjent.";
+"help.text.destination_beacons.what" = "Ved å angi et lydsignal på en posisjon i nærheten kan Seva holde deg oppdatert ved å spille av et lydsignal som kommer fra retningen til posisjonen. Lydsignalet kan slås av eller på på startskjermen. Seva viser i tillegg informasjon om posisjonen på startskjermen deriblant avstanden til den og gateadressen hvis den er kjent.";
 
 
 /*  */
@@ -3651,7 +3651,7 @@
 
 
 /*  */
-"help.text.automatic_callouts.what" = "Soundscape kan fortelle deg om ting rundt deg når du nærmer deg dem ved å lese opp navnet fra retningen de er plassert i. Appen gjør dette automatisk for alle typer ting som virksomheter, busstopp og veikryss. Du kan konfigurere hva appen automatisk leser opp, i delen Administrer meldinger på skjermen Innstillinger, og du kan slå av alle meldinger når du vil at appen skal være lydløs.";
+"help.text.automatic_callouts.what" = "Seva kan fortelle deg om ting rundt deg når du nærmer deg dem ved å lese opp navnet fra retningen de er plassert i. Appen gjør dette automatisk for alle typer ting som virksomheter, busstopp og veikryss. Du kan konfigurere hva appen automatisk leser opp, i delen Administrer meldinger på skjermen Innstillinger, og du kan slå av alle meldinger når du vil at appen skal være lydløs.";
 
 
 /*  */
@@ -3667,11 +3667,11 @@
 
 
 /*  */
-"help.text.automatic_callouts.how.1" = "<b>Slå meldinger av eller på</b>:<br/> Hvis du slår av meldinger, slås lyden av for appen. Meldinger kan slås av og på i delen Administrer meldinger på skjermen Innstillinger der du kan trykke på veksleknappen Tillat meldinger for å slå meldinger av og på. Du kan også slå av eller på meldinger ved å bruke kommandoen Hopp fremover (dobbelttrykk og hold) hvis hodetelefonene har mediekontrollknapper. Du kan også bruke knappen Sett i dvalemodus øverst til høyre på startskjermen til å stoppe Soundscape fra å lese opp meldinger frem til du velger å aktivere den igjen.";
+"help.text.automatic_callouts.how.1" = "<b>Slå meldinger av eller på</b>:<br/> Hvis du slår av meldinger, slås lyden av for appen. Meldinger kan slås av og på i delen Administrer meldinger på skjermen Innstillinger der du kan trykke på veksleknappen Tillat meldinger for å slå meldinger av og på. Du kan også slå av eller på meldinger ved å bruke kommandoen Hopp fremover (dobbelttrykk og hold) hvis hodetelefonene har mediekontrollknapper. Du kan også bruke knappen Sett i dvalemodus øverst til høyre på startskjermen til å stoppe Seva fra å lese opp meldinger frem til du velger å aktivere den igjen.";
 
 
 /*  */
-"help.text.automatic_callouts.how.2" = "<b>Administrer hvilke meldinger du hører</b>:<br/> Hvis du vil velge tingene som Soundscape automatisk skal lese opp, går du til skjermen Innstillinger ved å bruke menyen på skjermen Start. Delen Administrer meldinger på skjermen Innstillinger inneholder en liste over ting som appen kan lese opp. Hvert element har en veksleknapp som du kan slå av eller på. Hvis du vil slå av alle meldinger, trykker du på vekslebryteren Tillat meldinger øverst på listen.";
+"help.text.automatic_callouts.how.2" = "<b>Administrer hvilke meldinger du hører</b>:<br/> Hvis du vil velge tingene som Seva automatisk skal lese opp, går du til skjermen Innstillinger ved å bruke menyen på skjermen Start. Delen Administrer meldinger på skjermen Innstillinger inneholder en liste over ting som appen kan lese opp. Hvert element har en veksleknapp som du kan slå av eller på. Hvis du vil slå av alle meldinger, trykker du på vekslebryteren Tillat meldinger øverst på listen.";
 
 
 /*  */
@@ -3723,19 +3723,19 @@
 
 
 /*  */
-"help.text.remote_control.what" = "Du har tilgang til visse funksjoner i Soundscape ved å bruke mediekontrollknappene på hodetelefonene. Denne funksjonaliteten fungerer med kabelbaserte hodetelefoner og Bluetooth-hodetelefoner som har mediekontrollknapper som Spill av, Stans midlertidig, Neste, Forrige og andre. Forskjellige hodetelefoner kan ha forskjellige knapper. Se listen nedenfor for å se hvilke av knappene som er tilgjengelige for deg.<br>Vær også oppmerksom på at denne funksjonen bare fungerer med hodetelefoner som støtter Apples mediekontroller (som spill av og stans midlertidig).";
+"help.text.remote_control.what" = "Du har tilgang til visse funksjoner i Seva ved å bruke mediekontrollknappene på hodetelefonene. Denne funksjonaliteten fungerer med kabelbaserte hodetelefoner og Bluetooth-hodetelefoner som har mediekontrollknapper som Spill av, Stans midlertidig, Neste, Forrige og andre. Forskjellige hodetelefoner kan ha forskjellige knapper. Se listen nedenfor for å se hvilke av knappene som er tilgjengelige for deg.<br>Vær også oppmerksom på at denne funksjonen bare fungerer med hodetelefoner som støtter Apples mediekontroller (som spill av og stans midlertidig).";
 
 
 /*  */
-"help.text.remote_control.when" = "Du kan bruke hodetelefonenes mediekontroller mens Soundscape kjører. Dette gjelder enten du for øyeblikket er i Soundscape, eller bruker Soundscape i bakgrunnen og selv om enheten er låst. Vær imidlertid oppmerksom på at mediekontrollknappene ikke fungerer med Soundscape hvis du spiller av lyd som musikk, podkaster eller videoer med en annen app.";
+"help.text.remote_control.when" = "Du kan bruke hodetelefonenes mediekontroller mens Seva kjører. Dette gjelder enten du for øyeblikket er i Seva, eller bruker Seva i bakgrunnen og selv om enheten er låst. Vær imidlertid oppmerksom på at mediekontrollknappene ikke fungerer med Seva hvis du spiller av lyd som musikk, podkaster eller videoer med en annen app.";
 
 
 /*  */
-"help.text.remote_control.how" = "<p>Du kan bruke følgende funksjoner i Soundscape ved å bruke mediekontrollknappene på hodetelefonene:<p><br>&#x23EF Spill av / stans midlertidig: Slå av alle nåværende meldinger og slå av og på lydsignalet hvis det er angitt. </p><p>&#x23ED Neste: Les opp <em>Min posisjon</em>.</p><p>&#x23EE Forrige: Gjenta siste melding.</p><p>&#x23E9 Hopp fremover: Slå av og på meldinger.</p><p>&#x23EA Hopp bakover: Les opp <em>Rundt meg</em>.</p>";
+"help.text.remote_control.how" = "<p>Du kan bruke følgende funksjoner i Seva ved å bruke mediekontrollknappene på hodetelefonene:<p><br>&#x23EF Spill av / stans midlertidig: Slå av alle nåværende meldinger og slå av og på lydsignalet hvis det er angitt. </p><p>&#x23ED Neste: Les opp <em>Min posisjon</em>.</p><p>&#x23EE Forrige: Gjenta siste melding.</p><p>&#x23E9 Hopp fremover: Slå av og på meldinger.</p><p>&#x23EA Hopp bakover: Les opp <em>Rundt meg</em>.</p>";
 
 
 /*  */
-"help.text.markers.content.1" = "Med Soundscape kan du markere din verden og alt du bryr deg om.";
+"help.text.markers.content.1" = "Med Seva kan du markere din verden og alt du bryr deg om.";
 
 
 /*  */
@@ -3743,11 +3743,11 @@
 
 
 /*  */
-"help.text.markers.content.3" = "Hvis du vil bruke markerte steder, leser Soundscape automatisk opp markerte steder når du går forbi eller nærmer deg. Du kan også bruke knappen Markører i nærheten nederst på startskjermen til Soundscape til å høre en romlig melding av markerte steder rundt deg. Du har også muligheten til å angi et lydsignal på et markert sted. Når du gjør dette, høres Soundscape-lydsignalet du er vant med og du kan bruke det som vanlig.";
+"help.text.markers.content.3" = "Hvis du vil bruke markerte steder, leser Seva automatisk opp markerte steder når du går forbi eller nærmer deg. Du kan også bruke knappen Markører i nærheten nederst på startskjermen til Seva til å høre en romlig melding av markerte steder rundt deg. Du har også muligheten til å angi et lydsignal på et markert sted. Når du gjør dette, høres Seva-lydsignalet du er vant med og du kan bruke det som vanlig.";
 
 
 /*  */
-"help.text.creating_markers.content.1" = "Du kan opprette markører på tre måter: søk etter stedet du vil lagre ved å bruke søkefeltet, finn et sted ved å bruke knappen Steder i nærheten eller bruk knappen Bruk nåværende posisjon. Du finner disse på startskjermen til Soundscape. Når du har funnet et sted, kommer du til siden Posisjonsinformasjon hvis du velger det. På denne siden velger du knappen som heter Lagre markør.";
+"help.text.creating_markers.content.1" = "Du kan opprette markører på tre måter: søk etter stedet du vil lagre ved å bruke søkefeltet, finn et sted ved å bruke knappen Steder i nærheten eller bruk knappen Bruk nåværende posisjon. Du finner disse på startskjermen til Seva. Når du har funnet et sted, kommer du til siden Posisjonsinformasjon hvis du velger det. På denne siden velger du knappen som heter Lagre markør.";
 
 
 /*  */
@@ -3783,19 +3783,19 @@
 
 
 /*  */
-"help.using_headsets.airpods.what" = "Soundscape støtter romlig lyd med dynamisk hodesporing når du bruker kompatible AirPods. Når de er koblet til Soundscape, forteller sensorene i AirPods Soundscape retningen du er vendt mot. Dette hjelper Soundscape med å forbedre lydopplevelsen og gjøre den mer naturlig mens du beveger deg rundt i verden. Når du bruker Soundscape med AirPods tilkoblet, trenger du ikke å holde telefonen for at Soundscape skal fungere på riktig måte.";
+"help.using_headsets.airpods.what" = "Seva støtter romlig lyd med dynamisk hodesporing når du bruker kompatible AirPods. Når de er koblet til Seva, forteller sensorene i AirPods Seva retningen du er vendt mot. Dette hjelper Seva med å forbedre lydopplevelsen og gjøre den mer naturlig mens du beveger deg rundt i verden. Når du bruker Seva med AirPods tilkoblet, trenger du ikke å holde telefonen for at Seva skal fungere på riktig måte.";
 
 
 /*  */
-"help.using_headsets.airpods.when" = "Du kan bruke AirPods med Soundscape når du vanligvis ville brukt Soundscape. Ved å bruke AirPods får du høykvalitetslyd og du får en enda mer håndfri opplevelse med Soundscape.";
+"help.using_headsets.airpods.when" = "Du kan bruke AirPods med Seva når du vanligvis ville brukt Seva. Ved å bruke AirPods får du høykvalitetslyd og du får en enda mer håndfri opplevelse med Seva.";
 
 
 /*  */
-"help.using_headsets.airpods.how.1" = "<b>Koble til en enhet</b>:<br/> Gå til elementet Hodetelefoner med hodesporing på Soundscape-menyen for å koble til AirPods, og følg instruksjonene på skjermen. Vær oppmerksom på at du må parkoble AirPods til telefonen i Bluetooth-innstillinger før du kobler dem til i Soundscape.";
+"help.using_headsets.airpods.how.1" = "<b>Koble til en enhet</b>:<br/> Gå til elementet Hodetelefoner med hodesporing på Seva-menyen for å koble til AirPods, og følg instruksjonene på skjermen. Vær oppmerksom på at du må parkoble AirPods til telefonen i Bluetooth-innstillinger før du kobler dem til i Seva.";
 
 
 /*  */
-"help.using_headsets.airpods.how.2" = "<b>Bruk mediekontrollene på hodetelefonene</b>:<br/> Når mediekontroller er aktivert i Soundscape-innstillingene, kan du bruke mediekontrollene på AirPods til å slå av og på lydsignalet, lese opp posisjonen eller til å gjenta den siste meldingen. Hvis du vil ha mer informasjon, kan du se hjelpedelen Bruk mediekontroller.";
+"help.using_headsets.airpods.how.2" = "<b>Bruk mediekontrollene på hodetelefonene</b>:<br/> Når mediekontroller er aktivert i Seva-innstillingene, kan du bruke mediekontrollene på AirPods til å slå av og på lydsignalet, lese opp posisjonen eller til å gjenta den siste meldingen. Hvis du vil ha mer informasjon, kan du se hjelpedelen Bruk mediekontroller.";
 
 
 /*  */
@@ -4059,19 +4059,19 @@
 
 
 /*  */
-"banner.offline_default.message" = "Soundscape fungerer i frakoblet modus. Finn ut mer";
+"banner.offline_default.message" = "Seva fungerer i frakoblet modus. Finn ut mer";
 
 
 /*  */
-"banner.offline_help.message" = "Soundscape fungerer i frakoblet modus.";
+"banner.offline_help.message" = "Seva fungerer i frakoblet modus.";
 
 
 /*  */
-"banner.offline_search.message" = "Soundscape fungerer i frakoblet modus. Lokasjoner er begrenset til stedene du har gått forbi før eller allerede har markert. Finn ut mer";
+"banner.offline_search.message" = "Seva fungerer i frakoblet modus. Lokasjoner er begrenset til stedene du har gått forbi før eller allerede har markert. Finn ut mer";
 
 
 /*  */
-"banner.online.message" = "Soundscape er tilkoblet igjen";
+"banner.online.message" = "Seva er tilkoblet igjen";
 
 
 /*  */
@@ -4079,19 +4079,19 @@
 
 
 /*  */
-"share.prompt.title" = "Liker du Soundscape?";
+"share.prompt.title" = "Liker du Seva?";
 
 
 /*  */
-"share.prompt.message" = "Fortell venner og familie om Soundscape";
+"share.prompt.message" = "Fortell venner og familie om Seva";
 
 
 /*  */
-"share.action.message" = "Prøv Soundscape, en app jeg liker å bruke for å finne frem, med 3D-lyd:";
+"share.action.message" = "Prøv Seva, en app jeg liker å bruke for å finne frem, med 3D-lyd:";
 
 
 /*  */
-"push.local.home.title" = "Prøv Soundscape hjemme";
+"push.local.home.title" = "Prøv Seva hjemme";
 
 
 /*  */
@@ -4099,7 +4099,7 @@
 
 
 /*  */
-"push.local.walk.title" = "Prøv Soundscape på neste tur";
+"push.local.walk.title" = "Prøv Seva på neste tur";
 
 
 /*  */
@@ -4123,15 +4123,15 @@
 
 
 /*  */
-"faq.section.what_is_soundscape" = "Hva er Soundscape og hvordan skal jeg bruke den?";
+"faq.section.what_is_Seva" = "Hva er Seva og hvordan skal jeg bruke den?";
 
 
 /*  */
-"faq.when_to_use_soundscape.question" = "Når bør jeg bruke Soundscape?";
+"faq.when_to_use_Seva.question" = "Når bør jeg bruke Seva?";
 
 
 /*  */
-"faq.when_to_use_soundscape.answer" = "Soundscape har funksjoner og fordeler som strekker seg over en rekke scenarioer og tidsskalaer. I tillegg kan Soundscapes nytteverdi utvikle seg over tid, slik at måten du bruker den på i dag, kan være helt forskjellig fra måten du bruker den på om tre måneder. Folk tenker ofte på hvilket problem en app kan løse. Soundscape kan absolutt brukes til å dekke et bestemt informasjonsbehov – som å følge med på en destinasjon mens du er på vei dit, hjelpe deg med å orientere deg når du går av undergrunnsbanen, finne frem når du går ut av en bil eller finne gatenavnene eller avstanden til neste veikryss. Filosofien bak Soundscape er imidlertid å lyse opp verden med lyd, og den er laget for å bli brukt når du er ute på farten for å gi deg omgivelsesbevisshet, som å gjøre deg oppmerksom på navnene på gatene du er på, retningen du går i og navnene på virksomhetene du går forbi. I denne bruksmodusen kaller brukerne Soundscape en hyggelig hjelpeapp som støtter tilfeldigheter, for å fylle inn hull i det mentale kartet og gi mer selvtillit når du går. Her er noen andre eksempler på hvordan brukerne bruker Soundscape i livet sitt:\n\n«Soundscape hjalp meg med å komme på rett spor etter at jeg gikk av bussen og gikk i feil retning.»\n\n«Selv i byen jeg har bodd i i tre år, har jeg et bedre bilde av hva som er rundt meg, med Soundscape.»\n\n«3D-lyden forbedrer opplevelsen min når jeg går fordi jeg føler meg mer tilknyttet til omgivelsene … Det er større sjanse for at jeg prøver en ny rute nå som jeg har appen.»\n\n«Jeg savner tilfeldighetene ved å gå rundt og legge merke til ting. Det er fint å ha Soundscape – det kreves ingenting for å høre om ting rundt meg. Den relasjonsmessige informasjonen er nyttig, og det er en flott app for omgivelsesbevissthet og for å utforske nye steder.»\n\n«Jeg brukte Soundscape til å finne en pub i sentrum av York. Jeg brukte alternativene først til å søke den opp og deretter til å finne ut hvordan jeg kom meg dit. Den førte meg til rundt tre meter unna inngangsdøra – fantastisk!»";
+"faq.when_to_use_Seva.answer" = "Seva har funksjoner og fordeler som strekker seg over en rekke scenarioer og tidsskalaer. I tillegg kan Sevas nytteverdi utvikle seg over tid, slik at måten du bruker den på i dag, kan være helt forskjellig fra måten du bruker den på om tre måneder. Folk tenker ofte på hvilket problem en app kan løse. Seva kan absolutt brukes til å dekke et bestemt informasjonsbehov – som å følge med på en destinasjon mens du er på vei dit, hjelpe deg med å orientere deg når du går av undergrunnsbanen, finne frem når du går ut av en bil eller finne gatenavnene eller avstanden til neste veikryss. Filosofien bak Seva er imidlertid å lyse opp verden med lyd, og den er laget for å bli brukt når du er ute på farten for å gi deg omgivelsesbevisshet, som å gjøre deg oppmerksom på navnene på gatene du er på, retningen du går i og navnene på virksomhetene du går forbi. I denne bruksmodusen kaller brukerne Seva en hyggelig hjelpeapp som støtter tilfeldigheter, for å fylle inn hull i det mentale kartet og gi mer selvtillit når du går. Her er noen andre eksempler på hvordan brukerne bruker Seva i livet sitt:\n\n«Seva hjalp meg med å komme på rett spor etter at jeg gikk av bussen og gikk i feil retning.»\n\n«Selv i byen jeg har bodd i i tre år, har jeg et bedre bilde av hva som er rundt meg, med Seva.»\n\n«3D-lyden forbedrer opplevelsen min når jeg går fordi jeg føler meg mer tilknyttet til omgivelsene … Det er større sjanse for at jeg prøver en ny rute nå som jeg har appen.»\n\n«Jeg savner tilfeldighetene ved å gå rundt og legge merke til ting. Det er fint å ha Seva – det kreves ingenting for å høre om ting rundt meg. Den relasjonsmessige informasjonen er nyttig, og det er en flott app for omgivelsesbevissthet og for å utforske nye steder.»\n\n«Jeg brukte Seva til å finne en pub i sentrum av York. Jeg brukte alternativene først til å søke den opp og deretter til å finne ut hvordan jeg kom meg dit. Den førte meg til rundt tre meter unna inngangsdøra – fantastisk!»";
 
 
 /*  */
@@ -4139,11 +4139,11 @@
 
 
 /*  */
-"faq.markers_function.answer" = "Markører er steder du har lagret. Det kan være steder som du finner i appen, eller det kan være helt nye steder som du har lagt til selv. Du kan lagre nåværende posisjon som en markør ved å velge knappen Bruk nåværende posisjon på startskjermen og deretter velge Lagre som markør. Du kan lagre andre steder som en markør ved å søke etter stedet du vil lagre, ved å bruke søkefeltet eller finne et sted ved å bruke knappen Steder i nærheten. Du finner disse på startskjermen til Soundscape. Når du har funnet et sted og velger det, kommer du til siden Posisjonsinformasjon. Velg knappen Lagre som markør på denne siden.";
+"faq.markers_function.answer" = "Markører er steder du har lagret. Det kan være steder som du finner i appen, eller det kan være helt nye steder som du har lagt til selv. Du kan lagre nåværende posisjon som en markør ved å velge knappen Bruk nåværende posisjon på startskjermen og deretter velge Lagre som markør. Du kan lagre andre steder som en markør ved å søke etter stedet du vil lagre, ved å bruke søkefeltet eller finne et sted ved å bruke knappen Steder i nærheten. Du finner disse på startskjermen til Seva. Når du har funnet et sted og velger det, kommer du til siden Posisjonsinformasjon. Velg knappen Lagre som markør på denne siden.";
 
 
 /*  */
-"faq.section.getting_the_best_experience" = "Hvordan får jeg det beste ut av Soundscape?";
+"faq.section.getting_the_best_experience" = "Hvordan får jeg det beste ut av Seva?";
 
 
 /*  */
@@ -4159,7 +4159,7 @@
 
 
 /*  */
-"faq.how_to_use_beacon.answer" = "Du kan tenke på lydsignalet som et fyrtårn for ørene, et som varsler deg om hvor destinasjonen er i forhold til posisjonen din. I likhet med et fyrtårn forteller den ikke hvordan du kommer deg dit. Du må gjøre noen navigasjonsvalg på veien, akkurat som en seilbåt må gjøre mange strategiske valg for å komme nærme fyrtårnet. Den kontinuerlige rytmiske lyden til lydsignalet kommer fra retningen til destinasjonen og hjelper deg med å være bevisst på posisjonen til destinasjonen når du går. Når du går i retning destinasjonen eller peker telefonen mot destinasjonen, kan du høre en høy ringelyd. Med denne funksjonen kan du fastslå retningen til destinasjonen siden retningen til den rytmiske lyden av og til kan være vanskelig å oppfatte i omgivelser med mye lyd. Når du leter etter den høye ringelyden, holder du telefonen flatt og stryker telefonen langsomt. Hvis du vrir hodet i samme retning som telefonen, får du den beste romlige lydopplevelsen.\n\nFyrtårnmetaforen for lydsignalets utforming har flere naturlige implikasjoner:\n\n1. Det finnes ingen «riktig» retning å gå i når du bruker lydsignalet. Med Soundscape kan du i stedet velge hvordan du kommer deg dit.\n2. Den høye ringelyden hjelper deg bare med å fastslå retningen til destinasjonen – det er ikke indikator på hvordan du kommer deg dit.\n3. Hvis du vet hvordan du kommer deg til destinasjonen, kan det hende du vil slå av lydsignalet for mesteparten av turen, og slå det på bare når du nærmer deg destinasjonen.";
+"faq.how_to_use_beacon.answer" = "Du kan tenke på lydsignalet som et fyrtårn for ørene, et som varsler deg om hvor destinasjonen er i forhold til posisjonen din. I likhet med et fyrtårn forteller den ikke hvordan du kommer deg dit. Du må gjøre noen navigasjonsvalg på veien, akkurat som en seilbåt må gjøre mange strategiske valg for å komme nærme fyrtårnet. Den kontinuerlige rytmiske lyden til lydsignalet kommer fra retningen til destinasjonen og hjelper deg med å være bevisst på posisjonen til destinasjonen når du går. Når du går i retning destinasjonen eller peker telefonen mot destinasjonen, kan du høre en høy ringelyd. Med denne funksjonen kan du fastslå retningen til destinasjonen siden retningen til den rytmiske lyden av og til kan være vanskelig å oppfatte i omgivelser med mye lyd. Når du leter etter den høye ringelyden, holder du telefonen flatt og stryker telefonen langsomt. Hvis du vrir hodet i samme retning som telefonen, får du den beste romlige lydopplevelsen.\n\nFyrtårnmetaforen for lydsignalets utforming har flere naturlige implikasjoner:\n\n1. Det finnes ingen «riktig» retning å gå i når du bruker lydsignalet. Med Seva kan du i stedet velge hvordan du kommer deg dit.\n2. Den høye ringelyden hjelper deg bare med å fastslå retningen til destinasjonen – det er ikke indikator på hvordan du kommer deg dit.\n3. Hvis du vet hvordan du kommer deg til destinasjonen, kan det hende du vil slå av lydsignalet for mesteparten av turen, og slå det på bare når du nærmer deg destinasjonen.";
 
 
 /*  */
@@ -4167,7 +4167,7 @@
 
 
 /*  */
-"faq.why_does_beacon_disappear.answer" = "Soundscapes lydsignal er et retningssignal som forteller deg hvor destinasjonen er i forhold til retningen du er vendt mot. Når Soundscape er usikker på hvilken retning du er vendt mot, senker den volumet på lydsignalet. Dette skjer ofte hvis du går med telefonen i lomma eller i veska og du slutter å bevege deg, som når du skal krysse gaten. Lydsignalet blir høyere når du begynner å gå igjen eller hvis du holder telefonen flatt og peker den i retningen du er vendt mot.";
+"faq.why_does_beacon_disappear.answer" = "Sevas lydsignal er et retningssignal som forteller deg hvor destinasjonen er i forhold til retningen du er vendt mot. Når Seva er usikker på hvilken retning du er vendt mot, senker den volumet på lydsignalet. Dette skjer ofte hvis du går med telefonen i lomma eller i veska og du slutter å bevege deg, som når du skal krysse gaten. Lydsignalet blir høyere når du begynner å gå igjen eller hvis du holder telefonen flatt og peker den i retningen du er vendt mot.";
 
 
 /*  */
@@ -4183,15 +4183,15 @@
 
 
 /*  */
-"faq.beacon_on_home.answer" = "Med Soundscape kan du angi lydsignaler på adresser. Hvis du vil angi et lydsignal på hjemmet ditt eller andre adresser, kan du søke etter en posisjon fra Soundscape-hovedskjermen. Trykk på knappen Start lydsignal på skjermen Posisjonsinformasjon.";
+"faq.beacon_on_home.answer" = "Med Seva kan du angi lydsignaler på adresser. Hvis du vil angi et lydsignal på hjemmet ditt eller andre adresser, kan du søke etter en posisjon fra Seva-hovedskjermen. Trykk på knappen Start lydsignal på skjermen Posisjonsinformasjon.";
 
 
 /*  */
-"faq.how_close_to_destination.question" = "Når jeg angir et lydsignal på en destinasjon, hvor nærme kommer jeg destinasjonen med Soundscape? ";
+"faq.how_close_to_destination.question" = "Når jeg angir et lydsignal på en destinasjon, hvor nærme kommer jeg destinasjonen med Seva? ";
 
 
 /*  */
-"faq.how_close_to_destination.answer" = "Soundscape kan fastslå posisjonen til destinasjonen din inntil flere meter, men ikke mindre. Når Soundscape fastslår at du nærmer deg destinasjonen, hører du en siste melding om at destinasjonen er i nærheten, og lydsignalet slås av.";
+"faq.how_close_to_destination.answer" = "Seva kan fastslå posisjonen til destinasjonen din inntil flere meter, men ikke mindre. Når Seva fastslår at du nærmer deg destinasjonen, hører du en siste melding om at destinasjonen er i nærheten, og lydsignalet slås av.";
 
 
 /*  */
@@ -4199,23 +4199,23 @@
 
 
 /*  */
-"faq.turn_beacon_back_on.answer" = "Ja, du kan slå på lydsignalet igjen når Soundscape slår det av ved å velge knappen Slå på lydsignal. Siden stedstjenester bare er nøyaktig rundt 10 meter, kan vi imidlertid ikke garantere virkemåten til lydsignalet når du er noen få meter unna destinasjonen.";
+"faq.turn_beacon_back_on.answer" = "Ja, du kan slå på lydsignalet igjen når Seva slår det av ved å velge knappen Slå på lydsignal. Siden stedstjenester bare er nøyaktig rundt 10 meter, kan vi imidlertid ikke garantere virkemåten til lydsignalet når du er noen få meter unna destinasjonen.";
 
 
 /*  */
-"faq.road_names.question" = "Hvorfor leser Soundscape opp veinavn to ganger når jeg nærmer meg et veikryss?";
+"faq.road_names.question" = "Hvorfor leser Seva opp veinavn to ganger når jeg nærmer meg et veikryss?";
 
 
 /*  */
-"faq.road_names.answer" = "For å tilrettelegge for en rekke veikryss beskriver Soundscape veikryss som segmenter med vei som går fra et felles punkt. Soundscape bruker romlig lyd til å indikere navnet på veien som går til venstre, navnet på veien som fortsetter rett frem, og navnet på veien som går til høyre, i den rekkefølgen. Hvis beskrivelsen av veikrysset begynner med veien du er på, i stedet for veien til venstre, er veikrysset en T med veien du forsetter på, og veien som kommer inn fra høyre. Hvis beskrivelsen bare omfatter en vei til venstre og høyre, vet du at veien du er på, slutter ved en T foran deg. Denne måten å beskrive veikryss på støtter også tilfeller der en vei bytter navn ved et veikryss.";
+"faq.road_names.answer" = "For å tilrettelegge for en rekke veikryss beskriver Seva veikryss som segmenter med vei som går fra et felles punkt. Seva bruker romlig lyd til å indikere navnet på veien som går til venstre, navnet på veien som fortsetter rett frem, og navnet på veien som går til høyre, i den rekkefølgen. Hvis beskrivelsen av veikrysset begynner med veien du er på, i stedet for veien til venstre, er veikrysset en T med veien du forsetter på, og veien som kommer inn fra høyre. Hvis beskrivelsen bare omfatter en vei til venstre og høyre, vet du at veien du er på, slutter ved en T foran deg. Denne måten å beskrive veikryss på støtter også tilfeller der en vei bytter navn ved et veikryss.";
 
 
 /*  */
-"faq.why_not_every_business.question" = "Hvorfor kunngjør ikke Soundscape hver virksomhet jeg går forbi?";
+"faq.why_not_every_business.question" = "Hvorfor kunngjør ikke Seva hver virksomhet jeg går forbi?";
 
 
 /*  */
-"faq.why_not_every_business.answer" = "Soundscape er laget slik at den ikke snakker for mye. I tillegg bruker den Open Street Map som serverdatakilde. Open Street Map (OSM, https://www.openstreetmap.org/) er et fellesskapsutviklet og redigert kart over verden som er avhengig av enkeltpersoner for å angi og samle inn data. Hvis en virksomhet eller et interessepunkt ikke kunngjøres av Soundscape, er det antakelig fordi virksomheten ikke er lagt til eller i noen tilfeller oppdatert av et medlem i OSM-fellesskapet ennå.";
+"faq.why_not_every_business.answer" = "Seva er laget slik at den ikke snakker for mye. I tillegg bruker den Open Street Map som serverdatakilde. Open Street Map (OSM, https://www.openstreetmap.org/) er et fellesskapsutviklet og redigert kart over verden som er avhengig av enkeltpersoner for å angi og samle inn data. Hvis en virksomhet eller et interessepunkt ikke kunngjøres av Seva, er det antakelig fordi virksomheten ikke er lagt til eller i noen tilfeller oppdatert av et medlem i OSM-fellesskapet ennå.";
 
 
 /*  */
@@ -4231,51 +4231,51 @@
 
 
 /*  */
-"faq.miss_a_callout.answer" = "Soundscape har en liste over nylige meldinger slik at du kan se meldinger du kanskje har gått glipp av. Du finner listen ved å trykke på søkefeltet på startskjermen til Soundscape. Nederst på denne siden finner du delen Nylige meldinger der meldingen du har gått glipp av, er oppført.";
+"faq.miss_a_callout.answer" = "Seva har en liste over nylige meldinger slik at du kan se meldinger du kanskje har gått glipp av. Du finner listen ved å trykke på søkefeltet på startskjermen til Seva. Nederst på denne siden finner du delen Nylige meldinger der meldingen du har gått glipp av, er oppført.";
 
 
 /*  */
-"faq.section.how_soundscape_works" = "Hvordan fungerer Soundscape?";
+"faq.section.how_seva_works" = "Hvordan fungerer Seva?";
 
 
 /*  */
-"faq.supported_phones.question" = "Hvilken telefon støtter Soundscape?";
+"faq.supported_phones.question" = "Hvilken telefon støtter Seva?";
 
 
 /*  */
-"faq.supported_phones.answer" = "Soundscape er for øyeblikket tilgjengelig for Apple iOS, som kjøres på iPhone SE, iPhone 6S og nyere.";
+"faq.supported_phones.answer" = "Seva er for øyeblikket tilgjengelig for Apple iOS, som kjøres på iPhone SE, iPhone 6S og nyere.";
 
 
 /*  */
-"faq.supported_headsets.question" = "Hvilke hodetelefoner bør jeg bruke med Soundscape?";
+"faq.supported_headsets.question" = "Hvilke hodetelefoner bør jeg bruke med Seva?";
 
 
 /*  */
-"faq.supported_headsets.answer" = "Hvilke hodetelefoner du bruker med Soundscape, er helt opp til deg, og hvert alternativ kommer med fordeler og ulemper. Det eneste bestemte kravet er å bruke stereohodetelefoner slik at du kan dra nytte av Soundscapes 3D-meldinger med romlig lyd.";
+"faq.supported_headsets.answer" = "Hvilke hodetelefoner du bruker med Seva, er helt opp til deg, og hvert alternativ kommer med fordeler og ulemper. Det eneste bestemte kravet er å bruke stereohodetelefoner slik at du kan dra nytte av Sevas 3D-meldinger med romlig lyd.";
 
 
 /*  */
-"faq.battery_impact.question" = "Hvordan påvirker Soundscape batteriet til iPhone?";
+"faq.battery_impact.question" = "Hvordan påvirker Seva batteriet til iPhone?";
 
 
 /*  */
-"faq.battery_impact.answer" = "Batteritiden varierer betydelig avhengig av hvilken iPhone du har og hvor gammel den er. Det som sluker mest batteriet, er å ha skjermen på. Du bør derfor holde skjermen låst så mye som mulig for å øke batteritiden. For å bidra til å redusere påvirkningen på iPhone-batteriet har Soundscape nå en dvalemodus og en pausemodus. For å redusere batteriforbruket ytterligere når du ikke bruker Soundscape bør du tvangslukke den via iPhones appveksler. ";
+"faq.battery_impact.answer" = "Batteritiden varierer betydelig avhengig av hvilken iPhone du har og hvor gammel den er. Det som sluker mest batteriet, er å ha skjermen på. Du bør derfor holde skjermen låst så mye som mulig for å øke batteritiden. For å bidra til å redusere påvirkningen på iPhone-batteriet har Seva nå en dvalemodus og en pausemodus. For å redusere batteriforbruket ytterligere når du ikke bruker Seva bør du tvangslukke den via iPhones appveksler. ";
 
 
 /*  */
-"faq.sleep_mode_battery.question" = "Hvordan bruker jeg dvalemodus til å redusere Soundscapes påvirkning på telefonbatteriet?";
+"faq.sleep_mode_battery.question" = "Hvordan bruker jeg dvalemodus til å redusere Sevas påvirkning på telefonbatteriet?";
 
 
 /*  */
-"faq.sleep_mode_battery.answer" = "Hvis du vil sette Soundscape i dvalemodus, velger du knappen Sett i dvalemodus øverst til høyre på skjermen. Når du velger dette, slutter Soundscape å bruke stedstjenester og mobildata frem til du aktiverer den igjen.";
+"faq.sleep_mode_battery.answer" = "Hvis du vil sette Seva i dvalemodus, velger du knappen Sett i dvalemodus øverst til høyre på skjermen. Når du velger dette, slutter Seva å bruke stedstjenester og mobildata frem til du aktiverer den igjen.";
 
 
 /*  */
-"faq.snooze_mode_battery.question" = "Hvordan bruker jeg pausemodus til å redusere Soundscapes påvirkning på telefonbatteriet?";
+"faq.snooze_mode_battery.question" = "Hvordan bruker jeg pausemodus til å redusere Sevas påvirkning på telefonbatteriet?";
 
 
 /*  */
-"faq.snooze_mode_battery.answer" = "Hvis du vil sette Soundscape i pausemodus, velger du knappen Sett i pausemodus øverst til høyre på skjermen. Når Soundscape er i pausemodus, velger du knappen Vekk når jeg går så går Soundscape inn i en lavstrømstilstand til du forlater nåværende posisjon.";
+"faq.snooze_mode_battery.answer" = "Hvis du vil sette Seva i pausemodus, velger du knappen Sett i pausemodus øverst til høyre på skjermen. Når Seva er i pausemodus, velger du knappen Vekk når jeg går så går Seva inn i en lavstrømstilstand til du forlater nåværende posisjon.";
 
 
 /*  */
@@ -4287,43 +4287,43 @@
 
 
 /*  */
-"faq.background_battery_impact.question" = "Hvordan påvirkes telefonens batteritid av at Soundscape kjører i bakgrunnen?";
+"faq.background_battery_impact.question" = "Hvordan påvirkes telefonens batteritid av at Seva kjører i bakgrunnen?";
 
 
 /*  */
-"faq.background_battery_impact.answer" = "Soundscape er en posisjonsbasert app og bruker stedstjenester til å fastslå posisjonen din. I testene våre bruker ikke Soundscape mer batteri enn en vanlig kartapp. Hvis du imidlertid er bekymret for batteriforbruket når du bruker telefonen, finner du noen tips nedenfor som bidrar til å redusere batteriforbruket:\n\n1. Slå av skjermen så mye som mulig når du ikke samhandler med appen.\n2. Når du ikke bruker appen, kan du lukke den. Soundscape bruker kontinuerlig stedstjenester når den kjører slik at den alltid vet posisjonen din, selv om du ikke beveger deg. Ikke glem å starte appen på nytt når du gjenopptar reisen.\n3. I kaldt vær må du holde telefonen varm siden batteriet yter dårligere i kaldere temperaturer.";
+"faq.background_battery_impact.answer" = "Seva er en posisjonsbasert app og bruker stedstjenester til å fastslå posisjonen din. I testene våre bruker ikke Seva mer batteri enn en vanlig kartapp. Hvis du imidlertid er bekymret for batteriforbruket når du bruker telefonen, finner du noen tips nedenfor som bidrar til å redusere batteriforbruket:\n\n1. Slå av skjermen så mye som mulig når du ikke samhandler med appen.\n2. Når du ikke bruker appen, kan du lukke den. Seva bruker kontinuerlig stedstjenester når den kjører slik at den alltid vet posisjonen din, selv om du ikke beveger deg. Ikke glem å starte appen på nytt når du gjenopptar reisen.\n3. I kaldt vær må du holde telefonen varm siden batteriet yter dårligere i kaldere temperaturer.";
 
 
 /*  */
-"faq.mobile_data_use.question" = "Hvor mye mobildata bruker Soundscape?";
+"faq.mobile_data_use.question" = "Hvor mye mobildata bruker Seva?";
 
 
 /*  */
-"faq.mobile_data_use.answer" = "Mengden mobildata som brukes, avhenger av hvordan du bruker Soundscape. Vi har laget Soundscape slik at den bare bruker en liten mengde data når du bruker den ved å gjøre ting som å lagre punkter mens du går, slik at du ikke trenger å laste dem ned på nytt hver gang du går tilbake til et sted du allerede har vært. Hvis du vil redusere mengden mobildata du bruker, må du sørge for at du er koblet til Wi-Fi når det er mulig, særlig for å laste ned appen. Når du ikke bruker Soundscape, bør du bruke knappen Sett i dvalemodus for å sette Soundscape i dvalemodus eller tvangslukke appen.";
+"faq.mobile_data_use.answer" = "Mengden mobildata som brukes, avhenger av hvordan du bruker Seva. Vi har laget Seva slik at den bare bruker en liten mengde data når du bruker den ved å gjøre ting som å lagre punkter mens du går, slik at du ikke trenger å laste dem ned på nytt hver gang du går tilbake til et sted du allerede har vært. Hvis du vil redusere mengden mobildata du bruker, må du sørge for at du er koblet til Wi-Fi når det er mulig, særlig for å laste ned appen. Når du ikke bruker Seva, bør du bruke knappen Sett i dvalemodus for å sette Seva i dvalemodus eller tvangslukke appen.";
 
 
 /*  */
-"faq.difference_from_map_apps.question" = "Hvordan skiller Soundscape seg fra andre kartapper?";
+"faq.difference_from_map_apps.question" = "Hvordan skiller Seva seg fra andre kartapper?";
 
 
 /*  */
-"faq.difference_from_map_apps.answer" = "Soundscape gir deg en beskrivelse av omgivelsene dine for å hjelpe deg med å utforske og finne veien. Ved å bruke romlig lyd leser Soundscape opp interessepunkter, parker, veier og veikryss fra retningen de fysisk ligger i, i omgivelsene rundt deg mens du går. Hvis du for eksempel går forbi en butikk på høyre side, hører du navnet på butikken fra høyre. Når du nærmer deg et veikryss, hører du navnet på hver vei fra retningen veien går i, med start fra venstre, foran deg og så til høyre.\n\nI stedet for veibeskrivelser som ofte gis av andre kartapper, spiller Soundscape av lydsignalet i retningen til destinasjonen. Da kan du komme deg dit på dine egne vilkår samtidig som du blir oppmerksom på omgivelsene og posisjonen til destinasjonen. Soundscape ligger i bakgrunnen slik at du kan bruke en app med veibeskrivelser og samtidig være bevisst på omgivelsene mens du finner veien til destinasjonen.";
+"faq.difference_from_map_apps.answer" = "Seva gir deg en beskrivelse av omgivelsene dine for å hjelpe deg med å utforske og finne veien. Ved å bruke romlig lyd leser Seva opp interessepunkter, parker, veier og veikryss fra retningen de fysisk ligger i, i omgivelsene rundt deg mens du går. Hvis du for eksempel går forbi en butikk på høyre side, hører du navnet på butikken fra høyre. Når du nærmer deg et veikryss, hører du navnet på hver vei fra retningen veien går i, med start fra venstre, foran deg og så til høyre.\n\nI stedet for veibeskrivelser som ofte gis av andre kartapper, spiller Seva av lydsignalet i retningen til destinasjonen. Da kan du komme deg dit på dine egne vilkår samtidig som du blir oppmerksom på omgivelsene og posisjonen til destinasjonen. Seva ligger i bakgrunnen slik at du kan bruke en app med veibeskrivelser og samtidig være bevisst på omgivelsene mens du finner veien til destinasjonen.";
 
 
 /*  */
-"faq.use_with_wayfinding_apps.question" = "Hvordan bruker jeg Soundscape med en navigasjonsapp?";
+"faq.use_with_wayfinding_apps.question" = "Hvordan bruker jeg Seva med en navigasjonsapp?";
 
 
 /*  */
-"faq.use_with_wayfinding_apps.answer" = "Soundscape er laget som en bevissthetsapp for å hjelpe til med å fylle inn informasjon om omgivelsene som du ellers kanskje ikke ville vært klar over. Selv om den ikke er laget som en navigasjonsapp med veibeskrivelser, kan den brukes sammen med slike apper for å gi tilleggsinformasjon. Hvis du vil bruke Soundscape med disse appene, starter du navigasjonsappen først. Deretter går du til Soundscape og angir et lydsignal på den samme destinasjonen som i navigasjonsappen. På dette tidspunktet kjører begge appene og du hører veibeskrivelser fra navigasjonsappen mens du får oppdateringer om interessepunkter, veikryss og avstanden til destinasjonen fra Soundscape.";
+"faq.use_with_wayfinding_apps.answer" = "Seva er laget som en bevissthetsapp for å hjelpe til med å fylle inn informasjon om omgivelsene som du ellers kanskje ikke ville vært klar over. Selv om den ikke er laget som en navigasjonsapp med veibeskrivelser, kan den brukes sammen med slike apper for å gi tilleggsinformasjon. Hvis du vil bruke Seva med disse appene, starter du navigasjonsappen først. Deretter går du til Seva og angir et lydsignal på den samme destinasjonen som i navigasjonsappen. På dette tidspunktet kjører begge appene og du hører veibeskrivelser fra navigasjonsappen mens du får oppdateringer om interessepunkter, veikryss og avstanden til destinasjonen fra Seva.";
 
 
 /*  */
-"faq.controlling_what_you_hear.question" = "Hvordan styrer jeg hva jeg hører og når jeg hører det i Soundscape?";
+"faq.controlling_what_you_hear.question" = "Hvordan styrer jeg hva jeg hører og når jeg hører det i Seva?";
 
 
 /*  */
-"faq.controlling_what_you_hear.answer" = "Det finner flere måter for å styre det du hører og når du hører det, i Soundscape:\n\n1. Stopp umiddelbart all lyd: Dobbelttrykk på skjermen med to fingre for å slå av all lyd umiddelbart, deriblant meldinger som for øyeblikket spilles av og lydsignalet hvis det er på. Meldinger gjenopptas automatisk når du nærmer deg neste veikryss eller interessepunkt, men lydsignalet gjenopptas ikke. Velg knappen Slå på lydsignal på hovedskjermen for å høre lydsignalet igjen.\n2. Stopp automatiske meldinger: Når du ikke beveger deg, eller når du har nådd en destinasjon, er det kanskje ikke nødvendig at Soundscape fortsetter å varsle deg om ting rundt deg. I stedet for å avslutte appen kan du sette Soundscape i pausemodus og vekke den igjen når du forlater stedet, eller du kan sette Soundscape i dvalemodus. Den forblir av til du velger å slå den på igjen. Du kan også velge Innstillinger fra menyen og velge å slå av alle meldinger i delen Administrer meldinger.\n3. Stopp lydsignalet: Det finnes flere tilfeller der du kanskje vil angi en destinasjon, men ikke trenger å ha lydsignalet på. Du vet for eksempel nøyaktig hvordan du kommer deg til destinasjonen, men ønsker å få automatiske oppdateringer om hvor langt unna destinasjonen du er. Det kan hende at du også vil vite sånn cirka hvordan du kommer deg til destinasjonen, og at du bare trenger lydsignalet når du nærmer deg destinasjonen. Du kan uansett velge når du hører lydsignalet ved å trykke på knappen for å slå av og på lydsignalet på hovedskjermen.";
+"faq.controlling_what_you_hear.answer" = "Det finner flere måter for å styre det du hører og når du hører det, i Seva:\n\n1. Stopp umiddelbart all lyd: Dobbelttrykk på skjermen med to fingre for å slå av all lyd umiddelbart, deriblant meldinger som for øyeblikket spilles av og lydsignalet hvis det er på. Meldinger gjenopptas automatisk når du nærmer deg neste veikryss eller interessepunkt, men lydsignalet gjenopptas ikke. Velg knappen Slå på lydsignal på hovedskjermen for å høre lydsignalet igjen.\n2. Stopp automatiske meldinger: Når du ikke beveger deg, eller når du har nådd en destinasjon, er det kanskje ikke nødvendig at Seva fortsetter å varsle deg om ting rundt deg. I stedet for å avslutte appen kan du sette Seva i pausemodus og vekke den igjen når du forlater stedet, eller du kan sette Seva i dvalemodus. Den forblir av til du velger å slå den på igjen. Du kan også velge Innstillinger fra menyen og velge å slå av alle meldinger i delen Administrer meldinger.\n3. Stopp lydsignalet: Det finnes flere tilfeller der du kanskje vil angi en destinasjon, men ikke trenger å ha lydsignalet på. Du vet for eksempel nøyaktig hvordan du kommer deg til destinasjonen, men ønsker å få automatiske oppdateringer om hvor langt unna destinasjonen du er. Det kan hende at du også vil vite sånn cirka hvordan du kommer deg til destinasjonen, og at du bare trenger lydsignalet når du nærmer deg destinasjonen. Du kan uansett velge når du hører lydsignalet ved å trykke på knappen for å slå av og på lydsignalet på hovedskjermen.";
 
 
 /*  */
@@ -4331,31 +4331,31 @@
 
 
 /*  */
-"faq.holding_phone_flat.answer" = "Nei. Mens du går, kan du legge telefonen i veska, lomma eller et annet sted. Soundscape bruker retningen du går i, til å finne ut hvilke meldinger som skal kunngjøres til venstre og til høyre. Når du stopper, vet ikke Soundscape hvilken retning du er vendt mot. Hvis lydsignalet er på, legger du merke til at det blir stille frem til du begynner å bevege deg igjen. Du kan ta ut telefonen for å trykke på posisjonen og utforske knappene nederst på skjermen når som helst, men husk å holde telefonen med toppen pekende i retningen du er vendt mot og med skjermen mot himmelen. I denne flate stillingen bruker Soundscape telefonens kompass til å fastslå hvilken retning du er vendt mot og gi deg nøyaktige romlige meldinger. Hvis lydsignalet er på, vil du også merke at det går tilbake til full lydstyrke.";
+"faq.holding_phone_flat.answer" = "Nei. Mens du går, kan du legge telefonen i veska, lomma eller et annet sted. Seva bruker retningen du går i, til å finne ut hvilke meldinger som skal kunngjøres til venstre og til høyre. Når du stopper, vet ikke Seva hvilken retning du er vendt mot. Hvis lydsignalet er på, legger du merke til at det blir stille frem til du begynner å bevege deg igjen. Du kan ta ut telefonen for å trykke på posisjonen og utforske knappene nederst på skjermen når som helst, men husk å holde telefonen med toppen pekende i retningen du er vendt mot og med skjermen mot himmelen. I denne flate stillingen bruker Seva telefonens kompass til å fastslå hvilken retning du er vendt mot og gi deg nøyaktige romlige meldinger. Hvis lydsignalet er på, vil du også merke at det går tilbake til full lydstyrke.";
 
 
 /*  */
-"faq.personalize_experience.question" = "På hvilke måter kan jeg tilpasse Soundscape-opplevelsen min?";
+"faq.personalize_experience.question" = "På hvilke måter kan jeg tilpasse Seva-opplevelsen min?";
 
 
 /*  */
-"faq.personalize_experience.answer" = "Med Soundscape kan du tilpasse tre elementer ved meldingene du hører når du går:\n\n1. Stemme: Du kan velge hvilken av de tilgjengelige stemmene i iOS du vil bruke for Soundscape, samt hastigheten som meldingene leses opp i. Fra menyen velger du Innstillinger og deretter Stemme for å justere talehastigheten og stemmeinnstillingene. Du kan laste ned flere stemmer og stemmer i høyere kvalitet i iOS Innstillinger-appen under Innstillinger > Tilgjengelighet > Opplest innhold > Stemmer. \n2. Avstandsmåleenhet: Med Soundscape kan du høre alle avstander i fot eller meter. Velg Innstillinger fra menyen. Med delen Måleenheter kan du veksle mellom to alternativer: britisk (fot) og metrisk (meter).\n3. Markører: Du kan markere din verden med alt du bryr deg om. Du kan markere ting som er personlige og relevante for deg, som hjem, kontor og foretrukket dagligvarebutikk. Soundscape leser deretter opp markerte steder mens du går eller nærmer deg dem, eller du kan bruke knappen Markører i nærheten nederst på Soundscape-startskjermen for å høre en romlig melding om markerte steder rundt deg. Disse markørene er personlige for deg, og ingen andre kan se dem.\n\nI tillegg til det ovenfor kan følgende VoiceOver-innstillinger påvirke hvordan Soundscape fungerer:\n\n1. VoiceOver-tips: Når VoiceOver-tips er slått på, hører du informasjon om alle knappene på hovedskjermen til Soundscape. Du kan slå på VoiceOver-tips ved å gå til iOS Innstillinger-appen og gå til Tilgjengelighet > VoiceOver > Detaljnivå og slå på Les opp hint-innstillingen.\n2. Lyddemping: Soundscape er laget for å fungere med lyddemping slått av. Når lyddemping er på, kan det være vanskelig å høre automatiske meldinger hvis VoiceOver brukes samtidig. Vi anbefaler at du slår av lyddemping for å gjøre det enklere å høre alle automatiske meldinger som kommer når du samhandler med telefonen. Du kan slå av lyddemping i VoiceOver-innstillinger eller via VoiceOver-rotoren.\n3. Touch ID eller Face ID for å låse opp: Hvis du angir at telefonen låses opp med Touch ID eller Face ID, er det raskt og enkelt å låse opp telefonen. Da får du tilgang til knappene Min posisjon, Rundt meg og Foran meg så raskt som mulig når du er på farten. Konfigurer opplåsing med Touch ID eller Face ID i iOS Innstillinger-appen.";
+"faq.personalize_experience.answer" = "Med Seva kan du tilpasse tre elementer ved meldingene du hører når du går:\n\n1. Stemme: Du kan velge hvilken av de tilgjengelige stemmene i iOS du vil bruke for Seva, samt hastigheten som meldingene leses opp i. Fra menyen velger du Innstillinger og deretter Stemme for å justere talehastigheten og stemmeinnstillingene. Du kan laste ned flere stemmer og stemmer i høyere kvalitet i iOS Innstillinger-appen under Innstillinger > Tilgjengelighet > Opplest innhold > Stemmer. \n2. Avstandsmåleenhet: Med Seva kan du høre alle avstander i fot eller meter. Velg Innstillinger fra menyen. Med delen Måleenheter kan du veksle mellom to alternativer: britisk (fot) og metrisk (meter).\n3. Markører: Du kan markere din verden med alt du bryr deg om. Du kan markere ting som er personlige og relevante for deg, som hjem, kontor og foretrukket dagligvarebutikk. Seva leser deretter opp markerte steder mens du går eller nærmer deg dem, eller du kan bruke knappen Markører i nærheten nederst på Seva-startskjermen for å høre en romlig melding om markerte steder rundt deg. Disse markørene er personlige for deg, og ingen andre kan se dem.\n\nI tillegg til det ovenfor kan følgende VoiceOver-innstillinger påvirke hvordan Seva fungerer:\n\n1. VoiceOver-tips: Når VoiceOver-tips er slått på, hører du informasjon om alle knappene på hovedskjermen til Seva. Du kan slå på VoiceOver-tips ved å gå til iOS Innstillinger-appen og gå til Tilgjengelighet > VoiceOver > Detaljnivå og slå på Les opp hint-innstillingen.\n2. Lyddemping: Seva er laget for å fungere med lyddemping slått av. Når lyddemping er på, kan det være vanskelig å høre automatiske meldinger hvis VoiceOver brukes samtidig. Vi anbefaler at du slår av lyddemping for å gjøre det enklere å høre alle automatiske meldinger som kommer når du samhandler med telefonen. Du kan slå av lyddemping i VoiceOver-innstillinger eller via VoiceOver-rotoren.\n3. Touch ID eller Face ID for å låse opp: Hvis du angir at telefonen låses opp med Touch ID eller Face ID, er det raskt og enkelt å låse opp telefonen. Da får du tilgang til knappene Min posisjon, Rundt meg og Foran meg så raskt som mulig når du er på farten. Konfigurer opplåsing med Touch ID eller Face ID i iOS Innstillinger-appen.";
 
 
 /*  */
-"faq.what_is_osm.question" = "Hva er Open Street Map og hvorfor bruker vi det for Soundscape?";
+"faq.what_is_osm.question" = "Hva er Open Street Map og hvorfor bruker vi det for Seva?";
 
 
 /*  */
-"faq.what_is_osm.answer" = "Soundscape tegner geografiske kartdata for å gi informasjonsmeldinger i appen. Vi bruker Open Street Map (www.openstreetmap.org) som hovedkartkilde, som er en omfattende fellesskapsgenerert kartplattform. Den gjør det mulig for organisasjoner og enkeltpersoner å forbedre kvaliteten og detaljnivået på informasjonen som leveres, og tilgjengeligheten til områdene ved å bruke Open Street Map-kartredigeringsverktøy.";
+"faq.what_is_osm.answer" = "Seva tegner geografiske kartdata for å gi informasjonsmeldinger i appen. Vi bruker Open Street Map (www.openstreetmap.org) som hovedkartkilde, som er en omfattende fellesskapsgenerert kartplattform. Den gjør det mulig for organisasjoner og enkeltpersoner å forbedre kvaliteten og detaljnivået på informasjonen som leveres, og tilgjengeligheten til områdene ved å bruke Open Street Map-kartredigeringsverktøy.";
 
 
 /*  */
-"faq.tip.beacon_quiet" = "Hvis du legger telefonen i lomma og slutter å bevege deg, blir lydsignalet svakere fordi Soundscape ikke vet hvilken retning du er vendt mot. Du løser dette ved å begynne å gå igjen eller å ta ut telefonen og holde den flatt.";
+"faq.tip.beacon_quiet" = "Hvis du legger telefonen i lomma og slutter å bevege deg, blir lydsignalet svakere fordi Seva ikke vet hvilken retning du er vendt mot. Du løser dette ved å begynne å gå igjen eller å ta ut telefonen og holde den flatt.";
 
 
 /*  */
-"faq.tip.setting_beacon_on_address" = "Du kan angi et lydsignal på en hvilken som helst adresse. Søk etter adressen fra hovedskjermen til Soundscape. Etter at du har valgt adressen i søkeresultatene, vises skjermen Posisjonsinformasjon. Der finner du alternativet Start lydsignal på adressen. På denne måten kan du angi et lydsignal på virksomheter, steder, interessepunkter og boligområder som ikke er i Open Street Maps.";
+"faq.tip.setting_beacon_on_address" = "Du kan angi et lydsignal på en hvilken som helst adresse. Søk etter adressen fra hovedskjermen til Seva. Etter at du har valgt adressen i søkeresultatene, vises skjermen Posisjonsinformasjon. Der finner du alternativet Start lydsignal på adressen. På denne måten kan du angi et lydsignal på virksomheter, steder, interessepunkter og boligområder som ikke er i Open Street Maps.";
 
 
 /*  */
@@ -4367,11 +4367,11 @@
 
 
 /*  */
-"faq.tip.turning_off_auto_callouts" = "Hvis du fremdeles vil samhandle med Soundscape, men ikke vil høre automatiske meldinger, kan du slå av meldinger ved å gå til delen Administrer meldinger på siden Innstillinger fra menyen. Hvis du ikke kommer til å bruke Soundscape, kan du sette appen i dvale- eller pausemodus ved å bruke knappen Sett i dvalemodus på startskjermen.";
+"faq.tip.turning_off_auto_callouts" = "Hvis du fremdeles vil samhandle med Seva, men ikke vil høre automatiske meldinger, kan du slå av meldinger ved å gå til delen Administrer meldinger på siden Innstillinger fra menyen. Hvis du ikke kommer til å bruke Seva, kan du sette appen i dvale- eller pausemodus ved å bruke knappen Sett i dvalemodus på startskjermen.";
 
 
 /*  */
-"faq.tip.hold_phone_flat" = "Soundscape fungerer best når du holder telefonen flatt med skjermen mot himmelen og toppen av telefonen pekende vekk fra deg.";
+"faq.tip.hold_phone_flat" = "Seva fungerer best når du holder telefonen flatt med skjermen mot himmelen og toppen av telefonen pekende vekk fra deg.";
 
 
 /*  */

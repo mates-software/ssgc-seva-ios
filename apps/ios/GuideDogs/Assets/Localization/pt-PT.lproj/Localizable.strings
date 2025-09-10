@@ -155,7 +155,7 @@
 
 
 /*  */
-"general.alert.offline_default.message" = "O Soundscape está a trabalhar offline. O Soundscape continuará a funcionar, mas algumas funções poderão estar limitadas.";
+"general.alert.offline_default.message" = "O Seva está a trabalhar offline. O Seva continuará a funcionar, mas algumas funções poderão estar limitadas.";
 
 
 /*  */
@@ -163,7 +163,7 @@
 
 
 /*  */
-"general.alert.offline_search.message" = "Quando o Soundscape está a trabalhar offline, a pesquisa está desativada. Dispense esta mensagem para voltar ao ecrã anterior";
+"general.alert.offline_search.message" = "Quando o Seva está a trabalhar offline, a pesquisa está desativada. Dispense esta mensagem para voltar ao ecrã anterior";
 
 
 /*  */
@@ -231,11 +231,11 @@
 
 
 /*  */
-"general.error.location_services" = "Ative os Serviços de localização para utilizar o Soundscape";
+"general.error.location_services" = "Ative os Serviços de localização para utilizar o Seva";
 
 
 /*  */
-"general.error.precise_location" = "Ative a Localização exata para utilizar o Soundscape";
+"general.error.precise_location" = "Ative a Localização exata para utilizar o Seva";
 
 
 /*  */
@@ -243,7 +243,7 @@
 
 
 /*  */
-"general.error.location_services.authorize.description" = "O Soundscape utiliza a sua localização para localizar e fornecer informações sobre os locais e itens nas suas imediações. A aplicação necessita de permissão para utilizar os Serviços de localização.";
+"general.error.location_services.authorize.description" = "O Seva utiliza a sua localização para localizar e fornecer informações sobre os locais e itens nas suas imediações. A aplicação necessita de permissão para utilizar os Serviços de localização.";
 
 
 /*  */
@@ -255,7 +255,7 @@
 
 
 /*  */
-"general.error.location_services_resume" = "Abra o Soundscape para retomar os Serviços de localização";
+"general.error.location_services_resume" = "Abra o Seva para retomar os Serviços de localização";
 
 
 /*  */
@@ -263,7 +263,7 @@
 
 
 /*  */
-"general.error.location_services_enable_description" = "Os Serviços de localização estão atualmente desativados. O Soundscape não consegue funcionar quando os Serviços de localização estão desativados.";
+"general.error.location_services_enable_description" = "Os Serviços de localização estão atualmente desativados. O Seva não consegue funcionar quando os Serviços de localização estão desativados.";
 
 
 /*  */
@@ -279,7 +279,7 @@
 
 
 /*  */
-"general.error.heading" = "O Soundscape não consegue determinar para que direção está virado. Segure no telemóvel numa posição plana ou comece a caminhar e tente novamente";
+"general.error.heading" = "O Seva não consegue determinar para que direção está virado. Segure no telemóvel numa posição plana ou comece a caminhar e tente novamente";
 
 
 /*  */
@@ -299,7 +299,7 @@
 
 
 /*  */
-"general.error.network_connection_required.deleting_data" = "É necessária uma ligação de rede para eliminar e recarregar dados do mapa do Soundscape. Verifique se o telemóvel não está em modo de voo.";
+"general.error.network_connection_required.deleting_data" = "É necessária uma ligação de rede para eliminar e recarregar dados do mapa do Seva. Verifique se o telemóvel não está em modo de voo.";
 
 
 /*  */
@@ -331,11 +331,11 @@
 
 
 /*  */
-"device_motion.enable.description" = "O Seguimento do Movimento e fitness está atualmente desativado. O Soundscape não pode funcionar quando o Seguimento do Movimento e fitness está desativado.";
+"device_motion.enable.description" = "O Seguimento do Movimento e fitness está atualmente desativado. O Seva não pode funcionar quando o Seguimento do Movimento e fitness está desativado.";
 
 
 /*  */
-"device_motion.enable.instructions" = "Ative Seguimento do Movimento e fitness na aplicação Definições para continuar.\n\n1. Prima Abrir Definições\n2. Prima o botão Anterior (chamado Definições)\n3. Selecione Privacidade\n4. Selecione Movimento e fitness\n5. Ative Controlo de fitness\n6. Reinicie o Soundscape";
+"device_motion.enable.instructions" = "Ative Seguimento do Movimento e fitness na aplicação Definições para continuar.\n\n1. Prima Abrir Definições\n2. Prima o botão Anterior (chamado Definições)\n3. Selecione Privacidade\n4. Selecione Movimento e fitness\n5. Ative Controlo de fitness\n6. Reinicie o Seva";
 
 
 /*  */
@@ -343,7 +343,7 @@
 
 
 /*  */
-"device_motion.authorize.description" = "Isto permite que o Soundscape melhore a sua experiência consoante esteja a caminhar, num veículo ou parado. A aplicação necessita da sua permissão para utilizar Movimento e fitness. Antes de autorizar o Soundscape a utilizar esta permissão, poderá necessitar de ativar Controlo de fitness em Definições → Privacidade → Movimento e fitness.";
+"device_motion.authorize.description" = "Isto permite que o Seva melhore a sua experiência consoante esteja a caminhar, num veículo ou parado. A aplicação necessita da sua permissão para utilizar Movimento e fitness. Antes de autorizar o Seva a utilizar esta permissão, poderá necessitar de ativar Controlo de fitness em Definições → Privacidade → Movimento e fitness.";
 
 
 /*  */
@@ -359,7 +359,7 @@
 
 
 /*  */
-"settings.clear_cache.alert_message" = "O Soundscape armazena dados do mapa para reduzir o consumo de dados e bateria. A eliminação dos dados armazenados fará com que o Soundscape tenha de os transferir novamente.";
+"settings.clear_cache.alert_message" = "O Seva armazena dados do mapa para reduzir o consumo de dados e bateria. A eliminação dos dados armazenados fará com que o Seva tenha de os transferir novamente.";
 
 
 /*  */
@@ -375,7 +375,7 @@
 
 
 /*  */
-"settings.clear_cache.no_service.message" = "O Soundscape não consegue estabelecer ligação à Internet neste momento. A ligação à Internet é necessária durante a limpeza dos dados do mapa armazenados para que estes possam ser atualizados.";
+"settings.clear_cache.no_service.message" = "O Seva não consegue estabelecer ligação à Internet neste momento. A ligação à Internet é necessária durante a limpeza dos dados do mapa armazenados para que estes possam ser atualizados.";
 
 
 /*  */
@@ -399,7 +399,7 @@
 
 
 /*  */
-"settings.feedback.subject" = "Comentários sobre o Soundscape";
+"settings.feedback.subject" = "Comentários sobre o Seva";
 
 
 /*  */
@@ -427,7 +427,7 @@
 
 
 /*  */
-"settings.about_app" = "Acerca do Soundscape";
+"settings.about_app" = "Acerca do Seva";
 
 
 /*  */
@@ -455,7 +455,7 @@
 
 
 /*  */
-"settings.section.telemetry.footer" = "Ajude o Soundscape a melhorar enviando automaticamente diagnósticos, relatórios de erros e dados de utilização. Não são recolhidos quaisquer dados pessoais.";
+"settings.section.telemetry.footer" = "Ajude o Seva a melhorar enviando automaticamente diagnósticos, relatórios de erros e dados de utilização. Não são recolhidos quaisquer dados pessoais.";
 
 
 /*  */
@@ -487,11 +487,11 @@
 
 
 /*  */
-"settings.audio.mix_with_others.description" = "Utilize esta opção para ativar o controlo do Soundscape com os botões dos auscultadores e os botões de reprodução de multimédia do ecrã de bloqueio. Note que, quando esta opção está ativada, não é possível utilizar o Soundscape durante a reprodução de outros elementos multimédia, como podcasts ou música.";
+"settings.audio.mix_with_others.description" = "Utilize esta opção para ativar o controlo do Seva com os botões dos auscultadores e os botões de reprodução de multimédia do ecrã de bloqueio. Note que, quando esta opção está ativada, não é possível utilizar o Seva durante a reprodução de outros elementos multimédia, como podcasts ou música.";
 
 
 /*  */
-"setting.audio.mix_with_others.confirmation" = "A ativação desta definição fará com que os avisos e outro áudio do Soundscape sejam colocados em pausa quando começar a utilizar outra aplicação de multimédia. Pode voltar ao Soundscape para retomar os avisos.";
+"setting.audio.mix_with_others.confirmation" = "A ativação desta definição fará com que os avisos e outro áudio do Seva sejam colocados em pausa quando começar a utilizar outra aplicação de multimédia. Pode voltar ao Seva para retomar os avisos.";
 
 
 /*  */
@@ -571,7 +571,7 @@
 
 
 /*  */
-"voice.apple.no_siri" = "Note que as vozes de Siri não estão disponíveis para o Soundscape e não se encontram na lista abaixo.";
+"voice.apple.no_siri" = "Note que as vozes de Siri não estão disponíveis para o Seva e não se encontram na lista abaixo.";
 
 
 /*  */
@@ -587,7 +587,7 @@
 
 
 /*  */
-"beacon.settings.style.haptic.explanation" = "Estes estilos de sinal incluem feedback háptico que pode sentir, além do áudio normal do sinal. O feedback háptico só está disponível quando o telemóvel está desbloqueado e o Soundscape está aberto.";
+"beacon.settings.style.haptic.explanation" = "Estes estilos de sinal incluem feedback háptico que pode sentir, além do áudio normal do sinal. O feedback háptico só está disponível quando o telemóvel está desbloqueado e o Seva está aberto.";
 
 
 /*  */
@@ -611,11 +611,11 @@
 
 
 /*  */
-"troubleshooting.gps_status.explanation.meters" = "Este valor é uma estimativa da exatidão com que o Soundscape calcula a sua localização. Um valor menor que ±10 metros é bom. Um valor menor que ±20 metros é aceitável. Qualquer outro valor é fraco. Os dados de localização são mais exatos quando se encontra no exterior e não está debaixo de nenhuma estrutura.";
+"troubleshooting.gps_status.explanation.meters" = "Este valor é uma estimativa da exatidão com que o Seva calcula a sua localização. Um valor menor que ±10 metros é bom. Um valor menor que ±20 metros é aceitável. Qualquer outro valor é fraco. Os dados de localização são mais exatos quando se encontra no exterior e não está debaixo de nenhuma estrutura.";
 
 
 /*  */
-"troubleshooting.gps_status.explanation.feet" = "Este valor é uma estimativa da exatidão com que o Soundscape calcula a sua localização. Um valor menor que ±30 pés é bom. Um valor menor que ±60 pés é aceitável. Qualquer outro valor é fraco. Os dados de localização são mais exatos quando se encontra no exterior e não está debaixo de nenhuma estrutura.";
+"troubleshooting.gps_status.explanation.feet" = "Este valor é uma estimativa da exatidão com que o Seva calcula a sua localização. Um valor menor que ±30 pés é bom. Um valor menor que ±60 pés é aceitável. Qualquer outro valor é fraco. Os dados de localização são mais exatos quando se encontra no exterior e não está debaixo de nenhuma estrutura.";
 
 
 /*  */
@@ -631,11 +631,11 @@
 
 
 /*  */
-"troubleshooting.check_audio.hint" = "Faça duplo toque para verificar o estado dos auscultadores que está a utilizar com o Soundscape.";
+"troubleshooting.check_audio.hint" = "Faça duplo toque para verificar o estado dos auscultadores que está a utilizar com o Seva.";
 
 
 /*  */
-"troubleshooting.check_audio.explanation" = "Toque neste botão para ouvir informações sobre o estado dos auscultadores que está a utilizar com o Soundscape.";
+"troubleshooting.check_audio.explanation" = "Toque neste botão para ouvir informações sobre o estado dos auscultadores que está a utilizar com o Seva.";
 
 
 /*  */
@@ -647,7 +647,7 @@
 
 
 /*  */
-"troubleshooting.cache.explanation" = "O Soundscape transfere dados do mapa à medida que caminha, para poder informá-lo sobre os pontos e os locais em seu redor. Se tiver problemas com o Soundscape, ou se este estiver a utilizar demasiada memória, poderá limpar os dados do mapa armazenados; o Soundscape só voltará a transferir os dados do mapa perto da sua localização atual.";
+"troubleshooting.cache.explanation" = "O Seva transfere dados do mapa à medida que caminha, para poder informá-lo sobre os pontos e os locais em seu redor. Se tiver problemas com o Seva, ou se este estiver a utilizar demasiada memória, poderá limpar os dados do mapa armazenados; o Seva só voltará a transferir os dados do mapa perto da sua localização atual.";
 
 
 /*  */
@@ -655,7 +655,7 @@
 
 
 /*  */
-"settings.about.title.privacy" = "Declaração de Privacidade da Soundscape Community";
+"settings.about.title.privacy" = "Declaração de Privacidade da Seva Community";
 
 
 /*  */
@@ -815,7 +815,7 @@
 
 
 /*  */
-"preview.title" = "Soundscape Street Preview";
+"preview.title" = "Seva Street Preview";
 
 
 /*  */
@@ -871,7 +871,7 @@
 
 
 /*  */
-"preview.alert.restart.message" = "Pretende reiniciar o Soundscape Street Preview nesta localização?";
+"preview.alert.restart.message" = "Pretende reiniciar o Seva Street Preview nesta localização?";
 
 
 /*  */
@@ -883,7 +883,7 @@
 
 
 /*  */
-"preview.callout.end" = "A terminar o Soundscape Street Preview";
+"preview.callout.end" = "A terminar o Seva Street Preview";
 
 
 /*  */
@@ -955,7 +955,7 @@
 
 
 /*  */
-"preview.include_unnamed_roads.subtitle" = "Incluir ruas sem nome no Soundscape Street Preview";
+"preview.include_unnamed_roads.subtitle" = "Incluir ruas sem nome no Seva Street Preview";
 
 
 /*  */
@@ -967,11 +967,11 @@
 
 
 /*  */
-"preview.include_unnamed_roads.hint.off" = "Faça duplo toque para incluir ruas sem nome no Soundscape Street Preview";
+"preview.include_unnamed_roads.hint.off" = "Faça duplo toque para incluir ruas sem nome no Seva Street Preview";
 
 
 /*  */
-"preview.include_unnamed_roads.hint.on" = "Faça duplo toque para excluir ruas sem nome no Soundscape Street Preview";
+"preview.include_unnamed_roads.hint.on" = "Faça duplo toque para excluir ruas sem nome no Seva Street Preview";
 
 
 /*  */
@@ -979,7 +979,7 @@
 
 
 /*  */
-"preview.tutorial.title.1" = "Boas-vindas ao Soundscape Street Preview!";
+"preview.tutorial.title.1" = "Boas-vindas ao Seva Street Preview!";
 
 
 /*  */
@@ -999,7 +999,7 @@
 
 
 /*  */
-"preview.tutorial.content.3" = "Em cada cruzamento, pode utilizar o telemóvel novamente para escolher a rua por onde pretende seguir; alternativamente, pode explorar as imediações utilizando os familiares botões do Soundscape, localizados na parte inferior do ecrã. Pode tocar em \"Procurar\" para iniciar o sinal de áudio em qualquer ponto de interesse, alterar a localização ou apenas explorar a área mais detalhadamente.";
+"preview.tutorial.content.3" = "Em cada cruzamento, pode utilizar o telemóvel novamente para escolher a rua por onde pretende seguir; alternativamente, pode explorar as imediações utilizando os familiares botões do Seva, localizados na parte inferior do ecrã. Pode tocar em \"Procurar\" para iniciar o sinal de áudio em qualquer ponto de interesse, alterar a localização ou apenas explorar a área mais detalhadamente.";
 
 
 /*  */
@@ -1455,11 +1455,11 @@
 
 
 /*  */
-"first_use_experience.share.alert.title" = "Partilhar no Soundscape";
+"first_use_experience.share.alert.title" = "Partilhar no Seva";
 
 
 /*  */
-"first_use_experience.share.alert.message" = "Quando partilhar um marco ou uma rota do Soundscape, está a partilhar as localizações associadas a esse marco ou rota. Só deve partilhar com pessoas em quem confia.";
+"first_use_experience.share.alert.message" = "Quando partilhar um marco ou uma rota do Seva, está a partilhar as localizações associadas a esse marco ou rota. Só deve partilhar com pessoas em quem confia.";
 
 
 /*  */
@@ -1499,7 +1499,7 @@
 
 
 /*  */
-"universal_links.marker.share.message" = "Partilhei um marco do Soundscape consigo! \"%@\"";
+"universal_links.marker.share.message" = "Partilhei um marco do Seva consigo! \"%@\"";
 
 
 /*  */
@@ -1511,7 +1511,7 @@
 
 
 /*  */
-"siri_shortcuts.description" = "Depois de adicionar os Atalhos de Siri, poderá utilizar a sua voz para os invocar mesmo quando o Soundscape não está em execução.";
+"siri_shortcuts.description" = "Depois de adicionar os Atalhos de Siri, poderá utilizar a sua voz para os invocar mesmo quando o Seva não está em execução.";
 
 
 /*  */
@@ -1531,7 +1531,7 @@
 
 
 /*  */
-"user_activity.search.title" = "Procurar no Soundscape";
+"user_activity.search.title" = "Procurar no Seva";
 
 
 /*  */
@@ -1543,7 +1543,7 @@
 
 
 /*  */
-"url_resource.alert.route.share.message" = "Partilhei uma rota do Soundscape consigo! \"%@\"";
+"url_resource.alert.route.share.message" = "Partilhei uma rota do Seva consigo! \"%@\"";
 
 
 /*  */
@@ -1551,7 +1551,7 @@
 
 
 /*  */
-"url_resource.alert.route.import.message" = "Só deve utilizar rotas de pessoas em quem confia. As rotas não são criadas, partilhadas nem revistas pela Soundscape Community e podem conter erros.";
+"url_resource.alert.route.import.message" = "Só deve utilizar rotas de pessoas em quem confia. As rotas não são criadas, partilhadas nem revistas pela Seva Community e podem conter erros.";
 
 
 /*  */
@@ -1591,7 +1591,7 @@
 
 
 /*  */
-"routes.no_routes.hint.2" = "Enquanto estiver a percorrer a sua rota com o Soundscape, será informado quando chegar a cada ponto de passagem e o Sinal de Áudio avançará automaticamente para o ponto de passagem seguinte.";
+"routes.no_routes.hint.2" = "Enquanto estiver a percorrer a sua rota com o Seva, será informado quando chegar a cada ponto de passagem e o Sinal de Áudio avançará automaticamente para o ponto de passagem seguinte.";
 
 
 /*  */
@@ -1607,7 +1607,7 @@
 
 
 /*  */
-"routes.tutorial.details" = "Irá agora voltar à página principal do Soundscape e será colocado um Sinal de Áudio no primeiro ponto de passagem. Quando chegar ao ponto de passagem, o sinal avançará para o ponto de passagem seguinte na rota.";
+"routes.tutorial.details" = "Irá agora voltar à página principal do Seva e será colocado um Sinal de Áudio no primeiro ponto de passagem. Quando chegar ao ponto de passagem, o sinal avançará para o ponto de passagem seguinte na rota.";
 
 
 /*  */
@@ -1979,15 +1979,15 @@
 
 
 /*  */
-"sleep.snoozing.message" = "O Soundscape está atualmente em modo de pausa. Quando sair da localização atual, o Soundscape será automaticamente reativado. Isto utilizará os Serviços de localização num modo de baixo consumo de energia para poupar a bateria do telemóvel. Toque no botão abaixo para reativar agora.";
+"sleep.snoozing.message" = "O Seva está atualmente em modo de pausa. Quando sair da localização atual, o Seva será automaticamente reativado. Isto utilizará os Serviços de localização num modo de baixo consumo de energia para poupar a bateria do telemóvel. Toque no botão abaixo para reativar agora.";
 
 
 /*  */
-"sleep.sleeping.message" = "O Soundscape está atualmente em modo de suspensão. Isto impede que o Soundscape utilize os Serviços de localização ou transfira dados. Isto poupa a bateria quando não estiver a utilizar o Soundscape. Toque no botão abaixo para reativar o Soundscape.";
+"sleep.sleeping.message" = "O Seva está atualmente em modo de suspensão. Isto impede que o Seva utilize os Serviços de localização ou transfira dados. Isto poupa a bateria quando não estiver a utilizar o Seva. Toque no botão abaixo para reativar o Seva.";
 
 
 /*  */
-"sleep.sleep.acc_hint" = "Faça duplo toque para suspender o Soundscape";
+"sleep.sleep.acc_hint" = "Faça duplo toque para suspender o Seva";
 
 
 /*  */
@@ -2622,7 +2622,7 @@
 
 
 /*  */
-"menu.learning_resources" = "Blogue do Soundscape";
+"menu.learning_resources" = "Blogue do Seva";
 
 
 /*  */
@@ -2710,19 +2710,19 @@
 
 
 /*  */
-"devices.explain_ar.disconnected" = "Auscultadores com deteção do movimento da cabeça são auscultadores Bluetooth equipados com sensores que indicam ao Soundscape a direção em que está virado. Isto ajuda o Soundscape a melhorar a sua experiência de áudio, tornando-a mais natural à medida que se desloca.\n\nToque no botão para ligar um dispositivo.";
+"devices.explain_ar.disconnected" = "Auscultadores com deteção do movimento da cabeça são auscultadores Bluetooth equipados com sensores que indicam ao Seva a direção em que está virado. Isto ajuda o Seva a melhorar a sua experiência de áudio, tornando-a mais natural à medida que se desloca.\n\nToque no botão para ligar um dispositivo.";
 
 
 /*  */
-"devices.explain_ar.connected.airpods" = "Os AirPods estão prontos para utilização. Pode guardar o telemóvel no bolso e seguir viagem! O Soundscape está a detetar a direção da sua cabeça, pelo que não necessita de levar o telemóvel na mão.";
+"devices.explain_ar.connected.airpods" = "Os AirPods estão prontos para utilização. Pode guardar o telemóvel no bolso e seguir viagem! O Seva está a detetar a direção da sua cabeça, pelo que não necessita de levar o telemóvel na mão.";
 
 
 /*  */
-"devices.explain_ar.paired" = "O Soundscape não está atualmente ligado aos %@. Certifique-se de que os auscultadores estão ligados e perto do dispositivo.";
+"devices.explain_ar.paired" = "O Seva não está atualmente ligado aos %@. Certifique-se de que os auscultadores estão ligados e perto do dispositivo.";
 
 
 /*  */
-"devices.explain_ar.connecting" = "O Soundscape está a estabelecer ligação aos %@. Um momento...";
+"devices.explain_ar.connecting" = "O Seva está a estabelecer ligação aos %@. Um momento...";
 
 
 /*  */
@@ -2734,7 +2734,7 @@
 
 
 /*  */
-"devices.connect_headset.calibrate.explanation" = "Os auscultadores foram ligados ao Soundscape com êxito, mas têm de ser calibrados antes de serem utilizados. O Soundscape irá informá-lo sempre que for necessário calibrar os auscultadores (por exemplo, sempre que os ligar).";
+"devices.connect_headset.calibrate.explanation" = "Os auscultadores foram ligados ao Seva com êxito, mas têm de ser calibrados antes de serem utilizados. O Seva irá informá-lo sempre que for necessário calibrar os auscultadores (por exemplo, sempre que os ligar).";
 
 
 /*  */
@@ -2742,11 +2742,11 @@
 
 
 /*  */
-"devices.connect_headset.unsupported_firmware" = "Os AR Headphones têm de ser atualizados para que possam ser ligados ao Soundscape. Aceda à aplicação Cortana para atualizar os auscultadores.";
+"devices.connect_headset.unsupported_firmware" = "Os AR Headphones têm de ser atualizados para que possam ser ligados ao Seva. Aceda à aplicação Cortana para atualizar os auscultadores.";
 
 
 /*  */
-"devices.connect_headset.failed" = "O Soundscape não conseguiu estabelecer ligação aos seus auscultadores. Tente novamente mais tarde.";
+"devices.connect_headset.failed" = "O Seva não conseguiu estabelecer ligação aos seus auscultadores. Tente novamente mais tarde.";
 
 
 /*  */
@@ -2758,7 +2758,7 @@
 
 
 /*  */
-"devices.connect_headset.audio" = "Antes de ligar os auscultadores ao Soundscape, certifique-se de que estão emparelhados com o seu telemóvel. Se ainda não estiverem, aceda à secção Bluetooth da aplicação Definições do iOS para emparelhar o dispositivo e, em seguida, volte ao Soundscape.";
+"devices.connect_headset.audio" = "Antes de ligar os auscultadores ao Seva, certifique-se de que estão emparelhados com o seu telemóvel. Se ainda não estiverem, aceda à secção Bluetooth da aplicação Definições do iOS para emparelhar o dispositivo e, em seguida, volte ao Seva.";
 
 
 /*  */
@@ -2770,7 +2770,7 @@
 
 
 /*  */
-"devices.connect_headset.completed.airpods" = "Parabéns, os AirPods estão prontos para utilização! Pode guardar o telemóvel no bolso e seguir viagem! O Soundscape irá detetar a direção da sua cabeça, pelo que não necessita de levar o telemóvel na mão. Toque uma vez no botão dos auscultadores para desativar ou ativar o sinal, duas vezes para reproduzir um aviso da localização e três vezes para repetir o último aviso.";
+"devices.connect_headset.completed.airpods" = "Parabéns, os AirPods estão prontos para utilização! Pode guardar o telemóvel no bolso e seguir viagem! O Seva irá detetar a direção da sua cabeça, pelo que não necessita de levar o telemóvel na mão. Toque uma vez no botão dos auscultadores para desativar ou ativar o sinal, duas vezes para reproduzir um aviso da localização e três vezes para repetir o último aviso.";
 
 
 /*  */
@@ -2786,11 +2786,11 @@
 
 
 /*  */
-"devices.test_headset.explanation" = "Colocámos um sinal de áudio à sua direita. Oiça-o e vire a cabeça na direção deste. Repare como pode fazê-lo mesmo quando tem o telemóvel no bolso. Quando tiver terminado, toque no botão abaixo para voltar ao Soundscape e aprecie a sua próxima caminhada com os novos auscultadores com deteção do movimento da cabeça.";
+"devices.test_headset.explanation" = "Colocámos um sinal de áudio à sua direita. Oiça-o e vire a cabeça na direção deste. Repare como pode fazê-lo mesmo quando tem o telemóvel no bolso. Quando tiver terminado, toque no botão abaixo para voltar ao Seva e aprecie a sua próxima caminhada com os novos auscultadores com deteção do movimento da cabeça.";
 
 
 /*  */
-"devices.test_headset.continue" = "Voltar ao Soundscape";
+"devices.test_headset.continue" = "Voltar ao Seva";
 
 
 /*  */
@@ -2802,7 +2802,7 @@
 
 
 /*  */
-"devices.forget_headset.prompt.explanation" = "Esta ação irá desligar os auscultadores do Soundscape. Poderá voltar a ligá-los ao Soundscape aqui.";
+"devices.forget_headset.prompt.explanation" = "Esta ação irá desligar os auscultadores do Seva. Poderá voltar a ligá-los ao Seva aqui.";
 
 
 /*  */
@@ -2834,7 +2834,7 @@
 
 
 /*  */
-"devices.callouts.check_audio.airpods.disconnected" = "O Soundscape está a procurar os seus AirPods. Certifique-se de que estão ligados ao telemóvel.";
+"devices.callouts.check_audio.airpods.disconnected" = "O Seva está a procurar os seus AirPods. Certifique-se de que estão ligados ao telemóvel.";
 
 
 /*  */
@@ -2850,7 +2850,7 @@
 
 
 /*  */
-"devices.reachability.alert.description" = "Os %@ podem indicar ao Soundscape a direção em que está virado, o que ajudará o Soundscape a melhorar a sua experiência de áudio. Pode ativar a deteção de movimento da cabeça nas definições dos Auscultadores com Deteção do Movimento da Cabeça.";
+"devices.reachability.alert.description" = "Os %@ podem indicar ao Seva a direção em que está virado, o que ajudará o Seva a melhorar a sua experiência de áudio. Pode ativar a deteção de movimento da cabeça nas definições dos Auscultadores com Deteção do Movimento da Cabeça.";
 
 
 /*  */
@@ -2918,15 +2918,15 @@
 
 
 /*  */
-"behavior.experiences.no_events.title" = "Atividades Recreativas do Soundscape (Beta)";
+"behavior.experiences.no_events.title" = "Atividades Recreativas do Seva (Beta)";
 
 
 /*  */
-"behavior.experiences.no_events.caption.1" = "Organizações sem fins lucrativos, empresas e administrações regionais poderão criar as suas próprias experiências baseadas no Soundscape. Os exemplos incluem programas e eventos desportivos adaptáveis, atividades de caça ao tesouro, percursos organizados, guias de cidades organizados e muito mais.";
+"behavior.experiences.no_events.caption.1" = "Organizações sem fins lucrativos, empresas e administrações regionais poderão criar as suas próprias experiências baseadas no Seva. Os exemplos incluem programas e eventos desportivos adaptáveis, atividades de caça ao tesouro, percursos organizados, guias de cidades organizados e muito mais.";
 
 
 /*  */
-"behavior.experiences.no_events.caption.2" = "Para obter mais informações ou indicar o interesse da sua organização na criação de experiências do Soundscape personalizadas, contacte-nos através do e-mail email@address.com";
+"behavior.experiences.no_events.caption.2" = "Para obter mais informações ou indicar o interesse da sua organização na criação de experiências do Seva personalizadas, contacte-nos através do e-mail email@address.com";
 
 
 /*  */
@@ -2946,7 +2946,7 @@
 
 
 /*  */
-"behavior.scavenger_hunt.callout.pausing_hunt" = "A voltar à experiência de utilização normal do Soundscape.";
+"behavior.scavenger_hunt.callout.pausing_hunt" = "A voltar à experiência de utilização normal do Seva.";
 
 
 /*  */
@@ -3033,7 +3033,7 @@
 
 
 /*  */
-"icloud.kv_store.quota_violation_alert.title" = "Armazenamento iCloud do Soundscape Cheio";
+"icloud.kv_store.quota_violation_alert.title" = "Armazenamento iCloud do Seva Cheio";
 
 
 /*  */
@@ -3113,11 +3113,11 @@
 
 
 /*  */
-"tutorial.markers.text.Intro" = "O Soundscape permite-lhe marcar qualquer coisa que seja importante para si. Por exemplo, pode marcar a sua casa, uma paragem de autocarro ou até mesmo o local onde está.\nVamos experimentar. Prima o botão Adicionar Marco abaixo e selecione, como exemplo, um local ou endereço nas proximidades para marcar.";
+"tutorial.markers.text.Intro" = "O Seva permite-lhe marcar qualquer coisa que seja importante para si. Por exemplo, pode marcar a sua casa, uma paragem de autocarro ou até mesmo o local onde está.\nVamos experimentar. Prima o botão Adicionar Marco abaixo e selecione, como exemplo, um local ou endereço nas proximidades para marcar.";
 
 
 /*  */
-"tutorial.markers.text.EditMarker" = "Ótimo! Selecionou @!marker_name!! como marco. O Soundscape irá emitir avisos sobre este quando estiver perto.\nNo ecrã seguinte, poderá alterar o respetivo nome, se pretender.";
+"tutorial.markers.text.EditMarker" = "Ótimo! Selecionou @!marker_name!! como marco. O Seva irá emitir avisos sobre este quando estiver perto.\nNo ecrã seguinte, poderá alterar o respetivo nome, se pretender.";
 
 
 /*  */
@@ -3141,7 +3141,7 @@
 
 
 /*  */
-"tutorial.beacon.getting_started.text" = "Quando define um sinal numa localização, o Soundscape irá reproduzir um som proveniente da direção dessa localização. Este tutorial irá explicar-lhe como definir e utilizar um sinal.\n\nPrima o botão \"Iniciar Sinal de Áudio\" abaixo para abrir uma lista de locais nas proximidades. Escolha uma localização na lista para iniciar o tutorial.";
+"tutorial.beacon.getting_started.text" = "Quando define um sinal numa localização, o Seva irá reproduzir um som proveniente da direção dessa localização. Este tutorial irá explicar-lhe como definir e utilizar um sinal.\n\nPrima o botão \"Iniciar Sinal de Áudio\" abaixo para abrir uma lista de locais nas proximidades. Escolha uma localização na lista para iniciar o tutorial.";
 
 
 /*  */
@@ -3173,7 +3173,7 @@
 
 
 /*  */
-"tutorial.beacons.text.IntroPart1" = "Quando definir um sinal numa localização, o Soundscape irá reproduzir um som proveniente da direção dessa localização. Este tutorial irá mostrar-lhe como definir e utilizar um sinal.";
+"tutorial.beacons.text.IntroPart1" = "Quando definir um sinal numa localização, o Seva irá reproduzir um som proveniente da direção dessa localização. Este tutorial irá mostrar-lhe como definir e utilizar um sinal.";
 
 
 /*  */
@@ -3189,7 +3189,7 @@
 
 
 /*  */
-"tutorial.beacons.text.OrientationAirPods" = "Os AirPods estão ligados ao Soundscape. Quando os AirPods estão ligados ao Soundscape, não interessa a forma como segura no telemóvel. Poderá mesmo guardá-lo num bolso ou numa mala.";
+"tutorial.beacons.text.OrientationAirPods" = "Os AirPods estão ligados ao Seva. Quando os AirPods estão ligados ao Seva, não interessa a forma como segura no telemóvel. Poderá mesmo guardá-lo num bolso ou numa mala.";
 
 
 /*  */
@@ -3205,7 +3205,7 @@
 
 
 /*  */
-"tutorial.beacons.text.BeaconInitial" = "Agora que definiu um sinal em @!destination!!, o Soundscape irá começar a reproduzir um som vindo da direção dessa localização. Agora, aqui vem o sinal de áudio.";
+"tutorial.beacons.text.BeaconInitial" = "Agora que definiu um sinal em @!destination!!, o Seva irá começar a reproduzir um som vindo da direção dessa localização. Agora, aqui vem o sinal de áudio.";
 
 
 /*  */
@@ -3249,11 +3249,11 @@
 
 
 /*  */
-"tutorial.beacons.text.AutomaticCallout" = "À medida que avança no seu percurso, o Soundscape irá ocasionalmente informá-lo sobre a distância até à localização marcada pelo sinal, utilizando um aviso semelhante a este.";
+"tutorial.beacons.text.AutomaticCallout" = "À medida que avança no seu percurso, o Seva irá ocasionalmente informá-lo sobre a distância até à localização marcada pelo sinal, utilizando um aviso semelhante a este.";
 
 
 /*  */
-"tutorial.beacons.text.HomeScreen" = "As informações de distância também são apresentadas no ecrã principal, juntamente com o endereço da localização do sinal (se estiver disponível). O Soundscape irá notificá-lo quando estiver perto da localização do sinal; neste ponto, o sinal de áudio será silenciado.";
+"tutorial.beacons.text.HomeScreen" = "As informações de distância também são apresentadas no ecrã principal, juntamente com o endereço da localização do sinal (se estiver disponível). O Seva irá notificá-lo quando estiver perto da localização do sinal; neste ponto, o sinal de áudio será silenciado.";
 
 
 /*  */
@@ -3273,7 +3273,7 @@
 
 
 /*  */
-"help.configuration.section.title" = "Configurar o Soundscape";
+"help.configuration.section.title" = "Configurar o Seva";
 
 
 /*  */
@@ -3285,7 +3285,7 @@
 
 
 /*  */
-"help.offline.section_title" = "Utilizar o Soundscape Offline";
+"help.offline.section_title" = "Utilizar o Seva Offline";
 
 
 /*  */
@@ -3293,15 +3293,15 @@
 
 
 /*  */
-"help.config.voices.content" = "O Soundscape pode utilizar qualquer uma das vozes que transferiu na aplicação Definições do iOS, exceto as vozes da Siri que não estão disponíveis para o Soundscape. Recomendamos que escolha uma das vozes \"Melhoradas\" porque estas têm uma qualidade muito superior. No entanto, para o fazer, necessita de transferir primeiro uma voz melhorada. Pode transferir vozes na aplicação Definições do iOS acedendo a Acessibilidade > Conteúdo enunciado > Vozes e tocando numa voz. Com a aplicação Soundscape, pode selecionar a voz que pretende utilizar acedendo a Definições no menu principal e, em seguida, selecionando \"Voz\".";
+"help.config.voices.content" = "O Seva pode utilizar qualquer uma das vozes que transferiu na aplicação Definições do iOS, exceto as vozes da Siri que não estão disponíveis para o Seva. Recomendamos que escolha uma das vozes \"Melhoradas\" porque estas têm uma qualidade muito superior. No entanto, para o fazer, necessita de transferir primeiro uma voz melhorada. Pode transferir vozes na aplicação Definições do iOS acedendo a Acessibilidade > Conteúdo enunciado > Vozes e tocando numa voz. Com a aplicação Seva, pode selecionar a voz que pretende utilizar acedendo a Definições no menu principal e, em seguida, selecionando \"Voz\".";
 
 
 /*  */
-"help.offline.page_title" = "Por que motivo é que o Soundscape está a trabalhar offline?";
+"help.offline.page_title" = "Por que motivo é que o Seva está a trabalhar offline?";
 
 
 /*  */
-"help.offline.description" = "Quando não existe ligação à Internet, ou quando ocorre uma falha nos serviços do Soundscape, o Soundscape passa para um modo offline. O Soundscape continuará a funcionar, mas algumas funções poderão estar limitadas.";
+"help.offline.description" = "Quando não existe ligação à Internet, ou quando ocorre uma falha nos serviços do Seva, o Seva passa para um modo offline. O Seva continuará a funcionar, mas algumas funções poderão estar limitadas.";
 
 
 /*  */
@@ -3317,7 +3317,7 @@
 
 
 /*  */
-"help.offline.troubleshooting_description" = "O Soundscape tentará retomar o funcionamento normal quando o telemóvel estiver ligado a uma rede Wi-Fi ou os dados móveis estiverem ativados e estiver numa rede com bom sinal. Se o telemóvel tiver uma boa ligação à Internet e o Soundscape não retomar o funcionamento normal, é possível que exista uma falha nos serviços do Soundscape.";
+"help.offline.troubleshooting_description" = "O Seva tentará retomar o funcionamento normal quando o telemóvel estiver ligado a uma rede Wi-Fi ou os dados móveis estiverem ativados e estiver numa rede com bom sinal. Se o telemóvel tiver uma boa ligação à Internet e o Seva não retomar o funcionamento normal, é possível que exista uma falha nos serviços do Seva.";
 
 
 /*  */
@@ -3361,7 +3361,7 @@
 
 
 /*  */
-"help.support" = "Suporte da Soundscape Community";
+"help.support" = "Suporte da Seva Community";
 
 
 /*  */
@@ -3369,7 +3369,7 @@
 
 
 /*  */
-"terms_of_use.message" = "A sua utilização do Soundscape está sujeita aos termos do %@ e aos termos estabelecidos abaixo (conjuntamente, os \"Termos de Utilização\").";
+"terms_of_use.message" = "A sua utilização do Seva está sujeita aos termos do %@ e aos termos estabelecidos abaixo (conjuntamente, os \"Termos de Utilização\").";
 
 
 /*  */
@@ -3377,7 +3377,7 @@
 
 
 /*  */
-"terms_of_use.service_agreement" = "Contrato de Serviços da Soundscape Community";
+"terms_of_use.service_agreement" = "Contrato de Serviços da Seva Community";
 
 
 /*  */
@@ -3401,7 +3401,7 @@
 
 
 /*  */
-"terms_of_use.medical_safety_disclaimer" = "Aceita que o Soundscape (1) não foi concebido, não se destina nem foi disponibilizado como dispositivo médico, e (2) não foi concebido nem se destina a substituir conselhos, diagnósticos ou tratamentos médicos profissionais e não deve ser utilizado para substituir conselhos, diagnósticos ou tratamentos médicos profissionais.\n\nAviso de Segurança\nO Soundscape é um auxiliar de navegação e não deve ser utilizado em substituição de competências de mobilidade, estar ciente do ambiente que o rodeia e senso comum. Tome cuidado quando navegar, visto que os dados de mapeamento incorporados no Soundscape são capturados a partir de um programa de terceiros e, consequentemente, poderão existir limitações relativas à exatidão das informações apresentadas.";
+"terms_of_use.medical_safety_disclaimer" = "Aceita que o Seva (1) não foi concebido, não se destina nem foi disponibilizado como dispositivo médico, e (2) não foi concebido nem se destina a substituir conselhos, diagnósticos ou tratamentos médicos profissionais e não deve ser utilizado para substituir conselhos, diagnósticos ou tratamentos médicos profissionais.\n\nAviso de Segurança\nO Seva é um auxiliar de navegação e não deve ser utilizado em substituição de competências de mobilidade, estar ciente do ambiente que o rodeia e senso comum. Tome cuidado quando navegar, visto que os dados de mapeamento incorporados no Seva são capturados a partir de um programa de terceiros e, consequentemente, poderão existir limitações relativas à exatidão das informações apresentadas.";
 
 
 /*  */
@@ -3421,7 +3421,7 @@
 
 
 /*  */
-"first_launch.welcome_audio_text" = "Boas-vindas! O Soundscape ajuda-o a saber onde está e para onde vai utilizando uma orientação por áudio exclusiva e avisando-o de ruas, cruzamentos e locais à medida que se aproxima destes. Prima o botão Seguinte para começar.";
+"first_launch.welcome_audio_text" = "Boas-vindas! O Seva ajuda-o a saber onde está e para onde vai utilizando uma orientação por áudio exclusiva e avisando-o de ruas, cruzamentos e locais à medida que se aproxima destes. Prima o botão Seguinte para começar.";
 
 
 /*  */
@@ -3429,15 +3429,15 @@
 
 
 /*  */
-"first_launch.soundscape_language" = "Idioma do Soundscape";
+"first_launch.seva_language" = "Idioma do Seva";
 
 
 /*  */
-"first_launch.soundscape_language.text" = "Selecione o idioma que pretende que o Soundscape utilize. Poderá alterar a sua seleção nas definições da aplicação.";
+"first_launch.seva_language.text" = "Selecione o idioma que pretende que o Seva utilize. Poderá alterar a sua seleção nas definições da aplicação.";
 
 
 /*  */
-"first_launch.location.text" = "O Soundscape é uma aplicação baseada na localização. Utilizaremos a sua localização para identificar e emitir avisos sobre o que o rodeia.";
+"first_launch.location.text" = "O Seva é uma aplicação baseada na localização. Utilizaremos a sua localização para identificar e emitir avisos sobre o que o rodeia.";
 
 
 /*  */
@@ -3449,7 +3449,7 @@
 
 
 /*  */
-"first_launch.device_motion.text" = "Isto permite que o Soundscape melhore a sua experiência consoante esteja a caminhar, num veículo ou imóvel.";
+"first_launch.device_motion.text" = "Isto permite que o Seva melhore a sua experiência consoante esteja a caminhar, num veículo ou imóvel.";
 
 
 /*  */
@@ -3457,7 +3457,7 @@
 
 
 /*  */
-"first_launch.lighting_way_with_sound.text_alt" = "O Soundscape utiliza som 3D para o informar sobre o ambiente que o rodeia. Por exemplo, se o seu destino estiver à sua direita, ouvirá som proveniente dessa direção; se existir um café à sua esquerda, ouvirá um aviso vindo dessa direção.";
+"first_launch.lighting_way_with_sound.text_alt" = "O Seva utiliza som 3D para o informar sobre o ambiente que o rodeia. Por exemplo, se o seu destino estiver à sua direita, ouvirá som proveniente dessa direção; se existir um café à sua esquerda, ouvirá um aviso vindo dessa direção.";
 
 
 /*  */
@@ -3465,7 +3465,7 @@
 
 
 /*  */
-"first_launch.heading_somewhere.text" = "Coloque um sinal de áudio no destino para que o Soundscape o mantenha informado da sua localização e do ambiente que o rodeia enquanto se desloca. Utilize o Soundscape com as suas competências de navegação, e até mesmo com a sua aplicação de navegação favorita, para encontrar o caminho até ao seu destino.";
+"first_launch.heading_somewhere.text" = "Coloque um sinal de áudio no destino para que o Seva o mantenha informado da sua localização e do ambiente que o rodeia enquanto se desloca. Utilize o Seva com as suas competências de navegação, e até mesmo com a sua aplicação de navegação favorita, para encontrar o caminho até ao seu destino.";
 
 
 /*  */
@@ -3473,7 +3473,7 @@
 
 
 /*  */
-"first_launch.setting_off_way.text" = "Guarde o telemóvel e caminhe. O Soundscape irá ajudá-lo a saber onde está avisando-o de ruas, cruzamentos e marcos à medida que se aproximar. É possível ajustar os avisos nas definições.";
+"first_launch.setting_off_way.text" = "Guarde o telemóvel e caminhe. O Seva irá ajudá-lo a saber onde está avisando-o de ruas, cruzamentos e marcos à medida que se aproximar. É possível ajustar os avisos nas definições.";
 
 
 /*  */
@@ -3489,11 +3489,11 @@
 
 
 /*  */
-"first_launch.welcome.title.accessibility_label" = "Boas-vindas ao Soundscape!";
+"first_launch.welcome.title.accessibility_label" = "Boas-vindas ao Seva!";
 
 
 /*  */
-"first_launch.welcome.description" = "Navegue com confiança utilizando o áudio espacial do Soundscape";
+"first_launch.welcome.description" = "Navegue com confiança utilizando o áudio espacial do Seva";
 
 
 /*  */
@@ -3501,15 +3501,15 @@
 
 
 /*  */
-"first_launch.headphones.title" = "Ouvir o Soundscape";
+"first_launch.headphones.title" = "Ouvir o Seva";
 
 
 /*  */
-"first_launch.headphones.message.1" = "O Soundscape funciona bem com quaisquer auscultadores. Se pretender utiliza auscultadores, vá buscá-los agora.";
+"first_launch.headphones.message.1" = "O Seva funciona bem com quaisquer auscultadores. Se pretender utiliza auscultadores, vá buscá-los agora.";
 
 
 /*  */
-"first_launch.headphones.message.2" = "Se não tiver auscultadores, ou se preferir não os utilizar, não há problemas. O Soundscape irá utilizar os altifalantes do telemóvel.";
+"first_launch.headphones.message.2" = "Se não tiver auscultadores, ou se preferir não os utilizar, não há problemas. O Seva irá utilizar os altifalantes do telemóvel.";
 
 
 /*  */
@@ -3517,11 +3517,11 @@
 
 
 /*  */
-"first_launch.callouts.message" = "O Soundscape ajuda-o a estar ciente do local onde se encontra e do local para onde se dirige sinalizando ruas, cruzamentos e pontos de interesse à medida que se aproxima destes.";
+"first_launch.callouts.message" = "O Seva ajuda-o a estar ciente do local onde se encontra e do local para onde se dirige sinalizando ruas, cruzamentos e pontos de interesse à medida que se aproxima destes.";
 
 
 /*  */
-"first_launch.callouts.listen" = "Oiça um exemplo dos avisos que o Soundscape poderá emitir durante a sua próxima caminhada";
+"first_launch.callouts.listen" = "Oiça um exemplo dos avisos que o Seva poderá emitir durante a sua próxima caminhada";
 
 
 /*  */
@@ -3529,7 +3529,7 @@
 
 
 /*  */
-"first_launch.callouts.listen.accessibility_hint" = "Faça duplo toque para ouvir um exemplo dos avisos que o Soundscape poderá emitir durante a sua próxima caminhada";
+"first_launch.callouts.listen.accessibility_hint" = "Faça duplo toque para ouvir um exemplo dos avisos que o Seva poderá emitir durante a sua próxima caminhada";
 
 
 /*  */
@@ -3545,11 +3545,11 @@
 
 
 /*  */
-"first_launch.permissions.title" = "Navegar com o Soundscape";
+"first_launch.permissions.title" = "Navegar com o Seva";
 
 
 /*  */
-"first_launch.permissions.message" = "Quando navegar com o Soundscape, será orientado por um sinal de áudio. Para tal, o Soundscape necessita que ative as permissões seguintes:";
+"first_launch.permissions.message" = "Quando navegar com o Seva, será orientado por um sinal de áudio. Para tal, o Seva necessita que ative as permissões seguintes:";
 
 
 /*  */
@@ -3569,7 +3569,7 @@
 
 
 /*  */
-"first_launch.beacon.message.1" = "Quando navegar com o Soundscape, irá ouvir o sinal de áudio na direção do seu destino. Seguindo o som, saberá sempre em que direção deve dirigir-se.";
+"first_launch.beacon.message.1" = "Quando navegar com o Seva, irá ouvir o sinal de áudio na direção do seu destino. Seguindo o som, saberá sempre em que direção deve dirigir-se.";
 
 
 /*  */
@@ -3621,7 +3621,7 @@
 
 
 /*  */
-"first_launch.prompt.message" = "Está pronto para a primeira caminhada com o Soundscape. Para o experimentar agora, escolha um destino nas proximidades e inicie o sinal de áudio para o ouvir vindo da direção do destino.";
+"first_launch.prompt.message" = "Está pronto para a primeira caminhada com o Seva. Para o experimentar agora, escolha um destino nas proximidades e inicie o sinal de áudio para o ouvir vindo da direção do destino.";
 
 
 /*  */
@@ -3633,7 +3633,7 @@
 
 
 /*  */
-"help.text.destination_beacons.what" = "A definição de um sinal numa localização nas proximidades permite que o Soundscape o mantenha informado reproduzindo um som de sinal audível proveniente da direção dessa localização. Este sinal pode ser desativado ou ativado no ecrã principal. Adicionalmente, o Soundscape apresenta informações sobre a localização no ecrã principal, incluindo a distância a que o local se encontra e o endereço, se este for conhecido.";
+"help.text.destination_beacons.what" = "A definição de um sinal numa localização nas proximidades permite que o Seva o mantenha informado reproduzindo um som de sinal audível proveniente da direção dessa localização. Este sinal pode ser desativado ou ativado no ecrã principal. Adicionalmente, o Seva apresenta informações sobre a localização no ecrã principal, incluindo a distância a que o local se encontra e o endereço, se este for conhecido.";
 
 
 /*  */
@@ -3653,7 +3653,7 @@
 
 
 /*  */
-"help.text.automatic_callouts.what" = "O Soundscape pode informá-lo sobre o que o rodeia à medida que se aproxima reproduzindo o respetivo nome a partir da direção em que o item se encontra. A aplicação irá fazê-lo automaticamente para todos os tipos de itens, como empresas, paragens de autocarro e até mesmo cruzamentos. É possível configurar os avisos que a aplicação emite automaticamente na secção \"Gerir Avisos\" do ecrã \"Definições\". Também é possível desativar todos os avisos quando pretende que a aplicação seja silenciosa.";
+"help.text.automatic_callouts.what" = "O Seva pode informá-lo sobre o que o rodeia à medida que se aproxima reproduzindo o respetivo nome a partir da direção em que o item se encontra. A aplicação irá fazê-lo automaticamente para todos os tipos de itens, como empresas, paragens de autocarro e até mesmo cruzamentos. É possível configurar os avisos que a aplicação emite automaticamente na secção \"Gerir Avisos\" do ecrã \"Definições\". Também é possível desativar todos os avisos quando pretende que a aplicação seja silenciosa.";
 
 
 /*  */
@@ -3669,11 +3669,11 @@
 
 
 /*  */
-"help.text.automatic_callouts.how.1" = "<b>Ativar ou desativar avisos</b>:<br/> Desativar os avisos irá silenciar a aplicação. É possível ativar ou desativar avisos na secção \"Gerir Avisos\" do ecrã \"Definições\", onde pode tocar no seletor \"Permitir Avisos\" para ativar ou desativar os avisos. Também é possível ativar ou desativar os avisos utilizando o comando \"avançar\" (fazer duplo toque e premir sem soltar) se os auscultadores tiverem botões de controlo multimédia. Alternativamente, pode utilizar o botão \"Suspender\" no canto superior direito do ecrã principal para impedir que o Soundscape emita avisos até que opte por reativá-lo.";
+"help.text.automatic_callouts.how.1" = "<b>Ativar ou desativar avisos</b>:<br/> Desativar os avisos irá silenciar a aplicação. É possível ativar ou desativar avisos na secção \"Gerir Avisos\" do ecrã \"Definições\", onde pode tocar no seletor \"Permitir Avisos\" para ativar ou desativar os avisos. Também é possível ativar ou desativar os avisos utilizando o comando \"avançar\" (fazer duplo toque e premir sem soltar) se os auscultadores tiverem botões de controlo multimédia. Alternativamente, pode utilizar o botão \"Suspender\" no canto superior direito do ecrã principal para impedir que o Seva emita avisos até que opte por reativá-lo.";
 
 
 /*  */
-"help.text.automatic_callouts.how.2" = "<b>Gerir os avisos que ouve</b>:<br/> Para escolher os tipos de avisos que o Soundscape emite automaticamente, aceda ao ecrã \"Definições\" utilizando o menu no ecrã \"Página Principal\". A secção \"Gerir Avisos\" do ecrã \"Definições\" contém uma lista dos tipos de avisos que a aplicação pode emitir. Cada item tem um botão seletor que pode ativar ou desativar. Se pretender desativar todos os avisos, toque no seletor \"Permitir Avisos\" na parte superior da lista.";
+"help.text.automatic_callouts.how.2" = "<b>Gerir os avisos que ouve</b>:<br/> Para escolher os tipos de avisos que o Seva emite automaticamente, aceda ao ecrã \"Definições\" utilizando o menu no ecrã \"Página Principal\". A secção \"Gerir Avisos\" do ecrã \"Definições\" contém uma lista dos tipos de avisos que a aplicação pode emitir. Cada item tem um botão seletor que pode ativar ou desativar. Se pretender desativar todos os avisos, toque no seletor \"Permitir Avisos\" na parte superior da lista.";
 
 
 /*  */
@@ -3725,19 +3725,19 @@
 
 
 /*  */
-"help.text.remote_control.what" = "Pode aceder a determinadas funcionalidades do Soundscape com a ajuda dos botões de controlo multimédia dos auscultadores. Isto funciona em quaisquer auscultadores Bluetooth com ou sem fios equipados com botões de controlo multimédia como Reproduzir, Pausa, Seguinte, Anterior e outros. Os botões podem variar consoante os auscultadores. Por este motivo, consulte a lista de ações abaixo para identificar as que estão disponíveis para si.<br>Note também que esta funcionalidade só funciona com auscultadores que suportem controlos multimédia da Apple (como reproduzir e pausa).";
+"help.text.remote_control.what" = "Pode aceder a determinadas funcionalidades do Seva com a ajuda dos botões de controlo multimédia dos auscultadores. Isto funciona em quaisquer auscultadores Bluetooth com ou sem fios equipados com botões de controlo multimédia como Reproduzir, Pausa, Seguinte, Anterior e outros. Os botões podem variar consoante os auscultadores. Por este motivo, consulte a lista de ações abaixo para identificar as que estão disponíveis para si.<br>Note também que esta funcionalidade só funciona com auscultadores que suportem controlos multimédia da Apple (como reproduzir e pausa).";
 
 
 /*  */
-"help.text.remote_control.when" = "É possível utilizar os controlos multimédia dos auscultadores enquanto o Soundscape está em execução. Isto aplica-se quer esteja a utilizar atualmente o Soundscape enquanto o Soundscape está em segundo plano e até mesmo quando o dispositivo está bloqueado. No entanto, note que os botões de controlo multimédia dos auscultadores não funcionarão com o Soundscape se estiver a reproduzir áudio (como música, podcasts ou vídeos) noutra aplicação.";
+"help.text.remote_control.when" = "É possível utilizar os controlos multimédia dos auscultadores enquanto o Seva está em execução. Isto aplica-se quer esteja a utilizar atualmente o Seva enquanto o Seva está em segundo plano e até mesmo quando o dispositivo está bloqueado. No entanto, note que os botões de controlo multimédia dos auscultadores não funcionarão com o Seva se estiver a reproduzir áudio (como música, podcasts ou vídeos) noutra aplicação.";
 
 
 /*  */
-"help.text.remote_control.how" = "<p>Pode aceder às seguintes funcionalidades do Soundscape utilizando os botões de controlo multimédia dos auscultadores:<p><br>&#x23EF Reproduzir/Pausa: desativar quaisquer avisos atuais se o sinal de áudio estiver definido; ativar/desativar o áudio do sinal. </p><p>&#x23ED Seguinte: aviso <em>\"A Minha Localização\"</em>.</p><p>&#x23EE Anterior: repetir o último aviso.</p><p>&#x23E9 Avançar: ativar e desativar avisos.</p><p>&#x23EA Recuar: aviso <em>\"Em Meu Redor\"</em>.</p>";
+"help.text.remote_control.how" = "<p>Pode aceder às seguintes funcionalidades do Seva utilizando os botões de controlo multimédia dos auscultadores:<p><br>&#x23EF Reproduzir/Pausa: desativar quaisquer avisos atuais se o sinal de áudio estiver definido; ativar/desativar o áudio do sinal. </p><p>&#x23ED Seguinte: aviso <em>\"A Minha Localização\"</em>.</p><p>&#x23EE Anterior: repetir o último aviso.</p><p>&#x23E9 Avançar: ativar e desativar avisos.</p><p>&#x23EA Recuar: aviso <em>\"Em Meu Redor\"</em>.</p>";
 
 
 /*  */
-"help.text.markers.content.1" = "O Soundscape permite-lhe marcar o seu mundo e o que é mais importante para si.";
+"help.text.markers.content.1" = "O Seva permite-lhe marcar o seu mundo e o que é mais importante para si.";
 
 
 /*  */
@@ -3745,11 +3745,11 @@
 
 
 /*  */
-"help.text.markers.content.3" = "O Soundscape irá emitir automaticamente avisos sobre os locais marcados enquanto passa por eles ou se aproxima deles. Também é possível utilizar o botão Marcos nas proximidades, localizado na parte inferior do ecrã principal do Soundscape, para ouvir um aviso espacial dos locais marcados em seu redor. Além disso, tem a capacidade de definir um sinal de áudio em qualquer local marcado. Quando o fizer, o sinal de áudio do Soundscape com o qual está familiarizado será emitido e poderá utilizá-lo como habitualmente.";
+"help.text.markers.content.3" = "O Seva irá emitir automaticamente avisos sobre os locais marcados enquanto passa por eles ou se aproxima deles. Também é possível utilizar o botão Marcos nas proximidades, localizado na parte inferior do ecrã principal do Seva, para ouvir um aviso espacial dos locais marcados em seu redor. Além disso, tem a capacidade de definir um sinal de áudio em qualquer local marcado. Quando o fizer, o sinal de áudio do Seva com o qual está familiarizado será emitido e poderá utilizá-lo como habitualmente.";
 
 
 /*  */
-"help.text.creating_markers.content.1" = "É possível criar marcos de três formas: procurar o local que pretende guardar utilizando a barra de pesquisa, procurando um local utilizando o botão \"Locais nas Proximidades\" ou utilizando o botão \"Utilizar Localização Atual\". Todos estes itens podem ser encontrados no ecrã principal do Soundscape. Depois de ter encontrado o local pretendido, se o selecionar será apresentada a página \"Detalhes da Localização\". Nesta página, selecione o botão \"Guardar Marco\".";
+"help.text.creating_markers.content.1" = "É possível criar marcos de três formas: procurar o local que pretende guardar utilizando a barra de pesquisa, procurando um local utilizando o botão \"Locais nas Proximidades\" ou utilizando o botão \"Utilizar Localização Atual\". Todos estes itens podem ser encontrados no ecrã principal do Seva. Depois de ter encontrado o local pretendido, se o selecionar será apresentada a página \"Detalhes da Localização\". Nesta página, selecione o botão \"Guardar Marco\".";
 
 
 /*  */
@@ -3785,19 +3785,19 @@
 
 
 /*  */
-"help.using_headsets.airpods.what" = "O Soundscape suporta áudio espacial com deteção dinâmica do movimento da cabeça quando são utilizados AirPods compatíveis. Quando ligados ao Soundscape, os sensores existentes nos AirPods indicam ao Soundscape a direção em que a sua cabeça está virada. Isto ajuda o Soundscape a melhorar a experiência de áudio, tornando-a mais natural à medida que se desloca. Quando utilizar o Soundscape com AirPods ligados, não necessita de segurar no telemóvel para que o Soundscape funcione corretamente.";
+"help.using_headsets.airpods.what" = "O Seva suporta áudio espacial com deteção dinâmica do movimento da cabeça quando são utilizados AirPods compatíveis. Quando ligados ao Seva, os sensores existentes nos AirPods indicam ao Seva a direção em que a sua cabeça está virada. Isto ajuda o Seva a melhorar a experiência de áudio, tornando-a mais natural à medida que se desloca. Quando utilizar o Seva com AirPods ligados, não necessita de segurar no telemóvel para que o Seva funcione corretamente.";
 
 
 /*  */
-"help.using_headsets.airpods.when" = "Pode utilizar os AirPods com o Soundscape em qualquer situação em que utilizaria o Soundscape normalmente. Os AirPods proporcionam áudio de alta qualidade e permitem desfrutar de uma experiência de utilização do Soundscape mais mãos livres.";
+"help.using_headsets.airpods.when" = "Pode utilizar os AirPods com o Seva em qualquer situação em que utilizaria o Seva normalmente. Os AirPods proporcionam áudio de alta qualidade e permitem desfrutar de uma experiência de utilização do Seva mais mãos livres.";
 
 
 /*  */
-"help.using_headsets.airpods.how.1" = "<b>Estabelecer Ligação a um Dispositivo</b>:<br/> Aceda ao item \"Auscultadores com Deteção do Movimento da Cabeça\" do menu do Soundscape para estabelecer ligação aos AirPods e siga as instruções apresentadas no ecrã. Note que terá de emparelhar os AirPods com o telemóvel nas definições de Bluetooth antes de lhes estabelecer ligação no Soundscape.";
+"help.using_headsets.airpods.how.1" = "<b>Estabelecer Ligação a um Dispositivo</b>:<br/> Aceda ao item \"Auscultadores com Deteção do Movimento da Cabeça\" do menu do Seva para estabelecer ligação aos AirPods e siga as instruções apresentadas no ecrã. Note que terá de emparelhar os AirPods com o telemóvel nas definições de Bluetooth antes de lhes estabelecer ligação no Seva.";
 
 
 /*  */
-"help.using_headsets.airpods.how.2" = "<b>Utilizar os Controlos Multimédia dos Auscultadores</b>:<br/> Quando os controlos multimédia estão ativados nas definições do Soundscape, é possível utilizar os controlos multimédia dos AirPods para desativar ou ativar o sinal, emitir um aviso de localização ou repetir o último aviso. Para mais informações, consulte a secção \"Utilizar Controlos Multimédia\" da ajuda.";
+"help.using_headsets.airpods.how.2" = "<b>Utilizar os Controlos Multimédia dos Auscultadores</b>:<br/> Quando os controlos multimédia estão ativados nas definições do Seva, é possível utilizar os controlos multimédia dos AirPods para desativar ou ativar o sinal, emitir um aviso de localização ou repetir o último aviso. Para mais informações, consulte a secção \"Utilizar Controlos Multimédia\" da ajuda.";
 
 
 /*  */
@@ -4061,19 +4061,19 @@
 
 
 /*  */
-"banner.offline_default.message" = "O Soundscape está a trabalhar offline. Mais informações";
+"banner.offline_default.message" = "O Seva está a trabalhar offline. Mais informações";
 
 
 /*  */
-"banner.offline_help.message" = "O Soundscape está a trabalhar offline.";
+"banner.offline_help.message" = "O Seva está a trabalhar offline.";
 
 
 /*  */
-"banner.offline_search.message" = "O Soundscape está a trabalhar offline. As localizações estão limitadas a sítios que já tenha percorrido ou marcado. Mais informações";
+"banner.offline_search.message" = "O Seva está a trabalhar offline. As localizações estão limitadas a sítios que já tenha percorrido ou marcado. Mais informações";
 
 
 /*  */
-"banner.online.message" = "O Soundscape está novamente online";
+"banner.online.message" = "O Seva está novamente online";
 
 
 /*  */
@@ -4081,19 +4081,19 @@
 
 
 /*  */
-"share.prompt.title" = "Está a gostar do Soundscape?";
+"share.prompt.title" = "Está a gostar do Seva?";
 
 
 /*  */
-"share.prompt.message" = "Falar sobre o Soundscape a amigos e familiares";
+"share.prompt.message" = "Falar sobre o Seva a amigos e familiares";
 
 
 /*  */
-"share.action.message" = "Experimente o Soundscape, uma aplicação que gosto de utilizar para navegação com som 3D:";
+"share.action.message" = "Experimente o Seva, uma aplicação que gosto de utilizar para navegação com som 3D:";
 
 
 /*  */
-"push.local.home.title" = "Experimentar o Soundscape em casa";
+"push.local.home.title" = "Experimentar o Seva em casa";
 
 
 /*  */
@@ -4101,7 +4101,7 @@
 
 
 /*  */
-"push.local.walk.title" = "Experimentar o Soundscape na sua próxima caminhada";
+"push.local.walk.title" = "Experimentar o Seva na sua próxima caminhada";
 
 
 /*  */
@@ -4125,15 +4125,15 @@
 
 
 /*  */
-"faq.section.what_is_soundscape" = "O que é o Soundscape e como devo utilizá-lo?";
+"faq.section.what_is_Seva" = "O que é o Seva e como devo utilizá-lo?";
 
 
 /*  */
-"faq.when_to_use_soundscape.question" = "Quando devo utilizar o Soundscape?";
+"faq.when_to_use_Seva.question" = "Quando devo utilizar o Seva?";
 
 
 /*  */
-"faq.when_to_use_soundscape.answer" = "O Soundscape tem funcionalidades e vantagens que abrangem uma vasta gama de cenários e intervalos temporais. Além disso, a utilidade do Soundscape para si pode evoluir ao longo do tempo, pelo que a forma como o utiliza hoje poderá ser diferente da forma como o irá utilizar daqui a três meses. Frequentemente, as pessoas pensam nas aplicações em termos de \"que problema é que esta aplicação resolve?\" O Soundscape pode certamente ser utilizado numa base caso a caso quando tem uma necessidade informativa específica – como monitorizar um destino à medida que se desloca para este, para se orientar quando sai de uma estação de metro ou de um carro, para saber os nomes das ruas ou a distância até ao próximo cruzamento. No entanto, a filosofia subjacente ao Soundscape é \"iluminar o seu mundo com som\", tendo sido concebido para ser utilizado sempre nas suas deslocações para fornecer informações sobre o ambiente que o rodeia, como informá-lo sobre os nomes das ruas em que se encontra, a direção em que está virado e os nomes das empresas pelas quais passa. Neste modo de utilização, os utilizadores referiram-se ao Soundscape como uma \"aplicação complementar excelente\", que suporta \"serendipidade\", para \"preencher lacunas no seu mapa mental\" e proporcionar mais \"confiança ao caminhar\". Eis outros exemplos da forma como os nossos utilizadores estão a incorporar o Soundscape nas suas vidas:\n\n\"O Soundscape ajudou-me a voltar ao caminho certo quando saí do autocarro e comecei a andar na direção errada.\"\n\n\"Mesmo na cidade em que vivo há 3 anos, fiquei com uma ideia mais completa do que me rodeia [com o Soundscape].\"\n\n\"O som 3D melhora as minhas caminhadas, sentindo uma maior ligação com o ambiente que me rodeia… Agora que tenho uma aplicação para utilizar, é mais provável que experimente caminhos novos.\"\n\n\"Tenho saudades da serendipidade de andar ao acaso e reparar em coisas. O Soundscape é útil, não requer qualquer esforço para ouvi informações sobe o que me rodeia. As informações relacionais são úteis e esta é uma aplicação excelente para deteção situacional e explorar áreas comerciais.\"\n\n\"[Utilizei o Soundscape] para localizar um pub no meio de York. [Eu] utilizei um conjunto de opções da aplicação primeiro para encontrar a aplicação e depois para chegar lá. Deixou-me a 3 metros da porta – brilhante!\"";
+"faq.when_to_use_Seva.answer" = "O Seva tem funcionalidades e vantagens que abrangem uma vasta gama de cenários e intervalos temporais. Além disso, a utilidade do Seva para si pode evoluir ao longo do tempo, pelo que a forma como o utiliza hoje poderá ser diferente da forma como o irá utilizar daqui a três meses. Frequentemente, as pessoas pensam nas aplicações em termos de \"que problema é que esta aplicação resolve?\" O Seva pode certamente ser utilizado numa base caso a caso quando tem uma necessidade informativa específica – como monitorizar um destino à medida que se desloca para este, para se orientar quando sai de uma estação de metro ou de um carro, para saber os nomes das ruas ou a distância até ao próximo cruzamento. No entanto, a filosofia subjacente ao Seva é \"iluminar o seu mundo com som\", tendo sido concebido para ser utilizado sempre nas suas deslocações para fornecer informações sobre o ambiente que o rodeia, como informá-lo sobre os nomes das ruas em que se encontra, a direção em que está virado e os nomes das empresas pelas quais passa. Neste modo de utilização, os utilizadores referiram-se ao Seva como uma \"aplicação complementar excelente\", que suporta \"serendipidade\", para \"preencher lacunas no seu mapa mental\" e proporcionar mais \"confiança ao caminhar\". Eis outros exemplos da forma como os nossos utilizadores estão a incorporar o Seva nas suas vidas:\n\n\"O Seva ajudou-me a voltar ao caminho certo quando saí do autocarro e comecei a andar na direção errada.\"\n\n\"Mesmo na cidade em que vivo há 3 anos, fiquei com uma ideia mais completa do que me rodeia [com o Seva].\"\n\n\"O som 3D melhora as minhas caminhadas, sentindo uma maior ligação com o ambiente que me rodeia… Agora que tenho uma aplicação para utilizar, é mais provável que experimente caminhos novos.\"\n\n\"Tenho saudades da serendipidade de andar ao acaso e reparar em coisas. O Seva é útil, não requer qualquer esforço para ouvi informações sobe o que me rodeia. As informações relacionais são úteis e esta é uma aplicação excelente para deteção situacional e explorar áreas comerciais.\"\n\n\"[Utilizei o Seva] para localizar um pub no meio de York. [Eu] utilizei um conjunto de opções da aplicação primeiro para encontrar a aplicação e depois para chegar lá. Deixou-me a 3 metros da porta – brilhante!\"";
 
 
 /*  */
@@ -4141,11 +4141,11 @@
 
 
 /*  */
-"faq.markers_function.answer" = "Os marcos são locais que guardou. Podem ser locais detetáveis pela aplicação ou locais completamente novos adicionados por si. Pode guardar a sua localização atual como um marco selecionando o botão \"Utilizar Localização Atual\" no ecrã principal e, em seguida, selecionando \"Guardar como Marco\". Pode guardar outras localizações como marcos procurando o local que pretende guardar utilizando a barra de pesquisa ou utilizando o botão \"Locais nas Proximidades\", ambos localizados no ecrã principal do Soundscape. Depois de encontrar o local pretendido, quando o selecionar será apresentada a página \"Detalhes da Localização\". Nesta página, selecione o botão chamado \"Guardar como Marco\".";
+"faq.markers_function.answer" = "Os marcos são locais que guardou. Podem ser locais detetáveis pela aplicação ou locais completamente novos adicionados por si. Pode guardar a sua localização atual como um marco selecionando o botão \"Utilizar Localização Atual\" no ecrã principal e, em seguida, selecionando \"Guardar como Marco\". Pode guardar outras localizações como marcos procurando o local que pretende guardar utilizando a barra de pesquisa ou utilizando o botão \"Locais nas Proximidades\", ambos localizados no ecrã principal do Seva. Depois de encontrar o local pretendido, quando o selecionar será apresentada a página \"Detalhes da Localização\". Nesta página, selecione o botão chamado \"Guardar como Marco\".";
 
 
 /*  */
-"faq.section.getting_the_best_experience" = "Como posso tirar o máximo partido do Soundscape?";
+"faq.section.getting_the_best_experience" = "Como posso tirar o máximo partido do Seva?";
 
 
 /*  */
@@ -4161,7 +4161,7 @@
 
 
 /*  */
-"faq.how_to_use_beacon.answer" = "Pode pensar no sinal audível como um \"farol para os ouvidos\", avisando-o da posição do destino relativamente à sua localização em linha reta. Tal como um farol, não lhe diz como lá chegar – poderá necessitar de tomar várias opções de navegação, tal como um barco à vela terá de tomar vários \"rumos\" para se aproximar do farol. O som rítmico contínuo do sinal é espacializado a partir da direção do destino, ajudando-o a estar ciente da localização do destino relativamente ao ponto em que se encontra à medida que caminha. Quando caminha na direção do destino (ou quando aponta o telemóvel para esta), será ouvido um som de \"toque\" mais agudo. Esta funcionalidade permite-lhe estabelecer a direção do destino, visto que, por vezes, poderá ser difícil detetar a direção do som rítmico em ambientes ruidosos. Quando procurar o \"toque\" mais agudo, segure no telemóvel numa posição plana e rode-o lentamente; se virar a cabeça na mesma direção do telemóvel irá garantir que desfruta da melhor experiência de áudio espacial.\n\nA metáfora do farol para a conceção do sinal tem várias implicações naturais:\n\n1. Não existe uma direção \"correta\" para viajar quando utilizar o sinal; em vez disso, o Soundscape permite-lhe escolher como chegar lá;\n2. O \"toque\" mais agudo só o ajuda a identificar a direção do destino – não se trata de uma indicação da forma de lá chegar;\n3. Se souber como chegar ao destino, poderá pretender desativar o sinal durante a maior parte da viagem e ativá-lo apenas quando estiver mais perto do destino.";
+"faq.how_to_use_beacon.answer" = "Pode pensar no sinal audível como um \"farol para os ouvidos\", avisando-o da posição do destino relativamente à sua localização em linha reta. Tal como um farol, não lhe diz como lá chegar – poderá necessitar de tomar várias opções de navegação, tal como um barco à vela terá de tomar vários \"rumos\" para se aproximar do farol. O som rítmico contínuo do sinal é espacializado a partir da direção do destino, ajudando-o a estar ciente da localização do destino relativamente ao ponto em que se encontra à medida que caminha. Quando caminha na direção do destino (ou quando aponta o telemóvel para esta), será ouvido um som de \"toque\" mais agudo. Esta funcionalidade permite-lhe estabelecer a direção do destino, visto que, por vezes, poderá ser difícil detetar a direção do som rítmico em ambientes ruidosos. Quando procurar o \"toque\" mais agudo, segure no telemóvel numa posição plana e rode-o lentamente; se virar a cabeça na mesma direção do telemóvel irá garantir que desfruta da melhor experiência de áudio espacial.\n\nA metáfora do farol para a conceção do sinal tem várias implicações naturais:\n\n1. Não existe uma direção \"correta\" para viajar quando utilizar o sinal; em vez disso, o Seva permite-lhe escolher como chegar lá;\n2. O \"toque\" mais agudo só o ajuda a identificar a direção do destino – não se trata de uma indicação da forma de lá chegar;\n3. Se souber como chegar ao destino, poderá pretender desativar o sinal durante a maior parte da viagem e ativá-lo apenas quando estiver mais perto do destino.";
 
 
 /*  */
@@ -4169,7 +4169,7 @@
 
 
 /*  */
-"faq.why_does_beacon_disappear.answer" = "O sinal audível do Soundscape é fundamentalmente uma sugestão direcional, indicando a localização do destino relativamente à direção em que está virado. Quando o Soundscape não tem a certeza da direção em que está virado, reduz o volume do sinal. Isto ocorre mais frequentemente se tiver estado a andar com o telemóvel guardado num bolso ou numa mala e tiver ficado imóvel (por exemplo, para atravessar uma rua). O sinal ficará mais alto quando voltar a mover-se, ou se segurar no telemóvel numa posição plana e o apontar para a direção em que está virado.";
+"faq.why_does_beacon_disappear.answer" = "O sinal audível do Seva é fundamentalmente uma sugestão direcional, indicando a localização do destino relativamente à direção em que está virado. Quando o Seva não tem a certeza da direção em que está virado, reduz o volume do sinal. Isto ocorre mais frequentemente se tiver estado a andar com o telemóvel guardado num bolso ou numa mala e tiver ficado imóvel (por exemplo, para atravessar uma rua). O sinal ficará mais alto quando voltar a mover-se, ou se segurar no telemóvel numa posição plana e o apontar para a direção em que está virado.";
 
 
 /*  */
@@ -4185,15 +4185,15 @@
 
 
 /*  */
-"faq.beacon_on_home.answer" = "O Soundscape suporta a definição de sinais em endereços. Para definir um sinal em sua casa, ou em qualquer outro endereço, procure uma localização no ecrã principal do Soundscape. No ecrã \"Detalhes da Localização\", toque no botão \"Iniciar Sinal de Áudio\".";
+"faq.beacon_on_home.answer" = "O Seva suporta a definição de sinais em endereços. Para definir um sinal em sua casa, ou em qualquer outro endereço, procure uma localização no ecrã principal do Seva. No ecrã \"Detalhes da Localização\", toque no botão \"Iniciar Sinal de Áudio\".";
 
 
 /*  */
-"faq.how_close_to_destination.question" = "Quando definir um sinal num destino, até que distância é que o Soundscape me leva? ";
+"faq.how_close_to_destination.question" = "Quando definir um sinal num destino, até que distância é que o Seva me leva? ";
 
 
 /*  */
-"faq.how_close_to_destination.answer" = "O Soundscape pode determinar a localização do seu destino com uma precisão de alguns metros, mas não menos. Quando o Soundscape determinar que está perto do destino, ouvirá um aviso final que o destino está por perto e o sinal será desativado.";
+"faq.how_close_to_destination.answer" = "O Seva pode determinar a localização do seu destino com uma precisão de alguns metros, mas não menos. Quando o Seva determinar que está perto do destino, ouvirá um aviso final que o destino está por perto e o sinal será desativado.";
 
 
 /*  */
@@ -4201,23 +4201,23 @@
 
 
 /*  */
-"faq.turn_beacon_back_on.answer" = "Sim, é possível reativar o sinal após o Soundscape o desativar selecionando o \"botão ativar sinal\"; no entanto, visto que os Serviços de localização só são precisos até uma distância aproximada de 10 metros, não podemos garantir o comportamento do sinal quando se encontrar a apenas alguns metros do destino.";
+"faq.turn_beacon_back_on.answer" = "Sim, é possível reativar o sinal após o Seva o desativar selecionando o \"botão ativar sinal\"; no entanto, visto que os Serviços de localização só são precisos até uma distância aproximada de 10 metros, não podemos garantir o comportamento do sinal quando se encontrar a apenas alguns metros do destino.";
 
 
 /*  */
-"faq.road_names.question" = "Por que motivo é que o Soundscape lê os nomes das ruas duas vezes quando me aproximo de um cruzamento?";
+"faq.road_names.question" = "Por que motivo é que o Seva lê os nomes das ruas duas vezes quando me aproximo de um cruzamento?";
 
 
 /*  */
-"faq.road_names.answer" = "Para acomodar uma vasta gama de configurações de cruzamentos, o Soundscape descreve cruzamentos como segmentos de rodovias que têm um ponto de partida comum. O Soundscape utiliza áudio espacial para indicar o nome da rua que segue para a esquerda, o nome da rua que continua em frente e o nome da rua que segue ara a direita, por esta ordem. Se a descrição do cruzamento começar pela rua em que se encontra, em vez da rua à esquerda, o cruzamento é um entroncamento em que a rua em que se encontra continua em frente e é cruzada por uma rua vinda da direita. Similarmente, se a descrição só incluir uma rua para a esquerda e para a direita, saberá que a rua em que se encontra termina num entroncamento à sua frente. Este método de descrever cruzamentos também suporta os casos que em uma rua muda de nome num cruzamento.";
+"faq.road_names.answer" = "Para acomodar uma vasta gama de configurações de cruzamentos, o Seva descreve cruzamentos como segmentos de rodovias que têm um ponto de partida comum. O Seva utiliza áudio espacial para indicar o nome da rua que segue para a esquerda, o nome da rua que continua em frente e o nome da rua que segue ara a direita, por esta ordem. Se a descrição do cruzamento começar pela rua em que se encontra, em vez da rua à esquerda, o cruzamento é um entroncamento em que a rua em que se encontra continua em frente e é cruzada por uma rua vinda da direita. Similarmente, se a descrição só incluir uma rua para a esquerda e para a direita, saberá que a rua em que se encontra termina num entroncamento à sua frente. Este método de descrever cruzamentos também suporta os casos que em uma rua muda de nome num cruzamento.";
 
 
 /*  */
-"faq.why_not_every_business.question" = "Por que motivo é que o Soundscape não anuncia cada empresa por que passo?";
+"faq.why_not_every_business.question" = "Por que motivo é que o Seva não anuncia cada empresa por que passo?";
 
 
 /*  */
-"faq.why_not_every_business.answer" = "O Soundscape foi concebido para não ser demasiado ruidoso. Além disso, utiliza o Open Street Map como origem de dados de back-end. O Open Street Map (OSM, https://www.openstreetmap.org/) é um mapa do mundo desenvolvido e editado pela comunidade, cujos dados são introduzidos e organizados por pessoas individuais. Se uma empresa ou um ponto de interesse não for anunciada pelo Soundscape, a razão mais provável é que ainda não tenha sido adicionada (ou, em alguns casos, atualizada) por um membro da comunidade do OSM.";
+"faq.why_not_every_business.answer" = "O Seva foi concebido para não ser demasiado ruidoso. Além disso, utiliza o Open Street Map como origem de dados de back-end. O Open Street Map (OSM, https://www.openstreetmap.org/) é um mapa do mundo desenvolvido e editado pela comunidade, cujos dados são introduzidos e organizados por pessoas individuais. Se uma empresa ou um ponto de interesse não for anunciada pelo Seva, a razão mais provável é que ainda não tenha sido adicionada (ou, em alguns casos, atualizada) por um membro da comunidade do OSM.";
 
 
 /*  */
@@ -4233,51 +4233,51 @@
 
 
 /*  */
-"faq.miss_a_callout.answer" = "O Soundscape tem uma lista dos avisos recentes, para que possa rever avisos que tenha perdido. Para os encontrar, toque na barra de pesquisa existente no ecrã principal do Soundscape. Na parte inferior desta página, existe uma secção chamada \"Avisos Recentes\", onde estará listado o aviso que perdeu.";
+"faq.miss_a_callout.answer" = "O Seva tem uma lista dos avisos recentes, para que possa rever avisos que tenha perdido. Para os encontrar, toque na barra de pesquisa existente no ecrã principal do Seva. Na parte inferior desta página, existe uma secção chamada \"Avisos Recentes\", onde estará listado o aviso que perdeu.";
 
 
 /*  */
-"faq.section.how_soundscape_works" = "Como funciona o Soundscape?";
+"faq.section.how_seva_works" = "Como funciona o Seva?";
 
 
 /*  */
-"faq.supported_phones.question" = "Que telemóveis são compatíveis com o Soundscape?";
+"faq.supported_phones.question" = "Que telemóveis são compatíveis com o Seva?";
 
 
 /*  */
-"faq.supported_phones.answer" = "O Soundscape está atualmente disponível para o Apple iOS, em execução num iPhone SE, iPhone 6S e posteriores.";
+"faq.supported_phones.answer" = "O Seva está atualmente disponível para o Apple iOS, em execução num iPhone SE, iPhone 6S e posteriores.";
 
 
 /*  */
-"faq.supported_headsets.question" = "Que auscultadores devo utilizar com o Soundscape?";
+"faq.supported_headsets.question" = "Que auscultadores devo utilizar com o Seva?";
 
 
 /*  */
-"faq.supported_headsets.answer" = "Os auscultadores que utilizar com o Soundscape são uma preferência pessoal e cada opção tem vantagens e compromissos. O único requisito específico é utilizar auscultadores estéreo para poder tirar partido dos avisos em áudio espacial 3D do Soundscape.";
+"faq.supported_headsets.answer" = "Os auscultadores que utilizar com o Seva são uma preferência pessoal e cada opção tem vantagens e compromissos. O único requisito específico é utilizar auscultadores estéreo para poder tirar partido dos avisos em áudio espacial 3D do Seva.";
 
 
 /*  */
-"faq.battery_impact.question" = "Qual é o impacto do Soundscape na bateria do meu iPhone?";
+"faq.battery_impact.question" = "Qual é o impacto do Seva na bateria do meu iPhone?";
 
 
 /*  */
-"faq.battery_impact.answer" = "A duração da bateria varia significativamente consoante o modelo do iPhone e a respetiva antiguidade. O maior consumo de carga ocorre quando o ecrã está ligado. Por este motivo, para maximizar a duração da bateria do telemóvel, deverá manter o ecrã bloqueado sempre que possível. Para ajudar a minimizar o impacto na bateria do iPhone, o Soundscape tem agora um Modo de Suspensão e um Modo de Pausa. Para reduzir ainda mais a utilização da bateria, quando não estiver a utilizar o Soundscape deverá forçar o respetivo encerramento através do Seletor de Aplicações do iPhone. ";
+"faq.battery_impact.answer" = "A duração da bateria varia significativamente consoante o modelo do iPhone e a respetiva antiguidade. O maior consumo de carga ocorre quando o ecrã está ligado. Por este motivo, para maximizar a duração da bateria do telemóvel, deverá manter o ecrã bloqueado sempre que possível. Para ajudar a minimizar o impacto na bateria do iPhone, o Seva tem agora um Modo de Suspensão e um Modo de Pausa. Para reduzir ainda mais a utilização da bateria, quando não estiver a utilizar o Seva deverá forçar o respetivo encerramento através do Seletor de Aplicações do iPhone. ";
 
 
 /*  */
-"faq.sleep_mode_battery.question" = "Como posso utilizar o Modo de Suspensão para minimizar o impacto do Soundscape na bateria do meu telemóvel?";
+"faq.sleep_mode_battery.question" = "Como posso utilizar o Modo de Suspensão para minimizar o impacto do Seva na bateria do meu telemóvel?";
 
 
 /*  */
-"faq.sleep_mode_battery.answer" = "Para colocar o Soundscape em Modo de Suspensão, selecione o botão \"Suspender\" no canto superior direito do ecrã. Quando selecionar esta opção, o Soundscape deixará de utilizar os Serviços de localização e os dados móveis até o reativar.";
+"faq.sleep_mode_battery.answer" = "Para colocar o Seva em Modo de Suspensão, selecione o botão \"Suspender\" no canto superior direito do ecrã. Quando selecionar esta opção, o Seva deixará de utilizar os Serviços de localização e os dados móveis até o reativar.";
 
 
 /*  */
-"faq.snooze_mode_battery.question" = "Como posso utilizar o Modo de pausa para minimizar o impacto do Soundscape na bateria do meu telemóvel?";
+"faq.snooze_mode_battery.question" = "Como posso utilizar o Modo de pausa para minimizar o impacto do Seva na bateria do meu telemóvel?";
 
 
 /*  */
-"faq.snooze_mode_battery.answer" = "Para colocar o Soundscape em Modo de Pausa, selecione o botão \"Suspender\" no canto superior direito do ecrã. Quando o Soundscape estive no Modo de suspensão, selecione o botão \"Reativar quando sair\" para que o Soundscape entre num estado de baixo consumo de energia até que saia da sua localização atual.";
+"faq.snooze_mode_battery.answer" = "Para colocar o Seva em Modo de Pausa, selecione o botão \"Suspender\" no canto superior direito do ecrã. Quando o Seva estive no Modo de suspensão, selecione o botão \"Reativar quando sair\" para que o Seva entre num estado de baixo consumo de energia até que saia da sua localização atual.";
 
 
 /*  */
@@ -4289,43 +4289,43 @@
 
 
 /*  */
-"faq.background_battery_impact.question" = "Qual é o impacto da execução do Soundscape em segundo plano na duração da bateria do meu telemóvel?";
+"faq.background_battery_impact.question" = "Qual é o impacto da execução do Seva em segundo plano na duração da bateria do meu telemóvel?";
 
 
 /*  */
-"faq.background_battery_impact.answer" = "O Soundscape é uma aplicação baseada na localização que utiliza os Serviços de localização para determinar a sua localização. Nos nossos testes, o Soundscape não consumiu mais bateria do que uma aplicação de mapas normal; no entanto, se estiver preocupado com o consumo da bateria durante a utilização do telemóvel, as sugestões seguintes ajudarão a reduzir a utilização:\n\n1. Desligue o ecrã sempre que puder quando não estiver a interagir com a aplicação.\n2. Quando não estiver a utilizar a aplicação, encerre-a. O Soundscape utiliza os serviços de localização continuamente quando está em execução para saber sempre a sua localização, mesmo quando está imóvel. Não se esqueça de reiniciar a aplicação quando retomar caminho.\n3. Mantenha o telemóvel quente quando o tempo estiver frio; o desempenho das baterias piora com temperaturas mais frias.";
+"faq.background_battery_impact.answer" = "O Seva é uma aplicação baseada na localização que utiliza os Serviços de localização para determinar a sua localização. Nos nossos testes, o Seva não consumiu mais bateria do que uma aplicação de mapas normal; no entanto, se estiver preocupado com o consumo da bateria durante a utilização do telemóvel, as sugestões seguintes ajudarão a reduzir a utilização:\n\n1. Desligue o ecrã sempre que puder quando não estiver a interagir com a aplicação.\n2. Quando não estiver a utilizar a aplicação, encerre-a. O Seva utiliza os serviços de localização continuamente quando está em execução para saber sempre a sua localização, mesmo quando está imóvel. Não se esqueça de reiniciar a aplicação quando retomar caminho.\n3. Mantenha o telemóvel quente quando o tempo estiver frio; o desempenho das baterias piora com temperaturas mais frias.";
 
 
 /*  */
-"faq.mobile_data_use.question" = "Que quantidade de dados móveis utiliza o Soundscape?";
+"faq.mobile_data_use.question" = "Que quantidade de dados móveis utiliza o Seva?";
 
 
 /*  */
-"faq.mobile_data_use.answer" = "A quantidade de dados móveis utilizada depende da forma como utiliza o Soundscape. Concebemos o Soundscape para utilizar apenas uma pequena quantidade de dados quando efetua tarefas como guardar pontos à medida que caminha, para que não tenha de os transferir novamente sempre que voltar a um local onde já tenha estado. Para reduzir a quantidade de dados móveis utilizada, certifique-se de que está ligado a uma rede Wi-Fi sempre que possível, especialmente para transferir a aplicação. Quando não estiver a utilizar o Soundscape, deverá utilizar o botão \"Suspender\" parar colocar o Soundscape em modo de suspensão; alternativamente, feche a aplicação.";
+"faq.mobile_data_use.answer" = "A quantidade de dados móveis utilizada depende da forma como utiliza o Seva. Concebemos o Seva para utilizar apenas uma pequena quantidade de dados quando efetua tarefas como guardar pontos à medida que caminha, para que não tenha de os transferir novamente sempre que voltar a um local onde já tenha estado. Para reduzir a quantidade de dados móveis utilizada, certifique-se de que está ligado a uma rede Wi-Fi sempre que possível, especialmente para transferir a aplicação. Quando não estiver a utilizar o Seva, deverá utilizar o botão \"Suspender\" parar colocar o Seva em modo de suspensão; alternativamente, feche a aplicação.";
 
 
 /*  */
-"faq.difference_from_map_apps.question" = "Qual é a diferença entre o Soundscape e as outras aplicações de mapas?";
+"faq.difference_from_map_apps.question" = "Qual é a diferença entre o Seva e as outras aplicações de mapas?";
 
 
 /*  */
-"faq.difference_from_map_apps.answer" = "O Soundscape fornece uma descrição do ambiente que o rodeia, ajudando-o a explorar e descobrir caminhos. Utilizando áudio espacial, o Soundscape irá indicar pontos de interesse, parques, ruas e cruzamentos na direção em que estes se encontram fisicamente no seu ambiente imediato à medida que caminha. Por exemplo, se passar por uma loja à sua direita, irá ouvir o nome da loja vindo da sua direita. À medida que se aproximar de um cruzamento, ouvirá o nome de cada rua vindo da direção em que esta se estende, começando pela esquerda, em frente e à direita.\n\nEm vez de direções curva-a-curva, semelhantes às fornecidas por outras aplicações de mapas, o Soundscape reproduz um sinal audível na direção do seu destino, permitindo-lhe chegar lá nos seus próprios termos através de uma maior noção do ambiente que o rodeia e da localização do seu destino. O Soundscape foi concebido para ser executado em segundo plano, permitindo-lhe utilizar uma aplicação de direções curva-a-curva enquanto continua a proporcionar-lhe noção do ambiente que o rodeia à medida que se desloca para o seu destino.";
+"faq.difference_from_map_apps.answer" = "O Seva fornece uma descrição do ambiente que o rodeia, ajudando-o a explorar e descobrir caminhos. Utilizando áudio espacial, o Seva irá indicar pontos de interesse, parques, ruas e cruzamentos na direção em que estes se encontram fisicamente no seu ambiente imediato à medida que caminha. Por exemplo, se passar por uma loja à sua direita, irá ouvir o nome da loja vindo da sua direita. À medida que se aproximar de um cruzamento, ouvirá o nome de cada rua vindo da direção em que esta se estende, começando pela esquerda, em frente e à direita.\n\nEm vez de direções curva-a-curva, semelhantes às fornecidas por outras aplicações de mapas, o Seva reproduz um sinal audível na direção do seu destino, permitindo-lhe chegar lá nos seus próprios termos através de uma maior noção do ambiente que o rodeia e da localização do seu destino. O Seva foi concebido para ser executado em segundo plano, permitindo-lhe utilizar uma aplicação de direções curva-a-curva enquanto continua a proporcionar-lhe noção do ambiente que o rodeia à medida que se desloca para o seu destino.";
 
 
 /*  */
-"faq.use_with_wayfinding_apps.question" = "Posso utilizar o Soundscape com uma aplicação de navegação?";
+"faq.use_with_wayfinding_apps.question" = "Posso utilizar o Seva com uma aplicação de navegação?";
 
 
 /*  */
-"faq.use_with_wayfinding_apps.answer" = "O Soundscape foi concebido como uma aplicação de localização para ajudar a fornecer detalhes que poderá não conhecer sobre o ambiente que o rodeia. Embora não tenha sido concebido como uma aplicação de navegação curva-a-curva, pode ser utilizado juntamente com aplicações deste tipo para fornecer informações complementares. Para utilizar o Soundscape com estas aplicações, inicie primeiro a aplicação de navegação. Em seguida, passe para o Soundscape e defina um sinal no mesmo destino que a aplicação de navegação. Neste momento, ambas as aplicações estarão em execução e ouvirá direções de percurso da aplicação de navegação enquanto recebe atualizações sobre pontos de interesse, cruzamentos e a distância a que se encontra do destino provenientes do Soundscape.";
+"faq.use_with_wayfinding_apps.answer" = "O Seva foi concebido como uma aplicação de localização para ajudar a fornecer detalhes que poderá não conhecer sobre o ambiente que o rodeia. Embora não tenha sido concebido como uma aplicação de navegação curva-a-curva, pode ser utilizado juntamente com aplicações deste tipo para fornecer informações complementares. Para utilizar o Seva com estas aplicações, inicie primeiro a aplicação de navegação. Em seguida, passe para o Seva e defina um sinal no mesmo destino que a aplicação de navegação. Neste momento, ambas as aplicações estarão em execução e ouvirá direções de percurso da aplicação de navegação enquanto recebe atualizações sobre pontos de interesse, cruzamentos e a distância a que se encontra do destino provenientes do Seva.";
 
 
 /*  */
-"faq.controlling_what_you_hear.question" = "Como posso controlar o que oiço e quando o oiço no Soundscape?";
+"faq.controlling_what_you_hear.question" = "Como posso controlar o que oiço e quando o oiço no Seva?";
 
 
 /*  */
-"faq.controlling_what_you_hear.answer" = "O Soundscape fornece várias formas de controlar o que ouve e quando:\n\n1. Parar automaticamente todo o áudio: faça duplo toque no ecrã com dois dedos para desativar imediatamente todo o áudio, incluindo qualquer aviso que esteja atualmente a ser reproduzido e o aviso, se este estiver ativado. Os avisos continuarão automaticamente quando se aproximar do próximo cruzamento ou ponto de interesse, mas o sinal audível não. Selecione o \"botão ativar sinal\" no ecrã principal para voltar a ouvir o sinal.\n2. Desativar avisos automáticos: quando não está a viajar ou tiver chegado a um destino, é provável que não necessite que o Soundscape continue a avisá-lo do que o rodeia. Em vez de sair da aplicação, pode colocar o Soundscape em Modo de pausa e este será reativado quando partir. Alternativamente, pode colocar o Soundscape em Modo de suspensão; neste caso, a aplicação permanecerá desativada até que volte a ativá-la. Também pode selecionar \"Definições\" no menu e optar por desativar todos os avisos na secção \"Gerir Avisos\" section.\n3. Parar o sinal: existem vários cenários nos quais poderá pretender definir um destino, mas não necessitar de ter o sinal audível ativo. Por exemplo, poderá saber exatamente como chegar ao destino, mas pretender receber notificações automáticas sobre a distância a que se encontra deste. Também pode saber vagamente como chegar ao destino e só necessitar do sinal de áudio quando estiver perto deste. Independentemente da situação, pode optar quando o sinal está ativo através do botão \"desativar sinal\"/\"ativar sinal\" no ecrã principal.";
+"faq.controlling_what_you_hear.answer" = "O Seva fornece várias formas de controlar o que ouve e quando:\n\n1. Parar automaticamente todo o áudio: faça duplo toque no ecrã com dois dedos para desativar imediatamente todo o áudio, incluindo qualquer aviso que esteja atualmente a ser reproduzido e o aviso, se este estiver ativado. Os avisos continuarão automaticamente quando se aproximar do próximo cruzamento ou ponto de interesse, mas o sinal audível não. Selecione o \"botão ativar sinal\" no ecrã principal para voltar a ouvir o sinal.\n2. Desativar avisos automáticos: quando não está a viajar ou tiver chegado a um destino, é provável que não necessite que o Seva continue a avisá-lo do que o rodeia. Em vez de sair da aplicação, pode colocar o Seva em Modo de pausa e este será reativado quando partir. Alternativamente, pode colocar o Seva em Modo de suspensão; neste caso, a aplicação permanecerá desativada até que volte a ativá-la. Também pode selecionar \"Definições\" no menu e optar por desativar todos os avisos na secção \"Gerir Avisos\" section.\n3. Parar o sinal: existem vários cenários nos quais poderá pretender definir um destino, mas não necessitar de ter o sinal audível ativo. Por exemplo, poderá saber exatamente como chegar ao destino, mas pretender receber notificações automáticas sobre a distância a que se encontra deste. Também pode saber vagamente como chegar ao destino e só necessitar do sinal de áudio quando estiver perto deste. Independentemente da situação, pode optar quando o sinal está ativo através do botão \"desativar sinal\"/\"ativar sinal\" no ecrã principal.";
 
 
 /*  */
@@ -4333,31 +4333,31 @@
 
 
 /*  */
-"faq.holding_phone_flat.answer" = "Não! Enquanto caminha, pode guardar o telemóvel numa mala, num bolso ou onde for mais prático. O Soundscape utilizará a direção em que caminha para identificar os avisos a reproduzir à sua esquerda e à sua direita. Para parar de se mover, o Soundscape não sabe para que direção está virado. Se o aviso audível estiver ativado, irá reparar que fica silencioso até que comece novamente a mover-se. Poderá pegar no telemóvel para premir os botões de localização e exploração localizados na parte inferior do ecrã, mas certifique-se de que a parte superior do telemóvel está apontada para a direção em que está virado e de que o ecrã está virado para o céu. Nesta posição \"plana\", o Soundscape utilizará a bússola do telemóvel para identificar a direção para a qual está virado e fornecer avisos espaciais precisos. Se o sinal estiver ativado, irá reparar que este também volta a ser reproduzido com o volume integral.";
+"faq.holding_phone_flat.answer" = "Não! Enquanto caminha, pode guardar o telemóvel numa mala, num bolso ou onde for mais prático. O Seva utilizará a direção em que caminha para identificar os avisos a reproduzir à sua esquerda e à sua direita. Para parar de se mover, o Seva não sabe para que direção está virado. Se o aviso audível estiver ativado, irá reparar que fica silencioso até que comece novamente a mover-se. Poderá pegar no telemóvel para premir os botões de localização e exploração localizados na parte inferior do ecrã, mas certifique-se de que a parte superior do telemóvel está apontada para a direção em que está virado e de que o ecrã está virado para o céu. Nesta posição \"plana\", o Seva utilizará a bússola do telemóvel para identificar a direção para a qual está virado e fornecer avisos espaciais precisos. Se o sinal estiver ativado, irá reparar que este também volta a ser reproduzido com o volume integral.";
 
 
 /*  */
-"faq.personalize_experience.question" = "De que formas posso personalizar a minha experiência de utilização do Soundscape?";
+"faq.personalize_experience.question" = "De que formas posso personalizar a minha experiência de utilização do Seva?";
 
 
 /*  */
-"faq.personalize_experience.answer" = "O Soundscape permite-lhe personalizar três aspetos chave dos avisos que ouve enquanto caminha:\n\n1. Voz: pode escolher qual das vozes disponíveis no iOS pretende utilizar no Soundscape, bem como a velocidade a que os avisos são lidos. No Menu, selecione Definições e, em seguida, Voz, para ajudar as definições de Velocidade de enunciação e Voz. É possível transferir vozes adicionais e vozes melhoradas com uma qualidade superior na aplicação Definições do iOS, em Definições > Acessibilidade > Conteúdo enunciado > Vozes. \n2. Distância Métrica: o Soundscape permite-lhe ouvir todas as distâncias em pés ou metros. No Menu, selecione Definições. A secção Unidades de medida permite-lhe alternar entre duas opções: Imperial (pés) e Métrica (metros).\n3. Marcos: pode criar marcos para qualquer coisa que seja importante para si; por exemplo, a sua casa, o seu escritório e a sua mercearia favorita. Em seguida, o Soundscape irá avisá-lo automaticamente dos locais marcados à medida que caminha ou se aproxima destes. Também poderá utiliza o botão Marcos nas Proximidades, localizado na parte inferior do ecrã principal do Soundscape, para ouvir um aviso espacial sobre os locais marcados perto de si. Estes marcos são pessoais e não estarão disponíveis para mais ninguém.\n\nAlém das definições indicadas acima, as seguintes definições do VoiceOver podem influenciar o comportamento do Soundscape:\n\n1. Sugestões do VoiceOver: quando as sugestões do VoiceOver estão ativadas, irá ouvir mais informações sobre todos os botões existentes no ecrã principal do Soundscape. Pode ativar as sugestões do VoiceOver navegando para a aplicação Definições do iOS, acedendo a Acessibilidade > VoiceOver > Verbosidade e ativando a definição Enunciar dicas.\n2. Redução de nível de áudio: o Soundscape foi concebido para funcionar com a Redução de nível de áudio desativada. Quando a Redução de nível de áudio está ativada, poderá ser difícil ouvir os avisos automáticos se o VoiceOver for utilizado em simultâneo. Recomendamos que desative a Redução de nível de áudio para facilitar a audição dos avisos automáticos que ocorram enquanto está a interagir com o telemóvel. É possível desativar a Redução de nível de áudio nas definições do VoiceOver ou através do rotor do VoiceOver.\n3. Touch ID ou Face ID para Desbloquear: definir o desbloqueio do telemóvel através do Touch ID ou do Face ID permitirá desbloquear o telemóvel de forma rápida e fácil, o que, por sua vez, permitirá aceder o mais rapidamente possível aos botões A Minha Localização, Em Meu Redor e À Minha Frente enquanto se desloca. Configure o desbloqueio com o Touch ID ou Face ID na aplicação Definições do iOS.";
+"faq.personalize_experience.answer" = "O Seva permite-lhe personalizar três aspetos chave dos avisos que ouve enquanto caminha:\n\n1. Voz: pode escolher qual das vozes disponíveis no iOS pretende utilizar no Seva, bem como a velocidade a que os avisos são lidos. No Menu, selecione Definições e, em seguida, Voz, para ajudar as definições de Velocidade de enunciação e Voz. É possível transferir vozes adicionais e vozes melhoradas com uma qualidade superior na aplicação Definições do iOS, em Definições > Acessibilidade > Conteúdo enunciado > Vozes. \n2. Distância Métrica: o Seva permite-lhe ouvir todas as distâncias em pés ou metros. No Menu, selecione Definições. A secção Unidades de medida permite-lhe alternar entre duas opções: Imperial (pés) e Métrica (metros).\n3. Marcos: pode criar marcos para qualquer coisa que seja importante para si; por exemplo, a sua casa, o seu escritório e a sua mercearia favorita. Em seguida, o Seva irá avisá-lo automaticamente dos locais marcados à medida que caminha ou se aproxima destes. Também poderá utiliza o botão Marcos nas Proximidades, localizado na parte inferior do ecrã principal do Seva, para ouvir um aviso espacial sobre os locais marcados perto de si. Estes marcos são pessoais e não estarão disponíveis para mais ninguém.\n\nAlém das definições indicadas acima, as seguintes definições do VoiceOver podem influenciar o comportamento do Seva:\n\n1. Sugestões do VoiceOver: quando as sugestões do VoiceOver estão ativadas, irá ouvir mais informações sobre todos os botões existentes no ecrã principal do Seva. Pode ativar as sugestões do VoiceOver navegando para a aplicação Definições do iOS, acedendo a Acessibilidade > VoiceOver > Verbosidade e ativando a definição Enunciar dicas.\n2. Redução de nível de áudio: o Seva foi concebido para funcionar com a Redução de nível de áudio desativada. Quando a Redução de nível de áudio está ativada, poderá ser difícil ouvir os avisos automáticos se o VoiceOver for utilizado em simultâneo. Recomendamos que desative a Redução de nível de áudio para facilitar a audição dos avisos automáticos que ocorram enquanto está a interagir com o telemóvel. É possível desativar a Redução de nível de áudio nas definições do VoiceOver ou através do rotor do VoiceOver.\n3. Touch ID ou Face ID para Desbloquear: definir o desbloqueio do telemóvel através do Touch ID ou do Face ID permitirá desbloquear o telemóvel de forma rápida e fácil, o que, por sua vez, permitirá aceder o mais rapidamente possível aos botões A Minha Localização, Em Meu Redor e À Minha Frente enquanto se desloca. Configure o desbloqueio com o Touch ID ou Face ID na aplicação Definições do iOS.";
 
 
 /*  */
-"faq.what_is_osm.question" = "O que é o Open Street Map e por que motivo é utilizado no Soundscape?";
+"faq.what_is_osm.question" = "O que é o Open Street Map e por que motivo é utilizado no Seva?";
 
 
 /*  */
-"faq.what_is_osm.answer" = "O Soundscape utiliza dados de mapas geográficos para fornecer os avisos informativos na aplicação. A principal origem de mapas utilizada é o Open Street Map (www.openstreetmap.org), uma abrangente plataforma de mapeamento gerada pela comunidade, que permite que organizações e indivíduos melhorem a qualidade e granularidade das informações fornecidas, bem como a acessibilidade das respetivas áreas, utilizando ferramentas de criação de mapas do Open Street Map.";
+"faq.what_is_osm.answer" = "O Seva utiliza dados de mapas geográficos para fornecer os avisos informativos na aplicação. A principal origem de mapas utilizada é o Open Street Map (www.openstreetmap.org), uma abrangente plataforma de mapeamento gerada pela comunidade, que permite que organizações e indivíduos melhorem a qualidade e granularidade das informações fornecidas, bem como a acessibilidade das respetivas áreas, utilizando ferramentas de criação de mapas do Open Street Map.";
 
 
 /*  */
-"faq.tip.beacon_quiet" = "Se guardar o telemóvel no bolso e ficar imóvel, o som do sinal ficará mais baixo porque o Soundscape não consegue identificar para que direção está virado. Para o resolver, comece novamente a caminhar ou pegue no telemóvel e segure-o numa posição plana.";
+"faq.tip.beacon_quiet" = "Se guardar o telemóvel no bolso e ficar imóvel, o som do sinal ficará mais baixo porque o Seva não consegue identificar para que direção está virado. Para o resolver, comece novamente a caminhar ou pegue no telemóvel e segure-o numa posição plana.";
 
 
 /*  */
-"faq.tip.setting_beacon_on_address" = "Pode definir um sinal em qualquer endereço. Procure o endereço no ecrã principal do Soundscape. Depois de selecionar o endereço nos resultados da pesquisa, será mostrado um ecrã \"Detalhes da Localização\" com uma opção para \"Iniciar Sinal de Áudio\" no endereço. Isto permite-lhe definir um sinal em empresas, locais, pontos de interesse e residências que não se encontrem no Open Street Maps.";
+"faq.tip.setting_beacon_on_address" = "Pode definir um sinal em qualquer endereço. Procure o endereço no ecrã principal do Seva. Depois de selecionar o endereço nos resultados da pesquisa, será mostrado um ecrã \"Detalhes da Localização\" com uma opção para \"Iniciar Sinal de Áudio\" no endereço. Isto permite-lhe definir um sinal em empresas, locais, pontos de interesse e residências que não se encontrem no Open Street Maps.";
 
 
 /*  */
@@ -4369,11 +4369,11 @@
 
 
 /*  */
-"faq.tip.turning_off_auto_callouts" = "Se pretender interagir com o Soundscape mas não pretender ouvir os avisos automáticos, pode desativá-los acedendo à secção \"Gerir Avisos\" da página \"Definições\" a partir do menu. Alternativamente, se não for utilizar o Soundscape, poderá colocá-lo em Modo de suspensão ou pausa utilizando o botão \"Suspender\" no menu principal.";
+"faq.tip.turning_off_auto_callouts" = "Se pretender interagir com o Seva mas não pretender ouvir os avisos automáticos, pode desativá-los acedendo à secção \"Gerir Avisos\" da página \"Definições\" a partir do menu. Alternativamente, se não for utilizar o Seva, poderá colocá-lo em Modo de suspensão ou pausa utilizando o botão \"Suspender\" no menu principal.";
 
 
 /*  */
-"faq.tip.hold_phone_flat" = "O Soundscape funciona melhor quando segura no telemóvel numa posição plana, com o ecrã virado para o céu e a extremidade superior do telemóvel apontada na direção oposta ao do seu corpo.";
+"faq.tip.hold_phone_flat" = "O Seva funciona melhor quando segura no telemóvel numa posição plana, com o ecrã virado para o céu e a extremidade superior do telemóvel apontada na direção oposta ao do seu corpo.";
 
 
 /*  */
