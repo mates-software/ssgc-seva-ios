@@ -122,7 +122,7 @@
                                                 </accessibility>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
+                                                <color key="highlightedColor" name="font-primary"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="localization" value="help.text.section_title.what"/>
                                                 </userDefinedRuntimeAttributes>
@@ -134,7 +134,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="364" height="42.5"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <nil key="highlightedColor"/>
+                                                        <color key="highlightedColor" name="font-primary"/>
                                                     </label>
                                                 </subviews>
                                             </stackView>
@@ -152,7 +152,7 @@
                                                 </accessibility>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
+                                                <color key="highlightedColor" name="font-primary"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="localization" value="help.text.section_title.when"/>
                                                 </userDefinedRuntimeAttributes>
@@ -164,7 +164,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="364" height="42.5"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <nil key="highlightedColor"/>
+                                                        <color key="highlightedColor" name="font-primary"/>
                                                     </label>
                                                 </subviews>
                                             </stackView>
@@ -182,7 +182,7 @@
                                                 </accessibility>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
+                                                <color key="highlightedColor" name="font-primary"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="localization" value="help.text.section_title.how"/>
                                                 </userDefinedRuntimeAttributes>
@@ -194,7 +194,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="364" height="42.5"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <nil key="highlightedColor"/>
+                                                        <color key="highlightedColor" name="font-primary"/>
                                                     </label>
                                                 </subviews>
                                             </stackView>
@@ -258,7 +258,7 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" name="Background 1"/>
+                                <color key="backgroundColor" name="background-primary"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="GQn-AA-uCp" firstAttribute="leading" secondItem="HvH-ia-mn8" secondAttribute="leading" id="Rlu-oM-JXQ"/>
@@ -308,7 +308,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" name="Background Base"/>
                         <color key="tintColor" name="Foreground 1"/>
-                        <color key="separatorColor" name="Background 3"/>
+                        <color key="separatorColor" name="background-primary"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="QuestionCell" textLabel="toJ-XF-oW2" style="IBUITableViewCellStyleDefault" id="nEw-lc-Q1V" customClass="CustomDisclosureTableViewCell" customModule="Soundscape" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="55.5" width="414" height="43.5"/>
@@ -326,7 +326,8 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" name="Background 1"/>
+                                <color key="backgroundColor" name="background-primary"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -376,7 +377,7 @@
                                                 </accessibility>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
+                                                <color key="highlightedColor" name="font-primary"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="rVL-Py-bqy">
                                                 <rect key="frame" x="30" y="61" width="364" height="42.5"/>
@@ -390,7 +391,7 @@
                                                 </subviews>
                                             </stackView>
                                         </subviews>
-                                        <color key="tintColor" name="Foreground 1"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="rVL-Py-bqy" secondAttribute="bottom" constant="20" id="1ys-Qm-bi7"/>
                                             <constraint firstItem="HhO-Mm-DNf" firstAttribute="leading" secondItem="TFH-o4-bTm" secondAttribute="leading" constant="10" id="6yR-9g-0UR"/>
@@ -466,13 +467,13 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="42.5"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
+                                                <color key="highlightedColor" name="font-primary"/>
                                             </label>
                                         </subviews>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" name="Background 1"/>
-                                <color key="tintColor" name="Foreground 1"/>
+                                <color key="backgroundColor" name="background-primary"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="VcY-4v-tCL" firstAttribute="leading" secondItem="LM1-Xq-EmW" secondAttribute="leading" constant="20" id="1N6-cL-7GC"/>
                                     <constraint firstAttribute="trailing" secondItem="VcY-4v-tCL" secondAttribute="trailing" constant="20" id="5e9-iN-Z9i"/>
@@ -693,9 +694,6 @@
     <resources>
         <namedColor name="Background 1">
             <color red="0.0040000001899898052" green="0.10999999940395355" blue="0.34099999070167542" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-        </namedColor>
-        <namedColor name="Background 3">
-            <color red="0.10199999809265137" green="0.14900000393390656" blue="0.25099998712539673" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="Background Base">
             <color red="0.097999997437000275" green="0.097999997437000275" blue="0.14900000393390656" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
