@@ -20,13 +20,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchScreenLogo" translatesAutoresizingMaskIntoConstraints="NO" id="fuy-UR-A7Z">
-                                <rect key="frame" x="115" y="257" width="163" height="184"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="184" id="XeF-Fd-hLp"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spacial Sound &amp; Guidance Company  " textAlignment="center" lineBreakMode="middleTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="fvi-oE-ja4">
                                 <rect key="frame" x="74" y="662" width="245" height="60"/>
                                 <constraints>
@@ -36,13 +29,20 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchScreenLogo" translatesAutoresizingMaskIntoConstraints="NO" id="fuy-UR-A7Z">
+                                <rect key="frame" x="115" y="257" width="163" height="184"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="184" id="XeF-Fd-hLp"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" name="Background 2"/>
                         <constraints>
                             <constraint firstItem="fvi-oE-ja4" firstAttribute="top" secondItem="fuy-UR-A7Z" secondAttribute="bottom" constant="221" id="2qN-je-6t2"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="fuy-UR-A7Z" secondAttribute="trailing" constant="99" id="JkR-12-oBU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fuy-UR-A7Z" secondAttribute="trailing" constant="99" id="ApA-wE-dBu"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="fvi-oE-ja4" secondAttribute="bottom" constant="62" id="K7t-d5-XAx"/>
-                            <constraint firstItem="fuy-UR-A7Z" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="99" id="mBS-pz-xAA"/>
+                            <constraint firstItem="fuy-UR-A7Z" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="99" id="QDN-A0-o6z"/>
                             <constraint firstAttribute="trailing" secondItem="fvi-oE-ja4" secondAttribute="trailing" constant="74" id="uxR-zm-m7E"/>
                             <constraint firstItem="fvi-oE-ja4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="74" id="xld-9j-AZU"/>
                         </constraints>

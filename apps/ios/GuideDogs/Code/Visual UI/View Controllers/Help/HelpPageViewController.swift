@@ -55,7 +55,7 @@ class HelpPageViewController: UIViewController {
             let titleLabel = UILabel(frame: CGRect.zero)
             titleLabel.text = content.title
             titleLabel.accessibilityLabel = content.title.lowercased().replacingOccurrences(of: "callout", with: "call out")
-            titleLabel.textColor = UIColor.white
+            titleLabel.textColor = Colors.fontColor
             titleLabel.textAlignment = .natural
             titleLabel.font = UIFont.systemFont(ofSize: 17.0, weight: .semibold)
             
