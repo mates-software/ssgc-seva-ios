@@ -117,6 +117,30 @@
 	<string>Soundscape uses motion detection to personalize automatic callouts.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Soundscape uses the photo library for attaching photos to feedback.</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>31.97.119.80</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSExceptionMinimumTLSVersion</key>
+				<string>TLSv1.0</string>
+				<key>NSExceptionPortRanges</key>
+				<array>
+					<dict>
+						<key>NSExceptionMinimumPort</key>
+						<integer>8001</integer>
+						<key>NSExceptionMaximumPort</key>
+						<integer>8001</integer>
+					</dict>
+				</array>
+				<key>NSIncludesSubdomains</key>
+				<false/>
+			</dict>
+		</dict>
+	</dict>
 	<key>NSUserActivityTypes</key>
 	<array>
 		<string>$(PRODUCT_BUNDLE_IDENTIFIER).activity.my-location</string>
