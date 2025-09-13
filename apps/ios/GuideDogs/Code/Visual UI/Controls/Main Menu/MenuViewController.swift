@@ -64,6 +64,11 @@ class MenuViewController: UIViewController {
     
     private let menuView = MenuView()
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        AuthoredActivityLoader.shared.fetchActivities()
+    }
+    
     override func loadView() {
         // Build views for menu items
         menuView.addMenuItem(.donate)

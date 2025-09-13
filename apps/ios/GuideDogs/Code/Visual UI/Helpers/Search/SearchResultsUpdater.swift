@@ -121,6 +121,8 @@ extension SearchResultsUpdater: UISearchResultsUpdating {
         //
         // Fetch autosuggest results with new search text
         //
+        
+        // Local search locations
 
         let request = MKLocalSearch.Request()
         request.naturalLanguageQuery = searchText
