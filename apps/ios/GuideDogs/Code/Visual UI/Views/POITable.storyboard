@@ -444,7 +444,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U7D-De-t7t" userLabel="Background">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="71"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
                                 <color key="backgroundColor" name="background-primary"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="accessibilityIgnoresInvertColors" value="YES"/>
@@ -530,7 +530,7 @@
                                 </connections>
                             </containerView>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="5nG-gW-spx">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="37"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="126"/>
                                 <color key="backgroundColor" name="Background Base"/>
                                 <color key="color" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </activityIndicatorView>
@@ -896,8 +896,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="mJv-Sc-mY4"/>
-        <segue reference="6F6-7C-j5t"/>
+        <segue reference="JAj-ca-iRI"/>
+        <segue reference="afz-cd-zRI"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Annotation_iconB@22" width="22" height="22"/>
