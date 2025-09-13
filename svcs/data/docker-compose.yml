@@ -17,7 +17,7 @@
 # above URL): http://bboxfinder.com/
 
 # There are two tilesrv services defined, tilesrv-blue and tilesrv-green to
-# allow for updates without downtime. tilesrv-blue is started by default. 
+# allow for updates without downtime. tilesrv-blue is started by default.
 #
 # To update:
 # docker compose up --build -d tilesrv-green
@@ -30,7 +30,7 @@
 # docker compose rm tilesrv-blue
 #
 # For the next update swap blue and green in the instructions above.
-version: '3.8'
+version: "3.8"
 
 volumes:
   postgis:
@@ -39,6 +39,7 @@ volumes:
 services:
   postgis:
     image: postgis/postgis
+    platform: linux/amd64
     user: postgres
     environment:
       - POSTGRES_PASSWORD=secret
