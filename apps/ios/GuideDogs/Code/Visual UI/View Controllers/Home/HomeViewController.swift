@@ -188,8 +188,6 @@ class HomeViewController: UIViewController {
         }))
         
         NotificationCenter.default.post(name: Notification.Name.homeViewControllerDidLoad, object: self)
-        
-        AuthoredActivityLoader.shared.fetchActivities()
     }
     
     override func viewWillAppear(_ animated: Bool) {

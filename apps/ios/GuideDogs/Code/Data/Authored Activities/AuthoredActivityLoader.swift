@@ -85,7 +85,7 @@ class AuthoredActivityLoader {
     
     
     func fetchActivities() {
-        guard let url = URL(string: "http://localhost:8001/activities/") else {
+        guard let url = URL(string: "http://31.97.119.80:8001/activities/") else {
             print("URL inválida")
             return
         }
