@@ -359,7 +359,7 @@
                         <segue destination="2Rp-FL-DpL" kind="show" identifier="ShowManageDevices" id="ybG-P0-eHe"/>
                         <segue destination="f3H-T1-Txl" kind="show" identifier="ShowStatus" id="Vd7-cG-0Ca"/>
                         <segue destination="6K2-3p-ww3" kind="show" identifier="LocationDetailView" id="9hD-GO-Vl6"/>
-                        <segue destination="Lci-jS-qzm" kind="presentation" identifier="PreviewView" modalPresentationStyle="fullScreen" id="Vlr-fI-CCQ"/>
+                        <segue destination="main-preview-ref" kind="presentation" identifier="PreviewView" modalPresentationStyle="fullScreen" id="Vlr-fI-CCQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tmm-CW-fzs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -852,7 +852,7 @@ Markers</string>
                                                             <constraint firstAttribute="width" secondItem="8Sj-NH-zKu" secondAttribute="height" multiplier="1:1" id="WIm-Eb-ojB"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WAKE ON LEAVE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4UU-r4-Gou">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WAKE ONLEAVE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4UU-r4-Gou">
                                                         <rect key="frame" x="5" y="65" width="110" height="34"/>
                                                         <accessibility key="accessibilityConfiguration">
                                                             <bool key="isElement" value="NO"/>
@@ -910,7 +910,7 @@ Markers</string>
                                                             <constraint firstAttribute="width" secondItem="lbI-zd-ZNN" secondAttribute="height" multiplier="1:1" id="9kx-qn-gOK"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WAKE UP NOW" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L8N-6o-f4E">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WAKE UPNOW" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L8N-6o-f4E">
                                                         <rect key="frame" x="5" y="62" width="110" height="34"/>
                                                         <accessibility key="accessibilityConfiguration">
                                                             <bool key="isElement" value="NO"/>
@@ -1039,6 +1039,8 @@ Markers</string>
             </objects>
             <point key="canvasLocation" x="-993" y="282"/>
         </scene>
+        <!--Preview Storyboard Reference-->
+        <storyboardReference id="main-preview-ref" storyboardName="Preview"/>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="9hD-GO-Vl6"/>

@@ -425,10 +425,10 @@
             </objects>
             <point key="canvasLocation" x="1128" y="978"/>
         </scene>
-        <!--POITable-->
+        <!--Preview-->
         <scene sceneID="h9M-hs-6U5">
             <objects>
-                <viewControllerPlaceholder storyboardName="POITable" id="iJx-9E-4QW" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Preview" id="iJx-9E-4QW" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="eK7-3d-hHK"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="20R-nx-2Vc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
