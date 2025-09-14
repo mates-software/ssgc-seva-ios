@@ -15,7 +15,9 @@ ENV IMPOSM_BINARY_RELEASE=0.11.1
 RUN tdnf -y update \
  && tdnf install -y ca-certificates-microsoft wget tar gzip \
  && mkdir -p /ingest/imposm3 \
- && wget -q -O - https://github.com/omniscale/imposm3/releases/download/v$IMPOSM_BINARY_RELEASE/imposm-$IMPOSM_BINARY_RELEASE-linux-x86-64.tar.gz | tar -xz --strip-components=1 -C /ingest/imposm3
+ && ARCH=$(uname -m) \
+ && if [ "$ARCH" = "aarch64" ]; then IMPOSM_ARCH="linux-arm64"; else IMPOSM_ARCH="linux-x86-64"; fi \
+ && wget -q -O - https://github.com/omniscale/imposm3/releases/download/v$IMPOSM_BINARY_RELEASE/imposm-$IMPOSM_BINARY_RELEASE-$IMPOSM_ARCH.tar.gz | tar -xz --strip-components=1 -C /ingest/imposm3
 
 FROM mcr.microsoft.com/cbl-mariner/distroless/base:2.0 as final
 

@@ -8,6 +8,14 @@
 #
 # To run:
 #   $ docker-compose up --build
+# # Para California (será mucho más lento, archivo grande)
+# GEN_REGIONS=california docker-compose up --build
+
+# # Para Toronto
+# GEN_REGIONS=toronto docker-compose up --build
+
+# # Para Londres
+# GEN_REGIONS=england docker-compose up --build
 #
 # Once all three components are running (PostGIS server, ingest service, tile
 # server), test by fetching a tile in your browser, e.g.:
@@ -54,6 +62,7 @@ services:
 
   ingest:
     image: soundscape/ingest
+    platform: linux/amd64
     build:
       dockerfile: Dockerfile.ingest
     environment:
@@ -70,9 +79,9 @@ services:
       - ./non_osm_data:/non_osm_data
     # You only need to expose the port from this container if you want to
     # view the Prometheus metrics endpoint from your browser, accessible at
-    # http://localhsot:8083/
-    #ports:
-    #  - "127.0.0.1:8083:8000"
+    # http://localhost:8083/
+    ports:
+      - "127.0.0.1:8083:8083"
     depends_on:
       postgis:
         condition: service_healthy
