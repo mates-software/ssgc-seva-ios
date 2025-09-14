@@ -58,9 +58,8 @@ struct AuthoredActivityMetadata: Codable, CustomStringConvertible {
         */
         case .v2, .v3:
             components.scheme = "http"
-            components.host = "31.97.119.80"
-            components.port = 8001
-            components.path = "/activities/\(id.addingPercentEncoding(withAllowedCharacters: .urlPathAllowed) ?? id)/activity.gpx"
+            components.host = "31.97.119.80"            
+            components.path = "/files/activities/\(id.addingPercentEncoding(withAllowedCharacters: .urlPathAllowed) ?? id)/activity.gpx"
         default:
             // no other versions currently supported
             break

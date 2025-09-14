@@ -170,7 +170,7 @@ class SettingsContext {
             if let servicesHostName = userDefaults.string(forKey: Keys.servicesHostName), !servicesHostName.isEmpty {
                 return servicesHostName
             } else {
-                let servicesHostName = "https://tiles.soundscape.services"
+                let servicesHostName = "http://31.97.119.80"
                 userDefaults.set(servicesHostName, forKey: Keys.servicesHostName)
                 return servicesHostName
             }

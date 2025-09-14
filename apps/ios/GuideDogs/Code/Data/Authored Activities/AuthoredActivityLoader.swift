@@ -85,7 +85,7 @@ class AuthoredActivityLoader {
     
     
     func fetchActivities() {
-        guard let url = URL(string: "http://31.97.119.80:8001/activities/") else {
+        guard let url = URL(string: "http://31.97.119.80/files/activities/") else {
             print("URL inválida")
             return
         }
@@ -132,15 +132,22 @@ class AuthoredActivityLoader {
     func extractIDs(from html: String) -> [String] {
         var ids: [String] = []
         
-        let pattern = #"<a href="([0-9a-fA-F\-]+)/">"#
-        let regex = try? NSRegularExpression(pattern: pattern)
+        // Updated pattern to match the exact format in the HTML
+        // Matches: href="./UUID/" where UUID is a standard UUID format
+        let pattern = #"href="\.\/([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12})\/"#
+        
+        guard let regex = try? NSRegularExpression(pattern: pattern, options: []) else {
+            return ids
+        }
+        
         let range = NSRange(html.startIndex..<html.endIndex, in: html)
         
-        regex?.matches(in: html, range: range).forEach { match in
+        regex.matches(in: html, range: range).forEach { match in
             if let range = Range(match.range(at: 1), in: html) {
                 ids.append(String(html[range]))
             }
         }
+        
         return ids
     }
     
