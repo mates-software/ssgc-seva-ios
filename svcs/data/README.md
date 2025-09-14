@@ -118,6 +118,84 @@ The system supports zero-downtime updates using blue-green deployment:
 
 - **Tiles**: `http://localhost:8081/{z}/{x}/{y}.json`
 - **Metrics** (optional): `http://localhost:8083/` (Prometheus format)
+- **Database**: `localhost:5432` (PostgreSQL with PostGIS)
+
+## Example: Querying Andorra Data
+
+When you configure the system for Andorra (`GEN_REGIONS=andorra`), you can test the tile server with these verified coordinates and URLs:
+
+### Recommended Test Locations
+
+| Location                       | Latitude  | Longitude | Features | Tile URL                                                         |
+| ------------------------------ | --------- | --------- | -------- | ---------------------------------------------------------------- |
+| **Andorra la Vella** (Capital) | `42.5063` | `1.5218`  | 737      | [16/33045/24203.json](http://localhost:8081/16/33045/24203.json) |
+| **Escaldes-Engordany**         | `42.5067` | `1.5347`  | 312      | [16/33047/24203.json](http://localhost:8081/16/33047/24203.json) |
+| **Geographic Center**          | `42.5407` | `1.5732`  | 7        | [16/33054/24195.json](http://localhost:8081/16/33054/24195.json) |
+
+### Sample Data Verification
+
+```bash
+# Check total data loaded
+docker-compose exec postgis psql -U postgres -d osm -c "SELECT COUNT(*) FROM osm_roads;"
+docker-compose exec postgis psql -U postgres -d osm -c "SELECT COUNT(*) FROM osm_places;"
+
+# Test a high-density tile (Andorra la Vella)
+curl "http://localhost:8081/16/33045/24203.json" | jq '.features | length'
+
+# View sample places in Andorra
+docker-compose exec postgis psql -U postgres -d osm -c "SELECT name, feature_type, feature_value FROM osm_places WHERE name LIKE '%Andorra%' LIMIT 5;"
+```
+
+### Database Connection
+
+The PostgreSQL database is exposed on `localhost:5432` for external client connections:
+
+```bash
+# Connection parameters
+Host: localhost
+Port: 5432
+Database: osm
+Username: postgres
+Password: secret
+```
+
+Example connection strings:
+
+```bash
+# psql command line
+psql -h localhost -p 5432 -U postgres -d osm
+
+# Connection URL
+postgresql://postgres:secret@localhost:5432/osm
+```
+
+### Mobile App Configuration
+
+For mobile applications, use these initial coordinates:
+
+```json
+{
+  "initialLocation": {
+    "latitude": 42.5063,
+    "longitude": 1.5218,
+    "zoom": 16
+  },
+  "tileServerUrl": "http://localhost:8081",
+  "boundingBox": {
+    "north": 42.6559357,
+    "south": 42.4288238,
+    "east": 1.7868662,
+    "west": 1.4077997
+  }
+}
+```
+
+### Expected Data Coverage
+
+- **Roads**: ~7,187 road segments
+- **Places**: ~12,134 points of interest
+- **Features**: Hotels, restaurants, government buildings, paths, residential streets
+- **Languages**: Primarily Catalan, with some French and Spanish names
 
 ## Monitoring
 
