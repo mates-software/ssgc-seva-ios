@@ -21,7 +21,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchScreenLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Fgv-iB-Vy1">
-                                <rect key="frame" x="115" y="267" width="163" height="184"/>
+                                <rect key="frame" x="115" y="257" width="163" height="184"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="184" id="zR0-UW-fe0"/>
@@ -52,7 +52,7 @@
                             <constraint firstItem="cuM-rX-RIk" firstAttribute="centerX" secondItem="APb-ho-u6n" secondAttribute="centerX" id="JpC-JS-kaT"/>
                             <constraint firstItem="cuM-rX-RIk" firstAttribute="centerX" secondItem="APb-ho-u6n" secondAttribute="centerX" id="Nhg-Ro-Pk8"/>
                             <constraint firstAttribute="trailing" secondItem="klB-xH-yDe" secondAttribute="trailing" constant="74" id="RAD-bq-Gvb"/>
-                            <constraint firstItem="cuM-rX-RIk" firstAttribute="top" secondItem="Fgv-iB-Vy1" secondAttribute="bottom" constant="125" id="W5r-xR-r61"/>
+                            <constraint firstItem="cuM-rX-RIk" firstAttribute="top" secondItem="Fgv-iB-Vy1" secondAttribute="bottom" constant="135" id="W5r-xR-r61"/>
                             <constraint firstItem="Fgv-iB-Vy1" firstAttribute="leading" secondItem="APb-ho-u6n" secondAttribute="leadingMargin" constant="99" id="XIq-QZ-EJD"/>
                             <constraint firstItem="0jH-Vx-9jw" firstAttribute="top" secondItem="klB-xH-yDe" secondAttribute="bottom" constant="62" id="b5M-rD-3t5"/>
                             <constraint firstItem="klB-xH-yDe" firstAttribute="top" secondItem="cuM-rX-RIk" secondAttribute="bottom" constant="59" id="lR7-Ba-4Xv"/>

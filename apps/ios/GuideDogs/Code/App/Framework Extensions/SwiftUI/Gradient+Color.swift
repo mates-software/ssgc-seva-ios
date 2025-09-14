@@ -37,10 +37,10 @@ extension Gradient {
         return Gradient(stops: [
             // Top: extend dark and smooth into light to hide image/background seam
             .init(color: Color(.sRGB, red: 0.004, green: 0.110, blue: 0.341, opacity: 1.0), location: 0.00), // #011C57
-            .init(color: Color(.sRGB, red: 0.067, green: 0.278, blue: 0.635, opacity: 1.0), location: 0.12), // hold dark
+            .init(color: Color(.sRGB, red: 0.067, green: 0.278, blue: 0.635, opacity: 1.0), location: 0.13), // hold dark
         
         
-            .init(color: Color(.sRGB, red: 0.067, green: 0.278, blue: 0.635, opacity: 1.0), location: 0.70),
+            .init(color: Color(.sRGB, red: 0.067, green: 0.278, blue: 0.635, opacity: 1.0), location: 0.60),
             // Bottom: darken again
             .init(color: Color(.sRGB, red: 0.004, green: 0.110, blue: 0.341, opacity: 1.0), location: 1.00)
         ])
