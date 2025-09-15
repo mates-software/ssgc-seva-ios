@@ -116,6 +116,8 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        AuthoredActivityLoader.shared.fetchActivities()
+        
         // Initialize the search controller
         self.searchController = UISearchController(delegate: self)
         self.searchController?.delegate = self
