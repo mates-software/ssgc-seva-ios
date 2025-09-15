@@ -95,6 +95,7 @@ struct EmptyMarkerOrRoutesView: View {
         }
         .padding([.leading, .trailing], 32.0)
         .padding([.top, .bottom], 64.0)
+        .background(Color.primaryBackground)
     }
 }
 

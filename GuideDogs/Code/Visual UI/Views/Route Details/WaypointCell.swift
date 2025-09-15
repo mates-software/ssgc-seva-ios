@@ -130,7 +130,7 @@ struct WaypointCell: View {
                 Text(String(index + 1))
                     .font(Font.caption.monospacedDigit())
                     .fixedSize(horizontal: true, vertical: true)
-                    .foregroundColor(Color.primaryForeground)
+                    .foregroundColor(Color.white)
                     .readGeometryPreference(key: MaxValue<IndexWidth, CGFloat>.self) { $0.size.width }
             }
             .frame(width: textWidth)
