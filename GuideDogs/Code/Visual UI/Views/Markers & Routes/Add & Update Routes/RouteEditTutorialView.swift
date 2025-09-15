@@ -18,7 +18,7 @@ struct RouteEditTutorialView: View {
             GDLocalizedTextView("route.no_waypoints.hint.2")
         }
         .font(.body)
-        .foregroundColor(Color.primaryForeground)
+        .foregroundColor(Color.primaryFont)
         .multilineTextAlignment(.center)
         .accessibleTextFormat()
         .accessibilityElement(children: .combine)

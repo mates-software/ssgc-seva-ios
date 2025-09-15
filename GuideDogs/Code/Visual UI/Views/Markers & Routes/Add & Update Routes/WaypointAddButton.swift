@@ -50,7 +50,7 @@ struct WaypointAddButton: View {
                     .font(.system(size: fontSize))
                     // Set `buttonStyle` when used in a list
                     .buttonStyle(PlainButtonStyle())
-                    .foregroundColor(Color.primaryBackground)
+                    .foregroundColor(Color.primaryFont)
                     .roundedBackground(Color.primaryForeground)
                     .padding(.horizontal, 48.0)
                     .padding(.vertical, 12.0)

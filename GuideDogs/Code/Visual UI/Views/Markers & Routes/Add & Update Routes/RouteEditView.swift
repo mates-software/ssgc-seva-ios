@@ -264,7 +264,7 @@ struct RouteEditView: View {
                         showAlert = true
                     }
                     .font(.system(size: fontSize))
-                    .foregroundColor(Color.primaryForeground)
+                    .foregroundColor(Color.primaryFont)
                     .roundedBackground(Color.red)
                     .padding(.horizontal, 48.0)
                     .padding(.vertical, 24.0)
@@ -285,14 +285,14 @@ struct RouteEditView: View {
                         onCancel()
                     }
                 }
-                .foregroundColor(Color.primaryForeground)
+                .foregroundColor(Color.primaryFont)
             }
             
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button(GDLocalizedString("general.alert.done")) {
                     onDone()
                 }
-                .foregroundColor(Color.primaryForeground)
+                .foregroundColor(Color.primaryFont)
                 .if(!isValid, transform: { $0.hidden() })
             }
         })
