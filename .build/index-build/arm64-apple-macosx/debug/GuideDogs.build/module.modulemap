@@ -1,0 +1,4 @@
+module GuideDogs {
+    header "/Users/naiu/Develompent/ssgs-seva/ssgc-seva-ios/.build/index-build/arm64-apple-macosx/debug/GuideDogs.build/GuideDogs-Swift.h"
+    requires objc
+}
