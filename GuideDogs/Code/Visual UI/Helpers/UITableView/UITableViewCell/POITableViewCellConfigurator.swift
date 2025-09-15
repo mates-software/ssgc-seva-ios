@@ -27,6 +27,10 @@ class POITableViewCellConfigurator: TableViewCellConfigurator {
     // MARK: `TableViewCellConfigurator`
     
     func configure(_ cell: TableViewCell, forDisplaying model: Model) {
+        // Apply themed background specifically for POI rows
+        cell.backgroundColor = Colors.Background.menuAlternate
+        cell.contentView.backgroundColor = Colors.Background.menuAlternate
+
         if let marker = SpatialDataCache.referenceEntityByEntityKey(model.key), marker.isTemp == false {
             configureTitle(cell, marker: marker)
             configureDetail(cell, marker: marker)

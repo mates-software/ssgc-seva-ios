@@ -57,7 +57,7 @@
                                                 <subviews>
                                                     <view contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="VPm-LR-Jck" userLabel="Virtual Location">
                                                         <rect key="frame" x="0.0" y="0.0" width="374" height="270"/>
-                                                        <color key="backgroundColor" name="Background 2"/>
+                                                        <color key="backgroundColor" name="foreground-primary"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="270" id="q4T-gV-APD"/>
                                                         </constraints>
@@ -99,7 +99,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" name="Background 2"/>
+                                                <color key="backgroundColor" name="foreground-primary"/>
                                                 <constraints>
                                                     <constraint firstItem="LQn-L1-MTF" firstAttribute="centerY" secondItem="XrF-hz-GPa" secondAttribute="centerY" id="2cZ-6C-rOe"/>
                                                     <constraint firstItem="VXr-78-URH" firstAttribute="leading" secondItem="LQn-L1-MTF" secondAttribute="trailing" constant="12" id="774-pl-8qN"/>
@@ -205,6 +205,7 @@
                             </containerView>
                             <containerView hidden="YES" opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iks-Ca-lQh" userLabel="Tutorial">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" name="background-primary"/>
                                 <connections>
                                     <segue destination="3pb-eK-lGM" kind="embed" id="gje-5T-R8x"/>
                                 </connections>
@@ -343,7 +344,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7xG-KG-qqo"/>
-                        <color key="backgroundColor" name="Background 3"/>
+                        <color key="backgroundColor" name="background-secondary"/>
                         <constraints>
                             <constraint firstItem="1Od-DE-hWY" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="7xG-KG-qqo" secondAttribute="leading" id="6H2-zS-VhJ"/>
                             <constraint firstItem="7xG-KG-qqo" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="1Od-DE-hWY" secondAttribute="bottom" id="It9-qE-L0r"/>
@@ -429,7 +430,7 @@
                                                         </accessibility>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                        <nil key="highlightedColor"/>
+                                                        <color key="highlightedColor" name="background-primary"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="string" keyPath="localization" value="preview.tutorial.title.2"/>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="uppercased" value="NO"/>
@@ -618,12 +619,6 @@
         <image name="Background" width="557" height="1215"/>
         <image name="search_white_24dp" width="24" height="24"/>
         <image name="travel1" width="102" height="102"/>
-        <namedColor name="Background 2">
-            <color red="0.14499999582767487" green="0.23899999260902405" blue="0.38400000333786011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="Background 3">
-            <color red="0.10199999809265137" green="0.14900000393390656" blue="0.25099998712539673" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-        </namedColor>
         <namedColor name="Background Shadow">
             <color red="0.0" green="0.0" blue="0.0" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
@@ -632,6 +627,15 @@
         </namedColor>
         <namedColor name="Highlight Yellow">
             <color red="1" green="0.93300002813339233" blue="0.34900000691413879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="background-primary">
+            <color red="0.0040000001899898052" green="0.10999999940395355" blue="0.34099999070167542" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="background-secondary">
+            <color red="0.086000002920627594" green="0.27799999713897705" blue="0.57300001382827759" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="foreground-primary">
+            <color red="0.082000002264976501" green="0.34099999070167542" blue="0.77999997138977051" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
     </resources>
 </document>

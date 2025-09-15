@@ -73,7 +73,6 @@ class MenuViewController: UIViewController {
         // Build views for menu items
         menuView.addMenuItem(.donate)
         menuView.addMenuItem(.devices)
-        menuView.addMenuItem(.recreation)
         menuView.addMenuItem(.settings)
         menuView.addMenuItem(.help)
         menuView.addMenuItem(.feedback)
