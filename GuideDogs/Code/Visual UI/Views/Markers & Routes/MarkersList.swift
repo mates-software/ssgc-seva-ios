@@ -49,7 +49,7 @@ struct MarkersList: View {
             LoadingMarkersOrRoutesView()
         } else if loader.markerIDs.isEmpty {
             EmptyMarkerOrRoutesView(.markers)
-                .background(Color.primaryBackground)
+                .background(Color.primaryForeground)
                 .onAppear {
                     GDATelemetry.trackScreenView("markers_list.empty")
                 }

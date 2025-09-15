@@ -72,7 +72,7 @@ struct SortStyleCell: View {
                         sort = sort.toggled()
                         SettingsContext.shared.defaultMarkerSortStyle = sort
                     }
-                    .foregroundColor(.primaryForeground)
+                    .foregroundColor(.primaryFont)
                     
                     Spacer()
                 }
@@ -88,14 +88,14 @@ struct SortStyleCell: View {
                     sort = sort.toggled()
                     SettingsContext.shared.defaultMarkerSortStyle = sort
                 }
-                .foregroundColor(.primaryForeground)
+                .foregroundColor(.primaryFont)
             }
         }
     }
     
     var body: some View {
         cell.font(.subheadline)
-            .foregroundColor(.primaryForeground)
+            .foregroundColor(.primaryFont)
             .padding([.leading, .trailing], 20)
             .padding([.top, .bottom], 8)
             .background(Color.primaryBackground)

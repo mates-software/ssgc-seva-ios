@@ -11,26 +11,32 @@ struct DonationView: View {
     @Environment(\.presentationMode) var presentationMode
 
     var body: some View {
-        VStack(spacing:32.0) {
-            GDLocalizedTextView("donation.title")
-                .font(.largeTitle.bold())
-                .foregroundColor(Color.primaryForeground)
-                .accessibilityAddTraits(.isHeader)
-            GDLocalizedTextView("donation.body")
-                .font(.body)
-                .foregroundColor(Color.primaryForeground)
-            Button(action: {
-                if let url = URL(string: "https://gofund.me/1441f743") {
-                    UIApplication.shared.open(url)
-                    presentationMode.wrappedValue.dismiss()
+        VStack {
+            Spacer(minLength: 0)
+            VStack(spacing: 32.0) {
+                GDLocalizedTextView("donation.title")
+                    .font(.largeTitle.bold())
+                    .foregroundColor(Color.primaryFont)
+                    .accessibilityAddTraits(.isHeader)
+                GDLocalizedTextView("donation.body")
+                    .font(.body)
+                    .foregroundColor(Color.primaryFont)
+                Button(action: {
+                    if let url = URL(string: "https://gofund.me/1441f743") {
+                        UIApplication.shared.open(url)
+                        presentationMode.wrappedValue.dismiss()
+                    }
+                }) {
+                    GDLocalizedTextView("donation.link")
+                        .onboardingButtonTextStyle()
                 }
-            }) {
-                GDLocalizedTextView("donation.link")
-                    .onboardingButtonTextStyle()
             }
+            .offset(y: -24)
+            .padding(.horizontal, 18.0)
+            Spacer(minLength: 0)
         }
-        .padding(.horizontal, 18.0)
-        .linearGradientBackground(.darkBlue, ignoresSafeArea: true)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color.primaryBackground.ignoresSafeArea())
     }
 }
 

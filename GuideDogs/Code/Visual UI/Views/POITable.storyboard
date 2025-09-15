@@ -16,7 +16,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="white" keyboardDismissMode="onDrag" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="gmr-vU-Xnh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.12867569919999999" green="0.13345718379999999" blue="0.20067968959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="background-primary"/>
                         <color key="separatorColor" name="background-primary"/>
                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="5wJ-3q-xdV">
@@ -210,7 +210,7 @@
                     <tableView key="view" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="jNV-x6-r2d">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" name="Background Base"/>
+                        <color key="backgroundColor" name="background-primary"/>
                         <color key="tintColor" name="Foreground 1"/>
                         <color key="separatorColor" name="background-primary"/>
                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -875,7 +875,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="HZ6-cG-Hc8"/>
-                        <color key="backgroundColor" name="Background 3"/>
+                        <color key="backgroundColor" name="background-primary"/>
                         <constraints>
                             <constraint firstItem="ScR-QU-pj3" firstAttribute="bottom" secondItem="HZ6-cG-Hc8" secondAttribute="bottom" id="4mc-bu-0rJ"/>
                             <constraint firstItem="ScR-QU-pj3" firstAttribute="trailing" secondItem="HZ6-cG-Hc8" secondAttribute="trailing" id="K1Z-f0-FR1"/>

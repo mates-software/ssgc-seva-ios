@@ -98,6 +98,11 @@ class SearchResultsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Ensure background uses app primary background color
+        self.view.backgroundColor = Colors.Background.primary
+        self.tableView.backgroundColor = Colors.Background.primary
+        self.tableView.separatorColor = Colors.Foreground.primary
+
         if viewConfiguration == .standalone {
             self.title = GDLocalizedString("preview.search.label")
             self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: GDLocalizedString("general.alert.cancel"),
