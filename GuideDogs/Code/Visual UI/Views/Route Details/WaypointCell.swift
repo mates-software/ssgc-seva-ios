@@ -146,7 +146,7 @@ struct WaypointCell: View {
             VStack(alignment: .leading) {
                 Text(detail.displayName)
                     .font(.headline)
-                    .foregroundColor(Color.primaryForeground)
+                    .foregroundColor(Color.primaryFont)
                     .accessibilitySortPriority(4)
                 
                 Text(locationDetailLabel?.text ?? "")
@@ -158,7 +158,7 @@ struct WaypointCell: View {
                 if showAddress {
                     Text(detail.displayAddress)
                         .font(.subheadline)
-                        .foregroundColor(Color.primaryForeground)
+                        .foregroundColor(Color.primaryFont)
                         .accessibilitySortPriority(2)
                 }
             }
@@ -167,7 +167,7 @@ struct WaypointCell: View {
             
             Spacer()
         }
-        .background(Color.primaryBackground)
+        .background(Color.primaryForeground)
         .fixedSize(horizontal: false, vertical: true)
         
     }

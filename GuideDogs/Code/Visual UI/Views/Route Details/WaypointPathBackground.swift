@@ -29,7 +29,7 @@ struct WaypointPathBackground: View {
                 }
             }
             .strokedPath(state.strokeStyles.0)
-            .foregroundColor(state.strokeColors.0)
+            .foregroundColor(Color.white)
             
             SwiftUI.Path { path in
                 // Draw the path below the number bubble
@@ -39,7 +39,7 @@ struct WaypointPathBackground: View {
                 }
             }
             .strokedPath(state.strokeStyles.2)
-            .foregroundColor(state.strokeColors.2)
+            .foregroundColor(Color.white)
         }
     }
 }

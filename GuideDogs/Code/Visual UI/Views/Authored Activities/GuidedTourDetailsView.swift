@@ -53,7 +53,7 @@ struct GuidedTourDetailsView: View {
                     } label: {
                         RouteActionView(icon: actionState.icon, text: actionState.text)
                             .accessibility(hint: Text(actionState.accessibilityHint ?? ""))
-                            .foregroundColor(actionState.isEnabled ? .primaryForeground : .gray)
+                            .foregroundColor(actionState.isEnabled ? .primaryFont : .gray)
                     }
                     .disabled(!actionState.isEnabled)
                 }
