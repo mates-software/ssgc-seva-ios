@@ -4331,7 +4331,7 @@
 
 
 /*  */
-"faq.holding_phone_flat.answer" = "Ei! Voit laittaa puhelimen laukkuun tai taskuun tai mihin tahansa helppoon paikkaan. Soudscape käyttää kävelysuuntaasi päätelläkseen, mitä se ilmoittaa vasemmalla ja oikealla puolellasi. Kun lakkaat liikkumasta, Seva ei tiedä, mihin suuntaan olet kääntyneenä. Jos äänimajakka on päällä, huomaat, että se hiljenee, kunnes liikut taas. Voit ottaa koska tahansa puhelimen esiin painaaksesi sijainti- ja tutustumispainikkeita näytön alaosassa, mutta varmista, että pitelet puhelinta siten, että sen yläosa osoittaa taivaalle. Tässä \"vaakatasoisessa\" asennossa Seva käyttää puhelimen kompassia päätelläkseen, mihin suuntaan olet kääntyneenä ja antaa tarkkoja tilailmoituksia. Jos majakka on päällä huomaat, että sen äänenvoimakkuus myös kasvaa täydeksi.";
+"faq.holding_phone_flat.answer" = "Ei! Voit laittaa puhelimen laukkuun tai taskuun tai mihin tahansa helppoon paikkaan. Seva käyttää kävelysuuntaasi päätelläkseen, mitä se ilmoittaa vasemmalla ja oikealla puolellasi. Kun lakkaat liikkumasta, Seva ei tiedä, mihin suuntaan olet kääntyneenä. Jos äänimajakka on päällä, huomaat, että se hiljenee, kunnes liikut taas. Voit ottaa koska tahansa puhelimen esiin painaaksesi sijainti- ja tutustumispainikkeita näytön alaosassa, mutta varmista, että pitelet puhelinta siten, että sen yläosa osoittaa taivaalle. Tässä \"vaakatasoisessa\" asennossa Seva käyttää puhelimen kompassia päätelläkseen, mihin suuntaan olet kääntyneenä ja antaa tarkkoja tilailmoituksia. Jos majakka on päällä huomaat, että sen äänenvoimakkuus myös kasvaa täydeksi.";
 
 
 /*  */

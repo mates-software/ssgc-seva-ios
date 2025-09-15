@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en_US</string>
 	<key>CFBundleDisplayName</key>
-	<string>Soundscape</string>
+	<string>Seva Dev</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -15,7 +15,7 @@
 			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>services.soundscape.doc</string>
+				<string>services.seva.doc</string>
 			</array>
 		</dict>
 		<dict>
@@ -25,7 +25,7 @@
 			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>com.microsoft.soundscape.doc</string>
+				<string>com.ssgc.seva.doc</string>
 			</array>
 			<key>NSExportableTypes</key>
 			<string>NSExportableTypes</string>
@@ -101,22 +101,6 @@
 	<true/>
 	<key>LSSupportsOpeningDocumentsInPlace</key>
 	<false/>
-	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>Soundscape uses Bluetooth LE to connect to accessories.</string>
-	<key>NSBluetoothPeripheralUsageDescription</key>
-	<string>Soundscape uses Bluetooth LE to connect to accessories.</string>
-	<key>NSHumanReadableCopyright</key>
-	<string></string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Soundscape uses your location to provide you with relevant information about your surroundings.</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Soundscape uses your location to provide you with relevant information about your surroundings.</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Soundscape uses your location to provide you with relevant information about your surroundings.</string>
-	<key>NSMotionUsageDescription</key>
-	<string>Soundscape uses motion detection to personalize automatic callouts.</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Soundscape uses the photo library for attaching photos to feedback.</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSExceptionDomains</key>
@@ -130,9 +114,9 @@
 				<key>NSExceptionPortRanges</key>
 				<array>
 					<dict>
-						<key>NSExceptionMinimumPort</key>
-						<integer>8001</integer>
 						<key>NSExceptionMaximumPort</key>
+						<integer>8001</integer>
+						<key>NSExceptionMinimumPort</key>
 						<integer>8001</integer>
 					</dict>
 				</array>
@@ -141,6 +125,22 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Seva uses Bluetooth LE to connect to accessories.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Seva uses Bluetooth LE to connect to accessories.</string>
+	<key>NSHumanReadableCopyright</key>
+	<string></string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Seva uses your location to provide you with relevant information about your surroundings.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Seva uses your location to provide you with relevant information about your surroundings.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Seva uses your location to provide you with relevant information about your surroundings.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Seva uses motion detection to personalize automatic callouts.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Seva uses the photo library for attaching photos to feedback.</string>
 	<key>NSUserActivityTypes</key>
 	<array>
 		<string>$(PRODUCT_BUNDLE_IDENTIFIER).activity.my-location</string>
@@ -226,11 +226,11 @@
 				<string>public.content</string>
 			</array>
 			<key>UTTypeDescription</key>
-			<string>Soundscape route and marker file</string>
+			<string>Seva route and marker file</string>
 			<key>UTTypeIconFiles</key>
 			<array/>
 			<key>UTTypeIdentifier</key>
-			<string>com.microsoft.soundscape.doc</string>
+			<string>com.ssgc.seva.doc</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>
@@ -246,11 +246,11 @@
 				<string>public.data</string>
 			</array>
 			<key>UTTypeDescription</key>
-			<string>Soundscape route and marker file</string>
+			<string>Seva route and marker file</string>
 			<key>UTTypeIconFiles</key>
 			<array/>
 			<key>UTTypeIdentifier</key>
-			<string>services.soundscape.doc</string>
+			<string>services.seva.doc</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>

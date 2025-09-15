@@ -14,7 +14,7 @@ class TableViewDataSourcePrefetching<Model, CellConfigurator: TableViewCellConfi
     
     private let dispatchGroup = DispatchGroup()
     
-    private let queue = DispatchQueue(label: "services.soundscape.prefetchtable")
+    private let queue = DispatchQueue(label: "services.seva.prefetchtable")
     
     // MARK: `TableViewDataSource`
     

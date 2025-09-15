@@ -143,7 +143,7 @@ class AudioEngine: AudioEngineProtocol {
     
     // MARK: Dispatch Queue
     
-    private let queue = DispatchQueue(label: "services.soundscape.audioengine")
+    private let queue = DispatchQueue(label: "services.seva.audioengine")
     
     // MARK: Public State
     

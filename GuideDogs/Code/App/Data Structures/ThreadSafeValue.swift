@@ -53,7 +53,7 @@ class ThreadSafeValue<T> {
         _value = value
         
         // Initialize queue
-        queue = DispatchQueue(label: "services.soundscape.threadsafevalue", qos: qos, attributes: .concurrent)
+        queue = DispatchQueue(label: "services.seva.threadsafevalue", qos: qos, attributes: .concurrent)
     }
     
 }

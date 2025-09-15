@@ -9,7 +9,7 @@
 import Combine
 
 class MarkerLoader: ObservableObject {
-    let queue = DispatchQueue(label: "services.soundscape.markerloader")
+    let queue = DispatchQueue(label: "services.seva.markerloader")
     
     @Published var loadingComplete = false
     @Published var markerIDs: [String] = []

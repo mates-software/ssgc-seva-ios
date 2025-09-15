@@ -14,7 +14,7 @@ struct UniversalLinkComponents {
     
     // the base URL for sharing deeplinks in the app
     // This should be in your associated domains entitlement;
-    private static let host = "https://share.soundscape.services"
+    private static let host = "https://share.seva.services"
 
     let pathComponents: UniversalLinkPathComponents
     let queryItems: [URLQueryItem]?

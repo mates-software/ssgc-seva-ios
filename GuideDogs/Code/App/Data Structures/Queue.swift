@@ -14,7 +14,7 @@ struct Queue<T> {
     
     private var list: LinkedList<T>
     
-    private let queue = DispatchQueue(label: "services.soundscape.queue")
+    private let queue = DispatchQueue(label: "services.seva.queue")
     
     var count: Int {
         return queue.sync {

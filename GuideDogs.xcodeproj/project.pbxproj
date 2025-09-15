@@ -1571,7 +1571,7 @@
 		D3CE458A1C17377700AC1A25 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		D3CE458C1C17378B00AC1A25 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		D3CE458E1C1737AE00AC1A25 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		D3D7CFC81B3D96470020B5E9 /* Soundscape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundscape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D7CFC81B3D96470020B5E9 /* Seva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seva.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E2A6361CAD5CA100A5192A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		DCAAD87E2BC1E95F0018D135 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Assets/PropertyLists/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		DCE09DD62E54AC9500B66BDF /* fa-IR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fa-IR"; path = "fa-IR.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -4445,7 +4445,7 @@
 		D3D7CFC91B3D96470020B5E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D3D7CFC81B3D96470020B5E9 /* Soundscape.app */,
+				D3D7CFC81B3D96470020B5E9 /* Seva.app */,
 				914DEBCD2A3CE6B9007B161C /* UnitTests.xctest */,
 			);
 			name = Products;
@@ -4482,9 +4482,9 @@
 			productReference = 914DEBCD2A3CE6B9007B161C /* UnitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D3D7CFC71B3D96460020B5E9 /* Soundscape */ = {
+		D3D7CFC71B3D96460020B5E9 /* Seva */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3D7CFEE1B3D96470020B5E9 /* Build configuration list for PBXNativeTarget "Soundscape" */;
+			buildConfigurationList = D3D7CFEE1B3D96470020B5E9 /* Build configuration list for PBXNativeTarget "Seva" */;
 			buildPhases = (
 				D3D7CFC41B3D96460020B5E9 /* Sources */,
 				D3D7CFC51B3D96460020B5E9 /* Frameworks */,
@@ -4499,7 +4499,7 @@
 			fileSystemSynchronizedGroups = (
 				DC207DED2D4AAB1E00124E8A /* Views */,
 			);
-			name = Soundscape;
+			name = Seva;
 			packageProductDependencies = (
 				286F409C2624FF6000C3F80B /* NVActivityIndicatorView */,
 				2866A7C02625013400EBA2D8 /* DZNEmptyDataSet */,
@@ -4512,7 +4512,7 @@
 				91172A722AD8D56D00E6E8E9 /* CoreGPX */,
 			);
 			productName = GuideDogs;
-			productReference = D3D7CFC81B3D96470020B5E9 /* Soundscape.app */;
+			productReference = D3D7CFC81B3D96470020B5E9 /* Seva.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -4593,7 +4593,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D3D7CFC71B3D96460020B5E9 /* Soundscape */,
+				D3D7CFC71B3D96460020B5E9 /* Seva */,
 				914DEBCC2A3CE6B9007B161C /* UnitTests */,
 			);
 		};
@@ -5398,7 +5398,7 @@
 /* Begin PBXTargetDependency section */
 		91DC0CD22A423B2200244CC8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D3D7CFC71B3D96460020B5E9 /* Soundscape */;
+			target = D3D7CFC71B3D96460020B5E9 /* Seva */;
 			targetProxy = 91DC0CD12A423B2200244CC8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -5529,7 +5529,7 @@
 				CODE_SIGN_ENTITLEMENTS = GuideDogs/Assets/PropertyLists/SoundscapeDF.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				ENABLE_BITCODE = NO;
@@ -5549,7 +5549,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = GuideDogs/Assets/PropertyLists/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Soundscape;
+				INFOPLIST_KEY_CFBundleDisplayName = Seva;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -5560,7 +5560,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/GuideDogs",
 				);
-				MARKETING_VERSION = 1.7.2;
+				MARKETING_VERSION = 0.0.0;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited) -DADHOC";
 				PRODUCT_BUNDLE_IDENTIFIER = "services.soundscape-adhoc";
@@ -5602,7 +5602,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.rcos.soundscape.UnitTests;
+				PRODUCT_BUNDLE_IDENTIFIER = ssgc.seva.app.UnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -5636,7 +5636,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.rcos.soundscape.UnitTests;
+				PRODUCT_BUNDLE_IDENTIFIER = ssgc.seva.app.UnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -5668,7 +5668,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.rcos.soundscape.UnitTests;
+				PRODUCT_BUNDLE_IDENTIFIER = ssgc.seva.app.UnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -5818,7 +5818,7 @@
 				CODE_SIGN_ENTITLEMENTS = GuideDogs/Assets/PropertyLists/Soundscape.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = X4H33NKGKY;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
@@ -5839,7 +5839,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = GuideDogs/Assets/PropertyLists/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Soundscape;
+				INFOPLIST_KEY_CFBundleDisplayName = Seva;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -5850,10 +5850,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/GuideDogs",
 				);
-				MARKETING_VERSION = 1.7.2;
+				MARKETING_VERSION = 0.0.0;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited) -DDEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = "services.soundscape-debug";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ssgc.seva.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				RUN_CLANG_STATIC_ANALYZER = YES;
@@ -5878,7 +5878,7 @@
 				CODE_SIGN_ENTITLEMENTS = GuideDogs/Assets/PropertyLists/Soundscape.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X4H33NKGKY;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				ENABLE_BITCODE = NO;
@@ -5897,7 +5897,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = GuideDogs/Assets/PropertyLists/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Soundscape;
+				INFOPLIST_KEY_CFBundleDisplayName = Seva;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -5908,10 +5908,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/GuideDogs",
 				);
-				MARKETING_VERSION = 1.7.2;
+				MARKETING_VERSION = 0.0.0;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited) -DRELEASE";
-				PRODUCT_BUNDLE_IDENTIFIER = services.soundscape;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ssgc.seva.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				RUN_CLANG_STATIC_ANALYZER = YES;
@@ -5948,7 +5948,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3D7CFEE1B3D96470020B5E9 /* Build configuration list for PBXNativeTarget "Soundscape" */ = {
+		D3D7CFEE1B3D96470020B5E9 /* Build configuration list for PBXNativeTarget "Seva" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3D7CFEF1B3D96470020B5E9 /* Debug */,

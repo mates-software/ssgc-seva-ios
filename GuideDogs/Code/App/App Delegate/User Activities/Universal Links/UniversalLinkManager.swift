@@ -14,7 +14,7 @@ class UniversalLinkManager {
     
     private var pendingLinkComponents: [UniversalLinkComponents] = []
     private var homeViewControllerDidLoad = false
-    private var queue = DispatchQueue(label: "services.soundscape.universallinkmanager")
+    private var queue = DispatchQueue(label: "services.seva.universallinkmanager")
     // Handlers
     private let recreationalActivityLinkHandler = RecreationalActivityLinkHandler()
     private let shareMarkerLinkHandler = ShareMarkerLinkHandler()

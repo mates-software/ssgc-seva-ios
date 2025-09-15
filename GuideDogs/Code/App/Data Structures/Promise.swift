@@ -20,7 +20,7 @@ class Promise<Value> {
     
     typealias Resolver = (Value) -> Void
     
-    private let queue = DispatchQueue(label: "services.soundscape.promise")
+    private let queue = DispatchQueue(label: "services.seva.promise")
     
     // Array of callbacks to pass the value to when fulfilling the promise
     private var callbacks: [Resolver] = []

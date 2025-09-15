@@ -11,7 +11,7 @@ import Combine
 import CoreLocation
 
 class RouteLoader: ObservableObject {
-    let queue = DispatchQueue(label: "services.soundscape.routeloader")
+    let queue = DispatchQueue(label: "services.seva.routeloader")
     
     @Published var loadingComplete = false
     @Published var routeIDs: [String] = []
