@@ -53,15 +53,17 @@ struct EmptyMarkerOrRoutesView: View {
                 
                 if style == .markers {
                     Image("marker.fill")
+                        .renderingMode(.template)
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .foregroundColor(.primaryForeground)
+                        .foregroundColor(.primaryFont)
                         .frame(width: iconSize, height: iconSize)
                 } else {
                     Image("route.fill")
+                        .renderingMode(.template)
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .foregroundColor(.primaryForeground)
+                        .foregroundColor(.primaryFont)
                         .frame(width: iconSize, height: iconSize)
                 }
                 
@@ -73,7 +75,7 @@ struct EmptyMarkerOrRoutesView: View {
                 .multilineTextAlignment(.center)
                 .font(.title)
                 .lineLimit(nil)
-                .foregroundColor(.primaryForeground)
+                .foregroundColor(.primaryFont)
                 .fixedSize(horizontal: false, vertical: true)
                 .accessibility(addTraits: .isHeader)
                 .padding([.top, .bottom], 16.0)
@@ -82,14 +84,14 @@ struct EmptyMarkerOrRoutesView: View {
                 .multilineTextAlignment(.center)
                 .font(.body)
                 .lineLimit(nil)
-                .foregroundColor(.primaryForeground)
+                .foregroundColor(.primaryFont)
                 .padding([.bottom])
             
             Text(localizedP2)
                 .multilineTextAlignment(.center)
                 .font(.body)
                 .lineLimit(nil)
-                .foregroundColor(.primaryForeground)
+                .foregroundColor(.primaryFont)
         }
         .padding([.leading, .trailing], 32.0)
         .padding([.top, .bottom], 64.0)

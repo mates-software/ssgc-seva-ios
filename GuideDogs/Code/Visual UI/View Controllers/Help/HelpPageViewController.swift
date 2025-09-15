@@ -30,6 +30,8 @@ class HelpPageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Ensure background and link colors match theme
+        view.backgroundColor = Colors.Background.primary
         
         showParagraphs(stackView: whatStackView, stub: whatStubLabel, paragraphs: what)
         showParagraphs(stackView: whenStackView, stub: whenStubLabel, paragraphs: when)
@@ -38,6 +40,7 @@ class HelpPageViewController: UIViewController {
         if let link = link, UIApplication.shared.canOpenURL(link.url) {
             linkButton.setTitle(link.title, for: .normal)
             linkButton.titleLabel?.numberOfLines = 0
+            linkButton.setTitleColor(Colors.fontColor, for: .normal)
             linkButton.isHidden = false
         } else {
             linkButton.isHidden = true
@@ -102,7 +105,8 @@ extension String {
     
     func getFormattedString() -> NSAttributedString? {
         let font = UIFont.preferredFont(forTextStyle: .body)
-        let color = Colors.Foreground.primary ?? UIColor.white
+        // Use primary font color for all help content text
+        let color = Colors.fontColor ?? UIColor.white
         
         var red: CGFloat = 0
         var green: CGFloat = 0

@@ -13,7 +13,7 @@ struct LocationNameTextFormat: ViewModifier {
     
     func body(content: Content) -> some View {
         content
-            .foregroundColor(Color.primaryForeground)
+            .foregroundColor(Color.primaryFont)
             .font(.body)
             .accessibleTextFormat()
     }

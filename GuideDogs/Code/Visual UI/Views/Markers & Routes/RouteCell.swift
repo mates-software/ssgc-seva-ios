@@ -66,7 +66,7 @@ struct RouteCell: View {
                 Image(systemName: "circle.fill")
                     .resizable()
                     .frame(width: badgeSize, height: badgeSize)
-                    .foregroundColor(.primaryForeground)
+                    .foregroundColor(.primaryFont)
                     .padding([.top, .leading, .bottom], 20.0)
                     .accessibilityHidden(true)
             } else if model.isActive {
@@ -96,11 +96,11 @@ struct RouteCell: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: badgeSize, height: badgeSize)
-                .foregroundColor(.primaryForeground)
+                .foregroundColor(.primaryFont)
                 .padding([.trailing])
                 .accessibilityHidden(true)
         }
-        .background(Color.primaryBackground)
+        .background(Color.primaryForeground)
         .accessibilityElement(children: .combine)
     }
 }

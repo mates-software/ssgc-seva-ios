@@ -21,6 +21,8 @@ class HelpPageGenericViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Background + text color to match theme
+        view.backgroundColor = Colors.Background.primary
         
         showParagraphs(stackView: stackView, stub: stubLabel, paragraphs: content.text)
     }
@@ -44,6 +46,7 @@ class HelpPageGenericViewController: UIViewController {
     
     func showParagraphs(stackView: UIStackView, stub: UILabel, paragraphs: [String]) {
         stub.attributedText = paragraphs.first?.getFormattedString() ?? NSAttributedString(string: GDLocalizedString("text.coming_soon"))
+        stub.textColor = Colors.fontColor
         stub.accessibilityLabel = paragraphs.first?.getVoiceOverLabel()
         
         guard paragraphs.count > 1 else {
@@ -55,6 +58,7 @@ class HelpPageGenericViewController: UIViewController {
             label.attributedText = paragraph.getFormattedString()
             label.accessibilityLabel = paragraph.getVoiceOverLabel()
             label.numberOfLines = 0
+            label.textColor = Colors.fontColor
             
             stackView.addArrangedSubview(label)
         }

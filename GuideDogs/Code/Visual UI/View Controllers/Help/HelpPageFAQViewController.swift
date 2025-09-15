@@ -24,8 +24,10 @@ class HelpPageFAQViewController: UIViewController {
         super.viewDidLoad()
         
         title = GDLocalizedString("faq.title.abbreviated")
+        view.backgroundColor = Colors.Background.primary
         
         questionLabel.text = faq.question
+        questionLabel.textColor = Colors.fontColor
         
         let para = faq.answer.split(separator: "\n").map({ return String($0) }).filter({ !$0.isEmpty })
         showParagraphs(stackView: answerStackView, stub: answerStubLabel, paragraphs: para)

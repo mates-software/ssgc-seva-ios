@@ -19,9 +19,10 @@ struct LoadingMarkersOrRoutesView: View {
                 Spacer()
                 
                 Image("marker.fill")
+                    .renderingMode(.template)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .foregroundColor(.primaryForeground)
+                    .foregroundColor(.primaryFont)
                     .frame(width: iconSize, height: iconSize)
                     .accessibility(hidden: true)
                 
@@ -31,7 +32,7 @@ struct LoadingMarkersOrRoutesView: View {
             GDLocalizedTextView("general.loading.loading")
                 .font(.title)
                 .lineLimit(nil)
-                .foregroundColor(.primaryForeground)
+                .foregroundColor(.primaryFont)
                 .padding([.top, .bottom], 16.0)
         }
         .padding([.leading, .trailing], 32.0)

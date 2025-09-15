@@ -25,14 +25,14 @@ struct EmptyActivitiesList: View {
                 Text(GDLocalizedString("behavior.experiences.no_events.title"))
                     .multilineTextAlignment(.center)
                     .font(.title)
-                    .foregroundColor(Color.primaryForeground)
+                    .foregroundColor(Color.primaryFont)
                 Spacer()
             }
             
             Text(GDLocalizedString("behavior.experiences.no_events.caption.1") + "\n\n" + GDLocalizedString("behavior.experiences.no_events.caption.2"))
                 .multilineTextAlignment(.center)
                 .font(.body)
-                .foregroundColor(Color.primaryForeground)
+                .foregroundColor(Color.primaryFont)
                 .padding()
         }
         .padding([.top, .bottom], 64.0)
@@ -92,7 +92,7 @@ struct AuthoredActivitiesList: View {
     var body: some View {
         ZStack {
             // Background color that extends past the safe area
-            Color.black
+            Color.primaryBackground
                 .ignoresSafeArea()
             
             ScrollView {
@@ -122,7 +122,7 @@ struct AuthoredActivitiesList: View {
                                             selectedActivityId = activity.metadata.id
                                             showingAlert = true
                                         }
-                                        .colorPalette(activity.content.type == .guidedTour ? Palette.Theme.teal : Palette.Theme.blue)
+                                        .colorPalette(Palette.Theme.blue)
                                 }
                                 .padding([.leading, .top, .trailing], 12)
                                 .buttonStyle(ActivityCellButtonStyle())

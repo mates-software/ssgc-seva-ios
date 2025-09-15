@@ -37,6 +37,7 @@ struct MarkerRouteTabButton: View {
             Spacer()
             VStack(alignment: .center, spacing: 4.0) {
                 Image(icon)
+                    .renderingMode(.template)
                     .font(.system(size: imageSize))
                 
                 Text(name)
@@ -51,15 +52,15 @@ struct MarkerRouteTabButton: View {
     var body: some View {
         if selected == value {
             button
-                .foregroundColor(.primaryForeground)
-                .accentColor(.primaryForeground)
+                .foregroundColor(.primaryFont)
+                .accentColor(.primaryFont)
                 .accessibilityElement(children: .ignore)
                 .accessibility(addTraits: .isSelected)
                 .accessibility(label: GDLocalizedTextView("general.tabs", name, String(index), String(count)))
         } else {
             button
-                .foregroundColor(.primaryForeground)
-                .accentColor(.primaryForeground)
+                .foregroundColor(.primaryFont)
+                .accentColor(.primaryFont)
                 .accessibilityElement(children: .ignore)
                 .accessibility(label: GDLocalizedTextView("general.tabs", name, String(index), String(count)))
                 .onTapGesture {
