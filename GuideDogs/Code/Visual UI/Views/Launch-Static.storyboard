@@ -20,47 +20,45 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="middleTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="fvi-oE-ja4">
-                                <rect key="frame" x="74" y="662" width="245" height="60"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="LIg-sX-5Mn"/>
-                                </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Seva">
-                                        <attributes>
-                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                            <font key="NSFont" size="36" name="AppleSDGothicNeo-Medium"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">
-By NombreCompleto</string>
-                                        <attributes>
-                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                            <font key="NSFont" size="25" name="AppleSDGothicNeo-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchScreenLogo" translatesAutoresizingMaskIntoConstraints="NO" id="fuy-UR-A7Z">
-                                <rect key="frame" x="115" y="257" width="163" height="184"/>
+                                <rect key="frame" x="115" y="259" width="163" height="184"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="184" id="XeF-Fd-hLp"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seva" textAlignment="center" lineBreakMode="headTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ywB-Ow-bNt">
+                                <rect key="frame" x="74" y="467" width="245" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="9rG-6k-XY1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="32"/>
+                                <color key="textColor" name="font-primary"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="middleTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cr0-qc-0Tl">
+                                <rect key="frame" x="74" y="712" width="245" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="dFe-qY-FUJ"/>
+                                </constraints>
+                                <string key="text">By Spatial Sound 
+&amp; Guidance Company</string>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="25"/>
+                                <color key="textColor" name="font-primary"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" name="Background 2"/>
                         <constraints>
-                            <constraint firstItem="fvi-oE-ja4" firstAttribute="top" secondItem="fuy-UR-A7Z" secondAttribute="bottom" constant="221" id="2qN-je-6t2"/>
+                            <constraint firstItem="ywB-Ow-bNt" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="58" id="5K7-Zm-yIh"/>
+                            <constraint firstItem="cr0-qc-0Tl" firstAttribute="top" secondItem="ywB-Ow-bNt" secondAttribute="bottom" constant="205" id="ABq-8R-9ps"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fuy-UR-A7Z" secondAttribute="trailing" constant="99" id="ApA-wE-dBu"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="fvi-oE-ja4" secondAttribute="bottom" constant="62" id="K7t-d5-XAx"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="cr0-qc-0Tl" secondAttribute="bottom" constant="32" id="BdW-RC-AgR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cr0-qc-0Tl" secondAttribute="trailing" constant="58" id="Lay-Fw-piV"/>
                             <constraint firstItem="fuy-UR-A7Z" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="99" id="QDN-A0-o6z"/>
-                            <constraint firstAttribute="trailing" secondItem="fvi-oE-ja4" secondAttribute="trailing" constant="74" id="uxR-zm-m7E"/>
-                            <constraint firstItem="fvi-oE-ja4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="74" id="xld-9j-AZU"/>
+                            <constraint firstItem="cr0-qc-0Tl" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="58" id="Tbx-nL-Aob"/>
+                            <constraint firstItem="ywB-Ow-bNt" firstAttribute="top" secondItem="fuy-UR-A7Z" secondAttribute="bottom" constant="24" id="mWb-2H-2fG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ywB-Ow-bNt" secondAttribute="trailing" constant="58" id="ugH-Wp-W3e"/>
                         </constraints>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
@@ -74,6 +72,9 @@ By NombreCompleto</string>
         <image name="launchScreenLogo" width="32.666667938232422" height="37.666667938232422"/>
         <namedColor name="Background 2">
             <color red="0.0039215686274509803" green="0.11372549019607843" blue="0.33725490196078434" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="font-primary">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
