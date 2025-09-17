@@ -139,8 +139,8 @@ struct EditMarkerView: View {
                     HStack(alignment: .center) {
                         Spacer()
                         ProgressView(GDLocalizedString("general.loading.loading"))
-                            .progressViewStyle(CircularProgressViewStyle(tint: .primaryForeground))
-                            .foregroundColor(.primaryForeground)
+                            .progressViewStyle(CircularProgressViewStyle(tint: .primaryFont))
+                            .foregroundColor(.primaryFont)
                         Spacer()
                     }
                     Spacer()
@@ -151,6 +151,7 @@ struct EditMarkerView: View {
                         if let route = config.route {
                             HStack {
                                 GDLocalizedTextView("markers.edit_screen.route", route)
+                                    .foregroundColor(.primaryFont)
                                     .padding([.leading, .trailing])
                                     .padding([.top, .bottom], 8)
                                 Spacer()
@@ -161,7 +162,7 @@ struct EditMarkerView: View {
                         
                         VStack(alignment: .leading) {
                             GDLocalizedTextView("markers.sort_button.sort_by_name")
-                                .foregroundColor(Color.primaryForeground)
+                                .foregroundColor(Color.primaryFont)
                                 .font(.callout)
                                 .accessibilityHidden(true)
                             
@@ -172,7 +173,7 @@ struct EditMarkerView: View {
                                 .padding([.bottom])
                             
                             GDLocalizedTextView("markers.annotation")
-                                .foregroundColor(Color.primaryForeground)
+                                .foregroundColor(Color.primaryFont)
                                 .font(.callout)
                                 .accessibilityHidden(true)
                             
@@ -225,7 +226,7 @@ struct EditMarkerView: View {
                             }
                             .roundedBackground(Color.errorBackground)
                         }
-                        .foregroundColor(.primaryForeground)
+                        .foregroundColor(.primaryFont)
                         .padding()
                     }
                 }

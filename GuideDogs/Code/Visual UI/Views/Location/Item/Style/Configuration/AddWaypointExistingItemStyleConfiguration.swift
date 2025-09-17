@@ -18,7 +18,7 @@ struct AddWaypointExistingItemStyleConfiguration: LocationItemStyleConfiguration
             Image(systemName: "circle")
                 .resizable()
                 .aspectRatio(1.0, contentMode: .fill)
-                .foregroundColor(.primaryForeground)
+                .foregroundColor(.primaryFont)
                 .overlay(
                     Text("\(index + 1)")
                         .accessibleTextFormat()
@@ -39,7 +39,7 @@ struct AddWaypointExistingItemStyleConfiguration: LocationItemStyleConfiguration
     }
     
     let customAccessorySize: CGFloat? = nil
-    let backgroundColor: Color = .primaryBackground
+    let backgroundColor: Color = .primaryForeground
     let accessibilityHint: String? = GDLocalizedString("location_detail.add_waypoint.existing.hint")
     let customAccessibilitySortPriority: LocationItemViewAccessibilitySortPriority? = nil
     let customAccessibilityTraits: AccessibilityTraits? = AccessibilityTraits(arrayLiteral: .isButton, .isSelected)

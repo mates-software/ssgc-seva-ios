@@ -39,7 +39,7 @@ struct WaypointAddList: View {
             VStack(spacing: 0.0) {
                 GDLocalizedTextView("markers.title")
                     .frame(minWidth: 0.0, maxWidth: .infinity, alignment: .leading)
-                    .foregroundColor(Color.primaryForeground)
+                    .foregroundColor(Color.primaryFont)
                     .font(.callout)
                     .padding(.horizontal, 18.0)
                     .padding(.vertical, 12.0)
@@ -64,6 +64,7 @@ struct WaypointAddList: View {
                                         viewModel.addWaypoint(element)
                                     }
                                 }
+                                .plainListRowBackground(Color.primaryForeground)
                         }
                     } else if viewModel.markerStore.loadingComplete {
                         // There are no existing markers
