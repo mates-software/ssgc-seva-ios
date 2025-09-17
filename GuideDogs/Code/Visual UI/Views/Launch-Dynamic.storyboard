@@ -27,11 +27,17 @@
                                     <constraint firstAttribute="height" constant="184" id="zR0-UW-fe0"/>
                                 </constraints>
                             </imageView>
+<<<<<<< HEAD
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By Spatial Sound &amp; Guidance Company" textAlignment="center" lineBreakMode="middleTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4tn-PM-MY1">
                                 <rect key="frame" x="46" y="674" width="301" height="40"/>
+=======
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="cuM-rX-RIk">
+                                <rect key="frame" x="178" y="663" width="37" height="37"/>
+>>>>>>> 8152eb0 (Revert "Update launch screen layout for improved spacing and alignment")
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="IHh-ec-fts"/>
                                 </constraints>
+<<<<<<< HEAD
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="25"/>
                                 <color key="textColor" name="font-primary"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -47,18 +53,47 @@
                             </label>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="cuM-rX-RIk">
                                 <rect key="frame" x="178" y="517" width="37" height="37"/>
+=======
+                                <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="middleTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4tn-PM-MY1">
+                                <rect key="frame" x="74" y="712" width="245" height="40"/>
+>>>>>>> 8152eb0 (Revert "Update launch screen layout for improved spacing and alignment")
                                 <constraints>
                                     <constraint firstAttribute="width" constant="37" id="kr6-gy-WgF"/>
                                     <constraint firstAttribute="height" constant="37" id="x4A-on-5kJ"/>
                                 </constraints>
+<<<<<<< HEAD
                                 <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" name="Background 2"/>
                         <constraints>
+=======
+                                <string key="text">By Spatial Sound 
+&amp; Guidance Company</string>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="25"/>
+                                <color key="textColor" name="font-primary"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seva" textAlignment="center" lineBreakMode="headTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="eRq-ld-Nlq">
+                                <rect key="frame" x="74" y="467" width="245" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="zBO-4f-7QD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="32"/>
+                                <color key="textColor" name="font-primary"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="Background 2"/>
+                        <constraints>
+                            <constraint firstItem="eRq-ld-Nlq" firstAttribute="top" secondItem="Fgv-iB-Vy1" secondAttribute="bottom" constant="24" id="6Ci-Vu-N8p"/>
+>>>>>>> 8152eb0 (Revert "Update launch screen layout for improved spacing and alignment")
                             <constraint firstAttribute="trailingMargin" secondItem="eRq-ld-Nlq" secondAttribute="trailing" constant="58" id="6G3-sq-Gke"/>
                             <constraint firstItem="0jH-Vx-9jw" firstAttribute="top" secondItem="4tn-PM-MY1" secondAttribute="bottom" constant="70" id="9fz-61-bKU"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Fgv-iB-Vy1" secondAttribute="trailing" constant="99" id="BNu-PP-5Kd"/>
+<<<<<<< HEAD
                             <constraint firstAttribute="trailingMargin" secondItem="4tn-PM-MY1" secondAttribute="trailing" constant="30" id="UEf-gX-1GG"/>
                             <constraint firstItem="Fgv-iB-Vy1" firstAttribute="leading" secondItem="APb-ho-u6n" secondAttribute="leadingMargin" constant="99" id="XIq-QZ-EJD"/>
                             <constraint firstItem="cuM-rX-RIk" firstAttribute="centerX" secondItem="APb-ho-u6n" secondAttribute="centerX" id="Zqh-bD-yPc"/>
@@ -67,6 +102,16 @@
                             <constraint firstItem="4tn-PM-MY1" firstAttribute="top" secondItem="eRq-ld-Nlq" secondAttribute="bottom" id="mCe-1T-qeD"/>
                             <constraint firstItem="eRq-ld-Nlq" firstAttribute="leading" secondItem="APb-ho-u6n" secondAttribute="leadingMargin" constant="58" id="nkM-1U-Sbh"/>
                             <constraint firstItem="4tn-PM-MY1" firstAttribute="leading" secondItem="APb-ho-u6n" secondAttribute="leadingMargin" constant="30" id="tSJ-xX-l1m"/>
+=======
+                            <constraint firstItem="4tn-PM-MY1" firstAttribute="leading" secondItem="APb-ho-u6n" secondAttribute="leadingMargin" constant="58" id="Boa-D8-hyx"/>
+                            <constraint firstItem="4tn-PM-MY1" firstAttribute="top" secondItem="cuM-rX-RIk" secondAttribute="bottom" constant="12" id="FQh-kw-mQi"/>
+                            <constraint firstItem="cuM-rX-RIk" firstAttribute="top" secondItem="eRq-ld-Nlq" secondAttribute="bottom" constant="156" id="LD9-L1-sWb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4tn-PM-MY1" secondAttribute="trailing" constant="58" id="Th4-x6-eC6"/>
+                            <constraint firstItem="Fgv-iB-Vy1" firstAttribute="leading" secondItem="APb-ho-u6n" secondAttribute="leadingMargin" constant="99" id="XIq-QZ-EJD"/>
+                            <constraint firstItem="cuM-rX-RIk" firstAttribute="centerX" secondItem="APb-ho-u6n" secondAttribute="centerX" id="Zqh-bD-yPc"/>
+                            <constraint firstItem="eRq-ld-Nlq" firstAttribute="leading" secondItem="APb-ho-u6n" secondAttribute="leadingMargin" constant="58" id="nkM-1U-Sbh"/>
+                            <constraint firstItem="0jH-Vx-9jw" firstAttribute="top" secondItem="4tn-PM-MY1" secondAttribute="bottom" constant="32" id="p95-eg-fEz"/>
+>>>>>>> 8152eb0 (Revert "Update launch screen layout for improved spacing and alignment")
                         </constraints>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="boolean" keyPath="accessibilityIgnoresInvertColors" value="YES"/>
