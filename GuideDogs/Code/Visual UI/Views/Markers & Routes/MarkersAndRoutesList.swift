@@ -144,7 +144,7 @@ struct MarkersAndRoutesList: View {
                     NavigationLink(destination: RouteEditView(style: .add, deleteAction: nil).environmentObject(navHelper as ViewNavigationHelper)) {
                         Image(systemName: "plus")
                             .font(.system(size: 22)) // Purposely fix the size since this is in a nav bar
-                            .foregroundColor(.primaryForeground)
+                            .foregroundColor(.primaryFont)
                             .padding([.all], 4)
                             .accessibilityLabel(GDLocalizedTextView("route_detail.action.create"))
                             .accessibilityHint(GDLocalizedTextView("route_detail.action.create.hint"))

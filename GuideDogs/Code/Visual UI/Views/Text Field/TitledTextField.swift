@@ -52,7 +52,7 @@ struct TitledTextField: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8.0) {
             Text(title)
-                .foregroundColor(colorPalette.light)
+                .foregroundColor(Color.primaryFont)
                 .font(.callout)
                 // Include title and default value with the `TextField` element
                 .accessibilityHidden(true)
