@@ -12,7 +12,7 @@
         <!--AR Headset-->
         <scene sceneID="UOv-s9-7pD">
             <objects>
-                <viewController storyboardIdentifier="manageDevices" extendedLayoutIncludesOpaqueBars="YES" id="xFP-CC-VXd" customClass="DevicesViewController" customModule="Soundscape" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="manageDevices" extendedLayoutIncludesOpaqueBars="YES" id="xFP-CC-VXd" customClass="DevicesViewController" customModule="Seva" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="faC-Gy-18I">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -26,7 +26,7 @@
                                             <constraint firstAttribute="height" constant="350" id="yNy-Z8-CjW"/>
                                         </constraints>
                                     </imageView>
-                                    <view hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tyi-Gq-mpl" customClass="RoundedView" customModule="Soundscape" customModuleProvider="target">
+                                    <view hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tyi-Gq-mpl" customClass="RoundedView" customModule="Seva" customModuleProvider="target">
                                         <rect key="frame" x="113.66666666666669" y="113" width="148" height="148"/>
                                         <subviews>
                                             <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="W5L-0s-YEY">
@@ -80,7 +80,7 @@ Tap the button below to connect to a device.</string>
                                     <constraint firstAttribute="trailing" secondItem="8JZ-Yh-2fH" secondAttribute="trailing" constant="12" id="yKX-Zx-Qy7"/>
                                 </constraints>
                             </scrollView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8P-EO-E8X" userLabel="Secondary Button" customClass="RoundedSolidButton" customModule="Soundscape" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8P-EO-E8X" userLabel="Secondary Button" customClass="RoundedSolidButton" customModule="Seva" customModuleProvider="target">
                                 <rect key="frame" x="12" y="624" width="351" height="50"/>
                                 <color key="backgroundColor" name="Foreground 1"/>
                                 <constraints>
@@ -98,6 +98,7 @@ Tap the button below to connect to a device.</string>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test with a Beacon" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="04M-hf-k02" userLabel="Secondary Btn Label">
                                 <rect key="frame" x="12" y="624" width="351" height="50"/>
+                                <color key="backgroundColor" name="font-primary"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <bool key="isElement" value="NO"/>
                                 </accessibility>
@@ -108,7 +109,7 @@ Tap the button below to connect to a device.</string>
                                     <userDefinedRuntimeAttribute type="string" keyPath="localization" value="devices.connect_headset.completed.test"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAv-p0-FLS" customClass="RoundedSolidButton" customModule="Soundscape" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAv-p0-FLS" customClass="RoundedSolidButton" customModule="Seva" customModuleProvider="target">
                                 <rect key="frame" x="12" y="682" width="351" height="50"/>
                                 <color key="backgroundColor" name="Foreground 1"/>
                                 <constraints>
@@ -126,6 +127,7 @@ Tap the button below to connect to a device.</string>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connect AR Headset" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8rX-Qq-MQt">
                                 <rect key="frame" x="12" y="682" width="351" height="50"/>
+                                <color key="backgroundColor" name="font-primary"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <bool key="isElement" value="NO"/>
                                 </accessibility>
@@ -195,7 +197,7 @@ Tap the button below to connect to a device.</string>
         <!--Troubleshooting-->
         <scene sceneID="IGt-xM-nWP">
             <objects>
-                <tableViewController storyboardIdentifier="troubleshooting" id="y4e-vK-RHp" customClass="StatusTableViewController" customModule="Soundscape" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="troubleshooting" id="y4e-vK-RHp" customClass="StatusTableViewController" customModule="Seva" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="white" dataMode="prototypes" style="grouped" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="fjd-Qo-aqS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="668"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -243,7 +245,7 @@ Tap the button below to connect to a device.</string>
         <!--Loading Modal View Controller-->
         <scene sceneID="RSY-n4-xM7">
             <objects>
-                <viewController storyboardIdentifier="LoadingModal" id="oX7-W4-RUK" customClass="LoadingModalViewController" customModule="Soundscape" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoadingModal" id="oX7-W4-RUK" customClass="LoadingModalViewController" customModule="Seva" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vKz-3g-vh1"/>
                         <viewControllerLayoutGuide type="bottom" id="Bd6-l3-EC5"/>
@@ -306,6 +308,9 @@ Tap the button below to connect to a device.</string>
         </namedColor>
         <namedColor name="background-secondary">
             <color red="0.086000002920627594" green="0.27799999713897705" blue="0.57300001382827759" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="font-primary">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
