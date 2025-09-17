@@ -6,25 +6,25 @@
 //  Licensed under the MIT License.
 //
 
-import UIKit
 import SwiftUI
+import UIKit
 
 // MARK: UIKit Color Support
 
 struct Colors {
     static let fontColor: UIColor? = UIColor(named: "font-primary")
-    
+
     struct Foreground {
         static let primary: UIColor? = UIColor(named: "foreground-primary")
         static let primaryLight: UIColor? = UIColor(named: "foreground-light")
     }
-    
+
     struct Background {
         static let primary: UIColor? = UIColor(named: "background-primary")
         static let error: UIColor? = UIColor(named: "background-error")
         static let menuAlternate: UIColor? = UIColor(named: "menu-alternate")
     }
-    
+
     struct Highlight {
         static let purple: UIColor? = UIColor(named: "highlight-purple")
         static let yellow: UIColor? = UIColor(named: "highlight-yellow")
@@ -49,9 +49,10 @@ extension Color {
     static let primaryLightForeground = Color(Colors.Foreground.primaryLight!)
     static let primaryFont = Color(Colors.fontColor!)
     static let primaryBackground = Color(Colors.Background.primary!)
-    static let errorBackground = Color(Colors.Background.error!)
+    // Fallback seguro por si no existe el asset "background-error"
+    static let errorBackground = Color(Colors.Background.error ?? UIColor.systemRed)
     static let menuAltBackground = Color(Colors.Background.menuAlternate!)
-    
+
     static let purpleHighlight = Color(Colors.Highlight.purple!)
     static let yellowHighlight = Color(Colors.Highlight.yellow!)
     static let greenHighlight = Color(Colors.Highlight.green!)

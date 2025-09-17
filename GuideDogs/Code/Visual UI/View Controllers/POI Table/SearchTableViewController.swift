@@ -30,17 +30,19 @@ private class SearchTableDataSource: StaticTableViewDataSource {
     {
         let cell = super.tableView(tableView, cellForRowAt: indexPath)
 
-        // Cambiar la celda "Current Location" para mostrar "Eventos"
+        // Configurar acciones de accesibilidad para la fila de "Current Location"
         if cells[indexPath.row].identifier
             == SearchTableViewController.MoreLocations.currentLocation.rawValue
         {
             cell.accessibilityCustomActions = currentLocationActions
-            
-            // Cambiamos el texto a "Eventos"
+
+            // En Home, mostramos este row como "Recreational activities" (menu.events)
             cell.textLabel?.text = GDLocalizedString("menu.events")
             cell.accessibilityLabel = GDLocalizedString("menu.events")
-            
-            if showCurrentLocationActivityIndicator, let activityCell = cell as? CustomDisclosureTableViewCell {
+
+            if showCurrentLocationActivityIndicator,
+                let activityCell = cell as? CustomDisclosureTableViewCell
+            {
                 activityCell.showActivityIndicator()
             }
         }
@@ -283,24 +285,42 @@ extension SearchTableViewController: TableViewSelectDelegate {
             if self.tableView.cellForRow(at: indexPath)?.reuseIdentifier
                 == MoreLocations.currentLocation.identifier
             {
-                GDATelemetry.track(
-                    "poi_selected.recreation_activities",
-                    with: ["context": self.delegate?.usageLog ?? ""])
-
                 // Dismiss `UISearchResultsController`
                 self.searchController?.isActive = false
 
-                // Navegar a la vista de Recreation Activities
-                if let homeViewController = self.navigationController?.viewControllers.first
-                    as? HomeViewController
-                {
-                    // Si estamos dentro del flujo del HomeViewController, usamos el segue definido
-                    homeViewController.performSegue(
-                        withIdentifier: HomeViewController.Segue.showRecreationActivities,
-                        sender: self)
+                if self.parent is HomeViewController {
+                    // En el Home: mantener Recreational Activities
+                    GDATelemetry.track(
+                        "poi_selected.recreation_activities",
+                        with: ["context": self.delegate?.usageLog ?? ""])
+
+                    if let homeViewController = self.navigationController?.viewControllers.first
+                        as? HomeViewController
+                    {
+                        homeViewController.performSegue(
+                            withIdentifier: HomeViewController.Segue.showRecreationActivities,
+                            sender: self)
+                    } else {
+                        self.navigationController?.popToRootViewController(animated: true)
+                    }
                 } else {
-                    // Si estamos en otro contexto, intentamos navegar hacia atrás y luego mostrar las actividades
-                    self.navigationController?.popToRootViewController(animated: true)
+                    // En otros contextos: usar ubicación actual
+                    GDATelemetry.track(
+                        "poi_selected.current_location",
+                        with: ["context": self.delegate?.usageLog ?? ""])
+
+                    if let location = AppContext.shared.geolocationManager.location {
+                        if let delegate = self.delegate {
+                            delegate.didSelect(currentLocation: location)
+                        } else {
+                            let detail = LocationDetail(
+                                location: location, telemetryContext: "current_location")
+                            self.performSegue(withIdentifier: "LocationDetailView", sender: detail)
+                        }
+                    } else {
+                        self.present(
+                            ErrorAlerts.buildLocationAlert(), animated: true, completion: nil)
+                    }
                 }
             }
         }

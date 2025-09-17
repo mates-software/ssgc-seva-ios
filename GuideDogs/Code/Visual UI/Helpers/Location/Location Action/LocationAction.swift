@@ -9,27 +9,27 @@
 import Foundation
 
 enum LocationAction {
-    
+
     case save(isEnabled: Bool)
     case edit
     case beacon
     case preview
     case share(isEnabled: Bool)
     case navilens
-    
+
     var isEnabled: Bool {
         switch self {
         case .save(let isEnabled): return isEnabled
         case .share(let isEnabled): return isEnabled
-        case .beacon, .preview, .edit, .navilens:
-            if AppContext.shared.eventProcessor.activeBehavior is RouteGuidance {
-                return false
-            } else {
-                return true
-            }
+        case .edit:
+            // Permitir editar marcadores incluso durante Route Guidance
+            return true
+        case .beacon, .preview, .navilens:
+            // Mantener el bloqueo de estas acciones durante Route Guidance
+            return !(AppContext.shared.eventProcessor.activeBehavior is RouteGuidance)
         }
     }
-    
+
     static func actions(for detail: LocationDetail) -> [LocationAction] {
         var result: [LocationAction] = [.beacon]
         if detail.source.hasNaviLens {
@@ -42,33 +42,35 @@ enum LocationAction {
             // If the location does not have a backup coordinate
             // disable the save and share actions
             let isEnabled = detail.source.isCachingEnabled
-            
-            result +=  [.save(isEnabled: isEnabled), .preview, .share(isEnabled: isEnabled)]
+
+            result += [.save(isEnabled: isEnabled), .preview, .share(isEnabled: isEnabled)]
         }
         return result
     }
-    
+
     // MARK: Accessibility Custom Actions
-    
-    static func accessibilityCustomActions(for entity: POI, callback: @escaping (LocationAction, POI) -> Void) -> [UIAccessibilityCustomAction] {
+
+    static func accessibilityCustomActions(
+        for entity: POI, callback: @escaping (LocationAction, POI) -> Void
+    ) -> [UIAccessibilityCustomAction] {
         let detail = LocationDetail(entity: entity)
-        
+
         return actions(for: detail).reversed().compactMap({ (action) in
             guard action.isEnabled else {
                 return nil
             }
-            
+
             let name = action.text
-            
+
             return UIAccessibilityCustomAction(name: name) { (_) -> Bool in
                 callback(action, entity)
                 return true
             }
         })
     }
-    
+
     // MARK: Localization
-    
+
     var text: String {
         switch self {
         case .save: return GDLocalizedString("universal_links.alert.action.marker")
@@ -79,18 +81,30 @@ enum LocationAction {
         case .navilens: return GDLocalizedString("location_detail.action.beacon_or_navilens")
         }
     }
-    
+
     var accessibilityHint: String? {
         switch self {
-        case .save(let isEnabled): return isEnabled ? GDLocalizedString("location_detail.action.save.hint") : GDLocalizedString("location_detail.disabled.save")
+        case .save(let isEnabled):
+            return isEnabled
+                ? GDLocalizedString("location_detail.action.save.hint")
+                : GDLocalizedString("location_detail.disabled.save")
         case .edit: return GDLocalizedString("location_detail.action.edit.hint")
-        case .beacon: return isEnabled ? GDLocalizedString("location_detail.action.beacon.hint") : GDLocalizedString("location_detail.action.beacon.hint.disabled")
-        case .preview: return isEnabled ? GDLocalizedString("location_detail.action.preview.hint") : GDLocalizedString("location_detail.action.preview.hint.disabled")
-        case .share(let isEnabled): return isEnabled ? GDLocalizedString("location_detail.action.share.hint") : GDLocalizedString("location_detail.disabled.share")
+        case .beacon:
+            return isEnabled
+                ? GDLocalizedString("location_detail.action.beacon.hint")
+                : GDLocalizedString("location_detail.action.beacon.hint.disabled")
+        case .preview:
+            return isEnabled
+                ? GDLocalizedString("location_detail.action.preview.hint")
+                : GDLocalizedString("location_detail.action.preview.hint.disabled")
+        case .share(let isEnabled):
+            return isEnabled
+                ? GDLocalizedString("location_detail.action.share.hint")
+                : GDLocalizedString("location_detail.disabled.share")
         case .navilens: return GDLocalizedString("location_detail.action.beacon_or_navilens.hint")
         }
     }
-    
+
     var accessibilityIdentifier: String? {
         switch self {
         case .save: return GDLocalizationUnnecessary("action.save")
@@ -101,7 +115,7 @@ enum LocationAction {
         case .navilens: return GDLocalizationUnnecessary("action.navilens")
         }
     }
-    
+
     var image: UIImage? {
         switch self {
         case .save: return UIImage(named: "AddMarker_iconW")
@@ -112,9 +126,9 @@ enum LocationAction {
         case .navilens: return UIImage(named: "navilens")
         }
     }
-    
+
     // MARK: Telemetry
-    
+
     var telemetryEvent: String {
         switch self {
         case .save: return "location_action.save"
