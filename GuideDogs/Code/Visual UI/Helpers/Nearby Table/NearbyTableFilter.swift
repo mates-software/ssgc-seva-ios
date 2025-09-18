@@ -23,8 +23,7 @@ struct NearbyTableFilter: Equatable {
             NearbyTableFilter(type: .food),
             NearbyTableFilter(type: .park),
             NearbyTableFilter(type: .grocery),
-            NearbyTableFilter(type: .bank),
-            NearbyTableFilter(type: .navilens),
+            NearbyTableFilter(type: .bank)
         ]
     }
     
