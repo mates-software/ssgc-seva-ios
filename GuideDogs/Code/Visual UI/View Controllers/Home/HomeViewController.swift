@@ -469,12 +469,12 @@ extension HomeViewController: UIViewControllerTransitioningDelegate {
                 return
             }
             
-            if dismissed.selected == .donate {
+           /* if dismissed.selected == .donate {
                 let donationView = DonationView()
                 let hostingController = UIHostingController(rootView: donationView)
                 self?.navigationController?.pushViewController(hostingController, animated: true)
                 return
-            }
+            }*/
 
             guard let segue = Segue.segue(for: dismissed.selected) else {
                 return
