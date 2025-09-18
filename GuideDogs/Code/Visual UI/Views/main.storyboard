@@ -11,7 +11,7 @@
         <!--Tour Card Container Hosting Controller-->
         <scene sceneID="RkX-4a-gQ9">
             <objects>
-                <hostingController storyboardIdentifier="TourCardContainerHost" id="MaB-gE-2Wh" customClass="TourCardContainerHostingController" customModule="Soundscape" customModuleProvider="target" sceneMemberID="viewController"/>
+                <hostingController storyboardIdentifier="TourCardContainerHost" id="MaB-gE-2Wh" customClass="TourCardContainerHostingController" customModule="Seva" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PVT-Od-lbn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2331" y="-1152"/>
@@ -19,7 +19,7 @@
         <!--Navigation Controller-->
         <scene sceneID="IvO-QN-Zls">
             <objects>
-                <navigationController modalTransitionStyle="crossDissolve" modalPresentationStyle="currentContext" id="7et-YF-5hx" customClass="NavigationController" customModule="Soundscape" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController modalTransitionStyle="crossDissolve" modalPresentationStyle="currentContext" id="7et-YF-5hx" customClass="NavigationController" customModule="Seva" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="cMv-KF-F6h">
                         <rect key="frame" x="0.0" y="96" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -99,7 +99,7 @@
         <!--Beacon View Hosting Controller-->
         <scene sceneID="VbI-NV-Cie">
             <objects>
-                <hostingController storyboardIdentifier="BeaconViewHostingController" id="Nlm-va-O9y" customClass="BeaconViewHostingController" customModule="Soundscape" customModuleProvider="target" sceneMemberID="viewController">
+                <hostingController storyboardIdentifier="BeaconViewHostingController" id="Nlm-va-O9y" customClass="BeaconViewHostingController" customModule="Seva" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="lCz-T0-rRz"/>
                 </hostingController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wba-Pz-3Fb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -181,7 +181,7 @@
         <!--HomeViewController-->
         <scene sceneID="a4Q-mN-6WF">
             <objects>
-                <viewController title="Home" extendedLayoutIncludesOpaqueBars="YES" definesPresentationContext="YES" providesPresentationContextTransitionStyle="YES" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="PZ9-iU-l1C" userLabel="HomeViewController" customClass="HomeViewController" customModule="Soundscape" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Home" extendedLayoutIncludesOpaqueBars="YES" definesPresentationContext="YES" providesPresentationContextTransitionStyle="YES" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="PZ9-iU-l1C" userLabel="HomeViewController" customClass="HomeViewController" customModule="Seva" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XAW-SP-jg6"/>
                         <viewControllerLayoutGuide type="bottom" id="yRX-3D-ku0"/>
@@ -368,7 +368,7 @@
         <!--Callout Button Panel View Controller-->
         <scene sceneID="JJV-st-uvX">
             <objects>
-                <viewController storyboardIdentifier="CalloutButtonPanel" id="gdB-jw-QN3" customClass="CalloutButtonPanelViewController" customModule="Soundscape" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CalloutButtonPanel" id="gdB-jw-QN3" customClass="CalloutButtonPanelViewController" customModule="Seva" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Zed-1y-3sF"/>
                         <viewControllerLayoutGuide type="bottom" id="hQv-3m-1zO"/>
@@ -778,7 +778,7 @@ Markers</string>
         <!--Recommender View Hosting Controller-->
         <scene sceneID="dm0-SK-ao6">
             <objects>
-                <hostingController storyboardIdentifier="RecommenderViewHostingController" id="TfH-hk-ad7" customClass="RecommenderViewHostingController" customModule="Soundscape" customModuleProvider="target" sceneMemberID="viewController"/>
+                <hostingController storyboardIdentifier="RecommenderViewHostingController" id="TfH-hk-ad7" customClass="RecommenderViewHostingController" customModule="Seva" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BiG-Ok-qv4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1122" y="-413"/>
@@ -786,7 +786,7 @@ Markers</string>
         <!--Standby View Controller-->
         <scene sceneID="Gyc-vz-1kH">
             <objects>
-                <viewController id="Grr-Cc-oJv" customClass="StandbyViewController" customModule="Soundscape" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Grr-Cc-oJv" customClass="StandbyViewController" customModule="Seva" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oYc-rm-ce7"/>
                         <viewControllerLayoutGuide type="bottom" id="Q0m-aY-2hH"/>
@@ -861,7 +861,7 @@ Markers</string>
                                                             <constraint firstAttribute="width" constant="110" id="mAX-et-PRX"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
-                                                        <color key="textColor" red="0.098039215690000001" green="0.098039215690000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="textColor" name="background-primary"/>
                                                         <nil key="highlightedColor"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="string" keyPath="localization" value="sleep.ui.wake_on_leave"/>
@@ -919,7 +919,7 @@ Markers</string>
                                                             <constraint firstAttribute="width" constant="110" id="rxa-JM-EsP"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
-                                                        <color key="textColor" red="0.6705882353" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="textColor" name="font-primary"/>
                                                         <nil key="highlightedColor"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="string" keyPath="localization" value="sleep.ui.wake_up_now"/>
@@ -1021,7 +1021,7 @@ Markers</string>
         <!--Card State View Controller-->
         <scene sceneID="DvE-uS-xgF">
             <objects>
-                <viewController storyboardIdentifier="CardStateViewController" id="a2C-Hp-NQk" customClass="CardStateViewController" customModule="Soundscape" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CardStateViewController" id="a2C-Hp-NQk" customClass="CardStateViewController" customModule="Seva" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="a6m-3z-awb"/>
                         <viewControllerLayoutGuide type="bottom" id="qGZ-K2-Eea"/>
@@ -1046,7 +1046,7 @@ Markers</string>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
     <resources>
         <image name="WOL_button withoutText" width="120" height="120"/>
-        <image name="WUN_button withoutText" width="120" height="120"/>
+        <image name="WUN_button withoutText" width="60" height="60"/>
         <image name="annoucement_gradient" width="557" height="1215"/>
         <image name="ic_markers_32px" width="32" height="32"/>
         <image name="ic_open_with_white_new" width="32" height="32"/>
@@ -1060,6 +1060,12 @@ Markers</string>
         </namedColor>
         <namedColor name="Background Base">
             <color red="0.0039215686274509803" green="0.11372549019607843" blue="0.33725490196078434" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="background-primary">
+            <color red="0.0040000001899898052" green="0.10999999940395355" blue="0.34099999070167542" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="font-primary">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
