@@ -44,7 +44,7 @@ struct SettingStepper: View {
             HStack {
                 // truncate `value` at the decimal point
                 Text(GDLocalizedString(unitsLocalization, String(format: "%.0f", value)))
-                    .foregroundColor(.primaryForeground)
+                    .foregroundColor(.primaryFont)
                     .font(.body)
                     .lineLimit(nil)
 
@@ -54,8 +54,8 @@ struct SettingStepper: View {
                     Text("-")
                         .font(.title)
                         .frame(width: 44, height: 30)
-                        .background(Color.gray.opacity(0.3))
-                        .foregroundColor(.white)
+                        .background(Color.primaryBackground)
+                        .foregroundColor(.primaryFont)
                         .cornerRadius(8)
                 }
                 .accessibilityLabel(Text("Decrease"))
@@ -65,8 +65,8 @@ struct SettingStepper: View {
                     Text("+")
                         .font(.title)
                         .frame(width: 44, height: 30)
-                        .background(Color.gray.opacity(0.3))
-                        .foregroundColor(.white)
+                        .background(Color.primaryBackground)
+                        .foregroundColor(.primaryFont)
                         .cornerRadius(8)
                 }
                 .accessibilityLabel(Text("Increase"))
@@ -87,5 +87,6 @@ struct SettingStepper: View {
                 }
             }
         }
+        .background(Color.primaryBackground)
     }
 }

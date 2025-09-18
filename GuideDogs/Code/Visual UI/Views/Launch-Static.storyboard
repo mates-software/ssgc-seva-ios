@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24127" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,10 +20,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchScreenLogo" translatesAutoresizingMaskIntoConstraints="NO" id="fuy-UR-A7Z">
-                                <rect key="frame" x="115" y="259" width="163" height="184"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="launchScreenLogo" translatesAutoresizingMaskIntoConstraints="NO" id="fuy-UR-A7Z">
+                                <rect key="frame" x="115" y="203" width="174.66666666666666" height="189"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="163" id="CLK-tr-4gs"/>
                                     <constraint firstAttribute="height" constant="184" id="XeF-Fd-hLp"/>
                                 </constraints>
                             </imageView>
@@ -51,11 +52,10 @@
                             <constraint firstItem="ywB-Ow-bNt" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="58" id="5K7-Zm-yIh"/>
                             <constraint firstItem="cr0-qc-0Tl" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="30" id="7Hx-JL-SzB"/>
                             <constraint firstItem="cr0-qc-0Tl" firstAttribute="top" secondItem="ywB-Ow-bNt" secondAttribute="bottom" id="ABq-8R-9ps"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="fuy-UR-A7Z" secondAttribute="trailing" constant="99" id="ApA-wE-dBu"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="cr0-qc-0Tl" secondAttribute="bottom" constant="70" id="BdW-RC-AgR"/>
                             <constraint firstAttribute="trailingMargin" secondItem="cr0-qc-0Tl" secondAttribute="trailing" constant="30" id="FMM-9x-olL"/>
-                            <constraint firstItem="fuy-UR-A7Z" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="99" id="QDN-A0-o6z"/>
-                            <constraint firstItem="ywB-Ow-bNt" firstAttribute="top" secondItem="fuy-UR-A7Z" secondAttribute="bottom" constant="191" id="mWb-2H-2fG"/>
+                            <constraint firstItem="fuy-UR-A7Z" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gfC-oJ-cK5"/>
+                            <constraint firstItem="ywB-Ow-bNt" firstAttribute="top" secondItem="fuy-UR-A7Z" secondAttribute="bottom" constant="247" id="mWb-2H-2fG"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ywB-Ow-bNt" secondAttribute="trailing" constant="58" id="ugH-Wp-W3e"/>
                         </constraints>
                     </view>

@@ -31,6 +31,8 @@ class LanguageTableViewController: UITableViewController {
         
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 44
+        tableView.backgroundColor = Colors.Background.primary
+        view.backgroundColor = Colors.Background.primary
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -104,7 +106,9 @@ class LanguageTableViewController: UITableViewController {
     override  func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
         guard let view = view as? UITableViewHeaderFooterView else { return }
         
-        view.textLabel?.textColor = Colors.Foreground.primary
+        view.tintColor = Colors.Background.primary
+        view.backgroundView?.backgroundColor = Colors.Background.primary
+        view.textLabel?.textColor = Colors.fontColor
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -121,12 +125,14 @@ class LanguageTableViewController: UITableViewController {
         let title = locale.localizedDescription
         cell.textLabel?.text = title
         cell.textLabel?.accessibilityLanguage = locale.languageCode!
-        cell.textLabel?.textColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+        cell.textLabel?.textColor = Colors.fontColor
         
         // Show the language with the current locale
         let subtitle = locale.localizedDescription(with: LocalizationContext.currentAppLocale)
         cell.detailTextLabel?.text = title == subtitle ? nil : subtitle
-        cell.detailTextLabel?.textColor = #colorLiteral(red: 0.7192531228, green: 0.9648788571, blue: 0.969180882, alpha: 1)
+        cell.detailTextLabel?.textColor = Colors.fontColor
+        cell.backgroundColor = Colors.Foreground.primary
+        cell.contentView.backgroundColor = Colors.Foreground.primary
         
         cell.accessibilityTraits = [.button]
         

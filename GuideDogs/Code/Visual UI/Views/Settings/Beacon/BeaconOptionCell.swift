@@ -17,7 +17,7 @@ struct BeaconOptionButtonStyle: ButtonStyle {
             HStack(alignment: .center) {
                 VStack(alignment: .leading, spacing: 0) {
                     Text(name)
-                        .foregroundColor(!configuration.isPressed ? .primaryForeground : .primaryBackground)
+                        .foregroundColor(.primaryFont)
                         .font(.body)
                         .lineLimit(nil)
                 }
@@ -27,7 +27,7 @@ struct BeaconOptionButtonStyle: ButtonStyle {
                 
                 if isSelected {
                     Image(systemName: "checkmark")
-                        .foregroundColor(!configuration.isPressed ? .primaryForeground : .primaryBackground)
+                        .foregroundColor(!configuration.isPressed ? .primaryBackground : .primaryFont)
                         .padding()
                         .accessibilityHidden(true)
                 }
@@ -38,7 +38,7 @@ struct BeaconOptionButtonStyle: ButtonStyle {
                 .frame(width: .infinity, height: 1)
                 .padding(.leading)
         }
-        .background(!configuration.isPressed ? Color.primaryBackground : Color.primaryForeground)
+        .background(configuration.isPressed ? Color.primaryBackground : Color.primaryForeground)
         .accessibilityElement(children: .combine)
     }
 }

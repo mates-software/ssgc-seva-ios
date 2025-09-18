@@ -23,15 +23,14 @@ class UnitsOfMeasureTableViewCell: UITableViewCell, NibLoadableView {
         unitsSegmentedControl.selectedSegmentIndex = (SettingsContext.shared.metricUnits == true) ? 1 : 0
         
         // Setup appearance
+        backgroundColor = Colors.Background.primary
+        contentView.backgroundColor = Colors.Background.primary
         unitsSegmentedControl.backgroundColor = Colors.Background.primary
         unitsSegmentedControl.selectedSegmentTintColor = Colors.Foreground.primary
         
-        if let color = Colors.Background.primary {
-            unitsSegmentedControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: color], for: .selected)
-        }
-        
-        if let color = Colors.Foreground.primary {
+        if let color = Colors.fontColor {
             unitsSegmentedControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: color], for: .normal)
+            unitsSegmentedControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: color], for: .selected)
         }
     }
 

@@ -15,7 +15,7 @@ struct TableHeaderCell: View {
         HStack(spacing: 0) {
             Text(text.localizedUppercase)
                 .font(.caption)
-                .foregroundColor(.primaryForeground)
+                .foregroundColor(.primaryFont)
                 .accessibilityAddTraits([.isHeader])
                 .padding([.leading, .trailing, .top])
                 .padding([.bottom], 6)

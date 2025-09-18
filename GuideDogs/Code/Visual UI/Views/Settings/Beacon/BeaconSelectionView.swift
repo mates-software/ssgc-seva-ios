@@ -37,8 +37,11 @@ struct BeaconSelectionView: View {
                     TableHeaderCell(text: GDLocalizedString("beacon.settings.cues"))
                         .accessibility(hidden: true)
                     
-                    Toggle(GDLocalizedString("beacon.settings.melodies"), isOn: $areMelodiesEnabled)
-                        .locationNameTextFormat()
+                    Toggle(isOn: $areMelodiesEnabled) {
+                        Text(GDLocalizedString("beacon.settings.melodies"))
+                            .locationNameTextFormat()
+                    }
+                        .toggleStyle(SwitchToggleStyle(tint: Color.primaryForeground))
                         .padding()
                         .background(Color.primaryBackground)
                         .onChange(of: areMelodiesEnabled, perform: { _ in
@@ -64,11 +67,12 @@ struct BeaconSelectionView: View {
                     HStack(spacing: 0) {
                         GDLocalizedTextView("beacon.settings.explanation")
                             .font(.caption)
-                            .foregroundColor(.primaryForeground)
+                            .foregroundColor(.primaryFont)
                             .padding()
                         
                         Spacer()
                     }
+                    .background(Color.primaryBackground)
                     
                     ForEach(BeaconOption.allAvailableCases(for: .standard)) { details in
                         BeaconOptionCell(type: details.id,
@@ -84,11 +88,12 @@ struct BeaconSelectionView: View {
                         HStack(spacing: 0) {
                             GDLocalizedTextView("beacon.settings.style.haptic.explanation")
                                 .font(.caption)
-                                .foregroundColor(.primaryForeground)
+                                .foregroundColor(.primaryFont)
                                 .padding()
                             
                             Spacer()
                         }
+                        .background(Color.primaryBackground)
                         
                         ForEach(beacons) { details in
                             BeaconOptionCell(type: details.id,

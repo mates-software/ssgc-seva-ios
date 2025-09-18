@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="CNG-9K-2vD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24127" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="CNG-9K-2vD">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,10 +20,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchScreenLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Fgv-iB-Vy1">
-                                <rect key="frame" x="115" y="259" width="163" height="184"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="launchScreenLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Fgv-iB-Vy1">
+                                <rect key="frame" x="115" y="203" width="174.66666666666666" height="189"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="163" id="dhi-Bc-3Yq"/>
                                     <constraint firstAttribute="height" constant="184" id="zR0-UW-fe0"/>
                                 </constraints>
                             </imageView>
@@ -46,7 +47,7 @@
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="cuM-rX-RIk">
-                                <rect key="frame" x="178" y="517" width="37" height="37"/>
+                                <rect key="frame" x="178" y="537" width="37" height="37"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="37" id="kr6-gy-WgF"/>
                                     <constraint firstAttribute="height" constant="37" id="x4A-on-5kJ"/>
@@ -58,12 +59,11 @@
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="eRq-ld-Nlq" secondAttribute="trailing" constant="58" id="6G3-sq-Gke"/>
                             <constraint firstItem="0jH-Vx-9jw" firstAttribute="top" secondItem="4tn-PM-MY1" secondAttribute="bottom" constant="70" id="9fz-61-bKU"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Fgv-iB-Vy1" secondAttribute="trailing" constant="99" id="BNu-PP-5Kd"/>
+                            <constraint firstItem="Fgv-iB-Vy1" firstAttribute="centerX" secondItem="APb-ho-u6n" secondAttribute="centerX" id="Pa0-nc-EbG"/>
                             <constraint firstAttribute="trailingMargin" secondItem="4tn-PM-MY1" secondAttribute="trailing" constant="30" id="UEf-gX-1GG"/>
-                            <constraint firstItem="Fgv-iB-Vy1" firstAttribute="leading" secondItem="APb-ho-u6n" secondAttribute="leadingMargin" constant="99" id="XIq-QZ-EJD"/>
                             <constraint firstItem="cuM-rX-RIk" firstAttribute="centerX" secondItem="APb-ho-u6n" secondAttribute="centerX" id="Zqh-bD-yPc"/>
-                            <constraint firstItem="cuM-rX-RIk" firstAttribute="top" secondItem="Fgv-iB-Vy1" secondAttribute="bottom" constant="74" id="dEb-dl-shM"/>
-                            <constraint firstItem="eRq-ld-Nlq" firstAttribute="top" secondItem="cuM-rX-RIk" secondAttribute="bottom" constant="80" id="i3l-3y-Fft"/>
+                            <constraint firstItem="cuM-rX-RIk" firstAttribute="top" secondItem="Fgv-iB-Vy1" secondAttribute="bottom" constant="150" id="dEb-dl-shM"/>
+                            <constraint firstItem="eRq-ld-Nlq" firstAttribute="top" secondItem="cuM-rX-RIk" secondAttribute="bottom" constant="60" id="i3l-3y-Fft"/>
                             <constraint firstItem="4tn-PM-MY1" firstAttribute="top" secondItem="eRq-ld-Nlq" secondAttribute="bottom" id="mCe-1T-qeD"/>
                             <constraint firstItem="eRq-ld-Nlq" firstAttribute="leading" secondItem="APb-ho-u6n" secondAttribute="leadingMargin" constant="58" id="nkM-1U-Sbh"/>
                             <constraint firstItem="4tn-PM-MY1" firstAttribute="leading" secondItem="APb-ho-u6n" secondAttribute="leadingMargin" constant="30" id="tSJ-xX-l1m"/>
