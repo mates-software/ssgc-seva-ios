@@ -11,7 +11,7 @@
         <!--Settings-->
         <scene sceneID="npc-o9-OUF">
             <objects>
-                <tableViewController storyboardIdentifier="settings" title="Settings" id="hMR-GT-OEB" customClass="SettingsViewController" customModule="Soundscape" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="settings" title="Settings" id="hMR-GT-OEB" customClass="SettingsViewController" customModule="Seva" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="white" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="BFu-2Q-wai">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="690"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -23,7 +23,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="languageAndRegion" textLabel="8kV-aY-9df" imageView="1L7-AG-6Os" style="IBUITableViewCellStyleDefault" id="h6R-SR-cjP" userLabel="Language" customClass="CustomDisclosureTableViewCell" customModule="Soundscape" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="languageAndRegion" textLabel="8kV-aY-9df" imageView="1L7-AG-6Os" style="IBUITableViewCellStyleDefault" id="h6R-SR-cjP" userLabel="Language" customClass="CustomDisclosureTableViewCell" customModule="Seva" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="55.333332061767578" width="393" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="h6R-SR-cjP" id="tL9-xP-gFp">
@@ -40,7 +40,7 @@
                                                 <userDefinedRuntimeAttribute type="string" keyPath="localization" value="settings.language.screen_title.2"/>
                                             </userDefinedRuntimeAttributes>
                                         </label>
-                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="globe" catalog="system" id="1L7-AG-6Os" customClass="TintedImageView" customModule="Soundscape" customModuleProvider="target">
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="globe" catalog="system" id="1L7-AG-6Os" customClass="TintedImageView" customModule="Seva" customModuleProvider="target">
                                             <rect key="frame" x="22.166666666666668" y="12.333333333333336" width="19.666666666666664" height="19"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <userDefinedRuntimeAttributes>
@@ -54,13 +54,13 @@
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" name="Background 1"/>
+                                <color key="backgroundColor" name="menu-alternate"/>
                                 <color key="tintColor" name="Foreground 1"/>
                                 <connections>
                                     <segue destination="Vrs-lu-RFH" kind="show" id="jYE-W9-nCa"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="manageDevices" textLabel="Ilj-13-m1r" imageView="ozz-CI-zQP" style="IBUITableViewCellStyleDefault" id="vbJ-8r-cPx" userLabel="Audio AR Headset" customClass="CustomDisclosureTableViewCell" customModule="Soundscape" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="manageDevices" textLabel="Ilj-13-m1r" imageView="ozz-CI-zQP" style="IBUITableViewCellStyleDefault" id="vbJ-8r-cPx" userLabel="Audio AR Headset" customClass="CustomDisclosureTableViewCell" customModule="Seva" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="99.333332061767578" width="393" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vbJ-8r-cPx" id="Pwh-Zw-7fP">
@@ -77,7 +77,7 @@
                                                 <userDefinedRuntimeAttribute type="string" keyPath="localization" value="menu.devices"/>
                                             </userDefinedRuntimeAttributes>
                                         </label>
-                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="headphones" catalog="system" id="ozz-CI-zQP" customClass="TintedImageView" customModule="Soundscape" customModuleProvider="target">
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="headphones" catalog="system" id="ozz-CI-zQP" customClass="TintedImageView" customModule="Seva" customModuleProvider="target">
                                             <rect key="frame" x="21.5" y="12" width="21" height="20"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <userDefinedRuntimeAttributes>
@@ -91,13 +91,13 @@
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" name="Background 1"/>
+                                <color key="backgroundColor" name="menu-alternate"/>
                                 <color key="tintColor" name="Foreground 1"/>
                                 <connections>
                                     <segue destination="Q8l-ec-KoY" kind="show" id="EHG-UP-klt"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="voice" textLabel="l5i-2z-ikk" imageView="cya-42-Jaj" style="IBUITableViewCellStyleDefault" id="iMA-de-gu6" userLabel="Voice" customClass="CustomDisclosureTableViewCell" customModule="Soundscape" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="voice" textLabel="l5i-2z-ikk" imageView="cya-42-Jaj" style="IBUITableViewCellStyleDefault" id="iMA-de-gu6" userLabel="Voice" customClass="CustomDisclosureTableViewCell" customModule="Seva" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="143.33333206176758" width="393" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iMA-de-gu6" id="7Hu-Fk-yP8">
@@ -114,7 +114,7 @@
                                                 <userDefinedRuntimeAttribute type="string" keyPath="localization" value="settings.general.voice"/>
                                             </userDefinedRuntimeAttributes>
                                         </label>
-                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="person.2.fill" catalog="system" id="cya-42-Jaj" customClass="TintedImageView" customModule="Soundscape" customModuleProvider="target">
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="person.2.fill" catalog="system" id="cya-42-Jaj" customClass="TintedImageView" customModule="Seva" customModuleProvider="target">
                                             <rect key="frame" x="18.5" y="13.333333333333334" width="27" height="18.333333333333332"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <userDefinedRuntimeAttributes>
@@ -128,13 +128,13 @@
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" name="Background 1"/>
+                                <color key="backgroundColor" name="menu-alternate"/>
                                 <color key="tintColor" name="Foreground 1"/>
                                 <connections>
                                     <segue destination="vbs-qw-GY9" kind="show" id="63S-we-Nd6"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="siriShortcuts" textLabel="otp-Yg-No4" imageView="k5P-R0-5zU" style="IBUITableViewCellStyleDefault" id="89u-6v-FlZ" userLabel="Siri Shortcuts" customClass="CustomDisclosureTableViewCell" customModule="Soundscape" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="siriShortcuts" textLabel="otp-Yg-No4" imageView="k5P-R0-5zU" style="IBUITableViewCellStyleDefault" id="89u-6v-FlZ" userLabel="Siri Shortcuts" customClass="CustomDisclosureTableViewCell" customModule="Seva" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="187.33333206176758" width="393" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="89u-6v-FlZ" id="MmT-Ai-pSs">
@@ -151,7 +151,7 @@
                                                 <userDefinedRuntimeAttribute type="string" keyPath="localization" value="siri_shortcuts.title.beta"/>
                                             </userDefinedRuntimeAttributes>
                                         </label>
-                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="waveform" catalog="system" id="k5P-R0-5zU" customClass="TintedImageView" customModule="Soundscape" customModuleProvider="target">
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="waveform" catalog="system" id="k5P-R0-5zU" customClass="TintedImageView" customModule="Seva" customModuleProvider="target">
                                             <rect key="frame" x="22.333333333333336" y="12.000000000000002" width="19.333333333333332" height="19.666666666666668"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <userDefinedRuntimeAttributes>
@@ -165,13 +165,13 @@
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" name="Background 1"/>
+                                <color key="backgroundColor" name="menu-alternate"/>
                                 <color key="tintColor" name="Foreground 1"/>
                                 <connections>
                                     <segue destination="Vfw-dV-xPd" kind="show" id="n26-vs-Lw9"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="allCallouts" editingAccessoryType="checkmark" textLabel="9jI-k3-z6U" detailTextLabel="BWT-10-yK4" style="IBUITableViewCellStyleSubtitle" id="pKE-k8-Jgm" userLabel="Allow Callouts" customClass="CalloutSettingsCellView" customModule="Soundscape" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="allCallouts" editingAccessoryType="checkmark" textLabel="9jI-k3-z6U" detailTextLabel="BWT-10-yK4" style="IBUITableViewCellStyleSubtitle" id="pKE-k8-Jgm" userLabel="Allow Callouts" customClass="CalloutSettingsCellView" customModule="Seva" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="231.33333206176758" width="393" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pKE-k8-Jgm" id="lOs-JD-M54">
@@ -210,7 +210,7 @@
                                         </switch>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" name="Background 1"/>
+                                <color key="backgroundColor" name="menu-alternate"/>
                                 <color key="tintColor" name="Foreground 1"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES"/>
@@ -219,7 +219,7 @@
                                     <outlet property="accessoryView" destination="Joi-GH-MSh" id="5NO-ey-9se"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="poiCallouts" editingAccessoryType="checkmark" textLabel="ndE-PI-sQS" detailTextLabel="9Lc-d4-ht0" style="IBUITableViewCellStyleSubtitle" id="x9l-HI-zcb" userLabel="Places" customClass="CalloutSettingsCellView" customModule="Soundscape" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="poiCallouts" editingAccessoryType="checkmark" textLabel="ndE-PI-sQS" detailTextLabel="9Lc-d4-ht0" style="IBUITableViewCellStyleSubtitle" id="x9l-HI-zcb" userLabel="Places" customClass="CalloutSettingsCellView" customModule="Seva" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="275.33333206176758" width="393" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="x9l-HI-zcb" id="gQF-rd-1q8">
@@ -258,7 +258,7 @@
                                         </switch>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" name="Background 1"/>
+                                <color key="backgroundColor" name="menu-alternate"/>
                                 <color key="tintColor" name="Foreground 1"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES"/>
@@ -267,7 +267,7 @@
                                     <outlet property="accessoryView" destination="cq8-ZT-iXp" id="YNv-9o-je7"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="mobilityCallouts" editingAccessoryType="checkmark" textLabel="BUf-rt-u8S" detailTextLabel="mMk-Pn-ghc" style="IBUITableViewCellStyleSubtitle" id="PFG-O4-CfA" userLabel="Mobility" customClass="CalloutSettingsCellView" customModule="Soundscape" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="mobilityCallouts" editingAccessoryType="checkmark" textLabel="BUf-rt-u8S" detailTextLabel="mMk-Pn-ghc" style="IBUITableViewCellStyleSubtitle" id="PFG-O4-CfA" userLabel="Mobility" customClass="CalloutSettingsCellView" customModule="Seva" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="319.33333206176758" width="393" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PFG-O4-CfA" id="vyl-El-TO5">
@@ -306,7 +306,7 @@
                                         </switch>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" name="Background 1"/>
+                                <color key="backgroundColor" name="menu-alternate"/>
                                 <color key="tintColor" name="Foreground 1"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES"/>
@@ -315,7 +315,7 @@
                                     <outlet property="accessoryView" destination="LEO-Ou-dfU" id="MEf-JX-bUu"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="beaconCallouts" editingAccessoryType="checkmark" textLabel="ExI-qt-25c" detailTextLabel="sNf-y6-Ghm" style="IBUITableViewCellStyleSubtitle" id="Pjb-ed-VL9" userLabel="Beacons" customClass="CalloutSettingsCellView" customModule="Soundscape" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="beaconCallouts" editingAccessoryType="checkmark" textLabel="ExI-qt-25c" detailTextLabel="sNf-y6-Ghm" style="IBUITableViewCellStyleSubtitle" id="Pjb-ed-VL9" userLabel="Beacons" customClass="CalloutSettingsCellView" customModule="Seva" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="363.33333206176758" width="393" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Pjb-ed-VL9" id="9qv-cW-LAt">
@@ -354,7 +354,7 @@
                                         </switch>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" name="Background 1"/>
+                                <color key="backgroundColor" name="menu-alternate"/>
                                 <color key="tintColor" name="Foreground 1"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES"/>
@@ -363,7 +363,7 @@
                                     <outlet property="accessoryView" destination="Hdw-ra-Y3J" id="2aN-Jo-teb"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="shakeCallouts" editingAccessoryType="checkmark" textLabel="ufh-hb-wo2" detailTextLabel="k7Y-5y-SaN" style="IBUITableViewCellStyleSubtitle" id="Rt4-AA-2Od" userLabel="Shake to Repeat" customClass="CalloutSettingsCellView" customModule="Soundscape" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="shakeCallouts" editingAccessoryType="checkmark" textLabel="ufh-hb-wo2" detailTextLabel="k7Y-5y-SaN" style="IBUITableViewCellStyleSubtitle" id="Rt4-AA-2Od" userLabel="Shake to Repeat" customClass="CalloutSettingsCellView" customModule="Seva" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="407.33333206176758" width="393" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Rt4-AA-2Od" id="ZgW-pa-mT8">
@@ -402,7 +402,7 @@
                                         </switch>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" name="Background 1"/>
+                                <color key="backgroundColor" name="menu-alternate"/>
                                 <color key="tintColor" name="Foreground 1"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES"/>
@@ -411,7 +411,7 @@
                                     <outlet property="accessoryView" destination="XNd-Mv-8Wm" id="Y5A-MY-zlx"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="about" textLabel="4jD-Eh-I4W" imageView="5Pf-JY-3ZO" style="IBUITableViewCellStyleDefault" id="4hw-Ia-IJj" userLabel="About" customClass="CustomDisclosureTableViewCell" customModule="Soundscape" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="about" textLabel="4jD-Eh-I4W" imageView="5Pf-JY-3ZO" style="IBUITableViewCellStyleDefault" id="4hw-Ia-IJj" userLabel="About" customClass="CustomDisclosureTableViewCell" customModule="Seva" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="451.33333206176758" width="393" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4hw-Ia-IJj" id="UmA-RW-nwe">
@@ -428,7 +428,7 @@
                                                 <userDefinedRuntimeAttribute type="string" keyPath="localization" value="settings.about_app"/>
                                             </userDefinedRuntimeAttributes>
                                         </label>
-                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="info.circle" catalog="system" id="5Pf-JY-3ZO" customClass="TintedImageView" customModule="Soundscape" customModuleProvider="target">
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="info.circle" catalog="system" id="5Pf-JY-3ZO" customClass="TintedImageView" customModule="Seva" customModuleProvider="target">
                                             <rect key="frame" x="22.166666666666668" y="12.333333333333336" width="19.666666666666664" height="19"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <userDefinedRuntimeAttributes>
@@ -442,13 +442,13 @@
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" name="Background 1"/>
+                                <color key="backgroundColor" name="menu-alternate"/>
                                 <color key="tintColor" name="Foreground 1"/>
                                 <connections>
                                     <segue destination="Cga-sE-k8S" kind="show" id="yOK-1p-anq"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="telemetry" textLabel="C8r-O8-QXY" imageView="Y3m-JJ-WMK" style="IBUITableViewCellStyleDefault" id="a9k-U3-Iyd" userLabel="Share Data" customClass="TelemetrySettingsTableViewCell" customModule="Soundscape" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="telemetry" textLabel="C8r-O8-QXY" imageView="Y3m-JJ-WMK" style="IBUITableViewCellStyleDefault" id="a9k-U3-Iyd" userLabel="Share Data" customClass="TelemetrySettingsTableViewCell" customModule="Seva" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="495.33333206176758" width="393" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="a9k-U3-Iyd" id="db8-8d-Qy1">
@@ -466,7 +466,7 @@
                                                 <userDefinedRuntimeAttribute type="string" keyPath="localization" value="settings.section.share_usage_data"/>
                                             </userDefinedRuntimeAttributes>
                                         </label>
-                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="chart.bar.fill" catalog="system" id="Y3m-JJ-WMK" customClass="TintedImageView" customModule="Soundscape" customModuleProvider="target">
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="chart.bar.fill" catalog="system" id="Y3m-JJ-WMK" customClass="TintedImageView" customModule="Seva" customModuleProvider="target">
                                             <rect key="frame" x="19.5" y="13.000000000000002" width="25" height="17.666666666666668"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <userDefinedRuntimeAttributes>
@@ -490,13 +490,13 @@
                                         </switch>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" name="Background 1"/>
+                                <color key="backgroundColor" name="menu-alternate"/>
                                 <color key="tintColor" name="Foreground 1"/>
                                 <connections>
                                     <outlet property="accessoryView" destination="Fiv-nb-HfL" id="qoG-Mb-mDK"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="troubleshooting" textLabel="lWL-Wh-uVK" imageView="do3-Rk-BTw" style="IBUITableViewCellStyleDefault" id="2qG-e0-MGw" userLabel="Troubleshooting" customClass="CustomDisclosureTableViewCell" customModule="Soundscape" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="troubleshooting" textLabel="lWL-Wh-uVK" imageView="do3-Rk-BTw" style="IBUITableViewCellStyleDefault" id="2qG-e0-MGw" userLabel="Troubleshooting" customClass="CustomDisclosureTableViewCell" customModule="Seva" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="539.33333206176758" width="393" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2qG-e0-MGw" id="X6Q-Og-Scl">
@@ -514,7 +514,7 @@
                                                 <userDefinedRuntimeAttribute type="string" keyPath="localization" value="settings.section.troubleshooting"/>
                                             </userDefinedRuntimeAttributes>
                                         </label>
-                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="questionmark.circle" catalog="system" id="do3-Rk-BTw" customClass="TintedImageView" customModule="Soundscape" customModuleProvider="target">
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="questionmark.circle" catalog="system" id="do3-Rk-BTw" customClass="TintedImageView" customModule="Seva" customModuleProvider="target">
                                             <rect key="frame" x="22.166666666666668" y="12.333333333333336" width="19.666666666666664" height="19"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <userDefinedRuntimeAttributes>
@@ -528,13 +528,13 @@
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" name="Background 1"/>
+                                <color key="backgroundColor" name="menu-alternate"/>
                                 <color key="tintColor" name="Foreground 1"/>
                                 <connections>
                                     <segue destination="ilN-VT-6ar" kind="show" id="8J4-3h-skw"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="beaconSettings" textLabel="gNJ-Te-dEJ" imageView="Llf-5z-Yrv" style="IBUITableViewCellStyleDefault" id="2Ur-c0-1v1" userLabel="Beacon Settings" customClass="CustomDisclosureTableViewCell" customModule="Soundscape" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="beaconSettings" textLabel="gNJ-Te-dEJ" imageView="Llf-5z-Yrv" style="IBUITableViewCellStyleDefault" id="2Ur-c0-1v1" userLabel="Beacon Settings" customClass="CustomDisclosureTableViewCell" customModule="Seva" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="583.33333206176758" width="393" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2Ur-c0-1v1" id="kV2-5F-HF2">
@@ -551,7 +551,7 @@
                                                 <userDefinedRuntimeAttribute type="string" keyPath="localization" value="beacon.audio_beacon"/>
                                             </userDefinedRuntimeAttributes>
                                         </label>
-                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="dot.radiowaves.right" catalog="system" id="Llf-5z-Yrv" customClass="TintedImageView" customModule="Soundscape" customModuleProvider="target">
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="dot.radiowaves.right" catalog="system" id="Llf-5z-Yrv" customClass="TintedImageView" customModule="Seva" customModuleProvider="target">
                                             <rect key="frame" x="23.833333333333336" y="12.666666666666666" width="16.333333333333332" height="18.666666666666668"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <userDefinedRuntimeAttributes>
@@ -565,13 +565,13 @@
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" name="Background 1"/>
+                                <color key="backgroundColor" name="menu-alternate"/>
                                 <color key="tintColor" name="Foreground 1"/>
                                 <connections>
                                     <segue destination="kgF-3B-POU" kind="show" id="SXd-bE-aWf"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="volumeSettings" textLabel="M9z-tj-Jqd" imageView="Y2O-sy-jp9" style="IBUITableViewCellStyleDefault" id="tzH-RS-Fsb" userLabel="Volume Settings" customClass="CustomDisclosureTableViewCell" customModule="Soundscape" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="volumeSettings" textLabel="M9z-tj-Jqd" imageView="Y2O-sy-jp9" style="IBUITableViewCellStyleDefault" id="tzH-RS-Fsb" userLabel="Volume Settings" customClass="CustomDisclosureTableViewCell" customModule="Seva" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="627.33333206176758" width="393" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tzH-RS-Fsb" id="BfF-Pt-9uy">
@@ -588,7 +588,7 @@
                                                 <userDefinedRuntimeAttribute type="string" keyPath="localization" value="general.volume"/>
                                             </userDefinedRuntimeAttributes>
                                         </label>
-                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="speaker.wave.2" catalog="system" id="Y2O-sy-jp9" customClass="TintedImageView" customModule="Soundscape" customModuleProvider="target">
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="speaker.wave.2" catalog="system" id="Y2O-sy-jp9" customClass="TintedImageView" customModule="Seva" customModuleProvider="target">
                                             <rect key="frame" x="20" y="13.666666666666668" width="24" height="16.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <userDefinedRuntimeAttributes>
@@ -602,13 +602,13 @@
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" name="Background 1"/>
+                                <color key="backgroundColor" name="menu-alternate"/>
                                 <color key="tintColor" name="Foreground 1"/>
                                 <connections>
                                     <segue destination="OAh-w7-42k" kind="show" id="got-C1-sUM"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="streetPreview" textLabel="Hfo-h2-3QF" imageView="V7c-Jp-nJI" style="IBUITableViewCellStyleDefault" id="9db-e2-GB6" customClass="StreetPreviewRoadsCell" customModule="Soundscape" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="streetPreview" textLabel="Hfo-h2-3QF" imageView="V7c-Jp-nJI" style="IBUITableViewCellStyleDefault" id="9db-e2-GB6" customClass="StreetPreviewRoadsCell" customModule="Seva" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="671.33333206176758" width="393" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9db-e2-GB6" id="BW2-Ds-l4Y">
@@ -635,7 +635,7 @@
                                                 <action selector="onSettingValueChanged:" destination="9db-e2-GB6" eventType="valueChanged" id="boc-Bi-1Qn"/>
                                             </connections>
                                         </switch>
-                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="point.topleft.down.curvedto.point.bottomright.up" catalog="system" id="V7c-Jp-nJI" customClass="TintedImageView" customModule="Soundscape" customModuleProvider="target">
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="point.topleft.down.curvedto.point.bottomright.up" catalog="system" id="V7c-Jp-nJI" customClass="TintedImageView" customModule="Seva" customModuleProvider="target">
                                             <rect key="frame" x="22.666666666666664" y="12" width="18.666666666666668" height="20"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <userDefinedRuntimeAttributes>
@@ -649,13 +649,13 @@
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" name="Background 1"/>
+                                <color key="backgroundColor" name="menu-alternate"/>
                                 <color key="tintColor" name="Foreground 1"/>
                                 <connections>
                                     <outlet property="accessoryView" destination="R58-yg-AlH" id="dY7-f1-Ca6"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="mixAudio" textLabel="VSq-h5-uRj" imageView="43Y-tn-4fp" style="IBUITableViewCellStyleDefault" id="lEG-3Q-zvI" userLabel="Mix Audio" customClass="MixAudioSettingCell" customModule="Soundscape" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="mixAudio" textLabel="VSq-h5-uRj" imageView="43Y-tn-4fp" style="IBUITableViewCellStyleDefault" id="lEG-3Q-zvI" userLabel="Mix Audio" customClass="MixAudioSettingCell" customModule="Seva" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="715.33333206176758" width="393" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lEG-3Q-zvI" id="v7s-vg-gnP">
@@ -682,7 +682,7 @@
                                                 <action selector="onSettingValueChanged:" destination="lEG-3Q-zvI" eventType="valueChanged" id="cbr-pf-xAk"/>
                                             </connections>
                                         </switch>
-                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="play.circle" catalog="system" id="43Y-tn-4fp" customClass="TintedImageView" customModule="Soundscape" customModuleProvider="target">
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="play.circle" catalog="system" id="43Y-tn-4fp" customClass="TintedImageView" customModule="Seva" customModuleProvider="target">
                                             <rect key="frame" x="22.166666666666668" y="12.333333333333336" width="19.666666666666664" height="19"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <userDefinedRuntimeAttributes>
@@ -696,7 +696,7 @@
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" name="Background 1"/>
+                                <color key="backgroundColor" name="menu-alternate"/>
                                 <color key="tintColor" name="Foreground 1"/>
                                 <connections>
                                     <outlet property="accessoryView" destination="xAo-Ds-vYv" id="tDE-kY-xHC"/>
@@ -732,7 +732,7 @@
         <!--Loading Modal View Controller-->
         <scene sceneID="YDZ-Pz-eIS">
             <objects>
-                <viewController storyboardIdentifier="LoadingModal" id="WVo-7a-Sqp" customClass="LoadingModalViewController" customModule="Soundscape" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoadingModal" id="WVo-7a-Sqp" customClass="LoadingModalViewController" customModule="Seva" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NP6-96-KIg"/>
                         <viewControllerLayoutGuide type="bottom" id="Xih-jG-70G"/>
@@ -789,7 +789,7 @@
         <!--Volume Controls Host View Controller-->
         <scene sceneID="Qwy-H2-O8i">
             <objects>
-                <hostingController id="OAh-w7-42k" customClass="VolumeControlsHostViewController" customModule="Soundscape" customModuleProvider="target" sceneMemberID="viewController">
+                <hostingController id="OAh-w7-42k" customClass="VolumeControlsHostViewController" customModule="Seva" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="ooD-Zm-Bae"/>
                 </hostingController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Usb-JF-dSm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -799,7 +799,7 @@
         <!--Beacon Selection Host View Controller-->
         <scene sceneID="Oww-yq-9BS">
             <objects>
-                <hostingController id="kgF-3B-POU" customClass="BeaconSelectionHostViewController" customModule="Soundscape" customModuleProvider="target" sceneMemberID="viewController">
+                <hostingController id="kgF-3B-POU" customClass="BeaconSelectionHostViewController" customModule="Seva" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="TbY-4W-rKW"/>
                 </hostingController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bAk-yc-0ko" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -809,19 +809,19 @@
         <!--About-->
         <scene sceneID="cTW-0T-CTz">
             <objects>
-                <tableViewController title="About" id="Cga-sE-k8S" customClass="AboutApplicationViewController" customModule="Soundscape" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="About" id="Cga-sE-k8S" customClass="AboutApplicationViewController" customModule="Seva" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="white" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="0i1-ZR-Y6A">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="690"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" name="Background Base"/>
                         <color key="tintColor" name="Foreground 1"/>
-                        <color key="separatorColor" name="Background 3"/>
+                        <color key="separatorColor" name="background-primary"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="XDA-Md-TsG">
                             <rect key="frame" x="0.0" y="0.0" width="393" height="0.0"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="AboutHeaderCellPrototype" rowHeight="220" id="0k3-yX-3bv" customClass="AboutHeaderCell" customModule="Soundscape" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="AboutHeaderCellPrototype" rowHeight="220" id="0k3-yX-3bv" customClass="AboutHeaderCell" customModule="Seva" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="50" width="393" height="220"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0k3-yX-3bv" id="oZ4-Dg-47z">
@@ -848,7 +848,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <color key="backgroundColor" red="0.098039215690000001" green="0.098039215690000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" name="background-primary"/>
                                     <constraints>
                                         <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="SsT-2X-tjR" secondAttribute="bottom" constant="24" id="51Z-sG-ue0"/>
                                         <constraint firstItem="o2V-ys-ava" firstAttribute="centerX" secondItem="oZ4-Dg-47z" secondAttribute="centerX" id="IQX-r7-2XP"/>
@@ -866,7 +866,7 @@
                                     <outlet property="versionLabel" destination="SsT-2X-tjR" id="kA7-nU-RBl"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="AboutLinkCellPrototype" textLabel="d1n-JS-YdZ" style="IBUITableViewCellStyleDefault" id="tvI-f8-Wtk" customClass="CustomDisclosureTableViewCell" customModule="Soundscape" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="AboutLinkCellPrototype" textLabel="d1n-JS-YdZ" style="IBUITableViewCellStyleDefault" id="tvI-f8-Wtk" customClass="CustomDisclosureTableViewCell" customModule="Seva" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="270" width="393" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tvI-f8-Wtk" id="hOu-u2-94G">
@@ -882,7 +882,7 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" name="Background 1"/>
+                                <color key="backgroundColor" name="menu-alternate"/>
                             </tableViewCell>
                         </prototypes>
                         <sections/>
@@ -907,7 +907,7 @@
         <!--AboutApplicationViewController-->
         <scene sceneID="ha6-OQ-NQt">
             <objects>
-                <viewController id="7G3-p5-R5o" userLabel="AboutApplicationViewController" customClass="ThirdPartyNoticesViewController" customModule="Soundscape" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7G3-p5-R5o" userLabel="AboutApplicationViewController" customClass="ThirdPartyNoticesViewController" customModule="Seva" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wRM-yS-Wqu"/>
                         <viewControllerLayoutGuide type="bottom" id="yhW-wL-uJU"/>
@@ -931,7 +931,7 @@
                                 </wkWebViewConfiguration>
                             </wkWebView>
                         </subviews>
-                        <color key="backgroundColor" name="Background Base"/>
+                        <color key="backgroundColor" name="background-primary"/>
                         <color key="tintColor" name="Foreground 1"/>
                         <constraints>
                             <constraint firstItem="ZGZ-hV-5o6" firstAttribute="leading" secondItem="Eay-la-zqJ" secondAttribute="leading" id="64l-xt-rnz"/>
@@ -962,13 +962,13 @@
         <!--What's New?-->
         <scene sceneID="spE-BA-iWA">
             <objects>
-                <tableViewController title="What's New?" id="cV6-tJ-Lov" customClass="VersionHistoryTableViewController" customModule="Soundscape" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="What's New?" id="cV6-tJ-Lov" customClass="VersionHistoryTableViewController" customModule="Seva" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="white" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="60" sectionHeaderHeight="18" sectionFooterHeight="18" id="Ghn-Zm-Bk2">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="690"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" name="Background Base"/>
                         <color key="tintColor" name="Foreground 1"/>
-                        <color key="separatorColor" name="Background 3"/>
+                        <color key="separatorColor" name="background-primary"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="fPr-HR-cw1">
                             <rect key="frame" x="0.0" y="0.0" width="393" height="0.0"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -997,7 +997,7 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" name="Background 1"/>
+                                <color key="backgroundColor" name="foreground-primary"/>
                             </tableViewCell>
                         </prototypes>
                         <sections/>
@@ -1020,13 +1020,13 @@
         <!--Language-->
         <scene sceneID="WAD-hi-Ul7">
             <objects>
-                <tableViewController title="Language" id="Vrs-lu-RFH" customClass="LanguageTableViewController" customModule="Soundscape" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Language" id="Vrs-lu-RFH" customClass="LanguageTableViewController" customModule="Seva" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="white" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="60" sectionHeaderHeight="18" sectionFooterHeight="18" id="jo0-AK-0oI">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="690"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" name="Background Base"/>
                         <color key="tintColor" name="Foreground 1"/>
-                        <color key="separatorColor" name="Background 3"/>
+                        <color key="separatorColor" name="background-primary"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="OwD-aa-xRl">
                             <rect key="frame" x="0.0" y="0.0" width="393" height="0.0"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1055,7 +1055,7 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" name="Background 1"/>
+                                <color key="backgroundColor" name="foreground-primary"/>
                             </tableViewCell>
                         </prototypes>
                         <sections/>
@@ -1086,13 +1086,13 @@
         <!--Siri Shortcuts-->
         <scene sceneID="mKt-MV-7kg">
             <objects>
-                <tableViewController title="Siri Shortcuts" id="Vfw-dV-xPd" customClass="SiriShortcutsTableViewController" customModule="Soundscape" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Siri Shortcuts" id="Vfw-dV-xPd" customClass="SiriShortcutsTableViewController" customModule="Seva" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="white" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="60" sectionHeaderHeight="18" sectionFooterHeight="18" id="J74-qC-McB">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="690"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" name="Background Base"/>
                         <color key="tintColor" name="Foreground 1"/>
-                        <color key="separatorColor" name="Background 3"/>
+                        <color key="separatorColor" name="background-primary"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="gbk-8S-LVP">
                             <rect key="frame" x="0.0" y="0.0" width="393" height="0.0"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1121,7 +1121,7 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" name="Background 1"/>
+                                <color key="backgroundColor" name="foreground-primary"/>
                             </tableViewCell>
                         </prototypes>
                         <sections/>
@@ -1165,6 +1165,15 @@
         </namedColor>
         <namedColor name="Foreground 1">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="background-primary">
+            <color red="0.0040000001899898052" green="0.10999999940395355" blue="0.34099999070167542" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="foreground-primary">
+            <color red="0.082000002264976501" green="0.34099999070167542" blue="0.77999997138977051" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="menu-alternate">
+            <color red="0.017000000923871994" green="0.32100000977516174" blue="0.67500001192092896" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>

@@ -336,7 +336,7 @@ class SearchResultsTableViewController: UITableViewController {
         // Create string
         let attributedText = NSMutableAttributedString()
         
-        let color = Colors.Foreground.primary ?? UIColor.white
+        let color = Colors.fontColor ?? UIColor.white
         let title = NSAttributedString(string: GDLocalizedString("searching.no_results_found_title"),
                                        attributes: [NSAttributedString.Key.font: UIFont.preferredFont(forTextStyle: UIFont.TextStyle.title1),
                                                     NSAttributedString.Key.foregroundColor: color])

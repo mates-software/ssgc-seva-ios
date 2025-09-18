@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -24,10 +25,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GAU-py-hem">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E5D-g9-bYd">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="557"/>
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="564"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newfeature_ce_en-US" translatesAutoresizingMaskIntoConstraints="NO" id="stj-MY-P57">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="283"/>
@@ -36,10 +37,10 @@
                                     </constraints>
                                 </imageView>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jMV-03-e8C">
-                                    <rect key="frame" x="0.0" y="283" width="375" height="274"/>
+                                    <rect key="frame" x="0.0" y="283" width="375" height="281"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Introducing Recent Callout History" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HLQ-sH-rSs">
-                                            <rect key="frame" x="32" y="24" width="311" height="17"/>
+                                            <rect key="frame" x="32" y="24" width="311" height="20.5"/>
                                             <accessibility key="accessibilityConfiguration">
                                                 <accessibilityTraits key="traits" staticText="YES" header="YES"/>
                                             </accessibility>
@@ -48,7 +49,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" contentInsetAdjustmentBehavior="never" editable="NO" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VPp-Vx-SCg">
-                                            <rect key="frame" x="32" y="57" width="311" height="160"/>
+                                            <rect key="frame" x="32" y="60.5" width="311" height="160"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="160" id="FZJ-R8-Wib"/>
                                             </constraints>
@@ -62,7 +63,8 @@
                                             </connections>
                                         </textView>
                                     </subviews>
-                                    <color key="backgroundColor" red="0.12867569919999999" green="0.13345718379999999" blue="0.20067968959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" name="background-primary"/>
+                                    <color key="tintColor" name="font-primary"/>
                                     <constraints>
                                         <constraint firstAttribute="trailing" secondItem="HLQ-sH-rSs" secondAttribute="trailing" constant="32" id="JbL-as-ErB"/>
                                         <constraint firstItem="HLQ-sH-rSs" firstAttribute="leading" secondItem="jMV-03-e8C" secondAttribute="leading" constant="32" id="Per-bs-c4o"/>
@@ -111,5 +113,11 @@
     </objects>
     <resources>
         <image name="newfeature_ce_en-US" width="1322" height="1129"/>
+        <namedColor name="background-primary">
+            <color red="0.0040000001899898052" green="0.10999999940395355" blue="0.34099999070167542" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="font-primary">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>

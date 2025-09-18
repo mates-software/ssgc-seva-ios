@@ -231,7 +231,7 @@ class HomeViewController: UIViewController {
             return
         }
         
-        if AppContext.shared.newFeatures.shouldShowNewFeatures() {
+       if AppContext.shared.newFeatures.shouldShowNewFeatures() {
             let vc = NewFeaturesViewController(nibName: "NewFeaturesView", bundle: nil)
             
             vc.newFeatures = AppContext.shared.newFeatures
@@ -240,10 +240,10 @@ class HomeViewController: UIViewController {
             vc.accessibilityViewIsModal = true
             
             self.present(vc, animated: !UIAccessibility.isVoiceOverRunning, completion: nil)
-        } else {
+         }  else {
             // Attempt activities (e.g., user survey, share & rate app) that may be scheduled on app launch
             // Coordinator ensures that only one activity is attempted when the view appears
-            LaunchActivityCoordinator.coordinateActivitiesOnAppLaunch(from: self)
+        LaunchActivityCoordinator.coordinateActivitiesOnAppLaunch(from: self)
         }
         
         didCheckForNewFeatures = true
