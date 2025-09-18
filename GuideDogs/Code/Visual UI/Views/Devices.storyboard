@@ -140,7 +140,7 @@ Tap the button below to connect to a device.</string>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ul9-YX-sNs"/>
-                        <color key="backgroundColor" name="Background 1"/>
+                        <color key="backgroundColor" name="background-primary"/>
                         <constraints>
                             <constraint firstItem="AAv-p0-FLS" firstAttribute="leading" secondItem="Ul9-YX-sNs" secondAttribute="leading" constant="12" id="00x-iY-eoR"/>
                             <constraint firstItem="a8P-EO-E8X" firstAttribute="leading" secondItem="Ul9-YX-sNs" secondAttribute="leading" constant="12" id="6RB-wt-m3Y"/>
@@ -288,9 +288,6 @@ Tap the button below to connect to a device.</string>
     </scenes>
     <resources>
         <image name="NoDevice" width="375" height="280"/>
-        <namedColor name="Background 1">
-            <color red="0.21600000560283661" green="0.29399999976158142" blue="0.46700000762939453" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-        </namedColor>
         <namedColor name="Background 2">
             <color red="0.14499999582767487" green="0.23899999260902405" blue="0.38400000333786011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
@@ -305,6 +302,9 @@ Tap the button below to connect to a device.</string>
         </namedColor>
         <namedColor name="Foreground 1">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="background-primary">
+            <color red="0.0040000001899898052" green="0.10999999940395355" blue="0.34099999070167542" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="background-secondary">
             <color red="0.086000002920627594" green="0.27799999713897705" blue="0.57300001382827759" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>

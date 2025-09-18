@@ -26,7 +26,7 @@ struct WaypointEditList: View {
     var body: some View {
         GDLocalizedTextView("route_detail.edit.waypoints_label")
             .frame(minWidth: 0.0, maxWidth: .infinity, alignment: .leading)
-            .foregroundColor(Color.primaryForeground)
+            .foregroundColor(Color.primaryFont)
             .font(.callout)
             .plainListRowBackground(Color.primaryBackground)
             .padding(.horizontal, 18.0)
