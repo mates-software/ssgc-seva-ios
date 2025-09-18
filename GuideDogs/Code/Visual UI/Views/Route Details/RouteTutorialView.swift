@@ -41,7 +41,7 @@ struct RouteTutorialView: View {
                 ScrollView {
                     VStack {
                         GDLocalizedTextView("routes.tutorial.title")
-                            .foregroundColor(.primaryForeground)
+                            .foregroundColor(.primaryFont)
                             .font(.title)
                             .multilineTextAlignment(.center)
                             .accessibilityAddTraits([.isHeader])
@@ -75,13 +75,13 @@ struct RouteTutorialView: View {
                             .padding(.horizontal, 48.0)
                             .padding(.vertical, 10.0)
                             .background(Color.primaryForeground)
-                            .foregroundColor(Color.primaryBackground)
+                            .foregroundColor(Color.primaryFont)
                             .cornerRadius(5.0)
                     }
 
                     Spacer()
                 }
-                .foregroundColor(.primaryForeground)
+                .foregroundColor(.primaryFont)
                 .padding([.leading, .trailing], 24)
                 .padding([.top, .bottom])
             }

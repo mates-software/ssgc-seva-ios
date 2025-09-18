@@ -48,7 +48,7 @@ struct RouteRecommenderView: View {
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             .background(Color.clear)
-            .foregroundColor(Color.primaryForeground)
+            .foregroundColor(Color.primaryFont)
             .accessibleTextFormat()
         })
     }
