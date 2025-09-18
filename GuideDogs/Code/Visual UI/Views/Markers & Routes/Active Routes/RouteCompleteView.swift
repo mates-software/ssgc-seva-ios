@@ -172,7 +172,7 @@ private struct TitleTextFormat: ViewModifier {
         content
             .frame(maxWidth: .infinity, alignment: .leading)
             .fixedSize(horizontal: false, vertical: true)
-            .foregroundColor(.yellowHighlight)
+            .foregroundColor(.primaryFont)
             .font(.title)
             .accessibleTextFormat()
     }
@@ -185,7 +185,7 @@ private struct MessageTextFormat: ViewModifier {
         content
             .frame(maxWidth: .infinity, alignment: .leading)
             .fixedSize(horizontal: false, vertical: true)
-            .foregroundColor(.primaryForeground)
+            .foregroundColor(.primaryFont)
             .font(.body)
             .accessibleTextFormat()
     }
@@ -196,6 +196,7 @@ private struct ActionButtonFormat: ViewModifier {
     
     func body(content: Content) -> some View {
         content
+            .foregroundColor(.primaryFont)
             .roundedBackground(Color.primaryForeground)
             .accessibleTextFormat()
     }

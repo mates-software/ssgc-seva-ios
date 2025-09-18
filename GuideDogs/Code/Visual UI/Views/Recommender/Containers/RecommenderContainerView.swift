@@ -31,7 +31,7 @@ struct RecommenderContainerView<Content: View>: View {
                     .accessibleTextFormat()
             }
             .frame(maxWidth: .infinity, alignment: .leading)
-            .foregroundColor(Color.primaryForeground)
+            .foregroundColor(Color.primaryFont)
             .font(.footnote)
             
             content()
@@ -52,7 +52,7 @@ struct RecommenderContainerView_Previews: PreviewProvider {
     static var previews: some View {
         RecommenderContainerView {
             Text("This is a recommendation!")
-                .foregroundColor(Color.primaryForeground)
+                .foregroundColor(Color.primaryFont)
                 .font(.body)
         }
     }
