@@ -63,15 +63,22 @@ class VersionHistoryTableViewController: BaseTableViewController {
 
         return cell
     }
- 
+
     // MARK: - Table view data delegate
 
     override func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
         guard let view = view as? UITableViewHeaderFooterView else { return }
         
         view.textLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
-        view.textLabel?.textColor = UIColor.white
+        view.textLabel?.textColor = Colors.fontColor
         view.backgroundView?.backgroundColor = self.view.backgroundColor
+    }
+
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        let fontColor = Colors.fontColor ?? UIColor.white
+        cell.textLabel?.textColor = fontColor
+        cell.detailTextLabel?.textColor = fontColor
+        cell.tintColor = fontColor
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
